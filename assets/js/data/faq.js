@@ -1,0 +1,179 @@
+export default {
+    "test": [
+        {
+            "title": "Cancel the order",
+            "content": "<p>While the contractor fulfills the order, the money is protected by Monday.<br/> Money can be returned:</p><ul><li><strong>Instantly if the order is canceled by the buyer in the first 20 minutes. after the start.</strong></li><li><strong>Instantly if the seller is late with the order and the buyer decides to cancel it.</strong></li><li><strong>Instantly, if the seller and buyer agree to cancel the order.</strong></li><li><strong>Within a few hours, if the order is executed poorly or incompletely.</strong></li></ul><p>To return the money, the buyer on the order track page needs to click on the “Cancel order” link and select the reason for canceling the order.</p><img src=\"/img/faq-content.jpg\" alt=\"\">"
+        }, {
+            "title": "Delete review",
+            "content": "<p>While the contractor fulfills the order, the money is protected by Monday.<br/> Money can be returned:</p><ul><li><strong>Instantly if the order is canceled by the buyer in the first 20 minutes. after the start.</strong></li><li><strong>Instantly if the seller is late with the order and the buyer decides to cancel it.</strong></li><li><strong>Instantly, if the seller and buyer agree to cancel the order.</strong></li><li><strong>Within a few hours, if the order is executed poorly or incompletely.</strong></li></ul><p>To return the money, the buyer on the order track page needs to click on the “Cancel order” link and select the reason for canceling the order.</p><img src=\"/img/faq-content.jpg\" alt=\"\">"
+        }, {
+            "title": "Money Back Guarantee",
+            "content": "<p>While the contractor fulfills the order, the money is protected by Monday.<br/> Money can be returned:</p><ul><li><strong>Instantly if the order is canceled by the buyer in the first 20 minutes. after the start.</strong></li><li><strong>Instantly if the seller is late with the order and the buyer decides to cancel it.</strong></li><li><strong>Instantly, if the seller and buyer agree to cancel the order.</strong></li><li><strong>Within a few hours, if the order is executed poorly or incompletely.</strong></li></ul><p>To return the money, the buyer on the order track page needs to click on the “Cancel order” link and select the reason for canceling the order.</p><img src=\"/img/faq-content.jpg\" alt=\"\">"
+        }, {
+            "title": "Resume correspondence with the user",
+            "content": "<p>While the contractor fulfills the order, the money is protected by Monday.<br/> Money can be returned:</p><ul><li><strong>Instantly if the order is canceled by the buyer in the first 20 minutes. after the start.</strong></li><li><strong>Instantly if the seller is late with the order and the buyer decides to cancel it.</strong></li><li><strong>Instantly, if the seller and buyer agree to cancel the order.</strong></li><li><strong>Within a few hours, if the order is executed poorly or incompletely.</strong></li></ul><p>To return the money, the buyer on the order track page needs to click on the “Cancel order” link and select the reason for canceling the order.</p><img src=\"/img/faq-content.jpg\" alt=\"\">"
+        }, {
+            "title": "Deliver an order that the buyer does not accept",
+            "content": "<p>While the contractor fulfills the order, the money is protected by Monday.<br/> Money can be returned:</p><ul><li><strong>Instantly if the order is canceled by the buyer in the first 20 minutes. after the start.</strong></li><li><strong>Instantly if the seller is late with the order and the buyer decides to cancel it.</strong></li><li><strong>Instantly, if the seller and buyer agree to cancel the order.</strong></li><li><strong>Within a few hours, if the order is executed poorly or incompletely.</strong></li></ul><p>To return the money, the buyer on the order track page needs to click on the “Cancel order” link and select the reason for canceling the order.</p><img src=\"/img/faq-content.jpg\" alt=\"\">"
+        }, {
+            "title": "Money Back Guarantee",
+            "content": "<p>While the contractor fulfills the order, the money is protected by Monday.<br/> Money can be returned:</p><ul><li><strong>Instantly if the order is canceled by the buyer in the first 20 minutes. after the start.</strong></li><li><strong>Instantly if the seller is late with the order and the buyer decides to cancel it.</strong></li><li><strong>Instantly, if the seller and buyer agree to cancel the order.</strong></li><li><strong>Within a few hours, if the order is executed poorly or incompletely.</strong></li></ul><p>To return the money, the buyer on the order track page needs to click on the “Cancel order” link and select the reason for canceling the order.</p><img src=\"/img/faq-content.jpg\" alt=\"\">"
+        }
+    ],
+    "data": [
+        {
+            "id": "orders",
+            "icon": "bag",
+            "name": "Orders",
+            "list": [
+                {
+                    "title": "Cancel the order",
+                    "content": "<p>While the contractor fulfills the order, the money is protected by Monday.<br/> Money can be returned:</p><ul><li><strong>Instantly if the order is canceled by the buyer in the first 20 minutes. after the start.</strong></li><li><strong>Instantly if the seller is late with the order and the buyer decides to cancel it.</strong></li><li><strong>Instantly, if the seller and buyer agree to cancel the order.</strong></li><li><strong>Within a few hours, if the order is executed poorly or incompletely.</strong></li></ul><p>To return the money, the buyer on the order track page needs to click on the “Cancel order” link and select the reason for canceling the order.</p><img src=\"/img/faq-content.jpg\" alt=\"\">"
+                }, {
+                    "title": "Delete review",
+                    "content": "<p>While the contractor fulfills the order, the money is protected by Monday.<br/> Money can be returned:</p><ul><li><strong>Instantly if the order is canceled by the buyer in the first 20 minutes. after the start.</strong></li><li><strong>Instantly if the seller is late with the order and the buyer decides to cancel it.</strong></li><li><strong>Instantly, if the seller and buyer agree to cancel the order.</strong></li><li><strong>Within a few hours, if the order is executed poorly or incompletely.</strong></li></ul><p>To return the money, the buyer on the order track page needs to click on the “Cancel order” link and select the reason for canceling the order.</p><img src=\"/img/faq-content.jpg\" alt=\"\">"
+                }, {
+                    "title": "Money Back Guarantee",
+                    "content": "<p>While the contractor fulfills the order, the money is protected by Monday.<br/> Money can be returned:</p><ul><li><strong>Instantly if the order is canceled by the buyer in the first 20 minutes. after the start.</strong></li><li><strong>Instantly if the seller is late with the order and the buyer decides to cancel it.</strong></li><li><strong>Instantly, if the seller and buyer agree to cancel the order.</strong></li><li><strong>Within a few hours, if the order is executed poorly or incompletely.</strong></li></ul><p>To return the money, the buyer on the order track page needs to click on the “Cancel order” link and select the reason for canceling the order.</p><img src=\"/img/faq-content.jpg\" alt=\"\">"
+                }, {
+                    "title": "Resume correspondence with the user",
+                    "content": "<p>While the contractor fulfills the order, the money is protected by Monday.<br/> Money can be returned:</p><ul><li><strong>Instantly if the order is canceled by the buyer in the first 20 minutes. after the start.</strong></li><li><strong>Instantly if the seller is late with the order and the buyer decides to cancel it.</strong></li><li><strong>Instantly, if the seller and buyer agree to cancel the order.</strong></li><li><strong>Within a few hours, if the order is executed poorly or incompletely.</strong></li></ul><p>To return the money, the buyer on the order track page needs to click on the “Cancel order” link and select the reason for canceling the order.</p><img src=\"/img/faq-content.jpg\" alt=\"\">"
+                }, {
+                    "title": "Deliver an order that the buyer does not accept",
+                    "content": "<p>While the contractor fulfills the order, the money is protected by Monday.<br/> Money can be returned:</p><ul><li><strong>Instantly if the order is canceled by the buyer in the first 20 minutes. after the start.</strong></li><li><strong>Instantly if the seller is late with the order and the buyer decides to cancel it.</strong></li><li><strong>Instantly, if the seller and buyer agree to cancel the order.</strong></li><li><strong>Within a few hours, if the order is executed poorly or incompletely.</strong></li></ul><p>To return the money, the buyer on the order track page needs to click on the “Cancel order” link and select the reason for canceling the order.</p><img src=\"/img/faq-content.jpg\" alt=\"\">"
+                }, {
+                    "title": "Money Back Guarantee",
+                    "content": "<p>While the contractor fulfills the order, the money is protected by Monday.<br/> Money can be returned:</p><ul><li><strong>Instantly if the order is canceled by the buyer in the first 20 minutes. after the start.</strong></li><li><strong>Instantly if the seller is late with the order and the buyer decides to cancel it.</strong></li><li><strong>Instantly, if the seller and buyer agree to cancel the order.</strong></li><li><strong>Within a few hours, if the order is executed poorly or incompletely.</strong></li></ul><p>To return the money, the buyer on the order track page needs to click on the “Cancel order” link and select the reason for canceling the order.</p><img src=\"/img/faq-content.jpg\" alt=\"\">"
+                }
+            ]
+        }, {
+            "id": "services",
+            "icon": "shapes",
+            "name": "Services",
+            "list": [
+                {
+                    "title": "Cancel the order",
+                    "content": "<p>While the contractor fulfills the order, the money is protected by Monday.<br/> Money can be returned:</p><ul><li><strong>Instantly if the order is canceled by the buyer in the first 20 minutes. after the start.</strong></li><li><strong>Instantly if the seller is late with the order and the buyer decides to cancel it.</strong></li><li><strong>Instantly, if the seller and buyer agree to cancel the order.</strong></li><li><strong>Within a few hours, if the order is executed poorly or incompletely.</strong></li></ul><p>To return the money, the buyer on the order track page needs to click on the “Cancel order” link and select the reason for canceling the order.</p><img src=\"/img/faq-content.jpg\" alt=\"\">"
+                }, {
+                    "title": "Delete review",
+                    "content": "<p>While the contractor fulfills the order, the money is protected by Monday.<br/> Money can be returned:</p><ul><li><strong>Instantly if the order is canceled by the buyer in the first 20 minutes. after the start.</strong></li><li><strong>Instantly if the seller is late with the order and the buyer decides to cancel it.</strong></li><li><strong>Instantly, if the seller and buyer agree to cancel the order.</strong></li><li><strong>Within a few hours, if the order is executed poorly or incompletely.</strong></li></ul><p>To return the money, the buyer on the order track page needs to click on the “Cancel order” link and select the reason for canceling the order.</p><img src=\"/img/faq-content.jpg\" alt=\"\">"
+                }, {
+                    "title": "Money Back Guarantee",
+                    "content": "<p>While the contractor fulfills the order, the money is protected by Monday.<br/> Money can be returned:</p><ul><li><strong>Instantly if the order is canceled by the buyer in the first 20 minutes. after the start.</strong></li><li><strong>Instantly if the seller is late with the order and the buyer decides to cancel it.</strong></li><li><strong>Instantly, if the seller and buyer agree to cancel the order.</strong></li><li><strong>Within a few hours, if the order is executed poorly or incompletely.</strong></li></ul><p>To return the money, the buyer on the order track page needs to click on the “Cancel order” link and select the reason for canceling the order.</p><img src=\"/img/faq-content.jpg\" alt=\"\">"
+                }, {
+                    "title": "Resume correspondence with the user",
+                    "content": "<p>While the contractor fulfills the order, the money is protected by Monday.<br/> Money can be returned:</p><ul><li><strong>Instantly if the order is canceled by the buyer in the first 20 minutes. after the start.</strong></li><li><strong>Instantly if the seller is late with the order and the buyer decides to cancel it.</strong></li><li><strong>Instantly, if the seller and buyer agree to cancel the order.</strong></li><li><strong>Within a few hours, if the order is executed poorly or incompletely.</strong></li></ul><p>To return the money, the buyer on the order track page needs to click on the “Cancel order” link and select the reason for canceling the order.</p><img src=\"/img/faq-content.jpg\" alt=\"\">"
+                }, {
+                    "title": "Deliver an order that the buyer does not accept",
+                    "content": "<p>While the contractor fulfills the order, the money is protected by Monday.<br/> Money can be returned:</p><ul><li><strong>Instantly if the order is canceled by the buyer in the first 20 minutes. after the start.</strong></li><li><strong>Instantly if the seller is late with the order and the buyer decides to cancel it.</strong></li><li><strong>Instantly, if the seller and buyer agree to cancel the order.</strong></li><li><strong>Within a few hours, if the order is executed poorly or incompletely.</strong></li></ul><p>To return the money, the buyer on the order track page needs to click on the “Cancel order” link and select the reason for canceling the order.</p><img src=\"/img/faq-content.jpg\" alt=\"\">"
+                }, {
+                    "title": "Money Back Guarantee",
+                    "content": "<p>While the contractor fulfills the order, the money is protected by Monday.<br/> Money can be returned:</p><ul><li><strong>Instantly if the order is canceled by the buyer in the first 20 minutes. after the start.</strong></li><li><strong>Instantly if the seller is late with the order and the buyer decides to cancel it.</strong></li><li><strong>Instantly, if the seller and buyer agree to cancel the order.</strong></li><li><strong>Within a few hours, if the order is executed poorly or incompletely.</strong></li></ul><p>To return the money, the buyer on the order track page needs to click on the “Cancel order” link and select the reason for canceling the order.</p><img src=\"/img/faq-content.jpg\" alt=\"\">"
+                }
+            ]
+        }, {
+            "id": "payments",
+            "icon": "empty-wallet",
+            "name": "Payments",
+            "list": [
+                {
+                    "title": "Cancel the order",
+                    "content": "<p>While the contractor fulfills the order, the money is protected by Monday.<br/> Money can be returned:</p><ul><li><strong>Instantly if the order is canceled by the buyer in the first 20 minutes. after the start.</strong></li><li><strong>Instantly if the seller is late with the order and the buyer decides to cancel it.</strong></li><li><strong>Instantly, if the seller and buyer agree to cancel the order.</strong></li><li><strong>Within a few hours, if the order is executed poorly or incompletely.</strong></li></ul><p>To return the money, the buyer on the order track page needs to click on the “Cancel order” link and select the reason for canceling the order.</p><img src=\"/img/faq-content.jpg\" alt=\"\">"
+                }, {
+                    "title": "Delete review",
+                    "content": "<p>While the contractor fulfills the order, the money is protected by Monday.<br/> Money can be returned:</p><ul><li><strong>Instantly if the order is canceled by the buyer in the first 20 minutes. after the start.</strong></li><li><strong>Instantly if the seller is late with the order and the buyer decides to cancel it.</strong></li><li><strong>Instantly, if the seller and buyer agree to cancel the order.</strong></li><li><strong>Within a few hours, if the order is executed poorly or incompletely.</strong></li></ul><p>To return the money, the buyer on the order track page needs to click on the “Cancel order” link and select the reason for canceling the order.</p><img src=\"/img/faq-content.jpg\" alt=\"\">"
+                }, {
+                    "title": "Money Back Guarantee",
+                    "content": "<p>While the contractor fulfills the order, the money is protected by Monday.<br/> Money can be returned:</p><ul><li><strong>Instantly if the order is canceled by the buyer in the first 20 minutes. after the start.</strong></li><li><strong>Instantly if the seller is late with the order and the buyer decides to cancel it.</strong></li><li><strong>Instantly, if the seller and buyer agree to cancel the order.</strong></li><li><strong>Within a few hours, if the order is executed poorly or incompletely.</strong></li></ul><p>To return the money, the buyer on the order track page needs to click on the “Cancel order” link and select the reason for canceling the order.</p><img src=\"/img/faq-content.jpg\" alt=\"\">"
+                }, {
+                    "title": "Resume correspondence with the user",
+                    "content": "<p>While the contractor fulfills the order, the money is protected by Monday.<br/> Money can be returned:</p><ul><li><strong>Instantly if the order is canceled by the buyer in the first 20 minutes. after the start.</strong></li><li><strong>Instantly if the seller is late with the order and the buyer decides to cancel it.</strong></li><li><strong>Instantly, if the seller and buyer agree to cancel the order.</strong></li><li><strong>Within a few hours, if the order is executed poorly or incompletely.</strong></li></ul><p>To return the money, the buyer on the order track page needs to click on the “Cancel order” link and select the reason for canceling the order.</p><img src=\"/img/faq-content.jpg\" alt=\"\">"
+                }, {
+                    "title": "Deliver an order that the buyer does not accept",
+                    "content": "<p>While the contractor fulfills the order, the money is protected by Monday.<br/> Money can be returned:</p><ul><li><strong>Instantly if the order is canceled by the buyer in the first 20 minutes. after the start.</strong></li><li><strong>Instantly if the seller is late with the order and the buyer decides to cancel it.</strong></li><li><strong>Instantly, if the seller and buyer agree to cancel the order.</strong></li><li><strong>Within a few hours, if the order is executed poorly or incompletely.</strong></li></ul><p>To return the money, the buyer on the order track page needs to click on the “Cancel order” link and select the reason for canceling the order.</p><img src=\"/img/faq-content.jpg\" alt=\"\">"
+                }, {
+                    "title": "Money Back Guarantee",
+                    "content": "<p>While the contractor fulfills the order, the money is protected by Monday.<br/> Money can be returned:</p><ul><li><strong>Instantly if the order is canceled by the buyer in the first 20 minutes. after the start.</strong></li><li><strong>Instantly if the seller is late with the order and the buyer decides to cancel it.</strong></li><li><strong>Instantly, if the seller and buyer agree to cancel the order.</strong></li><li><strong>Within a few hours, if the order is executed poorly or incompletely.</strong></li></ul><p>To return the money, the buyer on the order track page needs to click on the “Cancel order” link and select the reason for canceling the order.</p><img src=\"/img/faq-content.jpg\" alt=\"\">"
+                }
+            ]
+        }, {
+            "id": "account",
+            "icon": "personalcard",
+            "name": "Account and profile",
+            "list": [
+                {
+                    "title": "Cancel the order",
+                    "content": "<p>While the contractor fulfills the order, the money is protected by Monday.<br/> Money can be returned:</p><ul><li><strong>Instantly if the order is canceled by the buyer in the first 20 minutes. after the start.</strong></li><li><strong>Instantly if the seller is late with the order and the buyer decides to cancel it.</strong></li><li><strong>Instantly, if the seller and buyer agree to cancel the order.</strong></li><li><strong>Within a few hours, if the order is executed poorly or incompletely.</strong></li></ul><p>To return the money, the buyer on the order track page needs to click on the “Cancel order” link and select the reason for canceling the order.</p><img src=\"/img/faq-content.jpg\" alt=\"\">"
+                }, {
+                    "title": "Delete review",
+                    "content": "<p>While the contractor fulfills the order, the money is protected by Monday.<br/> Money can be returned:</p><ul><li><strong>Instantly if the order is canceled by the buyer in the first 20 minutes. after the start.</strong></li><li><strong>Instantly if the seller is late with the order and the buyer decides to cancel it.</strong></li><li><strong>Instantly, if the seller and buyer agree to cancel the order.</strong></li><li><strong>Within a few hours, if the order is executed poorly or incompletely.</strong></li></ul><p>To return the money, the buyer on the order track page needs to click on the “Cancel order” link and select the reason for canceling the order.</p><img src=\"/img/faq-content.jpg\" alt=\"\">"
+                }, {
+                    "title": "Money Back Guarantee",
+                    "content": "<p>While the contractor fulfills the order, the money is protected by Monday.<br/> Money can be returned:</p><ul><li><strong>Instantly if the order is canceled by the buyer in the first 20 minutes. after the start.</strong></li><li><strong>Instantly if the seller is late with the order and the buyer decides to cancel it.</strong></li><li><strong>Instantly, if the seller and buyer agree to cancel the order.</strong></li><li><strong>Within a few hours, if the order is executed poorly or incompletely.</strong></li></ul><p>To return the money, the buyer on the order track page needs to click on the “Cancel order” link and select the reason for canceling the order.</p><img src=\"/img/faq-content.jpg\" alt=\"\">"
+                }, {
+                    "title": "Resume correspondence with the user",
+                    "content": "<p>While the contractor fulfills the order, the money is protected by Monday.<br/> Money can be returned:</p><ul><li><strong>Instantly if the order is canceled by the buyer in the first 20 minutes. after the start.</strong></li><li><strong>Instantly if the seller is late with the order and the buyer decides to cancel it.</strong></li><li><strong>Instantly, if the seller and buyer agree to cancel the order.</strong></li><li><strong>Within a few hours, if the order is executed poorly or incompletely.</strong></li></ul><p>To return the money, the buyer on the order track page needs to click on the “Cancel order” link and select the reason for canceling the order.</p><img src=\"/img/faq-content.jpg\" alt=\"\">"
+                }, {
+                    "title": "Deliver an order that the buyer does not accept",
+                    "content": "<p>While the contractor fulfills the order, the money is protected by Monday.<br/> Money can be returned:</p><ul><li><strong>Instantly if the order is canceled by the buyer in the first 20 minutes. after the start.</strong></li><li><strong>Instantly if the seller is late with the order and the buyer decides to cancel it.</strong></li><li><strong>Instantly, if the seller and buyer agree to cancel the order.</strong></li><li><strong>Within a few hours, if the order is executed poorly or incompletely.</strong></li></ul><p>To return the money, the buyer on the order track page needs to click on the “Cancel order” link and select the reason for canceling the order.</p><img src=\"/img/faq-content.jpg\" alt=\"\">"
+                }, {
+                    "title": "Money Back Guarantee",
+                    "content": "<p>While the contractor fulfills the order, the money is protected by Monday.<br/> Money can be returned:</p><ul><li><strong>Instantly if the order is canceled by the buyer in the first 20 minutes. after the start.</strong></li><li><strong>Instantly if the seller is late with the order and the buyer decides to cancel it.</strong></li><li><strong>Instantly, if the seller and buyer agree to cancel the order.</strong></li><li><strong>Within a few hours, if the order is executed poorly or incompletely.</strong></li></ul><p>To return the money, the buyer on the order track page needs to click on the “Cancel order” link and select the reason for canceling the order.</p><img src=\"/img/faq-content.jpg\" alt=\"\">"
+                }
+            ]
+        }, {
+            "id": "about",
+            "icon": "document",
+            "name": "About company",
+            "list": [
+                {
+                    "title": "Cancel the order",
+                    "content": "<p>While the contractor fulfills the order, the money is protected by Monday.<br/> Money can be returned:</p><ul><li><strong>Instantly if the order is canceled by the buyer in the first 20 minutes. after the start.</strong></li><li><strong>Instantly if the seller is late with the order and the buyer decides to cancel it.</strong></li><li><strong>Instantly, if the seller and buyer agree to cancel the order.</strong></li><li><strong>Within a few hours, if the order is executed poorly or incompletely.</strong></li></ul><p>To return the money, the buyer on the order track page needs to click on the “Cancel order” link and select the reason for canceling the order.</p><img src=\"/img/faq-content.jpg\" alt=\"\">"
+                }, {
+                    "title": "Delete review",
+                    "content": "<p>While the contractor fulfills the order, the money is protected by Monday.<br/> Money can be returned:</p><ul><li><strong>Instantly if the order is canceled by the buyer in the first 20 minutes. after the start.</strong></li><li><strong>Instantly if the seller is late with the order and the buyer decides to cancel it.</strong></li><li><strong>Instantly, if the seller and buyer agree to cancel the order.</strong></li><li><strong>Within a few hours, if the order is executed poorly or incompletely.</strong></li></ul><p>To return the money, the buyer on the order track page needs to click on the “Cancel order” link and select the reason for canceling the order.</p><img src=\"/img/faq-content.jpg\" alt=\"\">"
+                }, {
+                    "title": "Money Back Guarantee",
+                    "content": "<p>While the contractor fulfills the order, the money is protected by Monday.<br/> Money can be returned:</p><ul><li><strong>Instantly if the order is canceled by the buyer in the first 20 minutes. after the start.</strong></li><li><strong>Instantly if the seller is late with the order and the buyer decides to cancel it.</strong></li><li><strong>Instantly, if the seller and buyer agree to cancel the order.</strong></li><li><strong>Within a few hours, if the order is executed poorly or incompletely.</strong></li></ul><p>To return the money, the buyer on the order track page needs to click on the “Cancel order” link and select the reason for canceling the order.</p><img src=\"/img/faq-content.jpg\" alt=\"\">"
+                }, {
+                    "title": "Resume correspondence with the user",
+                    "content": "<p>While the contractor fulfills the order, the money is protected by Monday.<br/> Money can be returned:</p><ul><li><strong>Instantly if the order is canceled by the buyer in the first 20 minutes. after the start.</strong></li><li><strong>Instantly if the seller is late with the order and the buyer decides to cancel it.</strong></li><li><strong>Instantly, if the seller and buyer agree to cancel the order.</strong></li><li><strong>Within a few hours, if the order is executed poorly or incompletely.</strong></li></ul><p>To return the money, the buyer on the order track page needs to click on the “Cancel order” link and select the reason for canceling the order.</p><img src=\"/img/faq-content.jpg\" alt=\"\">"
+                }, {
+                    "title": "Deliver an order that the buyer does not accept",
+                    "content": "<p>While the contractor fulfills the order, the money is protected by Monday.<br/> Money can be returned:</p><ul><li><strong>Instantly if the order is canceled by the buyer in the first 20 minutes. after the start.</strong></li><li><strong>Instantly if the seller is late with the order and the buyer decides to cancel it.</strong></li><li><strong>Instantly, if the seller and buyer agree to cancel the order.</strong></li><li><strong>Within a few hours, if the order is executed poorly or incompletely.</strong></li></ul><p>To return the money, the buyer on the order track page needs to click on the “Cancel order” link and select the reason for canceling the order.</p><img src=\"/img/faq-content.jpg\" alt=\"\">"
+                }, {
+                    "title": "Money Back Guarantee",
+                    "content": "<p>While the contractor fulfills the order, the money is protected by Monday.<br/> Money can be returned:</p><ul><li><strong>Instantly if the order is canceled by the buyer in the first 20 minutes. after the start.</strong></li><li><strong>Instantly if the seller is late with the order and the buyer decides to cancel it.</strong></li><li><strong>Instantly, if the seller and buyer agree to cancel the order.</strong></li><li><strong>Within a few hours, if the order is executed poorly or incompletely.</strong></li></ul><p>To return the money, the buyer on the order track page needs to click on the “Cancel order” link and select the reason for canceling the order.</p><img src=\"/img/faq-content.jpg\" alt=\"\">"
+                }
+            ]
+        }, {
+            "id": "exchange",
+            "icon": "coin",
+            "name": "Exchange",
+            "list": [
+                {
+                    "title": "Cancel the order",
+                    "content": "<p>While the contractor fulfills the order, the money is protected by Monday.<br/> Money can be returned:</p><ul><li><strong>Instantly if the order is canceled by the buyer in the first 20 minutes. after the start.</strong></li><li><strong>Instantly if the seller is late with the order and the buyer decides to cancel it.</strong></li><li><strong>Instantly, if the seller and buyer agree to cancel the order.</strong></li><li><strong>Within a few hours, if the order is executed poorly or incompletely.</strong></li></ul><p>To return the money, the buyer on the order track page needs to click on the “Cancel order” link and select the reason for canceling the order.</p><img src=\"/img/faq-content.jpg\" alt=\"\">"
+                }, {
+                    "title": "Delete review",
+                    "content": "<p>While the contractor fulfills the order, the money is protected by Monday.<br/> Money can be returned:</p><ul><li><strong>Instantly if the order is canceled by the buyer in the first 20 minutes. after the start.</strong></li><li><strong>Instantly if the seller is late with the order and the buyer decides to cancel it.</strong></li><li><strong>Instantly, if the seller and buyer agree to cancel the order.</strong></li><li><strong>Within a few hours, if the order is executed poorly or incompletely.</strong></li></ul><p>To return the money, the buyer on the order track page needs to click on the “Cancel order” link and select the reason for canceling the order.</p><img src=\"/img/faq-content.jpg\" alt=\"\">"
+                }, {
+                    "title": "Money Back Guarantee",
+                    "content": "<p>While the contractor fulfills the order, the money is protected by Monday.<br/> Money can be returned:</p><ul><li><strong>Instantly if the order is canceled by the buyer in the first 20 minutes. after the start.</strong></li><li><strong>Instantly if the seller is late with the order and the buyer decides to cancel it.</strong></li><li><strong>Instantly, if the seller and buyer agree to cancel the order.</strong></li><li><strong>Within a few hours, if the order is executed poorly or incompletely.</strong></li></ul><p>To return the money, the buyer on the order track page needs to click on the “Cancel order” link and select the reason for canceling the order.</p><img src=\"/img/faq-content.jpg\" alt=\"\">"
+                }, {
+                    "title": "Resume correspondence with the user",
+                    "content": "<p>While the contractor fulfills the order, the money is protected by Monday.<br/> Money can be returned:</p><ul><li><strong>Instantly if the order is canceled by the buyer in the first 20 minutes. after the start.</strong></li><li><strong>Instantly if the seller is late with the order and the buyer decides to cancel it.</strong></li><li><strong>Instantly, if the seller and buyer agree to cancel the order.</strong></li><li><strong>Within a few hours, if the order is executed poorly or incompletely.</strong></li></ul><p>To return the money, the buyer on the order track page needs to click on the “Cancel order” link and select the reason for canceling the order.</p><img src=\"/img/faq-content.jpg\" alt=\"\">"
+                }, {
+                    "title": "Deliver an order that the buyer does not accept",
+                    "content": "<p>While the contractor fulfills the order, the money is protected by Monday.<br/> Money can be returned:</p><ul><li><strong>Instantly if the order is canceled by the buyer in the first 20 minutes. after the start.</strong></li><li><strong>Instantly if the seller is late with the order and the buyer decides to cancel it.</strong></li><li><strong>Instantly, if the seller and buyer agree to cancel the order.</strong></li><li><strong>Within a few hours, if the order is executed poorly or incompletely.</strong></li></ul><p>To return the money, the buyer on the order track page needs to click on the “Cancel order” link and select the reason for canceling the order.</p><img src=\"/img/faq-content.jpg\" alt=\"\">"
+                }, {
+                    "title": "Money Back Guarantee",
+                    "content": "<p>While the contractor fulfills the order, the money is protected by Monday.<br/> Money can be returned:</p><ul><li><strong>Instantly if the order is canceled by the buyer in the first 20 minutes. after the start.</strong></li><li><strong>Instantly if the seller is late with the order and the buyer decides to cancel it.</strong></li><li><strong>Instantly, if the seller and buyer agree to cancel the order.</strong></li><li><strong>Within a few hours, if the order is executed poorly or incompletely.</strong></li></ul><p>To return the money, the buyer on the order track page needs to click on the “Cancel order” link and select the reason for canceling the order.</p><img src=\"/img/faq-content.jpg\" alt=\"\">"
+                }
+            ]
+        } 
+    ],
+    "temp": {
+        "tags": ["Cancel order", "Top Up Balance", "Affiliation program", "Change login", "For Customers"]
+    }
+}

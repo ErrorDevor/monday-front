@@ -1,0 +1,1857 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta charset="UTF-8" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <title>Seller – Monday</title>
+      <meta property="og:title" content="Seller – Monday" />
+      <meta property="twitter:title" content="Seller – Monday"/>
+      <meta name="description" content="Freelance project" />
+      <meta property="og:description" content="Freelance project" />
+      <meta property="twitter:description" content="Freelance project" />
+      <script src="https://cdn.tailwindcss.com"></script><link
+        rel="stylesheet"
+        href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+      />
+      <script src="/assets/js/tailwind.js"></script>
+      <script src="/assets/js/vendor/swiper.min.js"></script>
+      <script src="/assets/js/vendor/gsap.min.js" ></script>
+      <script src="/assets/js/init.js" type="module" defer></script>
+      <script src="/assets/js/seller.js" type="module" defer></script>
+      <link href="/assets/js/vendor/swiper.min.css" rel="stylesheet">
+      <link href="assets%5Ccss%5Cseller.0fcabdd2790f60f408b7.css" rel="stylesheet">
+   </head>
+   <body class=" bg-gray-cf1f3f9 ">
+      <header class="py-8 pb-5 bg-white">
+         <div class="app-container">
+            <div class="flex items-center gap-[6px] relative">
+               <button class="w-7 h-4 relative shrink-0 md:hidden">
+               <span class="w-full h-[2px] rounded-sm bg-black block absolute top-0 left-0"></span>
+               <span class="w-3/4 h-[2px] rounded-sm bg-black block absolute top-1/2 -translate-y-1/2 left-0"></span>
+               <span class="w-full h-[2px] rounded-sm bg-black block absolute -translate-y-full top-full left-0"></span>
+               </button>
+               <a 
+                  class="font-Satoshi font-bold text-black uppercase text-sm md:absolute md:left-1/2 md:top-1/2 md:-translate-x-1/2 md:-translate-y-1/2"
+                  href="/"
+                  >
+               MONDAY
+               </a>
+               <div class=" hidden xs:flex max-w-80 flex grow relative">
+                  <div class="grow px-4 py-3 rounded-[100px] bg-[#FAFAFC] flex items-center gap-2 md:[&amp;_input]:order-1 md:[&amp;_svg]:order-2">
+                     <svg class="size-4 stroke-black shrink-0">
+                        <use href="/img/sprite.svg#magnifier">
+                     </svg>
+                     <input 
+                        class="bg-transparent max-w-full overflow-hidden w-full font-Satoshi font-medium text-xs placeholder:text-gray outline-none"
+                        placeholder="Search for service" 
+                        type="text"
+                        >
+                  </div>
+               </div>
+               <div class="ml-auto flex items-center gap-3 md:max-w-[274px] md:w-full">
+                  <button 
+                     class="flex items-center gap-2 px-4 py-2 justify-center rounded-xl transition-opacity duration-200 hover:opacity-80 font-Satoshi font-medium hidden md:flex md:grow  text-black border-solid border-[1px] text-opacity-60 border-opacity-20 border-black "
+                     data-modal-button="auth"
+                     >
+                  Sign Up
+                  </button>                
+                  <button 
+                     class="flex items-center gap-2 px-4 py-2 justify-center rounded-xl transition-opacity duration-200 hover:opacity-80 font-Satoshi font-medium md:grow text-white bg-black "
+                     data-modal-button="auth"
+                     >
+                     Join
+                     <svg class="size-4 shrink-0 stroke-white">
+                        <use href="/img/sprite.svg#join">
+                     </svg>
+                  </button>
+               </div>
+            </div>
+         </div>
+      </header>
+      <div class="hidden lg:block">
+         <nav class="hidden lg:block border-b-[1px] border-gray border-opacity-50 border-solid bg-white">
+            <div class="app-container flex items-center gap-[6px] overflow-auto [&::-webkit-scrollbar]:hidden">
+               <a
+                  class="[&:first-child]:text-black [&:first-child]:font-bold [&:first-child]:after:opacity-100 relative px-4 py-3 font-Satoshi font-medium text-gray whitespace-nowrap after:w-full after:h-1 after:bg-blue after:absolute after:left-0 after:bottom-0 after:opacity-0"
+                  href="#" 
+                  target="_blank"
+                  >
+               Social &amp; SMM
+               </a>
+               <a
+                  class="[&:first-child]:text-black [&:first-child]:font-bold [&:first-child]:after:opacity-100 relative px-4 py-3 font-Satoshi font-medium text-gray whitespace-nowrap after:w-full after:h-1 after:bg-blue after:absolute after:left-0 after:bottom-0 after:opacity-0"
+                  href="#" 
+                  target="_blank"
+                  >
+               SEO
+               </a>
+               <a
+                  class="[&:first-child]:text-black [&:first-child]:font-bold [&:first-child]:after:opacity-100 relative px-4 py-3 font-Satoshi font-medium text-gray whitespace-nowrap after:w-full after:h-1 after:bg-blue after:absolute after:left-0 after:bottom-0 after:opacity-0"
+                  href="#" 
+                  target="_blank"
+                  >
+               Copywriting
+               </a>
+               <a
+                  class="[&:first-child]:text-black [&:first-child]:font-bold [&:first-child]:after:opacity-100 relative px-4 py-3 font-Satoshi font-medium text-gray whitespace-nowrap after:w-full after:h-1 after:bg-blue after:absolute after:left-0 after:bottom-0 after:opacity-0"
+                  href="#" 
+                  target="_blank"
+                  >
+               Web Development
+               </a>
+               <a
+                  class="[&:first-child]:text-black [&:first-child]:font-bold [&:first-child]:after:opacity-100 relative px-4 py-3 font-Satoshi font-medium text-gray whitespace-nowrap after:w-full after:h-1 after:bg-blue after:absolute after:left-0 after:bottom-0 after:opacity-0"
+                  href="#" 
+                  target="_blank"
+                  >
+               Marketplaces &amp; Socials
+               </a>
+               <a
+                  class="[&:first-child]:text-black [&:first-child]:font-bold [&:first-child]:after:opacity-100 relative px-4 py-3 font-Satoshi font-medium text-gray whitespace-nowrap after:w-full after:h-1 after:bg-blue after:absolute after:left-0 after:bottom-0 after:opacity-0"
+                  href="#" 
+                  target="_blank"
+                  >
+               Logotypes &amp; Branding
+               </a>
+               <a
+                  class="[&:first-child]:text-black [&:first-child]:font-bold [&:first-child]:after:opacity-100 relative px-4 py-3 font-Satoshi font-medium text-gray whitespace-nowrap after:w-full after:h-1 after:bg-blue after:absolute after:left-0 after:bottom-0 after:opacity-0"
+                  href="#" 
+                  target="_blank"
+                  >
+               Web &amp; Mobile Design
+               </a>
+               <a
+                  class="[&:first-child]:text-black [&:first-child]:font-bold [&:first-child]:after:opacity-100 relative px-4 py-3 font-Satoshi font-medium text-gray whitespace-nowrap after:w-full after:h-1 after:bg-blue after:absolute after:left-0 after:bottom-0 after:opacity-0"
+                  href="#" 
+                  target="_blank"
+                  >
+               Scripts &amp; Bots
+               </a>
+               <a
+                  class="[&:first-child]:text-black [&:first-child]:font-bold [&:first-child]:after:opacity-100 relative px-4 py-3 font-Satoshi font-medium text-gray whitespace-nowrap after:w-full after:h-1 after:bg-blue after:absolute after:left-0 after:bottom-0 after:opacity-0"
+                  href="#" 
+                  target="_blank"
+                  >
+               All Services
+               </a>
+            </div>
+         </nav>
+      </div>
+      <div class="pb-[50px] flex flex-col gap-[10px] lg:gap-5">
+         <section class="relative">
+            <div class="absolute left-0 top-0 w-full h-[230px] z-0 lg:h-[260px]">
+               <img 
+                  class="img-fill"
+                  src="/img/temp/public-seller-bg.jpg" 
+                  alt=""
+                  >
+            </div>
+            <div class="app-container pt-3 relative z-10">
+               <button class="p-3 rounded-xl bg-white/80 flex items-center gap-[5px] ml-auto font-Satoshi font-bold text-xs leading-t text-gray-c575e6a lg:text-sm lg:p-[13px_22px]">
+                  <svg class="size-4 stroke-gray-c575e6a lg:size-[18px]">
+                     <use href="/img/sprite.svg#camera">
+                  </svg>
+                  Edit cover Image
+               </button>
+               <div class="mt-[60px] flex flex-col gap-[10px] lg:justify-between lg:flex-row lg:mt-[100px]">
+                  <div class="p-[15px] bg-gray-fafafc rounded-[20px] lg:w-[calc(100%-350px)] lg:flex xl:w-[calc(100%-375px)] xl:py-3 xl:px-6 xl:pb-6 lg:bg-white">
+                     <div class="lg:w-[250px] lg:shrink-0">
+                        <div class="rounded-full relative bg-gray-fafafc p-[5px] size-28 mx-auto -mt-[66px] md:size-[152px]">
+                           <img 
+                              class="img-fill" 
+                              src="/img/temp/o-1.jpg" 
+                              alt=""
+                              >
+                           <button class="size-[30px] rounded-full bg-white flex items-center justify-center absolute right-0 bottom-2">
+                              <svg class="size-4 stroke-gray-c575e6a">
+                                 <use href="/img/sprite.svg#camera">
+                              </svg>
+                           </button>
+                        </div>
+                        <div class="" data-container="user" >
+                           <div class="mt-4 xl:flex xl:gap-2 xl:justify-between">
+                              <div class="text-center flex flex-col items-center lg:items-start lg:text-left">
+                                 <p class="font-Satoshi font-bold text-2xl leading-tight flex items-center justify-center xl:text-[32px]">
+                                    James Kilroy
+                                    <svg class="ml-1 size-6 stroke-blue">
+                                       <use href="/img/sprite.svg#shield-tick">
+                                    </svg>
+                                 </p>
+                                 <p class="mt-[6px] font-Satoshi font-bold text-base leading-tight text-black xl:text-xl xl:leading-tight">
+                                    Web Developer, Professional Linkbuilder
+                                 </p>
+                                 <p class="mt-[6px] font-Satoshi font-bold text-xs leading-tight text-gray-c575e6a flex items-center gap-1 xl:mt-4 xl:text-sm">
+                                    <span class="size-2 rounded-full shrink-0 bg-[#62F94D]"></span>
+                                    Online
+                                 </p>
+                              </div>
+                           </div>
+                        </div>
+                        <div class="" data-container="user" data-container-query="(max-width: 990px)">
+                        </div>
+                        <div class="" data-container="rating" data-container-query="(max-width: 990px)">
+                        </div>
+                        <div class="" data-container="rating" >
+                           <div class="py-4 px-[14px] bg-white rounded-3xl mt-[14px] lg:mt-0 lg:px-5">
+                              <div class="grid grid-cols-2 gap-2 hidden lg:grid">
+                                 <button 
+                                    class="flex items-center gap-[6px] font-Satoshi font-medium text-sm leading-none text-black px-[15px] py-3 rounded-xl bg-black text-white justify-center min-h-[50px] [&amp;&gt;svg]:size-[18px] flex-row-reverse" 
+                                    >
+                                    Settings
+                                    <svg class="stroke-white size-3">
+                                       <use href="/img/sprite.svg#settings-2">
+                                    </svg>
+                                 </button>
+                                 <button 
+                                    class="flex items-center gap-[6px] font-Satoshi font-medium text-sm leading-none text-black px-[15px] py-3 rounded-xl bg-transparent text-black border-[1px] border-gray-caeb5bf justify-center min-h-[50px] bg-white" 
+                                    >
+                                 Preview profile
+                                 </button>
+                              </div>
+                              <div class="flex items-end justify-between gap-2 lg:mt-5 lg:flex-col lg:items-center lg:gap-4">
+                                 <div class="flex items-end gap-1 font-Satoshi font-bold text-xs leading-tight text-black lg:text-sm">
+                                    <svg class="size-[28px] fill-yellow lg:size-[35px]">
+                                       <use href="/img/sprite.svg#star">
+                                    </svg>
+                                    <span class="h-[28px] font-Satoshi font-bold text-4xl leading-none flex items-center lg:h-[40px] lg:text-5xl lg:leading-none">5.0</span>
+                                    Seller
+                                 </div>
+                                 <p class="font-Satoshi font-bold text-xs leading-tight text-black flex items-center gap-1 lg:text-base lg:gap-2">
+                                    <span class="bg-blue-cedf4ff rounded-md px-[6px] h-[18px] flex items-center font-Satoshi font-bold text-[8px] text-gray-c9ca5b3 lg:px-3 lg:text-xs lg:h-7">
+                                    PRO ⭐️
+                                    </span> Highest rating plus
+                                 </p>
+                              </div>
+                              <ul class="mt-3 flex flex-col gap-[2px] lg:gap-[6px] lg:mt-5">
+                                 <li class="px-3 py-[10px] bg-gray-fafafc rounded-xl flex items-center justify-between gap-2 lg:p-3 lg:flex-row-reverse">
+                                    <p class="font-Satoshi font-bold text-xs leading-tight text-gray-c575e6a lg:text-right lg:text-sm">Orders successfully delivered</p>
+                                    <p class="text-right font-Satoshi font-bold text-base leading-tight text-black lg:text-xl lg:leading-tight lg:text-left">100%</p>
+                                 </li>
+                                 <li class="px-3 py-[10px] bg-gray-fafafc rounded-xl flex items-center justify-between gap-2 lg:p-3 lg:flex-row-reverse">
+                                    <p class="font-Satoshi font-bold text-xs leading-tight text-gray-c575e6a lg:text-right lg:text-sm">Orders delivered on time</p>
+                                    <p class="text-right font-Satoshi font-bold text-base leading-tight text-black lg:text-xl lg:leading-tight lg:text-left">100%</p>
+                                 </li>
+                                 <li class="px-3 py-[10px] bg-gray-fafafc rounded-xl flex items-center justify-between gap-2 lg:p-3 lg:flex-row-reverse">
+                                    <p class="font-Satoshi font-bold text-xs leading-tight text-gray-c575e6a lg:text-right lg:text-sm">Repeat orders</p>
+                                    <p class="text-right font-Satoshi font-bold text-base leading-tight text-black lg:text-xl lg:leading-tight lg:text-left">55%</p>
+                                 </li>
+                                 <li class="px-3 py-[10px] bg-gray-fafafc rounded-xl flex items-center justify-between gap-2 lg:p-3 lg:flex-row-reverse">
+                                    <p class="font-Satoshi font-bold text-xs leading-tight text-gray-c575e6a lg:text-right lg:text-sm">Orders completed</p>
+                                    <p class="text-right font-Satoshi font-bold text-base leading-tight text-black lg:text-xl lg:leading-tight lg:text-left">20588</p>
+                                 </li>
+                                 <li class="px-3 py-[10px] bg-gray-fafafc rounded-xl flex items-center justify-between gap-2 lg:p-3 lg:flex-row-reverse">
+                                    <p class="font-Satoshi font-bold text-xs leading-tight text-gray-c575e6a lg:text-right lg:text-sm">Feedback received</p>
+                                    <p class="text-right font-Satoshi font-bold text-base leading-tight text-black lg:text-xl lg:leading-tight lg:text-left">16360</p>
+                                 </li>
+                              </ul>
+                              <div class="mt-4 flex items-center gap-[7px]">
+                                 <div class="shrink-0 size-[38px] rounded-full bg-gray-c9ca5b3"></div>
+                                 <div class="shrink-0 size-[38px] rounded-full bg-gray-c9ca5b3"></div>
+                                 <div class="shrink-0 size-[38px] rounded-full bg-gray-c9ca5b3"></div>
+                                 <div class="shrink-0 size-[38px] rounded-full bg-gray-c9ca5b3"></div>
+                                 <div class="shrink-0 size-[38px] rounded-full bg-gray-c9ca5b3"></div>
+                                 <p class="ml-auto font-Satoshi font-bold text-sm leading-tight text-gray-c9ca5b3">
+                                    Show all awards (20)
+                                 </p>
+                              </div>
+                           </div>
+                        </div>
+                        <div class="mt-[10px] bg-white p-[11px_9px_14px] rounded-[20px] lg:p-3 lg:pt-5 lg:border-[1px] lg:border-solid lg:border-gray-cf1f3f9 lg:mt-4">
+                           <div class="flex items-center gap-[5px] lg:text-center lg:justify-center">
+                              <p class="font-Satoshi font-bold text-base leading-tight text-black flex items-center gap-[5px]">
+                                 @James_K
+                                 <svg class="size-[18px] stroke-blue lg:hidden">
+                                    <use href="/img/sprite.svg#shield-tick">
+                                 </svg>
+                              </p>
+                              <button class="ml-auto size-[30px] border-[1px] border-solid border-gray-light rounded-full shrink-0 flex items-center justify-center lg:hidden">
+                                 <svg class="size-[14px] stroke-gray-c9ca5b3">
+                                    <use href="/img/sprite.svg#eye-slash">
+                                 </svg>
+                              </button>
+                           </div>
+                           <ul class="mt-3 flex gap-2 flex-wrap [&>li]:basis-[calc(50%-4px)] lg:[&>li]:basis-full">
+                              <li class="shrink-0 flex items-center gap-[6px] grow">
+                                 <span class="size-[28px] rounded-full shrink-0 bg-gray-fafafc flex items-center justify-center lg:size-[32px]">
+                                    <svg class="size-4 stroke-blue lg:size-[18px]">
+                                       <use href="/img/sprite.svg#shield-tick">
+                                    </svg>
+                                 </span>
+                                 <p class="font-Satoshi font-bold text-xs text-black lg:text-sm">Identity confirmed</p>
+                              </li>
+                              <li class="shrink-0 flex items-center gap-[6px] grow">
+                                 <span class="size-[28px] rounded-full shrink-0 bg-gray-fafafc flex items-center justify-center lg:size-[32px]">
+                                    <svg class="size-4 stroke-gray-c575e6a lg:size-[18px]">
+                                       <use href="/img/sprite.svg#global">
+                                    </svg>
+                                 </span>
+                                 <p class="font-Satoshi font-bold text-xs text-black lg:text-sm">RUS, UZ, ENG</p>
+                              </li>
+                              <li class="shrink-0 flex items-center gap-[6px] grow">
+                                 <span class="size-[28px] rounded-full shrink-0 bg-gray-fafafc flex items-center justify-center lg:size-[32px]">
+                                    <svg class="size-4 stroke-gray-c575e6a lg:size-[18px]">
+                                       <use href="/img/sprite.svg#location">
+                                    </svg>
+                                 </span>
+                                 <p class="font-Satoshi font-bold text-xs text-black lg:text-sm">Uzbekistan</p>
+                              </li>
+                              <li class="shrink-0 flex items-center gap-[6px] grow">
+                                 <span class="size-[28px] rounded-full shrink-0 bg-gray-fafafc flex items-center justify-center lg:size-[32px]">
+                                    <svg class="size-4 stroke-gray-c575e6a lg:size-[18px]">
+                                       <use href="/img/sprite.svg#call">
+                                    </svg>
+                                 </span>
+                                 <p class="font-Satoshi font-bold text-xs text-black lg:text-sm">Phone confirmed</p>
+                              </li>
+                              <li class="shrink-0 flex items-center gap-[6px] grow">
+                                 <span class="size-[28px] rounded-full shrink-0 bg-gray-fafafc flex items-center justify-center lg:size-[32px]">
+                                    <svg class="size-4 stroke-gray-c575e6a lg:size-[18px]">
+                                       <use href="/img/sprite.svg#user-octagon">
+                                    </svg>
+                                 </span>
+                                 <p class="font-Satoshi font-bold text-xs text-black lg:flex lg:flex-col lg:text-sm">
+                                    <span class="text-gray-c9ca5b3">Member since</span> February 2, 2016
+                                 </p>
+                              </li>
+                           </ul>
+                           <div class="mt-[30px] grid grid-cols-2 rounded-[100px] bg-gray-fafafc">
+                              <button class="font-Satoshi font-bold text-sm text-gray-c9ca5b3 leading-tight flex items-center justify-center gap-1 p-[10px] rounded-[100px]">
+                                 <svg class="size-4 stroke-gray-c9ca5b3 shrink-0">
+                                    <use href="/img/sprite.svg#briefcase">
+                                 </svg>
+                                 Client
+                              </button>
+                              <button class="font-Satoshi font-bold text-sm text-blue leading-tight flex items-center justify-center gap-1 p-[10px] rounded-[100px] bg-blue-cedf4ff">
+                                 <svg class="size-4 stroke-blue shrink-0">
+                                    <use href="/img/sprite.svg#brush">
+                                 </svg>
+                                 Seller
+                              </button>
+                           </div>
+                        </div>
+                     </div>
+                     <div class="hidden lg:block pl-6">
+                        <div class="" data-container="about" data-container-query="(min-width: 991px)">
+                        </div>
+                     </div>
+                  </div>
+                  <div class="lg:w-[340px] lg:shrink-0 xl:w-[365px]">
+                     <div class="" data-container="about" >
+                        <div class=" pt-4 pb-5 px-3 rounded-[14px] bg-white lg:p-0">
+                           <div class="flex flex-col gap-[15px] lg:gap-6">
+                              <div class="" data-container="user" data-container-query="(min-width: 991px)">
+                              </div>
+                              <div class="rounded-2xl bg-gray-fafafc p-[15px] lg:bg-transparent lg:p-0">
+                                 <p class="font-Satoshi font-bold text-black text-base leading-tight">About me</p>
+                                 <p class="mt-2 font-Satoshi font-normal text-sm leading-tight text-gray-c575e6a lg:text-base lg:leading-tight lg:mt-[10px]">
+                                    During its work, more than 100 projects of varying levels of complexity were completed. 
+                                    What can I offer you:
+                                    -Layout of websites of any level of complexity
+                                 </p>
+                                 <button class="flex items-center gap-2 py-2 px-4 rounded-xl bg-white mt-5 lg:bg-gray-fafafc">
+                                    Read full description
+                                    <svg class="size-3 stroke-black">
+                                       <use href="/img/sprite.svg#plus">
+                                    </svg>
+                                 </button>
+                                 <p class="mt-5 font-Satoshi font-bold text-black text-base leading-tight">Skills</p>
+                                 <ul class="mt-[10px] flex flex-wrap gap-1">
+                                    <li class="p-[10.5px_12px] border-[1px] border-solid border-gray-cf1f3f9 rounded-[100px] whitespace-nowrap font-Satoshi font-bold text-xs text-gray-c575e6a">
+                                       Bitrix24
+                                    </li>
+                                    <li class="p-[10.5px_12px] border-[1px] border-solid border-gray-cf1f3f9 rounded-[100px] whitespace-nowrap font-Satoshi font-bold text-xs text-gray-c575e6a">
+                                       Development on 1C-Bitrix
+                                    </li>
+                                    <li class="p-[10.5px_12px] border-[1px] border-solid border-gray-cf1f3f9 rounded-[100px] whitespace-nowrap font-Satoshi font-bold text-xs text-gray-c575e6a">
+                                       Bitrix24
+                                    </li>
+                                    <li class="p-[10.5px_12px] border-[1px] border-solid border-gray-cf1f3f9 rounded-[100px] whitespace-nowrap font-Satoshi font-bold text-xs text-gray-c575e6a">
+                                       Development on 1C-Bitrix
+                                    </li>
+                                    <li class="flex items-center gap-[5px] cursor-pointer p-[10.5px_12px] border-[1px] border-solid border-gray-cf1f3f9 rounded-[100px] whitespace-nowrap font-Satoshi font-bold text-xs text-gray-c575e6a">
+                                        Show all skills (20)
+                                       <span class="size-[18px] rounded-full shrink-0 bg-gray-cf1f3f9 flex items-center justify-center">
+                                          <svg class="size-[9px] stroke-black">
+                                             <use href="/img/sprite.svg#plus">
+                                          </svg>
+                                       </span>
+                                    </li>
+                                 </ul>
+                              </div>
+                              <button class="flex items-center gap-[5px] w-full lg:w-fit">
+                                 <svg class="size-4 stroke-gray-c575e6a">
+                                    <use href="/img/sprite.svg#tag">
+                                 </svg>
+                                 Prices for services
+                                 <span class="ml-auto size-[30px] rounded-full shrink-0 flex items-center justify-center bg-gray-fafafc">
+                                    <svg class="size-3 stroke-black">
+                                       <use href="/img/sprite.svg#plus">
+                                    </svg>
+                                 </span>
+                              </button>
+                              <button class="flex items-center gap-[5px] w-full lg:w-fit">
+                                 <svg class="size-4 stroke-gray-c575e6a">
+                                    <use href="/img/sprite.svg#medal">
+                                 </svg>
+                                 Certificates
+                                 <span class="ml-auto size-[30px] rounded-full shrink-0 flex items-center justify-center bg-gray-fafafc">
+                                    <svg class="size-3 stroke-black">
+                                       <use href="/img/sprite.svg#plus">
+                                    </svg>
+                                 </span>
+                              </button>
+                           </div>
+                        </div>
+                     </div>
+                     <div class="" data-container="about" data-container-query="(max-width: 990px)">
+                     </div>
+                     <div class="" data-container="rating" data-container-query="(min-width: 991px)">
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </section>
+         <div>
+            <div class="app-container">
+               <div>
+                  <div class="flex flex-col gap-[5px] md:grid md:grid-cols-3 xl:grid-cols-5">
+                     <div 
+                        class="w-full tab-item w-full" 
+                        data-accordeon="" 
+                        data-accordeon-smooth="true"
+                        data-accordeon-adaptive="true"
+                        data-accordeon-media="(max-width: 767px)"
+                        >
+                        <button 
+                           class="tab-item-button border-[1px] border-solid border-transparent p-4 rounded-2xl bg-white flex items-center gap-[10px] w-full text-left" 
+                           data-accordeon="button"
+                           data-tab-content="services"
+                           >
+                           <span class="flex items-center justify-center size-11 rounded-xl border-[1px] border-solid border-black/10 bg-transparent">
+                              <svg class="size-5 stroke-gray-c575e6a">
+                                 <use href="/img/sprite.svg#shapes">
+                              </svg>
+                           </span>
+                           <span class="flex flex-col gap-[2px]">
+                           <span class="font-Satoshi font-bold text-base leading-tight text-black">Services</span>
+                           <span class="font-sans font-medium text-xs leading-tight text-gray-c9ca5b3">Your current active services</span>
+                           </span>
+                           <span class="ml-auto size-3 mr-1 md:hidden" data-accordeon="arrow">
+                              <svg class="size-full stroke-black">
+                                 <use href="/img/sprite.svg#arrow-down">
+                              </svg>
+                           </span>
+                        </button>
+                        <div class="" data-accordeon="content">
+                           <div class="tab-item w-full" data-container="services" data-container-query="(max-width: 767px)">
+                           </div>
+                           <div class="tab-item w-full" data-container="services" >
+                              <div data-content="services" class="pt-[10px] pb-1">
+                                 <p class="font-Satoshi font-bold text-base leading-tight text-black md:text-2xl md:leading-tight">
+                                    My services
+                                 </p>
+                                 <div class="[&>p+div]:mt-[10px] mt-[10px]">
+                                    <div class="md:-mx-[10px] ">
+                                       <div class="swiper" data-swiper="">
+                                          <div class="swiper-wrapper flex flex-col gap-[10px] md:flex-row md:gap-0">
+                                             <div class="swiper-slide md:!w-[270px]">
+                                                <div class="md:px-[5px]">
+                                                   <div 
+                                                      class=" flex items-center p-2 rounded-[14px] bg-white md:flex-col md:pb-[10px] cursor-pointer md:rounded-3xl"
+                                                      data-href=""
+                                                      >
+                                                      <div class="h-[100px] rounded-xl relative w-[42.5%] sm:h-40 sm:rounded-2xl md:w-full">
+                                                         <button class="hidden size-9 rounded-full shrink-0 items-center justify-center bg-gray-fafafc md:flex md:absolute md:top-2 md:right-2 md:size-10">
+                                                            <svg class="size-4 stroke-blue">
+                                                               <use href="/img/sprite.svg#heart">
+                                                            </svg>
+                                                         </button>
+                                                         <img 
+                                                            src="/img/temp/product.jpg" 
+                                                            class="img-fill"
+                                                            alt=""
+                                                            >
+                                                         <span class="absolute bottom-[5px] left-[5px] p-[6px] rounded-md bg-white/90 text-[8px] font-Satoshi font-bold text-gray sm:text-[10px] sm:bottom-2 sm:left-2 md:py-1 md:px-3 md:rounded-lg">PRO ⭐️</span>
+                                                      </div>
+                                                      <div class="w-[56.7%] pl-2 sm:pl-4 md:w-full md:px-2">
+                                                         <div class="flex items-start gap-1">
+                                                            <p class="font-Satoshi font-bold text-sm leading-tight text-black overflow-line-2 pt-[6px] sm:text-base">
+                                                               I will make a full brand book &amp; guidline
+                                                            </p>
+                                                            <button class="size-9 rounded-full shrink-0 flex items-center justify-center bg-gray-fafafc md:hidden">
+                                                               <svg class="size-4 stroke-[1.5px] stroke-blue">
+                                                                  <use href="/img/sprite.svg#heart">
+                                                               </svg>
+                                                            </button>
+                                                         </div>
+                                                         <p class="pt-1 font-Satoshi font-bold text-xs leading-tight text-blue sm:text-base sm:pt-[6px]">
+                                                            <span class="font-medium text-gray">From</span> 100 000 UZS
+                                                         </p>
+                                                         <div class="pt-3 flex items-center gap-1 sm:gap-[6px] sm:pt-4">
+                                                            <div class="size-5 rounded-full relative sm:size-7">
+                                                               <img src="/img/temp/person.jpg" class="img-fill" alt="">
+                                                            </div>
+                                                            <div class="flex flex-col">
+                                                               <p class="font-Satoshi font-bold text-[10px] leading-none overflow-line-1 sm:text-xs md:text-gray-c575e6a">
+                                                                  James K.
+                                                               </p>
+                                                               <p class="font-Satoshi pt-1 font-medium text-[8px] leading-none text-gray sm:text-[10px]">
+                                                                  Advanced
+                                                               </p>
+                                                            </div>
+                                                            <div class="ml-auto flex items-center gap-[2px] py-1 px-2 rounded-[100px] bg-gray-fafafc sm:gap-2 md:gap-1">
+                                                               <svg class="size-2 fill-yellow shrink-0 -translate-y-[10%] sm:size-3">
+                                                                  <use href="/img/sprite.svg#star">
+                                                               </svg>
+                                                               <span class="font-Satoshi font-bold text-sm leading-tight text-black sm:text-sm">
+                                                               4.8
+                                                               </span>
+                                                               <span class="font-Satoshi font-normal text-sm leading-tight sm:text-sm text-gray-b7c3d6">
+                                                               (45)
+                                                               </span>
+                                                            </div>
+                                                         </div>
+                                                      </div>
+                                                   </div>
+                                                </div>
+                                             </div>
+                                             <div class="swiper-slide md:!w-[270px]">
+                                                <div class="md:px-[5px]">
+                                                   <div 
+                                                      class=" flex items-center p-2 rounded-[14px] bg-white md:flex-col md:pb-[10px] cursor-pointer md:rounded-3xl"
+                                                      data-href=""
+                                                      >
+                                                      <div class="h-[100px] rounded-xl relative w-[42.5%] sm:h-40 sm:rounded-2xl md:w-full">
+                                                         <button class="hidden size-9 rounded-full shrink-0 items-center justify-center bg-gray-fafafc md:flex md:absolute md:top-2 md:right-2 md:size-10">
+                                                            <svg class="size-4 stroke-blue">
+                                                               <use href="/img/sprite.svg#heart">
+                                                            </svg>
+                                                         </button>
+                                                         <img 
+                                                            src="/img/temp/product.jpg" 
+                                                            class="img-fill"
+                                                            alt=""
+                                                            >
+                                                         <span class="absolute bottom-[5px] left-[5px] p-[6px] rounded-md bg-white/90 text-[8px] font-Satoshi font-bold text-gray sm:text-[10px] sm:bottom-2 sm:left-2 md:py-1 md:px-3 md:rounded-lg">PRO ⭐️</span>
+                                                      </div>
+                                                      <div class="w-[56.7%] pl-2 sm:pl-4 md:w-full md:px-2">
+                                                         <div class="flex items-start gap-1">
+                                                            <p class="font-Satoshi font-bold text-sm leading-tight text-black overflow-line-2 pt-[6px] sm:text-base">
+                                                               I will make a full brand book &amp; guidline
+                                                            </p>
+                                                            <button class="size-9 rounded-full shrink-0 flex items-center justify-center bg-gray-fafafc md:hidden">
+                                                               <svg class="size-4 stroke-[1.5px] stroke-blue">
+                                                                  <use href="/img/sprite.svg#heart">
+                                                               </svg>
+                                                            </button>
+                                                         </div>
+                                                         <p class="pt-1 font-Satoshi font-bold text-xs leading-tight text-blue sm:text-base sm:pt-[6px]">
+                                                            <span class="font-medium text-gray">From</span> 100 000 UZS
+                                                         </p>
+                                                         <div class="pt-3 flex items-center gap-1 sm:gap-[6px] sm:pt-4">
+                                                            <div class="size-5 rounded-full relative sm:size-7">
+                                                               <img src="/img/temp/person.jpg" class="img-fill" alt="">
+                                                            </div>
+                                                            <div class="flex flex-col">
+                                                               <p class="font-Satoshi font-bold text-[10px] leading-none overflow-line-1 sm:text-xs md:text-gray-c575e6a">
+                                                                  James K.
+                                                               </p>
+                                                               <p class="font-Satoshi pt-1 font-medium text-[8px] leading-none text-gray sm:text-[10px]">
+                                                                  Advanced
+                                                               </p>
+                                                            </div>
+                                                            <div class="ml-auto flex items-center gap-[2px] py-1 px-2 rounded-[100px] bg-gray-fafafc sm:gap-2 md:gap-1">
+                                                               <svg class="size-2 fill-yellow shrink-0 -translate-y-[10%] sm:size-3">
+                                                                  <use href="/img/sprite.svg#star">
+                                                               </svg>
+                                                               <span class="font-Satoshi font-bold text-sm leading-tight text-black sm:text-sm">
+                                                               4.8
+                                                               </span>
+                                                               <span class="font-Satoshi font-normal text-sm leading-tight sm:text-sm text-gray-b7c3d6">
+                                                               (45)
+                                                               </span>
+                                                            </div>
+                                                         </div>
+                                                      </div>
+                                                   </div>
+                                                </div>
+                                             </div>
+                                             <div class="swiper-slide md:!w-[270px]">
+                                                <div class="md:px-[5px]">
+                                                   <div 
+                                                      class=" flex items-center p-2 rounded-[14px] bg-white md:flex-col md:pb-[10px] cursor-pointer md:rounded-3xl"
+                                                      data-href=""
+                                                      >
+                                                      <div class="h-[100px] rounded-xl relative w-[42.5%] sm:h-40 sm:rounded-2xl md:w-full">
+                                                         <button class="hidden size-9 rounded-full shrink-0 items-center justify-center bg-gray-fafafc md:flex md:absolute md:top-2 md:right-2 md:size-10">
+                                                            <svg class="size-4 stroke-blue">
+                                                               <use href="/img/sprite.svg#heart">
+                                                            </svg>
+                                                         </button>
+                                                         <img 
+                                                            src="/img/temp/product.jpg" 
+                                                            class="img-fill"
+                                                            alt=""
+                                                            >
+                                                         <span class="absolute bottom-[5px] left-[5px] p-[6px] rounded-md bg-white/90 text-[8px] font-Satoshi font-bold text-gray sm:text-[10px] sm:bottom-2 sm:left-2 md:py-1 md:px-3 md:rounded-lg">PRO ⭐️</span>
+                                                      </div>
+                                                      <div class="w-[56.7%] pl-2 sm:pl-4 md:w-full md:px-2">
+                                                         <div class="flex items-start gap-1">
+                                                            <p class="font-Satoshi font-bold text-sm leading-tight text-black overflow-line-2 pt-[6px] sm:text-base">
+                                                               I will make a full brand book &amp; guidline
+                                                            </p>
+                                                            <button class="size-9 rounded-full shrink-0 flex items-center justify-center bg-gray-fafafc md:hidden">
+                                                               <svg class="size-4 stroke-[1.5px] stroke-blue">
+                                                                  <use href="/img/sprite.svg#heart">
+                                                               </svg>
+                                                            </button>
+                                                         </div>
+                                                         <p class="pt-1 font-Satoshi font-bold text-xs leading-tight text-blue sm:text-base sm:pt-[6px]">
+                                                            <span class="font-medium text-gray">From</span> 100 000 UZS
+                                                         </p>
+                                                         <div class="pt-3 flex items-center gap-1 sm:gap-[6px] sm:pt-4">
+                                                            <div class="size-5 rounded-full relative sm:size-7">
+                                                               <img src="/img/temp/person.jpg" class="img-fill" alt="">
+                                                            </div>
+                                                            <div class="flex flex-col">
+                                                               <p class="font-Satoshi font-bold text-[10px] leading-none overflow-line-1 sm:text-xs md:text-gray-c575e6a">
+                                                                  James K.
+                                                               </p>
+                                                               <p class="font-Satoshi pt-1 font-medium text-[8px] leading-none text-gray sm:text-[10px]">
+                                                                  Advanced
+                                                               </p>
+                                                            </div>
+                                                            <div class="ml-auto flex items-center gap-[2px] py-1 px-2 rounded-[100px] bg-gray-fafafc sm:gap-2 md:gap-1">
+                                                               <svg class="size-2 fill-yellow shrink-0 -translate-y-[10%] sm:size-3">
+                                                                  <use href="/img/sprite.svg#star">
+                                                               </svg>
+                                                               <span class="font-Satoshi font-bold text-sm leading-tight text-black sm:text-sm">
+                                                               4.8
+                                                               </span>
+                                                               <span class="font-Satoshi font-normal text-sm leading-tight sm:text-sm text-gray-b7c3d6">
+                                                               (45)
+                                                               </span>
+                                                            </div>
+                                                         </div>
+                                                      </div>
+                                                   </div>
+                                                </div>
+                                             </div>
+                                          </div>
+                                       </div>
+                                    </div>
+                                 </div>
+                                 <button 
+                                    class="flex items-center gap-[6px] font-Satoshi font-medium text-sm leading-none text-black px-[15px] py-3 rounded-xl bg-black text-white w-full mt-[10px] justify-center md:max-w-[180px] md:mx-auto md:mt-5 md:min-h-[50px] md:bg-transparent md:border-[1px] md:border-solid md:border-gray-caeb5bf md:text-black md:[&amp;&gt;svg]:stroke-black md:gap-2 md:font-bold" 
+                                    >
+                                    Show More
+                                    <svg class="stroke-white size-3">
+                                       <use href="/img/sprite.svg#plus">
+                                    </svg>
+                                 </button>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                     <div 
+                        class="w-full tab-item w-full" 
+                        data-accordeon="" 
+                        data-accordeon-smooth="true"
+                        data-accordeon-adaptive="true"
+                        data-accordeon-media="(max-width: 767px)"
+                        >
+                        <button 
+                           class="tab-item-button border-[1px] border-solid border-transparent p-4 rounded-2xl bg-white flex items-center gap-[10px] w-full text-left" 
+                           data-accordeon="button"
+                           data-tab-content="cert"
+                           >
+                           <span class="flex items-center justify-center size-11 rounded-xl border-[1px] border-solid border-black/10 bg-transparent">
+                              <svg class="size-5 stroke-gray-c575e6a">
+                                 <use href="/img/sprite.svg#medal">
+                              </svg>
+                           </span>
+                           <span class="flex flex-col gap-[2px]">
+                           <span class="font-Satoshi font-bold text-base leading-tight text-black">Certificates</span>
+                           <span class="font-sans font-medium text-xs leading-tight text-gray-c9ca5b3">Upload and manage certificates</span>
+                           </span>
+                           <span class="ml-auto size-3 mr-1 md:hidden" data-accordeon="arrow">
+                              <svg class="size-full stroke-black">
+                                 <use href="/img/sprite.svg#arrow-down">
+                              </svg>
+                           </span>
+                        </button>
+                        <div class="" data-accordeon="content">
+                           <div class="tab-item w-full" data-container="cert" data-container-query="(max-width: 767px)">
+                           </div>
+                           <div class="tab-item w-full" data-container="cert" >
+                              <div data-content="cert" class="pt-[10px] pb-1">
+                                 <div class="xl:gap-6 lg:grid-cols-5 md:grid md:grid-cols-3 flex flex-wrap gap-[9px]">
+                                    <div class="md:flex md:flex-col md:p-[10px] md:pt-10 basis-full p-[15px_9px] bg-white rounded-[20px] border-[1px] border-solid border-black/10% text-center">
+                                       <p class="font-Satoshi font-bold text-xs leading-tight text-gray-c9ca5b3 uppercase">
+                                          New certificate
+                                       </p>
+                                       <p class="xl:px-1 md:text-base md:leading-tight mt-[5px] mx-auto max-w-[303px] text-center font-Satoshi font-bold text-sm leading-tight text-black sm:font-base sm:leading-tight">
+                                          Upload the certificate and gain more trust from buyers!
+                                       </p>
+                                       <button class="md:mt-auto md:flex-col md:p-[42.5px] mt-[14px] p-4 bg-blue-cedf4ff rounded-xl flex items-center justify-center gap-[10px] font-Satoshi font-bold text-sm leading-tight text-blue w-full">
+                                          Upload certificate
+                                          <svg class="md:size-5 md:-order-1 size-[18px] stroke-blue shrink-0">
+                                             <use href="/img/sprite.svg#document-upload">
+                                          </svg>
+                                       </button>
+                                    </div>
+                                    <div class="basis-[calc(50%-4.5px)]">
+                                       <div class="p-[5px] pb-5 rounded-[20px] bg-white">
+                                          <div class="sm:h-[217px] rounded-2xl bg-blue-cedf4ff relative h-[190px]">
+                                             <button class="absolute right-1 top-1 z-[1] font-Satoshi font-bold text-sm leading-tight text-gray-b7c3d6 flex items-center gap-[2px] p-[10.5px_18px] rounded-xl bg-white sm:hidden">
+                                                <svg class="size-[14px] stroke-gray-cb7c3d6">
+                                                   <use href="/img/sprite.svg#settings-2">
+                                                </svg>
+                                                Edit 
+                                             </button>
+                                          </div>
+                                          <div class="px-3 mt-2">
+                                             <p class="sm:text-base sm:leading-tight font-Satoshi font-bold text-sm leading-tight text-black">
+                                                Lorem ipsum
+                                             </p>
+                                             <button class="hidden mt-[5px] font-Satoshi font-bold text-base leading-tight text-gray-b7c3d6 sm:flex items-center gap-[2px]">
+                                                <svg class="size-4 stroke-gray-cb7c3d6">
+                                                   <use href="/img/sprite.svg#settings-2">
+                                                </svg>
+                                                Edit 
+                                             </button>
+                                          </div>
+                                       </div>
+                                    </div>
+                                    <div class="basis-[calc(50%-4.5px)]">
+                                       <div class="p-[5px] pb-5 rounded-[20px] bg-white">
+                                          <div class="sm:h-[217px] rounded-2xl bg-blue-cedf4ff relative h-[190px]">
+                                             <button class="absolute right-1 top-1 z-[1] font-Satoshi font-bold text-sm leading-tight text-gray-b7c3d6 flex items-center gap-[2px] p-[10.5px_18px] rounded-xl bg-white sm:hidden">
+                                                <svg class="size-[14px] stroke-gray-cb7c3d6">
+                                                   <use href="/img/sprite.svg#settings-2">
+                                                </svg>
+                                                Edit 
+                                             </button>
+                                          </div>
+                                          <div class="px-3 mt-2">
+                                             <p class="sm:text-base sm:leading-tight font-Satoshi font-bold text-sm leading-tight text-black">
+                                                Lorem ipsum
+                                             </p>
+                                             <button class="hidden mt-[5px] font-Satoshi font-bold text-base leading-tight text-gray-b7c3d6 sm:flex items-center gap-[2px]">
+                                                <svg class="size-4 stroke-gray-cb7c3d6">
+                                                   <use href="/img/sprite.svg#settings-2">
+                                                </svg>
+                                                Edit 
+                                             </button>
+                                          </div>
+                                       </div>
+                                    </div>
+                                    <div class="basis-[calc(50%-4.5px)]">
+                                       <div class="p-[5px] pb-5 rounded-[20px] bg-white">
+                                          <div class="sm:h-[217px] rounded-2xl bg-blue-cedf4ff relative h-[190px]">
+                                             <button class="absolute right-1 top-1 z-[1] font-Satoshi font-bold text-sm leading-tight text-gray-b7c3d6 flex items-center gap-[2px] p-[10.5px_18px] rounded-xl bg-white sm:hidden">
+                                                <svg class="size-[14px] stroke-gray-cb7c3d6">
+                                                   <use href="/img/sprite.svg#settings-2">
+                                                </svg>
+                                                Edit 
+                                             </button>
+                                          </div>
+                                          <div class="px-3 mt-2">
+                                             <p class="sm:text-base sm:leading-tight font-Satoshi font-bold text-sm leading-tight text-black">
+                                                Lorem ipsum
+                                             </p>
+                                             <button class="hidden mt-[5px] font-Satoshi font-bold text-base leading-tight text-gray-b7c3d6 sm:flex items-center gap-[2px]">
+                                                <svg class="size-4 stroke-gray-cb7c3d6">
+                                                   <use href="/img/sprite.svg#settings-2">
+                                                </svg>
+                                                Edit 
+                                             </button>
+                                          </div>
+                                       </div>
+                                    </div>
+                                    <div class="basis-[calc(50%-4.5px)]">
+                                       <div class="p-[5px] pb-5 rounded-[20px] bg-white">
+                                          <div class="sm:h-[217px] rounded-2xl bg-blue-cedf4ff relative h-[190px]">
+                                             <button class="absolute right-1 top-1 z-[1] font-Satoshi font-bold text-sm leading-tight text-gray-b7c3d6 flex items-center gap-[2px] p-[10.5px_18px] rounded-xl bg-white sm:hidden">
+                                                <svg class="size-[14px] stroke-gray-cb7c3d6">
+                                                   <use href="/img/sprite.svg#settings-2">
+                                                </svg>
+                                                Edit 
+                                             </button>
+                                          </div>
+                                          <div class="px-3 mt-2">
+                                             <p class="sm:text-base sm:leading-tight font-Satoshi font-bold text-sm leading-tight text-black">
+                                                Lorem ipsum
+                                             </p>
+                                             <button class="hidden mt-[5px] font-Satoshi font-bold text-base leading-tight text-gray-b7c3d6 sm:flex items-center gap-[2px]">
+                                                <svg class="size-4 stroke-gray-cb7c3d6">
+                                                   <use href="/img/sprite.svg#settings-2">
+                                                </svg>
+                                                Edit 
+                                             </button>
+                                          </div>
+                                       </div>
+                                    </div>
+                                 </div>
+                                 <button 
+                                    class="flex items-center gap-[6px] font-Satoshi font-medium text-sm leading-none text-black px-[15px] py-3 rounded-xl bg-black text-white w-full mt-[10px] justify-center md:max-w-[230px] md:mx-auto md:mt-5 md:min-h-[50px] md:bg-transparent md:border-[1px] md:border-solid md:border-gray-caeb5bf md:text-black md:[&amp;&gt;svg]:stroke-black md:gap-2 md:font-bold" 
+                                    >
+                                    Show More Certificates
+                                    <svg class="stroke-white size-3">
+                                       <use href="/img/sprite.svg#plus">
+                                    </svg>
+                                 </button>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                     <div 
+                        class="w-full tab-item w-full" 
+                        data-accordeon="" 
+                        data-accordeon-smooth="true"
+                        data-accordeon-adaptive="true"
+                        data-accordeon-media="(max-width: 767px)"
+                        >
+                        <button 
+                           class="tab-item-button border-[1px] border-solid border-transparent p-4 rounded-2xl bg-white flex items-center gap-[10px] w-full text-left" 
+                           data-accordeon="button"
+                           data-tab-content="portfolio"
+                           >
+                           <span class="flex items-center justify-center size-11 rounded-xl border-[1px] border-solid border-black/10 bg-transparent">
+                              <svg class="size-5 stroke-gray-c575e6a">
+                                 <use href="/img/sprite.svg#gallery">
+                              </svg>
+                           </span>
+                           <span class="flex flex-col gap-[2px]">
+                           <span class="font-Satoshi font-bold text-base leading-tight text-black">Portfolio</span>
+                           <span class="font-sans font-medium text-xs leading-tight text-gray-c9ca5b3">Show your best works</span>
+                           </span>
+                           <span class="ml-auto size-3 mr-1 md:hidden" data-accordeon="arrow">
+                              <svg class="size-full stroke-black">
+                                 <use href="/img/sprite.svg#arrow-down">
+                              </svg>
+                           </span>
+                        </button>
+                        <div class="" data-accordeon="content">
+                           <div class="tab-item w-full" data-container="portfolio" data-container-query="(max-width: 767px)">
+                           </div>
+                           <div class="tab-item w-full" data-container="portfolio" >
+                              <div data-content="portfolio" class="pt-[10px] pb-[5px]">
+                                 <div class="md:p-6 md:pt-4 md:rounded-3xl md:bg-white">
+                                    <div class="p-4 rounded-xl bg-white md:flex md:justify-between md:items-start md:bg-transparent md:rounded-none md:p-0">
+                                       <div>
+                                          <p class="font-Satoshi font-bold text-base leading-tight text-black md:text-2xl md:leading-tight">
+                                             My portfolio
+                                          </p>
+                                          <div class="mt-3 rounded-xl bg-white flex flex-col items-start lg:p-0 md:mt-4" data-hs="">
+                                             <div class="rounded-xl bg-gray-fafafc flex items-center max-w-full  p-2">
+                                                <button class="size-9 flex items-center justify-center" data-hs="prev">
+                                                   <svg class="-scale-x-100 size-3 stroke-black">
+                                                      <use href="/img/sprite.svg#arrow-right">
+                                                   </svg>
+                                                </button>
+                                                <div class="overflow-hidden scrollbar-none" data-hs="container">
+                                                   <div class="flex items-center shrink-0 w-fit" data-hs="wrapper">
+                                                      <button data-hs="item" class="font-Satoshi font-medium text-gray-c9ca5b3 min-w-[86px] p-[6px] shrink-0 rounded-[10px] text-center whitespace-nowrap first:bg-white lg:min-w-[65px] first:font-bold first:text-black">
+                                                      All
+                                                      </button>
+                                                      <button data-hs="item" class="font-Satoshi font-medium text-gray-c9ca5b3 min-w-[86px] p-[6px] shrink-0 rounded-[10px] text-center whitespace-nowrap first:bg-white lg:min-w-[65px] first:font-bold first:text-black">
+                                                      Site creation
+                                                      </button>
+                                                      <button data-hs="item" class="font-Satoshi font-medium text-gray-c9ca5b3 min-w-[86px] p-[6px] shrink-0 rounded-[10px] text-center whitespace-nowrap first:bg-white lg:min-w-[65px] first:font-bold first:text-black">
+                                                      Link building
+                                                      </button>
+                                                   </div>
+                                                </div>
+                                                <button class="size-9 flex items-center justify-center" data-hs="next">
+                                                   <svg class="size-3 stroke-black">
+                                                      <use href="/img/sprite.svg#arrow-right">
+                                                   </svg>
+                                                </button>
+                                             </div>
+                                          </div>
+                                       </div>
+                                       <button class="font-Satoshi font-medium text-base leading-tight text-blue py-[14px] min-h-[50px] mt-3 w-full flex items-center justify-center gap-[5px] rounded-xl bg-blue-cedf4ff md:max-w-[160px]">
+                                          <svg class="size-[18px] shrink-0 stroke-blue">
+                                             <use href="/img/sprite.svg#settings-2">
+                                          </svg>
+                                          Edit Portfolio
+                                       </button>
+                                    </div>
+                                    <div class="mt-[10px] grid gap-3 grid-cols-2 lg:grid-cols-4 lg:mt-5">
+                                       <a href="#" class="rounded-xl h-[118px] relative sm:h-[180px] md:h-[208px]">
+                                          <img class="img-fill relative z-0" src="/img/temp/project-4.jpg" alt="">
+                                          <span class="hidden opacity-0 transition-opacity lg:hover:opacity-100 lg:flex flex-col justify-between absolute inset-0 z-10 w-full h-full from-[#868686]/0 to-[#3B3B3B] bg-gradient-to-b rounded-xl p-[15px] pt-3">
+                                             <div class="flex justify-end">
+                                                <img 
+                                                   class="size-[30px] rounded-full object-cover object-center"
+                                                   src="/img/temp/o-5.jpg" 
+                                                   alt=""
+                                                   >
+                                                <span class="size-[30px] rounded-full flex items-center justify-center bg-blue -ml-3">
+                                                   <svg class="size-4 stroke-white">
+                                                      <use href="/img/sprite.svg#message">
+                                                   </svg>
+                                                </span>
+                                             </div>
+                                             <div class="flex items-end justify-between gap-2">
+                                                <p class="font-Satoshi font-bold text-base leading-tight text-white">
+                                                   Mobile adaptive design for corporate portal
+                                                </p>
+                                                <p class="flex items-center gap-[5px] font-Satoshi font-medium text-xs leading-tight text-[#B8B9BB]">
+                                                   <svg class="size-3 stroke-[#B8B9BB]">
+                                                      <use href="/img/sprite.svg#eye">
+                                                   </svg>
+                                                   120
+                                                </p>
+                                             </div>
+                                          </span>
+                                       </a>
+                                       <a href="#" class="rounded-xl h-[118px] relative sm:h-[180px] md:h-[208px]">
+                                          <img class="img-fill relative z-0" src="/img/temp/project-5.jpg" alt="">
+                                          <span class="hidden opacity-0 transition-opacity lg:hover:opacity-100 lg:flex flex-col justify-between absolute inset-0 z-10 w-full h-full from-[#868686]/0 to-[#3B3B3B] bg-gradient-to-b rounded-xl p-[15px] pt-3">
+                                             <div class="flex justify-end">
+                                                <img 
+                                                   class="size-[30px] rounded-full object-cover object-center"
+                                                   src="/img/temp/o-5.jpg" 
+                                                   alt=""
+                                                   >
+                                                <span class="size-[30px] rounded-full flex items-center justify-center bg-blue -ml-3">
+                                                   <svg class="size-4 stroke-white">
+                                                      <use href="/img/sprite.svg#message">
+                                                   </svg>
+                                                </span>
+                                             </div>
+                                             <div class="flex items-end justify-between gap-2">
+                                                <p class="font-Satoshi font-bold text-base leading-tight text-white">
+                                                   Mobile adaptive design for corporate portal
+                                                </p>
+                                                <p class="flex items-center gap-[5px] font-Satoshi font-medium text-xs leading-tight text-[#B8B9BB]">
+                                                   <svg class="size-3 stroke-[#B8B9BB]">
+                                                      <use href="/img/sprite.svg#eye">
+                                                   </svg>
+                                                   120
+                                                </p>
+                                             </div>
+                                          </span>
+                                       </a>
+                                       <a href="#" class="rounded-xl h-[118px] relative sm:h-[180px] md:h-[208px]">
+                                          <img class="img-fill relative z-0" src="/img/temp/project-6.jpg" alt="">
+                                          <span class="hidden opacity-0 transition-opacity lg:hover:opacity-100 lg:flex flex-col justify-between absolute inset-0 z-10 w-full h-full from-[#868686]/0 to-[#3B3B3B] bg-gradient-to-b rounded-xl p-[15px] pt-3">
+                                             <div class="flex justify-end">
+                                                <img 
+                                                   class="size-[30px] rounded-full object-cover object-center"
+                                                   src="/img/temp/o-5.jpg" 
+                                                   alt=""
+                                                   >
+                                                <span class="size-[30px] rounded-full flex items-center justify-center bg-blue -ml-3">
+                                                   <svg class="size-4 stroke-white">
+                                                      <use href="/img/sprite.svg#message">
+                                                   </svg>
+                                                </span>
+                                             </div>
+                                             <div class="flex items-end justify-between gap-2">
+                                                <p class="font-Satoshi font-bold text-base leading-tight text-white">
+                                                   Mobile adaptive design for corporate portal
+                                                </p>
+                                                <p class="flex items-center gap-[5px] font-Satoshi font-medium text-xs leading-tight text-[#B8B9BB]">
+                                                   <svg class="size-3 stroke-[#B8B9BB]">
+                                                      <use href="/img/sprite.svg#eye">
+                                                   </svg>
+                                                   120
+                                                </p>
+                                             </div>
+                                          </span>
+                                       </a>
+                                       <a href="#" class="rounded-xl h-[118px] relative sm:h-[180px] md:h-[208px]">
+                                          <img class="img-fill relative z-0" src="/img/temp/project-7.jpg" alt="">
+                                          <span class="hidden opacity-0 transition-opacity lg:hover:opacity-100 lg:flex flex-col justify-between absolute inset-0 z-10 w-full h-full from-[#868686]/0 to-[#3B3B3B] bg-gradient-to-b rounded-xl p-[15px] pt-3">
+                                             <div class="flex justify-end">
+                                                <img 
+                                                   class="size-[30px] rounded-full object-cover object-center"
+                                                   src="/img/temp/o-5.jpg" 
+                                                   alt=""
+                                                   >
+                                                <span class="size-[30px] rounded-full flex items-center justify-center bg-blue -ml-3">
+                                                   <svg class="size-4 stroke-white">
+                                                      <use href="/img/sprite.svg#message">
+                                                   </svg>
+                                                </span>
+                                             </div>
+                                             <div class="flex items-end justify-between gap-2">
+                                                <p class="font-Satoshi font-bold text-base leading-tight text-white">
+                                                   Mobile adaptive design for corporate portal
+                                                </p>
+                                                <p class="flex items-center gap-[5px] font-Satoshi font-medium text-xs leading-tight text-[#B8B9BB]">
+                                                   <svg class="size-3 stroke-[#B8B9BB]">
+                                                      <use href="/img/sprite.svg#eye">
+                                                   </svg>
+                                                   120
+                                                </p>
+                                             </div>
+                                          </span>
+                                       </a>
+                                    </div>
+                                    <button 
+                                       class="flex items-center gap-[6px] font-Satoshi font-medium text-sm leading-none text-black px-[15px] py-3 rounded-xl bg-black text-white w-full mt-[10px] justify-center md:max-w-[180px] md:mx-auto md:mt-5 md:min-h-[50px] md:bg-transparent md:border-[1px] md:border-solid md:border-gray-caeb5bf md:text-black md:[&amp;&gt;svg]:stroke-black md:gap-2 md:font-bold" 
+                                       >
+                                       Show more works
+                                       <svg class="stroke-white size-3">
+                                          <use href="/img/sprite.svg#plus">
+                                       </svg>
+                                    </button>
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                     <div 
+                        class="w-full tab-item w-full" 
+                        data-accordeon="" 
+                        data-accordeon-smooth="true"
+                        data-accordeon-adaptive="true"
+                        data-accordeon-media="(max-width: 767px)"
+                        >
+                        <button 
+                           class="tab-item-button border-[1px] border-solid border-transparent p-4 rounded-2xl bg-white flex items-center gap-[10px] w-full text-left" 
+                           data-accordeon="button"
+                           data-tab-content="reviews"
+                           >
+                           <span class="flex items-center justify-center size-11 rounded-xl border-[1px] border-solid border-black/10 bg-transparent">
+                              <svg class="size-5 stroke-gray-c575e6a">
+                                 <use href="/img/sprite.svg#message-text">
+                              </svg>
+                           </span>
+                           <span class="flex flex-col gap-[2px]">
+                           <span class="font-Satoshi font-bold text-base leading-tight text-black">Reviews</span>
+                           <span class="font-sans font-medium text-xs leading-tight text-gray-c9ca5b3">Reviews by customers</span>
+                           </span>
+                           <span class="ml-auto size-3 mr-1 md:hidden" data-accordeon="arrow">
+                              <svg class="size-full stroke-black">
+                                 <use href="/img/sprite.svg#arrow-down">
+                              </svg>
+                           </span>
+                        </button>
+                        <div class="" data-accordeon="content">
+                           <div class="tab-item w-full" data-container="reviews" data-container-query="(max-width: 767px)">
+                           </div>
+                           <div class="tab-item w-full" data-container="reviews" >
+                              <div data-content="reviews" class="pt-[10px] pb-[5px]">
+                                 <p class="hidden font-Satoshi font-bold text-2xl leading-tight text-black md:block">
+                                    Reviews by customers
+                                    <span class="text-gray-c9ca5b3">(12)</span>
+                                 </p>
+                                 <div class="md:py-[14px] md:px-6 md:rounded-3xl md:bg-white md:flex md:items-center md:gap-6 md:mt-4">
+                                    <div class="p-4 bg-white rounded-[14px] mg:rounded-none md:bg-transparent md:p-0">
+                                       <div class="flex items-center justify-between md:hidden">
+                                          <p class="font-Satoshi font-bold text-base leading-tight text-black">
+                                             Reviews by customers
+                                             <span class="text-gray-c9ca5b3">(12)</span>
+                                          </p>
+                                          <p class="flex items-center gap-3">
+                                             <span class="font-Satoshi font-bold text-base leading-tight text-black flex items-center gap-[2px] ml-3">
+                                                <svg class="size-[18px] stroke-blue">
+                                                   <use href="/img/sprite.svg#emoji-happy">
+                                                </svg>
+                                                10
+                                             </span>
+                                             <span class="font-Satoshi font-bold text-base leading-tight text-black flex items-center gap-[2px]">
+                                                <svg class="size-[18px] stroke-red-light">
+                                                   <use href="/img/sprite.svg#emoji-sad">
+                                                </svg>
+                                                2
+                                             </span>
+                                          </p>
+                                       </div>
+                                       <div class="w-full mt-4 bg-gray-fafafc rounded-b-[14px] md:mt-0 md:p-0">
+                                          <div class="bg-gray-fafafc rounded-xl p-[6px] flex">
+                                             <button class="basis-1/3 font-Satoshi font-medium text-sm leading-tight text-gray-c575e6a p-[6px] rounded-[10px] text-center first:bg-white first:font-bold first:text-black xl:px-4 whitespace-nowrap md:px-4">
+                                             All
+                                             </button>
+                                             <button class="basis-1/3 font-Satoshi font-medium text-sm leading-tight text-gray-c575e6a p-[6px] rounded-[10px] text-center first:bg-white first:font-bold first:text-black xl:px-4 whitespace-nowrap md:px-4">
+                                             Positive
+                                             </button>
+                                             <button class="basis-1/3 font-Satoshi font-medium text-sm leading-tight text-gray-c575e6a p-[6px] rounded-[10px] text-center first:bg-white first:font-bold first:text-black xl:px-4 whitespace-nowrap md:px-4">
+                                             Negative
+                                             </button>
+                                          </div>
+                                       </div>
+                                    </div>
+                                    <div class="flex items-start gap-1 w-full md:mb-0 flex-row-reverse justify-end items-center [&amp;&gt;div]:ml-3 my-4 md:mt-0" data-form-status="false">
+                                       <span class="font-Satoshi font-bold text-sm leading-tight text-gray-c575e6a">
+                                       Waiting for reply
+                                       </span>
+                                       <div class="ml-auto w-9 h-4 rounded-xl bg-black/10 p-[2px]  cursor-pointer ">
+                                          <div class="relative w-full h-full">
+                                             <span class="block rounded-full shadow-sm shadow-[#101828]/10 w-3 h-3 bg-white absolute left-0 top-1/2 -translate-y-1/2 transition-[left] "></span>
+                                          </div>
+                                       </div>
+                                    </div>
+                                 </div>
+                                 <div class="flex flex-col gap-[5px] lg:gap-2 md:mt-3">
+                                    <div class="p-[15px] rounded-[14px] bg-white lg:flex lg:gap-3 lg:justify-between lg:items-center">
+                                       <div class="">
+                                          <ul class="flex flex-wrap gap-[6px]">
+                                             <li class="flex items-center gap-2 py-[7px] px-3 md:py-[10px] md:px-5 rounded-[100px] bg-blue-cedf4ff font-Satoshi font-bold text-xs leading-tight text-blue md:text-sm md:leading-tight">
+                                                <svg class="size-4 stroke-blue">
+                                                   <use href="/img/sprite.svg#shapes">
+                                                </svg>
+                                                Websites adjustment and improvements
+                                             </li>
+                                          </ul>
+                                          <div class="bg-white p-[15px] rounded-[14px] mt-[15px] rounded-none p-0">
+                                             <div class="flex">
+                                                <div class="flex">
+                                                   <div class="size-[27px] rounded-full bg-blue flex items-center justify-center border-[1px] border-white relative z-10 xl:size-[45px]">
+                                                      <svg class="size-3 stroke-white xl:size-[18px]">
+                                                         <use href="/img/sprite.svg#emoji-happy">
+                                                      </svg>
+                                                   </div>
+                                                   <img 
+                                                      class="-ml-3 size-[45px] rounded-full shrink-0 relative z-0"
+                                                      src="/img/temp/o-1.jpg" 
+                                                      alt=""
+                                                      >
+                                                </div>
+                                                <div class="pl-[10px] xl:pl-3">
+                                                   <p class="mt-[7px] flex items-center gap-2 justify-between font-Satoshi font-bold text-black text-sm leading-none xl:flex-col xl:items-start">
+                                                      <span>Oliver Brown</span>
+                                                      <span class="whitespace-nowrap font-Satoshi font-medium text-gray-c9ca5b3 -translate-y-[7px] xl:mt-1">7 month ago</span>
+                                                   </p>
+                                                   <p class="mt-[10px] font-Satoshi font-medium text-black text-sm leading-tight xl:text-base xl:leading-tight xl:hidden">Everything is OK! I really liked our cooperation.</p>
+                                                </div>
+                                             </div>
+                                             <p class="hidden mt-4 font-Satoshi font-medium text-base leading-tight text-black xl:block pl-3">
+                                                Everything is OK! I really liked our cooperation. The work was completed to a high standard!
+                                             </p>
+                                             <div class="flex pl-4 xl:mt-4 xl:pl-[28px]">
+                                                <span class="w-10 h-8 border-l-[1px] border-b-[1px] rounded-bl-3xl">
+                                                </span>
+                                                <div 
+                                                   class="w-full mt-2 ml-[15px]" 
+                                                   data-accordeon="" 
+                                                   data-accordeon-smooth="true"
+                                                   data-accordeon-adaptive="true"
+                                                   data-accordeon-media="(max-width: 1124px)"
+                                                   >
+                                                   <div class="flex items-center gap-[15px] px-[10px] py-[6.5px] rounded-2xl bg-gray-cf1f3f9 xl:hidden" data-accordeon="button">
+                                                      <img 
+                                                         class="size-[30px] rounded-full img-fill"
+                                                         src="/img/temp/o-5.jpg" 
+                                                         alt=""
+                                                         >
+                                                      <span class="font-Satoshi font-bold text-sm leading-none text-black">
+                                                      Seller’s answer
+                                                      </span>
+                                                      <span class="ml-auto mr-2" data-accordeon="arrow">
+                                                         <svg class="size-3 stroke-black">
+                                                            <use href="/img/sprite.svg#arrow-down">
+                                                         </svg>
+                                                      </span>
+                                                   </div>
+                                                   <div class="hidden xl:flex xl:items-center">
+                                                      <img 
+                                                         class="size-[45px] rounded-full shrink-0 relative z-0"
+                                                         src="/img/temp/o-1.jpg" 
+                                                         alt=""
+                                                         >
+                                                      <div class="pl-3">
+                                                         <p class="font-Satoshi font-bold text-sm leading-tight text-black">Michael_M</p>
+                                                         <p class="mt-1 font-Satoshi font-medium text-sm leading-tight text-gray-c9ca5b3">7 month ago</p>
+                                                      </div>
+                                                   </div>
+                                                   <div data-accordeon="content">
+                                                      <p class="font-Satoshi font-medium text-black/80 py-2">
+                                                         Lorem ipsum sit dolor.
+                                                      </p>
+                                                   </div>
+                                                </div>
+                                             </div>
+                                          </div>
+                                       </div>
+                                       <img 
+                                          class="mt-[15px] w-[150px] h-[100px] rounded-xl object-cover object-center lg:w-[350px] lg:h-[234px] lg:mt-0"
+                                          src="/img/temp/project-5.jpg" 
+                                          alt=""
+                                          >
+                                    </div>
+                                    <div class="p-[15px] rounded-[14px] bg-white">
+                                       <div>
+                                          <ul class="flex flex-wrap gap-[6px]">
+                                             <li class="bg-gray-fafafc py-[7px] px-3 md:py-[10px] md:px-5 rounded-[100px] font-Satoshi font-bold text-xs leading-tight text-black md:text-sm md:leading-tight">
+                                                Individual order
+                                             </li>
+                                          </ul>
+                                          <div class="bg-white p-[15px] rounded-[14px] rounded-none p-0 mt-[15px]">
+                                             <div class="flex">
+                                                <div class="flex">
+                                                   <div class="size-[27px] rounded-full bg-blue flex items-center justify-center border-[1px] border-white relative z-10 xl:size-[45px]">
+                                                      <svg class="size-3 stroke-white xl:size-[18px]">
+                                                         <use href="/img/sprite.svg#emoji-happy">
+                                                      </svg>
+                                                   </div>
+                                                   <img 
+                                                      class="-ml-3 size-[45px] rounded-full shrink-0 relative z-0"
+                                                      src="/img/temp/o-1.jpg" 
+                                                      alt=""
+                                                      >
+                                                </div>
+                                                <div class="pl-[10px] xl:pl-3">
+                                                   <p class="mt-[7px] flex items-center gap-2 justify-between font-Satoshi font-bold text-black text-sm leading-none xl:flex-col xl:items-start">
+                                                      <span>Oliver Brown</span>
+                                                      <span class="whitespace-nowrap font-Satoshi font-medium text-gray-c9ca5b3 -translate-y-[7px] xl:mt-1">7 month ago</span>
+                                                   </p>
+                                                   <p class="mt-[10px] font-Satoshi font-medium text-black text-sm leading-tight xl:text-base xl:leading-tight xl:hidden">Everything is OK! I really liked our cooperation.</p>
+                                                </div>
+                                             </div>
+                                             <p class="hidden mt-4 font-Satoshi font-medium text-base leading-tight text-black xl:block pl-3">
+                                                Everything is OK! I really liked our cooperation. The work was completed to a high standard!
+                                             </p>
+                                          </div>
+                                       </div>
+                                    </div>
+                                    <div class="p-[15px] rounded-[14px] bg-white">
+                                       <div>
+                                          <ul class="flex flex-wrap gap-[6px]">
+                                             <li class="bg-gray-fafafc py-[7px] px-3 md:py-[10px] md:px-5 rounded-[100px] font-Satoshi font-bold text-xs leading-tight text-black md:text-sm md:leading-tight">
+                                                Development on Bitrix 24
+                                             </li>
+                                             <li class="bg-gray-fafafc py-[7px] px-3 md:py-[10px] md:px-5 rounded-[100px] font-Satoshi font-bold text-xs leading-tight text-black md:text-sm md:leading-tight">
+                                                Website adjustments
+                                             </li>
+                                          </ul>
+                                          <div class="bg-white p-[15px] rounded-[14px] rounded-none p-0 mt-[15px]">
+                                             <div class="flex">
+                                                <div class="flex">
+                                                   <div class="size-[27px] rounded-full bg-blue flex items-center justify-center border-[1px] border-white relative z-10 xl:size-[45px]">
+                                                      <svg class="size-3 stroke-white xl:size-[18px]">
+                                                         <use href="/img/sprite.svg#emoji-happy">
+                                                      </svg>
+                                                   </div>
+                                                   <img 
+                                                      class="-ml-3 size-[45px] rounded-full shrink-0 relative z-0"
+                                                      src="/img/temp/o-1.jpg" 
+                                                      alt=""
+                                                      >
+                                                </div>
+                                                <div class="pl-[10px] xl:pl-3">
+                                                   <p class="mt-[7px] flex items-center gap-2 justify-between font-Satoshi font-bold text-black text-sm leading-none xl:flex-col xl:items-start">
+                                                      <span>Oliver Brown</span>
+                                                      <span class="whitespace-nowrap font-Satoshi font-medium text-gray-c9ca5b3 -translate-y-[7px] xl:mt-1">7 month ago</span>
+                                                   </p>
+                                                   <p class="mt-[10px] font-Satoshi font-medium text-black text-sm leading-tight xl:text-base xl:leading-tight xl:hidden">Everything is OK! I really liked our cooperation.</p>
+                                                </div>
+                                             </div>
+                                             <p class="hidden mt-4 font-Satoshi font-medium text-base leading-tight text-black xl:block pl-3">
+                                                Everything is OK! I really liked our cooperation. The work was completed to a high standard!
+                                             </p>
+                                          </div>
+                                       </div>
+                                    </div>
+                                    <button 
+                                       class="flex items-center gap-[6px] font-Satoshi font-medium text-sm leading-none text-black px-[15px] py-3 rounded-xl bg-black text-white w-full mt-[10px] justify-center md:max-w-[180px] md:mx-auto md:mt-5 md:min-h-[50px] md:bg-transparent md:border-[1px] md:border-solid md:border-gray-caeb5bf md:text-black md:[&amp;&gt;svg]:stroke-black md:gap-2 md:font-bold" 
+                                       >
+                                       Load more reviews
+                                       <svg class="stroke-white size-3">
+                                          <use href="/img/sprite.svg#plus">
+                                       </svg>
+                                    </button>
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                     <div 
+                        class="w-full tab-item w-full" 
+                        data-accordeon="" 
+                        data-accordeon-smooth="true"
+                        data-accordeon-adaptive="true"
+                        data-accordeon-media="(max-width: 767px)"
+                        >
+                        <button class="tab-item-button border-[1px] border-solid border-transparent p-4 rounded-2xl bg-white flex items-center gap-[10px] w-full text-left" data-accordeon="button">
+                           <span class="flex items-center justify-center size-11 rounded-xl border-[1px] border-solid border-black/10 bg-transparent">
+                              <svg class="size-5 stroke-gray-c575e6a">
+                                 <use href="/img/sprite.svg#tag">
+                              </svg>
+                           </span>
+                           <span class="flex flex-col gap-[2px]">
+                           <span class="font-Satoshi font-bold text-base leading-tight text-black">Prices for services</span>
+                           <span class="font-sans font-medium text-xs leading-tight text-gray-c9ca5b3">Your current services charge</span>
+                           </span>
+                           <span class="ml-auto size-3 mr-1 md:hidden" data-accordeon="arrow">
+                              <svg class="size-full stroke-black">
+                                 <use href="/img/sprite.svg#arrow-down">
+                              </svg>
+                           </span>
+                        </button>
+                        <div class="" data-accordeon="content">
+                        </div>
+                     </div>
+                  </div>
+               </div>
+               <div class="hidden md:block mt-5">
+                  <div class="" data-container="services" data-container-query="(min-width: 768px)">
+                  </div>
+                  <div class="" data-container="cert" data-container-query="(min-width: 768px)">
+                  </div>
+                  <div class="" data-container="portfolio" data-container-query="(min-width: 768px)">
+                  </div>
+                  <div class="" data-container="reviews" data-container-query="(min-width: 768px)">
+                  </div>
+                  <div class="" data-container="prices" data-container-query="(min-width: 768px)">
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+      <div class="fixed z-[85] left-0 bottom-0 w-full bg-white/80 px-3 py-6 backdrop-blur md:hidden">
+         <div class="grid grid-cols-2 gap-2 bg-transparent">
+            <button 
+               class="flex items-center gap-[6px] font-Satoshi font-medium text-sm leading-none text-black px-[15px] py-3 rounded-xl bg-black text-white justify-center min-h-[50px] [&amp;&gt;svg]:size-[18px] flex-row-reverse" 
+               >
+               Settings
+               <svg class="stroke-white size-3">
+                  <use href="/img/sprite.svg#settings-2">
+               </svg>
+            </button>
+            <button 
+               class="flex items-center gap-[6px] font-Satoshi font-medium text-sm leading-none text-black px-[15px] py-3 rounded-xl bg-transparent text-black border-[1px] border-gray-caeb5bf justify-center min-h-[50px] bg-white" 
+               >
+            Preview profile
+            </button>
+         </div>
+      </div>
+      <footer class="pt-12 pb-16 bg-black lg:pt-32 lg:pb-20">
+         <div class="app-container lg:max-w-[1290px]">
+            <nav class="flex flex-col gap-6 md:flex-row md:justify-between md:flex-wrap md:gap-x-0 md:gap-y-12">
+               <div 
+                  class="w-full flex flex-col md:w-auto md:basis-1/2 lg:basis-auto" 
+                  data-accordeon="" 
+                  data-accordeon-smooth="true"
+                  data-accordeon-adaptive="true"
+                  data-accordeon-media="(max-width: 767px)"
+                  >
+                  <p 
+                     class="flex items-center justify-between gap-2 font-Satoshi font-bold text-[18px] leading-tight text-white"
+                     data-accordeon="button"
+                     >
+                     About Monday
+                     <span data-accordeon="arrow">
+                        <svg class="size-4 shrink-00 md:hidden stroke-white">
+                           <use href="/img/sprite.svg#arrow-down">
+                        </svg>
+                     </span>
+                  </p>
+                  <div class="md:block" data-accordeon="content">
+                     <div class="flex flex-col gap-[10px] pt-6 items-start">
+                        <a 
+                           class="font-Satoshi font-medium text-base leading-tight text-white text-opacity-70 relative lg:after:transition-transform lg:after:duration-500 lg:after:absolute lg:after:left-0 lg:after:-bottom-1 lg:after:h-[1px] lg:after:w-full lg:after:bg-white lg:after:bg-opacity-45 lg:after:scale-x-0 lg:hover:after:scale-x-100 lg:after:origin-left flex items-center gap-2"
+                           href="#" 
+                           target="_blank"
+                           >
+                        About the project
+                        </a>
+                        <a 
+                           class="font-Satoshi font-medium text-base leading-tight text-white text-opacity-70 relative lg:after:transition-transform lg:after:duration-500 lg:after:absolute lg:after:left-0 lg:after:-bottom-1 lg:after:h-[1px] lg:after:w-full lg:after:bg-white lg:after:bg-opacity-45 lg:after:scale-x-0 lg:hover:after:scale-x-100 lg:after:origin-left flex items-center gap-2"
+                           href="#" 
+                           target="_blank"
+                           >
+                        Agency contract
+                        </a>
+                        <a 
+                           class="font-Satoshi font-medium text-base leading-tight text-white text-opacity-70 relative lg:after:transition-transform lg:after:duration-500 lg:after:absolute lg:after:left-0 lg:after:-bottom-1 lg:after:h-[1px] lg:after:w-full lg:after:bg-white lg:after:bg-opacity-45 lg:after:scale-x-0 lg:hover:after:scale-x-100 lg:after:origin-left flex items-center gap-2"
+                           href="#" 
+                           target="_blank"
+                           >
+                        Privacy Policy
+                        </a>
+                     </div>
+                  </div>
+               </div>
+               <div 
+                  class="w-full flex flex-col md:w-auto md:basis-1/2 lg:basis-auto" 
+                  data-accordeon="" 
+                  data-accordeon-smooth="true"
+                  data-accordeon-adaptive="true"
+                  data-accordeon-media="(max-width: 767px)"
+                  >
+                  <p 
+                     class="flex items-center justify-between gap-2 font-Satoshi font-bold text-[18px] leading-tight text-white"
+                     data-accordeon="button"
+                     >
+                     Help
+                     <span data-accordeon="arrow">
+                        <svg class="size-4 shrink-00 md:hidden stroke-white">
+                           <use href="/img/sprite.svg#arrow-down">
+                        </svg>
+                     </span>
+                  </p>
+                  <div class="md:block" data-accordeon="content">
+                     <div class="flex flex-col gap-[10px] pt-6 items-start">
+                        <a 
+                           class="font-Satoshi font-medium text-base leading-tight text-white text-opacity-70 relative lg:after:transition-transform lg:after:duration-500 lg:after:absolute lg:after:left-0 lg:after:-bottom-1 lg:after:h-[1px] lg:after:w-full lg:after:bg-white lg:after:bg-opacity-45 lg:after:scale-x-0 lg:hover:after:scale-x-100 lg:after:origin-left flex items-center gap-2"
+                           href="#" 
+                           target="_blank"
+                           >
+                        Service rules
+                        </a>
+                        <a 
+                           class="font-Satoshi font-medium text-base leading-tight text-white text-opacity-70 relative lg:after:transition-transform lg:after:duration-500 lg:after:absolute lg:after:left-0 lg:after:-bottom-1 lg:after:h-[1px] lg:after:w-full lg:after:bg-white lg:after:bg-opacity-45 lg:after:scale-x-0 lg:hover:after:scale-x-100 lg:after:origin-left flex items-center gap-2"
+                           href="#" 
+                           target="_blank"
+                           >
+                        Question answer
+                        </a>
+                        <a 
+                           class="font-Satoshi font-medium text-base leading-tight text-white text-opacity-70 relative lg:after:transition-transform lg:after:duration-500 lg:after:absolute lg:after:left-0 lg:after:-bottom-1 lg:after:h-[1px] lg:after:w-full lg:after:bg-white lg:after:bg-opacity-45 lg:after:scale-x-0 lg:hover:after:scale-x-100 lg:after:origin-left flex items-center gap-2"
+                           href="#" 
+                           target="_blank"
+                           >
+                        Support
+                        </a>
+                     </div>
+                  </div>
+               </div>
+               <div 
+                  class="w-full flex flex-col md:w-auto md:basis-1/2 lg:basis-auto" 
+                  data-accordeon="" 
+                  data-accordeon-smooth="true"
+                  data-accordeon-adaptive="true"
+                  data-accordeon-media="(max-width: 767px)"
+                  >
+                  <p 
+                     class="flex items-center justify-between gap-2 font-Satoshi font-bold text-[18px] leading-tight text-white"
+                     data-accordeon="button"
+                     >
+                     Useful
+                     <span data-accordeon="arrow">
+                        <svg class="size-4 shrink-00 md:hidden stroke-white">
+                           <use href="/img/sprite.svg#arrow-down">
+                        </svg>
+                     </span>
+                  </p>
+                  <div class="md:block" data-accordeon="content">
+                     <div class="flex flex-col gap-[10px] pt-6 items-start">
+                        <a 
+                           class="font-Satoshi font-medium text-base leading-tight text-white text-opacity-70 relative lg:after:transition-transform lg:after:duration-500 lg:after:absolute lg:after:left-0 lg:after:-bottom-1 lg:after:h-[1px] lg:after:w-full lg:after:bg-white lg:after:bg-opacity-45 lg:after:scale-x-0 lg:hover:after:scale-x-100 lg:after:origin-left flex items-center gap-2"
+                           href="#" 
+                           target="_blank"
+                           >
+                        For customers
+                        </a>
+                        <a 
+                           class="font-Satoshi font-medium text-base leading-tight text-white text-opacity-70 relative lg:after:transition-transform lg:after:duration-500 lg:after:absolute lg:after:left-0 lg:after:-bottom-1 lg:after:h-[1px] lg:after:w-full lg:after:bg-white lg:after:bg-opacity-45 lg:after:scale-x-0 lg:hover:after:scale-x-100 lg:after:origin-left flex items-center gap-2"
+                           href="#" 
+                           target="_blank"
+                           >
+                        For performers
+                        </a>
+                        <a 
+                           class="font-Satoshi font-medium text-base leading-tight text-white text-opacity-70 relative lg:after:transition-transform lg:after:duration-500 lg:after:absolute lg:after:left-0 lg:after:-bottom-1 lg:after:h-[1px] lg:after:w-full lg:after:bg-white lg:after:bg-opacity-45 lg:after:scale-x-0 lg:hover:after:scale-x-100 lg:after:origin-left flex items-center gap-2"
+                           href="#" 
+                           target="_blank"
+                           >
+                        PRO account
+                        <img src="/img/pro.svg" alt="">
+                        </a>
+                     </div>
+                  </div>
+               </div>
+               <div 
+                  class="w-full flex flex-col md:w-auto md:basis-1/2 lg:basis-auto" 
+                  data-accordeon="" 
+                  data-accordeon-smooth="true"
+                  data-accordeon-adaptive="true"
+                  data-accordeon-media="(max-width: 767px)"
+                  >
+                  <p 
+                     class="flex items-center justify-between gap-2 font-Satoshi font-bold text-[18px] leading-tight text-white"
+                     data-accordeon="button"
+                     >
+                     Community
+                     <span data-accordeon="arrow">
+                        <svg class="size-4 shrink-00 md:hidden stroke-white">
+                           <use href="/img/sprite.svg#arrow-down">
+                        </svg>
+                     </span>
+                  </p>
+                  <div class="md:block" data-accordeon="content">
+                     <div class="flex flex-col gap-[10px] pt-6 items-start">
+                        <a 
+                           class="font-Satoshi font-medium text-base leading-tight text-white text-opacity-70 relative lg:after:transition-transform lg:after:duration-500 lg:after:absolute lg:after:left-0 lg:after:-bottom-1 lg:after:h-[1px] lg:after:w-full lg:after:bg-white lg:after:bg-opacity-45 lg:after:scale-x-0 lg:hover:after:scale-x-100 lg:after:origin-left flex items-center gap-2"
+                           href="#" 
+                           target="_blank"
+                           >
+                        Blog Monday
+                        </a>
+                        <a 
+                           class="font-Satoshi font-medium text-base leading-tight text-white text-opacity-70 relative lg:after:transition-transform lg:after:duration-500 lg:after:absolute lg:after:left-0 lg:after:-bottom-1 lg:after:h-[1px] lg:after:w-full lg:after:bg-white lg:after:bg-opacity-45 lg:after:scale-x-0 lg:hover:after:scale-x-100 lg:after:origin-left flex items-center gap-2"
+                           href="#" 
+                           target="_blank"
+                           >
+                        Affiliate program
+                        </a>
+                        <a 
+                           class="font-Satoshi font-medium text-base leading-tight text-white text-opacity-70 relative lg:after:transition-transform lg:after:duration-500 lg:after:absolute lg:after:left-0 lg:after:-bottom-1 lg:after:h-[1px] lg:after:w-full lg:after:bg-white lg:after:bg-opacity-45 lg:after:scale-x-0 lg:hover:after:scale-x-100 lg:after:origin-left flex items-center gap-2"
+                           href="#" 
+                           target="_blank"
+                           >
+                        Verification
+                        <img src="/img/verify.svg" alt="">
+                        </a>
+                     </div>
+                  </div>
+               </div>
+            </nav>
+            <div class="mt-12 flex items-center gap-3 md:max-w-96 lg:max-w-72 lg:ml-auto lg:mt-16">
+               <button 
+                  class="flex items-center gap-2 px-4 py-2 justify-center rounded-xl transition-opacity duration-200 hover:opacity-80 font-Satoshi font-medium h-12 text-white text-opacity-60 grow border-white border-opacity-30  text-black border-solid border-[1px] text-opacity-60 border-opacity-20 border-black "
+                  >
+               Sign In
+               </button>            
+               <button 
+                  class="flex items-center gap-2 px-4 py-2 justify-center rounded-xl transition-opacity duration-200 hover:opacity-80 font-Satoshi font-medium grow border-white border-[1px] border-solid h-12 text-white bg-black "
+                  >
+                  Join
+                  <svg class="size-4 shrink-0 stroke-white">
+                     <use href="/img/sprite.svg#join">
+                  </svg>
+               </button>
+            </div>
+         </div>
+      </footer>
+      <div 
+         class="fixed inset-0 bg-[#000000]/80 p-3 z-[100] items-center justify-center flex-col hidden" 
+         data-modal="auth"
+         data-block="flex"
+         >
+         <div class="max-w-[420px]  w-full min-h-20 rounded-[36px] bg-white m-auto relative overflow-hidden">
+            <button 
+               class="size-10 z-10 rounded-xl bg-gray-fafafc flex items-center justify-center absolute right-[22px] top-[22px]" 
+               data-modal-close="auth"
+               >
+               <svg class="size-5 stroke-gray-c9ca5b3">
+                  <use href="/img/sprite.svg#cross">
+               </svg>
+            </button>
+            <div class="swiper h-full" id="auth-swiper">
+               <div class="swiper-wrapper">
+                  <div class="swiper-slide">
+                     <div class="p-[34px] flex flex-col">
+                        <p class="uppercase mx-auto font-Satoshi font-bold text-xs leading-tight text-gray-cb7c3d6 underline">
+                           Monday
+                        </p>
+                        <p class="max-w-[290px] mx-auto text-center mt-10 font-Satoshi font-bold text-[32px] leading-tight text-black">
+                           Welcome to Monday
+                        </p>
+                        <p class="mt-4 mx-auto max-w-[255px] font-Satoshi font-medium text-sm leading-tight text-gray-c9ca5b3 text-center">
+                           Choose which account you want create
+                        </p>
+                        <div class="mt-6 grid grid-cols-2 gap-5">
+                           <button 
+                              class="auth-choose rounded-[20px] border-[1px] border-solid border-gray-light p-[18.5px_9.5px] flex flex-col items-center"
+                              data-type="client"
+                              >
+                              <svg class="size-6 stroke-gray-cb7c3d6">
+                                 <use href="/img/sprite.svg#briefcase">
+                              </svg>
+                              <span class="mt-4 font-Satoshi font-bold text-base leading-tight text-gray-cb7c3d6">
+                              I am a client
+                              </span>
+                              <span class="mt-[5px] font-Satoshi font-medium text-sm leading-tight text-gray-cb7c3d6 max-w-[135px] mx-auto">
+                              Lorem ipsum dolor sit amet consectetur. 
+                              </span>
+                           </button>
+                           <button 
+                              class="auth-choose rounded-[20px] border-[1px] border-solid border-gray-light p-[18.5px_9.5px] flex flex-col items-center"
+                              data-type="seller"
+                              >
+                              <svg class="size-6 stroke-gray-cb7c3d6">
+                                 <use href="/img/sprite.svg#brush">
+                              </svg>
+                              <span class="mt-4 font-Satoshi font-bold text-base leading-tight text-gray-cb7c3d6">
+                              I am a seller
+                              </span>
+                              <span class="mt-[5px] font-Satoshi font-medium text-sm leading-tight text-gray-cb7c3d6 max-w-[135px] mx-auto">
+                              Lorem ipsum dolor sit amet consectetur.
+                              </span>
+                           </button>
+                        </div>
+                        <button 
+                           class="auth-create-btn mt-10 flex items-center justify-center gap-2 font-Satoshi font-bold text-sm leading-tight text-white max-w-[240px] w-full mx-auto p-4 rounded-xl bg-black"
+                           id="auth-create"
+                           >
+                           Create client account
+                           <svg class="size-3 stroke-white">
+                              <use href="/img/sprite.svg#arrow-right">
+                           </svg>
+                        </button>
+                     </div>
+                  </div>
+                  <div class="swiper-slide">
+                     <div 
+                        data-type="client" 
+                        class="auth-card hidden from-[#EDF4FF] to-white bg-gradient-to-b"
+                        >
+                        <div class="swiper" id="client-swiper">
+                           <div class="swiper-wrapper">
+                              <div class="swiper-slide">
+                                 <div class="w-full h-[306px]"></div>
+                                 <div class="p-[24px_10.5px_35px] flex flex-col items-center gap-[15px] text-center">
+                                    <p class="font-Satoshi font-bold text-xl leading-tight text-black">
+                                       Choose services and best performers
+                                    </p>
+                                    <p class="max-w-[308px] font-Satoshi font-medium text-sm leading-tight text-gray-c9ca5b3">
+                                       Lorem ipsum dolor sit amet consectetur. Amet eu vitae cursus amet condimentum facilisi enim.
+                                    </p>
+                                    <div class="mt-[15px] max-w-[295px] w-full grid grid-cols-2 gap-7">
+                                       <button
+                                          class="capitalize font-Satoshi font-bold text-sm leading-tight flex items-center justify-center gap-2 p-[13.5px] rounded-xl border-[1px] border-solid border-gray-light text-gray-c575e6a"
+                                          data-type="prev"
+                                          >
+                                       Previous
+                                       </button>
+                                       <button
+                                          class="capitalize font-Satoshi font-bold text-sm leading-tight flex items-center justify-center gap-2 p-[13.5px] rounded-xl text-white bg-black"
+                                          data-type="next"
+                                          >
+                                          next
+                                          <svg class="size-3 stroke-white">
+                                             <use href="/img/sprite.svg#arrow-right">
+                                          </svg>
+                                       </button>
+                                    </div>
+                                 </div>
+                              </div>
+                              <div class="swiper-slide">
+                                 <div class="w-full h-[306px]"></div>
+                                 <div class="p-[24px_10.5px_35px] flex flex-col items-center gap-[15px] text-center">
+                                    <p class="font-Satoshi font-bold text-xl leading-tight text-black">
+                                       Reserve payment
+                                    </p>
+                                    <p class="max-w-[308px] font-Satoshi font-medium text-sm leading-tight text-gray-c9ca5b3">
+                                       Lorem ipsum dolor sit amet consectetur. Amet eu vitae cursus amet condimentum facilisi enim. 
+                                    </p>
+                                    <div class="mt-[15px] max-w-[295px] w-full grid grid-cols-2 gap-7">
+                                       <button
+                                          class="capitalize font-Satoshi font-bold text-sm leading-tight flex items-center justify-center gap-2 p-[13.5px] rounded-xl border-[1px] border-solid border-gray-light text-gray-c575e6a"
+                                          data-type="prev"
+                                          >
+                                       Previous
+                                       </button>
+                                       <button
+                                          class="capitalize font-Satoshi font-bold text-sm leading-tight flex items-center justify-center gap-2 p-[13.5px] rounded-xl text-white bg-black"
+                                          data-type="next"
+                                          >
+                                          next
+                                          <svg class="size-3 stroke-white">
+                                             <use href="/img/sprite.svg#arrow-right">
+                                          </svg>
+                                       </button>
+                                    </div>
+                                 </div>
+                              </div>
+                              <div class="swiper-slide">
+                                 <div class="w-full h-[306px]"></div>
+                                 <div class="p-[24px_10.5px_35px] flex flex-col items-center gap-[15px] text-center">
+                                    <p class="font-Satoshi font-bold text-xl leading-tight text-black">
+                                       Pay only when the service is done well
+                                    </p>
+                                    <p class="max-w-[308px] font-Satoshi font-medium text-sm leading-tight text-gray-c9ca5b3">
+                                       Lorem ipsum dolor sit amet consectetur. Amet eu vitae cursus amet condimentum facilisi enim.
+                                    </p>
+                                    <div class="mt-[15px] max-w-[295px] w-full grid grid-cols-2 gap-7">
+                                       <button
+                                          class="capitalize font-Satoshi font-bold text-sm leading-tight flex items-center justify-center gap-2 p-[13.5px] rounded-xl border-[1px] border-solid border-gray-light text-gray-c575e6a"
+                                          data-type="prev"
+                                          >
+                                       Previous
+                                       </button>
+                                       <button
+                                          class="capitalize font-Satoshi font-bold text-sm leading-tight flex items-center justify-center gap-2 p-[13.5px] rounded-xl text-white bg-black"
+                                          data-type="next"
+                                          >
+                                          next
+                                          <svg class="size-3 stroke-white">
+                                             <use href="/img/sprite.svg#arrow-right">
+                                          </svg>
+                                       </button>
+                                    </div>
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                     <div 
+                        data-type="seller" 
+                        class="auth-card hidden from-[#EDF4FF] to-white bg-gradient-to-b"
+                        >
+                        <div class="swiper" id="seller-swiper">
+                           <div class="swiper-wrapper">
+                              <div class="swiper-slide">
+                                 <div class="w-full h-[306px]"></div>
+                                 <div class="p-[24px_10.5px_35px] flex flex-col items-center gap-[15px] text-center">
+                                    <p class="font-Satoshi font-bold text-xl leading-tight text-black">
+                                       Create your profile
+                                    </p>
+                                    <p class="max-w-[308px] font-Satoshi font-medium text-sm leading-tight text-gray-c9ca5b3">
+                                       Lorem ipsum dolor sit amet consectetur. Amet eu vitae cursus amet condimentum facilisi enim.
+                                    </p>
+                                    <div class="mt-[15px] max-w-[295px] w-full grid grid-cols-2 gap-7">
+                                       <button
+                                          class="capitalize font-Satoshi font-bold text-sm leading-tight flex items-center justify-center gap-2 p-[13.5px] rounded-xl border-[1px] border-solid border-gray-light text-gray-c575e6a"
+                                          data-type="prev"
+                                          >
+                                       Previous
+                                       </button>
+                                       <button
+                                          class="capitalize font-Satoshi font-bold text-sm leading-tight flex items-center justify-center gap-2 p-[13.5px] rounded-xl text-white bg-black"
+                                          data-type="next"
+                                          >
+                                          next
+                                          <svg class="size-3 stroke-white">
+                                             <use href="/img/sprite.svg#arrow-right">
+                                          </svg>
+                                       </button>
+                                    </div>
+                                 </div>
+                              </div>
+                              <div class="swiper-slide">
+                                 <div class="w-full h-[306px]"></div>
+                                 <div class="p-[24px_10.5px_35px] flex flex-col items-center gap-[15px] text-center">
+                                    <p class="font-Satoshi font-bold text-xl leading-tight text-black">
+                                       Place an order
+                                    </p>
+                                    <p class="max-w-[308px] font-Satoshi font-medium text-sm leading-tight text-gray-c9ca5b3">
+                                       Lorem ipsum dolor sit amet consectetur. Amet eu vitae cursus amet condimentum facilisi enim. 
+                                    </p>
+                                    <div class="mt-[15px] max-w-[295px] w-full grid grid-cols-2 gap-7">
+                                       <button
+                                          class="capitalize font-Satoshi font-bold text-sm leading-tight flex items-center justify-center gap-2 p-[13.5px] rounded-xl border-[1px] border-solid border-gray-light text-gray-c575e6a"
+                                          data-type="prev"
+                                          >
+                                       Previous
+                                       </button>
+                                       <button
+                                          class="capitalize font-Satoshi font-bold text-sm leading-tight flex items-center justify-center gap-2 p-[13.5px] rounded-xl text-white bg-black"
+                                          data-type="next"
+                                          >
+                                          next
+                                          <svg class="size-3 stroke-white">
+                                             <use href="/img/sprite.svg#arrow-right">
+                                          </svg>
+                                       </button>
+                                    </div>
+                                 </div>
+                              </div>
+                              <div class="swiper-slide">
+                                 <div class="w-full h-[306px]"></div>
+                                 <div class="p-[24px_10.5px_35px] flex flex-col items-center gap-[15px] text-center">
+                                    <p class="font-Satoshi font-bold text-xl leading-tight text-black">
+                                       Start earning money!
+                                    </p>
+                                    <p class="max-w-[308px] font-Satoshi font-medium text-sm leading-tight text-gray-c9ca5b3">
+                                       Lorem ipsum dolor sit amet consectetur. Amet eu vitae cursus amet condimentum facilisi enim.
+                                    </p>
+                                    <div class="mt-[15px] max-w-[295px] w-full grid grid-cols-2 gap-7">
+                                       <button
+                                          class="capitalize font-Satoshi font-bold text-sm leading-tight flex items-center justify-center gap-2 p-[13.5px] rounded-xl border-[1px] border-solid border-gray-light text-gray-c575e6a"
+                                          data-type="prev"
+                                          >
+                                       Previous
+                                       </button>
+                                       <button
+                                          class="capitalize font-Satoshi font-bold text-sm leading-tight flex items-center justify-center gap-2 p-[13.5px] rounded-xl text-white bg-black"
+                                          data-type="next"
+                                          >
+                                          next
+                                          <svg class="size-3 stroke-white">
+                                             <use href="/img/sprite.svg#arrow-right">
+                                          </svg>
+                                       </button>
+                                    </div>
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="swiper-slide">
+                     <div class="p-5 pt-8 flex flex-col items-center">
+                        <p class="uppercase mx-auto font-Satoshi font-bold text-xs leading-tight text-gray-cb7c3d6 underline">
+                           Monday
+                        </p>
+                        <p class="mt-5 text-center font-Satoshi font-bold text-base leading-tight text-black">
+                           Let’s create your profile
+                        </p>
+                        <form class="mt-[15px] flex flex-col gap-[10px] w-full" id="signup-form">
+                           <div class="flex items-center rounded-[14px] border-[1px] border-solid border-black/10 overflow-hidden">
+                              <input 
+                                 class="min-h-[50px] border-none bg-none outline-none w-full max-w-full overflow-hidden px-4 font-Satoshi font-medium text-sm leading-tight text-black placeholder:text-gray-c9ca5b3"
+                                 placeholder="Email*"
+                                 name="email"
+                                 type="text"
+                                 >
+                           </div>
+                           <div class="flex items-center rounded-[14px] border-[1px] border-solid border-black/10 overflow-hidden">
+                              <input 
+                                 class="min-h-[50px] border-none bg-none outline-none w-full max-w-full overflow-hidden px-4 font-Satoshi font-medium text-sm leading-tight text-black placeholder:text-gray-c9ca5b3"
+                                 placeholder="Write your username (visible for all)*"
+                                 name="username"
+                                 type="text"
+                                 >
+                           </div>
+                           <div class="flex items-center rounded-[14px] border-[1px] border-solid border-black/10 overflow-hidden">
+                              <input 
+                                 class="min-h-[50px] border-none bg-none outline-none w-full max-w-full overflow-hidden px-4 font-Satoshi font-medium text-sm leading-tight text-black placeholder:text-gray-c9ca5b3"
+                                 placeholder="Password*"
+                                 name="password"
+                                 type="password"
+                                 >
+                              <button 
+                                 class="size-4 mr-5"
+                                 data-type="password-btn" 
+                                 type="button"
+                                 >
+                              <img class="w-full" src="/img/icons/eye.svg" alt="">
+                              </button>
+                           </div>
+                           <p class="mt-[15px] flex items-center gap-[5px] font-Satoshi font-bold text-sm leading-tight text-gray-c575e6a">
+                              <svg class="size-4 stroke-gray-c575e6a">
+                                 <use href="/img/sprite.svg#ticket-discount">
+                              </svg>
+                              I have got a promo-code
+                           </p>
+                           <button 
+                              class="mt-[5px] bg-black p-4 rounded-xl font-Satoshi font-bold text-sm leading-tight text-white"
+                              type="submit"
+                              >
+                           Create account
+                           </button>
+                        </form>
+                        <p class="w-full mt-[15px] flex items-center gap-[10px] font-Satoshi font-medium text-sm leading-tight text-gray-c9ca5b3 capitalize before:grow before:h-[1px] before:bg-gray-light  after:grow after:h-[1px] after:bg-gray-light">
+                           <span>or</span>
+                        </p>
+                        <div class="mt-[10px] grid grid-cols-2 gap-[10px] w-full">
+                           <button
+                              class="p-2 rounded-xl border-[1px] border-solid border-black/10 flex items-center justify-center"
+                              >
+                           <img class="size-6" src="/img/icons/vk.svg" alt="">
+                           </button>
+                           <button
+                              class="p-2 rounded-xl border-[1px] border-solid border-black/10 flex items-center justify-center"
+                              >
+                           <img class="size-6" src="/img/icons/fb.svg" alt="">        
+                           </button>
+                        </div>
+                        <p class="mt-5 max-w-[230px] mx-auto w-full font-Satoshi font-medium text-xs leading-tight text-gray-c9ca5b3 text-center [&>a]:font-bold [&>a]:underline">
+                           I agree with the <a href="#">Terms &amp; Conditions</a> and <a href="#">The contract offer.</a>
+                        </p>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+   </body>
+</html>
