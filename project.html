@@ -2224,15 +2224,19 @@
       const orderModal = document.querySelector('#order-modal');
       const modalCloseBtn = document.querySelector('#modal-close-btn');
       const orderOpenModalButtons = document.querySelectorAll('#order-button');
+      const body = document.querySelector('body')
+
 
       orderOpenModalButtons.forEach(button => {
          button.addEventListener('click', () => {
             orderModal.classList.remove('hidden');
+            body.classList.add('overflow-hidden' , 'h-screen');
          });
       });
 
       modalCloseBtn.addEventListener('click', () => {
          orderModal.classList.add('hidden');
+         body.classList.remove('overflow-hidden' , 'h-screen');
       });
    </script>
 

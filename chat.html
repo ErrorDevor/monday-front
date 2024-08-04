@@ -1087,7 +1087,7 @@
     </div>
     <div id="offer-an-order" class="lg:bg-[#000000]/80 fixed hidden inset-0 z-[500] p-3 flex-col bg-white py-10 ">
         <div
-            class="max-w-[767px] lg:translate-x-[340px]  lg:translate-y-10 w-full mx-auto flex flex-col md:p-6 md:rounded-3xl md:bg-white">
+            class="max-w-[767px] lg:absolute lg:bottom-[50px] lg:right-[50px]  w-full mx-auto flex flex-col md:p-6 md:rounded-3xl md:bg-white">
             <header class="flex justify-between items-center mb-5">
                 <h3 class="text-[#202020] font-bold md:text-3xl text-2xl">
                     Offer your own order
@@ -1203,15 +1203,18 @@
         const offerAnOrder = document.querySelector('#offer-an-order');
         const modalCloseBtn = document.querySelector('#modal-close-btn');
         const OfferAnOpenModalButtons = document.querySelectorAll('#order-button');
+        const body = document.querySelector('body')
 
         OfferAnOpenModalButtons.forEach(button => {
             button.addEventListener('click', () => {
                 offerAnOrder.classList.remove('hidden');
+                body.classList.add('overflow-hidden' , 'h-screen')
             });
         });
 
         modalCloseBtn.addEventListener('click', () => {
             offerAnOrder.classList.add('hidden');
+            body.classList.remove('overflow-hidden' , 'h-screen')
         });
     </script>
 </body>
