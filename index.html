@@ -476,7 +476,6 @@
                   removeActiveClass();
                   sellerButton.classList.add('active_profile-change__button');
                 });
-
               </script>
             </div>
             <div class="profilchange__client hidden bg-white pt-[15px]">
@@ -715,15 +714,21 @@
           </div>
         </div>
       </div>
+      <section>
+        <div id="header__profile__cahge_box__backgdrop" class="hidden absolute top-0 left-0 w-full h-full bg-transparent">
+        </div>
+      </section>
+
       <script>
         const headerProfileChangeBoxOpen = document.querySelector("#header__profile__change_box__open");
+        const headerProfileChangeBoxBackdrop = document.querySelector("#header__profile__cahge_box__backgdrop");
         const headerProfileChangeBox = document.querySelector("#header__profile__change_box");
-        const headerProfileChangeBoxBackdrop = document.querySelector("#header__profile__change_box__backgdrop");
         const profileChangeClient = document.querySelector(".profilchange__client");
         const profileChangeSeller = document.querySelector(".profilchange__seller");
         const clientBtns = document.querySelectorAll(".client__btn");
         const sellerBtns = document.querySelectorAll(".seller__btn");
 
+        // Toggle between client and seller views
         clientBtns.forEach(item => {
           item.addEventListener("click", () => {
             profileChangeSeller.classList.add("hidden");
@@ -738,28 +743,33 @@
           });
         });
 
+        // Function to open the modal and backdrop
         headerProfileChangeBoxOpen.addEventListener("click", () => {
-          const isHidden = headerProfileChangeBox.classList.toggle("hidden");
-          headerProfileChangeBoxBackdrop.classList.toggle("hidden", isHidden);
+          headerProfileChangeBox.classList.remove("hidden");
+          headerProfileChangeBoxBackdrop.classList.remove("hidden");
         });
 
+        // Function to close both modal and backdrop
         const closeBox = () => {
           headerProfileChangeBox.classList.add("hidden");
           headerProfileChangeBoxBackdrop.classList.add("hidden");
         };
 
+        // Close both when clicking the backdrop
         headerProfileChangeBoxBackdrop.addEventListener("click", closeBox);
 
+        // Close modal and backdrop when clicking outside the modal
         window.addEventListener("click", (event) => {
           if (
-            headerProfileChangeBox.classList.contains("hidden") === false && 
+            !headerProfileChangeBox.classList.contains("hidden") &&
             !headerProfileChangeBox.contains(event.target) &&
-            !headerProfileChangeBoxOpen.contains(event.target) 
+            !headerProfileChangeBoxOpen.contains(event.target)
           ) {
             closeBox();
           }
         });
       </script>
+
 
 
 
@@ -944,7 +954,7 @@
 
 
 
-        <div class="modal__Scroll overflow-scroll h-[362px]" id="notifications_preview_section_id_1">
+        <div class="modal__Scroll overflow-y-scroll h-[362px]" id="notifications_preview_section_id_1">
           <div
             class="flex items-center gap-3 py-4  hover:bg-[#F1F3F9] transition-all px-[20px] border-b-[#20202013] border-b-[1px]">
             <div class="relative">
@@ -1112,7 +1122,7 @@
 
 
 
-        <div class="hidden modal__Scroll overflow-scroll h-[362px]" id="notifications_preview_section_id_2">
+        <div class="hidden modal__Scroll overflow-y-scroll h-[362px]" id="notifications_preview_section_id_2">
           <div
             class="flex items-center gap-3 py-4  hover:bg-[#F1F3F9] transition-all px-[20px] border-b-[#2020201c] border-b-[1px]">
             <div class="relative bg-[#FAFAFC] rounded-[100px] p-[10px]">
@@ -1263,7 +1273,7 @@
 
 
 
-        <div class="hidden modal__Scroll overflow-scroll h-[362px]" id="notifications_preview_section_id_3">
+        <div class="hidden modal__Scroll overflow-y-scroll h-[362px]" id="notifications_preview_section_id_3">
           <div
             class="flex items-center gap-3 py-4  hover:bg-[#F1F3F9] transition-all px-[20px] border-b-[#2020201c] border-b-[1px]">
             <div class="relative">
@@ -1458,7 +1468,7 @@
         </div>
 
 
-        <div class="modal__Scroll overflow-scroll h-[362px]">
+        <div class="modal__Scroll overflow-y-scroll h-[362px]">
           <h2 class="text-[#9CA5B3] text-sm font-bold mb-[10px] px-[20px]">New chats</h2>
           <div class="search_messages_section">
             <div class="flex items-start gap-3 py-2  hover:bg-[#F1F3F9] transition-all px-[20px] justify-between">
@@ -1813,7 +1823,7 @@
         <h2 class="font-bold text-sm text-[#575E6A]">Service</h2>
         <div class="ml-auto flex items-center ">
           <h2 class="font-bold text-sm text-[#575E6A] mr-6">Amount</h2>
-          <h2 class="font-bold text-sm text-[#575E6A] max-w-[76px] text-center mr-12">Add. options</h2>
+          <h2 class="font-bold text-sm text-[#575E6A] text-center mr-12">Add. options</h2>
           <h2 class="font-bold text-sm text-[#575E6A] ">Total</h2>
         </div>
       </div>
@@ -1910,11 +1920,7 @@
 
 
     <section>
-      <div id="header__shop__modal__backgdrop" class="hidden absolute top-0 left-0 w-full h-full bg-transparent">
-    </section>
-    <section>
-      <div id="header__profile__cahge_box__backgdrop" class="hidden absolute top-0 left-0 w-full h-full bg-transparent">
-      </div>
+      <div id="header__shop__modal__backgdrop" class="hidden absolute top-0 left-0 w-full h-full bg-transparent z-20">
     </section>
 
 
@@ -1969,7 +1975,6 @@
         addClass(item, "header_active");
       });
     });
-
     shopCardsbtn.forEach((item, index) => {
       item.addEventListener("click", () => {
         shopCards[index].remove();
@@ -1992,15 +1997,13 @@
         }
         toggleClass(headerShopModalBackdrop, "block");
         toggleClass(headerShopModalBackdrop, "hidden");
-
       });
+
       item.addEventListener("click", function () {
-        headerProfileChangeBox.classList.add("hidden")
-        headerProfileChangeBox.classList.remove("block")
-      })
-    })
-
-
+        headerProfileChangeBox.classList.add("hidden");
+        headerProfileChangeBox.classList.remove("block");
+      });
+    });
 
     headerShopModalBackdrop.addEventListener("click", () => {
       addClass(headerShopModal, "hidden");
