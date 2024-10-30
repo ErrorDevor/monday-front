@@ -24,7 +24,6 @@
 <body class=" bg-white-f9 ">
 
 
-
   <script>
     document.addEventListener('DOMContentLoaded', function () {
       const mobileButton = document.getElementById('mobile_button');
@@ -283,6 +282,7 @@
           });
         </script>
 
+
         <div class="w-full relative">
           <div class="flex items-center justify-between max-w-[316px] w-full h-11 px-4 rounded-full bg-[#FAFAFC]">
             <input autocomplete="off" id="search_services" placeholder="Search for services..."
@@ -317,6 +317,9 @@
             </div>
           </div>
         </div>
+
+
+
 
 
       </div>
@@ -714,66 +717,6 @@
           </div>
         </div>
       </div>
-      <section>
-        <div id="header__profile__cahge_box__backgdrop" class="hidden absolute top-0 left-0 w-full h-full bg-transparent">
-        </div>
-      </section>
-
-      <script>
-        const headerProfileChangeBoxOpen = document.querySelector("#header__profile__change_box__open");
-        const headerProfileChangeBoxBackdrop = document.querySelector("#header__profile__cahge_box__backgdrop");
-        const headerProfileChangeBox = document.querySelector("#header__profile__change_box");
-        const profileChangeClient = document.querySelector(".profilchange__client");
-        const profileChangeSeller = document.querySelector(".profilchange__seller");
-        const clientBtns = document.querySelectorAll(".client__btn");
-        const sellerBtns = document.querySelectorAll(".seller__btn");
-
-        // Toggle between client and seller views
-        clientBtns.forEach(item => {
-          item.addEventListener("click", () => {
-            profileChangeSeller.classList.add("hidden");
-            profileChangeClient.classList.remove("hidden");
-          });
-        });
-
-        sellerBtns.forEach(item => {
-          item.addEventListener("click", () => {
-            profileChangeClient.classList.add("hidden");
-            profileChangeSeller.classList.remove("hidden");
-          });
-        });
-
-        // Function to open the modal and backdrop
-        headerProfileChangeBoxOpen.addEventListener("click", () => {
-          headerProfileChangeBox.classList.remove("hidden");
-          headerProfileChangeBoxBackdrop.classList.remove("hidden");
-        });
-
-        // Function to close both modal and backdrop
-        const closeBox = () => {
-          headerProfileChangeBox.classList.add("hidden");
-          headerProfileChangeBoxBackdrop.classList.add("hidden");
-        };
-
-        // Close both when clicking the backdrop
-        headerProfileChangeBoxBackdrop.addEventListener("click", closeBox);
-
-        // Close modal and backdrop when clicking outside the modal
-        window.addEventListener("click", (event) => {
-          if (
-            !headerProfileChangeBox.classList.contains("hidden") &&
-            !headerProfileChangeBox.contains(event.target) &&
-            !headerProfileChangeBoxOpen.contains(event.target)
-          ) {
-            closeBox();
-          }
-        });
-      </script>
-
-
-
-
-
     </div>
 
     <div class="hidden lg:block">
@@ -1781,38 +1724,38 @@
 
 
       <!-- <div
-                class="bg-[#fff] hidden messages_modal_404 z-50 shadow-[0_3px_10px_rgb(0,0,0,0.2)] rounded-[14px] pt-[20px] pb-[20px] w-[300px] absolute top-[-80px] right-[140px]">
-                <div
-                    class="w-full border-b-[1px] border-b-[#F2F2F2] pb-[10px] flex justify-between items-center mb-[25px] px-[20px]">
-                    <div class="flex items-center gap-2">
-                        <svg width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
-                            <path
-                                d="M6.375 14.25H6C3 14.25 1.5 13.5 1.5 9.75V6C1.5 3 3 1.5 6 1.5H12C15 1.5 16.5 3 16.5 6V9.75C16.5 12.75 15 14.25 12 14.25H11.625C11.3925 14.25 11.1675 14.3625 11.025 14.55L9.9 16.05C9.405 16.71 8.595 16.71 8.1 16.05L6.975 14.55C6.855 14.385 6.5775 14.25 6.375 14.25Z"
-                                stroke="#202020" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round"
-                                stroke-linejoin="round" />
-                            <path d="M11.9973 8.25H12.0041" stroke="#202020" stroke-width="2" stroke-linecap="round"
-                                stroke-linejoin="round" />
-                            <path d="M8.99661 8.25H9.00335" stroke="#202020" stroke-width="2" stroke-linecap="round"
-                                stroke-linejoin="round" />
-                            <path d="M5.99588 8.25H6.00262" stroke="#202020" stroke-width="2" stroke-linecap="round"
-                                stroke-linejoin="round" />
-                        </svg>
+            class="bg-[#fff] hidden messages_modal_404 z-50 shadow-[0_3px_10px_rgb(0,0,0,0.2)] rounded-[14px] pt-[20px] pb-[20px] w-[300px] absolute top-[-80px] right-[140px]">
+            <div
+                class="w-full border-b-[1px] border-b-[#F2F2F2] pb-[10px] flex justify-between items-center mb-[25px] px-[20px]">
+                <div class="flex items-center gap-2">
+                    <svg width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path
+                            d="M6.375 14.25H6C3 14.25 1.5 13.5 1.5 9.75V6C1.5 3 3 1.5 6 1.5H12C15 1.5 16.5 3 16.5 6V9.75C16.5 12.75 15 14.25 12 14.25H11.625C11.3925 14.25 11.1675 14.3625 11.025 14.55L9.9 16.05C9.405 16.71 8.595 16.71 8.1 16.05L6.975 14.55C6.855 14.385 6.5775 14.25 6.375 14.25Z"
+                            stroke="#202020" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round"
+                            stroke-linejoin="round" />
+                        <path d="M11.9973 8.25H12.0041" stroke="#202020" stroke-width="2" stroke-linecap="round"
+                            stroke-linejoin="round" />
+                        <path d="M8.99661 8.25H9.00335" stroke="#202020" stroke-width="2" stroke-linecap="round"
+                            stroke-linejoin="round" />
+                        <path d="M5.99588 8.25H6.00262" stroke="#202020" stroke-width="2" stroke-linecap="round"
+                            stroke-linejoin="round" />
+                    </svg>
 
-                        <span class="font-bold">Messages</span>
-                    </div>
+                    <span class="font-bold">Messages</span>
                 </div>
+            </div>
 
 
 
-                <img class="mx-auto" width="166" height="129" src="img/header/messages_404_image.png"
-                    alt="messages_404_image">
+            <img class="mx-auto" width="166" height="129" src="img/header/messages_404_image.png"
+                alt="messages_404_image">
 
-                <div class="max-w-[212px] mx-auto text-center">
-                    <h2 class="text-[#575E6A] font-bold mb-1">No Messages Yet</h2>
-                    <p class="text-sm text-[#9CA5B3] leading-[15.2px]">​Browse our catalog of projects or offer your own
-                        on Monday.</p>
-                </div>
-            </div> -->
+            <div class="max-w-[212px] mx-auto text-center">
+                <h2 class="text-[#575E6A] font-bold mb-1">No Messages Yet</h2>
+                <p class="text-sm text-[#9CA5B3] leading-[15.2px]">​Browse our catalog of projects or offer your own
+                    on Monday.</p>
+            </div>
+        </div> -->
 
     </div>
 
@@ -1918,229 +1861,143 @@
     </div>
 
 
-
-    <section>
-      <div id="header__shop__modal__backgdrop" class="hidden absolute top-0 left-0 w-full h-full bg-transparent z-20">
-    </section>
-
-
-    <div style="visibility: hidden;" class="w-full absolute z-40 h-screen top-0 left-0" id="hide_modal">
   </header>
   <script>
-    const headerItems = document.querySelectorAll("#header_item");
-    const headerShopBtn = document.querySelectorAll("#header__shop__btn");
-    const headerShopModal = document.querySelector("#header__shop__modal");
-    const headerShopModalBackdrop = document.querySelector("#header__shop__modal__backgdrop");
-    const shopCardBox = document.querySelector(".shop__card__box");
-    const shopCardsbtn = document.querySelectorAll(".shop__card__delete");
-    const shopCards = document.querySelectorAll(".shop__card");
-    const headerShopModalNull = document.querySelector(".header__shop__modal__null");
-    const minusBtnShopCards = document.querySelectorAll(".minus__btn__shop__card");
-    const shopCardCounts = document.querySelectorAll(".shop__card__count");
-    const shopCardPluses = document.querySelectorAll(".shop__card__plus");
-    const shopCardPrices = document.querySelectorAll(".shop__card__price");
+    document.addEventListener('DOMContentLoaded', () => {
+      const notificationModal = document.querySelector('.notification_modal');
+      const messagesModal = document.querySelector('.messages_modal');
+      const headerProfileChangeBox = document.querySelector("#header__profile__change_box");
+      const headerShopModal = document.querySelector("#header__shop__modal");
+      const headerShopModalNull = document.querySelector(".header__shop__modal__null");
+      const headerShopBtn = document.querySelectorAll("#header__shop__btn");
+      const shopCardBox = document.querySelector(".shop__card__box");
 
-    function addDots(number) {
-      let numStr = number.toString();
-      let result = "";
-      let count = 0;
+      const notificationButton = document.querySelector('#notification_button');
+      const messagesButton = document.querySelector('#messages_button');
+      const headerProfileChangeBoxOpen = document.querySelector("#header__profile__change_box__open");
+      const shopCardsbtn = document.querySelectorAll(".shop__card__delete");
+      const shopCards = document.querySelectorAll(".shop__card");
+      const shopCardCounts = document.querySelectorAll(".shop__card__count");
+      const shopCardPrices = document.querySelectorAll(".shop__card__price");
 
-      for (let i = numStr.length - 1; i >= 0; i--) {
-        result = numStr[i] + result;
-        count++;
-        if (count % 3 === 0 && i !== 0) {
-          result = "." + result;
+      const searchInput = document.getElementById('search_services');
+      const searchMenu = document.getElementById('search__menu');
+
+      let activeModal = null;
+
+      function closeAllModals() {
+        notificationModal.classList.add('hidden');
+        messagesModal.classList.add('hidden');
+        headerProfileChangeBox.classList.add('hidden');
+        headerShopModal.classList.add('hidden');
+        headerShopModalNull.classList.add('hidden');
+        searchMenu.classList.add('hidden');
+        activeModal = null;
+      }
+
+      function openModal(modal) {
+        if (activeModal === modal) {
+          closeAllModals();
+        } else {
+          closeAllModals();
+          modal.classList.remove('hidden');
+          activeModal = modal;
         }
       }
-      return result;
-    }
 
-    function toggleClass(element, className) {
-      element.classList.toggle(className);
-    }
+      notificationButton.addEventListener('click', () => {
+        openModal(notificationModal);
+      });
 
-    function addClass(element, className) {
-      element.classList.add(className);
-    }
+      messagesButton.addEventListener('click', () => {
+        openModal(messagesModal);
+      });
 
-    function removeClass(element, className) {
-      element.classList.remove(className);
-    }
+      headerProfileChangeBoxOpen.addEventListener('click', () => {
+        openModal(headerProfileChangeBox);
+      });
 
-    headerItems.forEach((item, index) => {
-      item.addEventListener("click", () => {
-        headerItems.forEach((item) => {
-          removeClass(item, "header_active");
+      headerShopBtn.forEach((button) => {
+        button.addEventListener('click', () => {
+          if (shopCardBox.children.length === 0) {
+            openModal(headerShopModalNull);
+          } else {
+            openModal(headerShopModal);
+          }
         });
-        addClass(item, "header_active");
-      });
-    });
-    shopCardsbtn.forEach((item, index) => {
-      item.addEventListener("click", () => {
-        shopCards[index].remove();
-        if (shopCardBox.children.length == 0) {
-          addClass(headerShopModal, "hidden");
-          addClass(headerShopModalNull, "flex");
-          removeClass(headerShopModalNull, "hidden");
-        }
-      });
-    });
-
-    headerShopBtn.forEach(function (item, index) {
-      item.addEventListener("click", () => {
-        if (shopCardBox.children.length == 0) {
-          toggleClass(headerShopModalNull, "flex");
-          toggleClass(headerShopModalNull, "hidden");
-        } else {
-          toggleClass(headerShopModal, "hidden");
-          toggleClass(headerShopModal, "block");
-        }
-        toggleClass(headerShopModalBackdrop, "block");
-        toggleClass(headerShopModalBackdrop, "hidden");
       });
 
-      item.addEventListener("click", function () {
-        headerProfileChangeBox.classList.add("hidden");
-        headerProfileChangeBox.classList.remove("block");
-      });
-    });
+      shopCardsbtn.forEach((button, index) => {
+        button.addEventListener('click', (event) => {
+          event.stopPropagation();
+          shopCards[index].remove();
 
-    headerShopModalBackdrop.addEventListener("click", () => {
-      addClass(headerShopModal, "hidden");
-      addClass(headerShopModalBackdrop, "hidden");
-      removeClass(headerShopModal, "block");
-      removeClass(headerShopModalBackdrop, "block");
-      addClass(profileChangeSeller, "hidden");
-      removeClass(headerShopModalNull, "flex");
-      addClass(headerShopModalNull, "hidden");
-    });
-
-
-    minusBtnShopCards.forEach((item, index) => {
-      item.addEventListener("click", () => {
-        if (shopCardCounts[index].textContent * 1 > 0) {
-          shopCardCounts[index].textContent = shopCardCounts[index].textContent * 1 - 1;
-          let newPrice = parseInt(shopCardPrices[index].textContent.replace(/\./g, "")) - 110000;
-          shopCardPrices[index].textContent = addDots(newPrice);
-        }
+          if (shopCardBox.children.length === 0) {
+            openModal(headerShopModalNull);
+          }
+        });
       });
 
-      shopCardPluses[index].addEventListener("click", () => {
-        shopCardCounts[index].textContent = shopCardCounts[index].textContent * 1 + 1;
-        let newPrice = parseInt(shopCardPrices[index].textContent.replace(/\./g, "")) + 110000;
-        shopCardPrices[index].textContent = addDots(newPrice);
-      });
-    });
-    function header() {
-      const buttons = [
+      const notificationButtons = [
         document.getElementById('notifications_preview_button_id_1'),
         document.getElementById('notifications_preview_button_id_2'),
         document.getElementById('notifications_preview_button_id_3')
       ];
 
-      const sections = [
+      const notificationSections = [
         document.getElementById('notifications_preview_section_id_1'),
         document.getElementById('notifications_preview_section_id_2'),
         document.getElementById('notifications_preview_section_id_3')
       ];
 
-      buttons.forEach((button, index) => {
+      notificationButtons.forEach((button, index) => {
         button.addEventListener('click', () => {
-          buttons.forEach((btn, idx) => {
-            if (index === idx) {
-              btn.classList.add('active_notifications_preview');
-              btn.children[index === 2 ? 0 : 1].classList.remove('hidden');
-            } else {
-              btn.classList.remove('active_notifications_preview');
-              btn.children[idx === 2 ? 0 : 1].classList.add('hidden');
-            }
+          notificationButtons.forEach((btn, idx) => {
+            btn.classList.remove('active_notifications_preview');
+            btn.children[idx === 2 ? 0 : 1].classList.add('hidden');
+            notificationSections[idx].classList.add('hidden');
           });
 
-          sections.forEach((section, idx) => {
-            if (index === idx) {
-              section.classList.remove('hidden');
-            } else {
-              section.classList.add('hidden');
-            }
-          });
+          button.classList.add('active_notifications_preview');
+          button.children[index === 2 ? 0 : 1].classList.remove('hidden');
+          notificationSections[index].classList.remove('hidden');
+        });
+      });
+
+      const profileChangeClient = document.querySelector(".profilchange__client");
+      const profileChangeSeller = document.querySelector(".profilchange__seller");
+      const clientBtns = document.querySelectorAll(".client__btn");
+      const sellerBtns = document.querySelectorAll(".seller__btn");
+
+      clientBtns.forEach(item => {
+        item.addEventListener("click", () => {
+          profileChangeSeller.classList.add("hidden");
+          profileChangeClient.classList.remove("hidden");
+        });
+      });
+
+      sellerBtns.forEach(item => {
+        item.addEventListener("click", () => {
+          profileChangeClient.classList.add("hidden");
+          profileChangeSeller.classList.remove("hidden");
         });
       });
 
 
+      window.addEventListener('resize', () => {
+        closeAllModals();
+      });
 
-      const notificationButton = document.querySelector('#notification_button');
-      const notificationModal = document.querySelector('.notification_modal');
-      const hide_modal = document.querySelector('#hide_modal');
-
-      notificationButton.addEventListener('click', () => {
-        notificationModal.classList.toggle('hidden');
-
-        if (!notificationModal.classList.contains('hidden')) {
-          hide_modal.style.visibility = 'visible';
+      window.addEventListener('click', (event) => {
+        if (activeModal && !activeModal.contains(event.target) &&
+          !event.target.closest('#notification_button') &&
+          !event.target.closest('#messages_button') &&
+          !event.target.closest("#header__profile__change_box__open") &&
+          !Array.from(headerShopBtn).some(button => button.contains(event.target))) {
+          closeAllModals();
         }
       });
-
-
-
-      const messages_button = document.querySelector('#messages_button');
-      const messages_modal = document.querySelector('.messages_modal');
-
-      messages_button.addEventListener('click', () => {
-        messages_modal.classList.toggle('hidden');
-
-        if (!messages_modal.classList.contains('hidden')) {
-          hide_modal.style.visibility = 'visible';
-        }
-      });
-
-
-
-      hide_modal.addEventListener('click', () => {
-        hide_modal.style.visibility = 'hidden';
-        notificationModal.classList.add('hidden');
-        messages_modal.classList.add('hidden');
-      })
-
-      document.querySelector('#search_messages').addEventListener('input', (e) => {
-        const searchTerm = e.target.value.trim().toLowerCase();
-        const searchMessagesSections = document.querySelectorAll('.search_messages_section');
-        const notificationModal = document.querySelector('.messages_modal');
-
-
-        searchMessagesSections.forEach(eItem => {
-          const messageText = eItem.querySelector('.message-text').textContent.trim().toLowerCase();
-          const isMatch = messageText.includes(searchTerm);
-
-
-
-          eItem.classList.toggle('match', isMatch);
-          eItem.style.display = isMatch ? 'block' : 'none';
-        });
-      });
-
-
-
-      document.querySelector('#search_services').addEventListener('input', (e) => {
-        const searchTerm = e.target.value.trim().toLowerCase();
-        const searchMessagesSections = document.querySelectorAll('.search_services_section')
-
-
-        searchMessagesSections.forEach(eItem => {
-          const messageText = eItem.textContent.toLowerCase();
-          const isMatch = messageText.includes(searchTerm);
-
-
-
-          eItem.classList.toggle('match', isMatch);
-          eItem.style.display = isMatch ? 'inline-block' : 'none';
-        });
-      });
-
-
-    }
-
-    header();
-
+    });
 
 
     document.addEventListener('DOMContentLoaded', () => {
@@ -2188,9 +2045,8 @@
         });
       });
     });
-
-
   </script>
+
   <section id="hero" class="pt-8 pb-20 lg:pt-20 relative">
     <img
       class="absolute w-60 opacity-30 left-1/2 top-0 -translate-y-1/3 -translate-x-2/3 lg:w-80 lg:opacity-100 lg:top-44 lg:left-0 lg:translate-x-0"
@@ -2288,7 +2144,7 @@
 
             deleteIcon.addEventListener('click', function (e) {
               e.preventDefault();
-              e.stopPropagation(); // Prevent the event from bubbling up
+              e.stopPropagation();
               btn.remove();
             });
           });
