@@ -1249,7 +1249,7 @@
     нужное модальное окно. -->
 
 
-    <div id="modal"
+    <div id="modal-0"
         class="h-screen w-full flex items-center justify-center inset-0 opacity-0 hidden bg-[#000]/70 fixed top-0 left-0 z-40">
         <div class="max-w-[420px] bg-white rounded-[36px] p-5 mx-5">
             <div class="flex items-center gap-[122px] justify-end mb-3">
@@ -1340,7 +1340,7 @@
         </div>
     </div>
 
-    <div id="modal"
+    <div id="modal-1"
         class="h-screen w-full flex items-center justify-center inset-0 opacity-0 hidden bg-[#000]/70 fixed top-0 left-0 z-40">
         <div class="max-w-[420px] bg-white rounded-[36px] p-5 mx-5">
             <div class="flex items-center md:gap-[100px] gap-[50px] justify-end mb-3">
@@ -1382,7 +1382,7 @@
         </div>
     </div>
 
-    <div id="modal"
+    <div id="modal-2"
         class="h-screen w-full flex items-center justify-center inset-0 opacity-0 hidden bg-[#000]/70 fixed top-0 left-0 z-40">
         <div class="max-w-[420px] bg-white rounded-[36px] p-5 mx-5">
             <div class="flex items-center gap-[122px] justify-end mb-3">
@@ -1459,7 +1459,7 @@
         </div>
     </div>
 
-    <div id="modal"
+    <div id="modal-3"
         class="h-screen w-full flex items-center justify-center inset-0 opacity-0 hidden bg-[#000]/70 fixed top-0 left-0 z-40">
         <div class="max-w-[420px] bg-white rounded-[36px] p-5 mx-5">
             <div class="flex items-center md:gap-[122px] gap-[50px] justify-end mb-3">
@@ -1489,7 +1489,7 @@
         </div>
     </div>
 
-    <div id="modal"
+    <div id="modal-4"
         class="h-screen w-full flex items-center justify-center inset-0 opacity-0 hidden bg-[#000]/70 fixed top-0 left-0 z-40">
         <div class="max-w-[420px] bg-white rounded-[36px] p-5 mx-5">
             <div class="flex items-center md:gap-[100px] gap-[50px] justify-end mb-3">
@@ -1519,26 +1519,60 @@
         </div>
     </div>
 
+    <button id="btn-modal-0">Modal 1</button>
+    <button id="btn-modal-1">Modal 2</button>
+    <button id="btn-modal-2">Modal 3</button>
+    <button id="btn-modal-3">Modal 4</button>
+    <button id="btn-modal-4">Modal 5</button>
+
     <!-- Чтобы увидеть конкретное модальное окно, из этих 5-ти нужно оставить нужное, 
     а 4 ненужных закомментировать. Затем зайти на сайт и нажать кнопку "Открыть" — появится
     нужное модальное окно. -->
 
     <script>
-        const openModalBtn = document.querySelector('.open_modal-btn');
-        const closeModalBtn = document.querySelector('.close_modal-btn');
-        const modal = document.getElementById('modal');
+        function setupModal(button, modal) {
+            const _modal = document.getElementById(modal);
+            const _button = document.getElementById(button);
+            const _closeBtn = _modal?.querySelector('.close_modal-btn');
 
-        openModalBtn.addEventListener('click', () => {
-            modal.classList.remove('hidden', 'opacity-0');
-            modal.classList.add('opacity-1', 'inset-1');
-            body.classList.add('h-screen', 'overflow-hidden');
-        });
+            if(_modal && _button && _closeBtn) {
 
-        closeModalBtn.addEventListener('click', () => {
-            modal.classList.remove('opacity-1', 'inset-1');
-            modal.classList.add('opacity-0', 'hidden');
-            body.classList.remove('h-screen', 'overflow-hidden');
-        });
+                _button.addEventListener('click', () => {
+                    _modal.classList.remove('hidden', 'opacity-0');
+                    _modal.classList.add('opacity-1', 'inset-1');
+                    body.classList.add('h-screen', 'overflow-hidden');
+                });
+
+                _closeBtn.addEventListener('click', () => {
+                    _modal.classList.remove('opacity-1', 'inset-1');
+                    _modal.classList.add('opacity-0', 'hidden');
+                    body.classList.remove('h-screen', 'overflow-hidden');
+                });
+
+            }
+        }
+
+        setupModal("btn-modal-0", "modal-0");
+        setupModal("btn-modal-1", "modal-1");
+        setupModal("btn-modal-2", "modal-2");
+        setupModal("btn-modal-3", "modal-3");
+        setupModal("btn-modal-4", "modal-4");
+
+        // const openModalBtn = document.querySelector('.open_modal-btn');
+        // const closeModalBtn = document.querySelector('.close_modal-btn');
+        // const modal = document.getElementById('modal');
+
+        // openModalBtn.addEventListener('click', () => {
+        //     modal.classList.remove('hidden', 'opacity-0');
+        //     modal.classList.add('opacity-1', 'inset-1');
+        //     body.classList.add('h-screen', 'overflow-hidden');
+        // });
+
+        // closeModalBtn.addEventListener('click', () => {
+        //     modal.classList.remove('opacity-1', 'inset-1');
+        //     modal.classList.add('opacity-0', 'hidden');
+        //     body.classList.remove('h-screen', 'overflow-hidden');
+        // });
 
     </script>
 
