@@ -345,7 +345,7 @@
                                        About this project
                                     </p>
                                     <div
-                                       class="mt-[15px] flex flex-col gap-4 font-Satoshi font-normal text-gray-c575e6a">
+                                       class="mt-[15px] flex flex-col gap-4 font-Satoshi font-normal text-gray-c575e6a hidden-about-text" id="about-text">
                                        <p>
                                           As part of one work, I am updating
                                           1 website script on the Bitrix management system.
@@ -360,7 +360,7 @@
                                        </p>
                                     </div>
                                     <button
-                                       class="flex items-center gap-[6px] font-Satoshi font-medium text-sm leading-none text-black px-[15px] py-3 rounded-xl bg-white mt-6">
+                                       class="flex items-center gap-[6px] font-Satoshi font-medium text-sm leading-none text-black px-[15px] py-3 rounded-xl bg-white mt-6" id="about-text-btn">
                                        Read full description
                                        <svg class="stroke-black size-3">
                                           <use href="/img/sprite.svg#plus">
@@ -472,7 +472,7 @@
                            <img class="size-6 " src="/img/paypal.png" alt="">
                         </div>
                      </div>
-                     <div class="hidden xl:order-3 xl:block">
+                     <div class="hidden xl:order-3 xl:block" id="requirements">
                         <div class="flex flex-col gap-[10px]">
                            <div class="p-6 bg-white rounded-3xl">
                               <p
@@ -482,7 +482,7 @@
                                  </svg>
                                  Required for ordering
                               </p>
-                              <p class="mt-5 font-Satoshi font-normal text-base text-gray-c575e6a overflow-line-3">
+                              <p class="mt-5 font-Satoshi font-normal text-base text-gray-c575e6a hidden-ordering-text" id="order-text">
                                  You will need a detailed description of the modification and result of the work,
                                  a link to the site, administrative access, and access to hosting. If necessary, attach
                                  explanatory screenshots and links to pages to the quork task. Use explanations for your
@@ -491,7 +491,7 @@
                                  for operational access.
                               </p>
                               <button
-                                 class="flex items-center gap-[6px] font-Satoshi font-medium text-sm leading-none text-black px-[15px] py-3 rounded-xl bg-gray-fafafc py-2 px-4 mt-5 gap-3 !bg-gray-cf1f3f9">
+                                 class="flex items-center gap-[6px] font-Satoshi font-medium text-sm leading-none text-black px-[15px] py-3 rounded-xl bg-gray-fafafc py-2 px-4 mt-5 gap-3 !bg-gray-cf1f3f9" id="order-text-btn">
                                  See what do you need for order
                                  <svg class="stroke-black size-3">
                                     <use href="/img/sprite.svg#plus-sm">
@@ -508,7 +508,7 @@
                            </div>
                         </div>
                      </div>
-                     <div class="hidden xl:order-4 xl:block">
+                     <div class="hidden xl:order-4 xl:block" id="tech-details">
                         <div class="p-6 bg-white rounded-3xl">
                            <p class="flex items-center gap-2 font-Satoshi text-xl leading-tight text-black">
                               <svg class="size-[18px] stroke-blue">
@@ -516,13 +516,15 @@
                               </svg>
                               Details &amp; further options
                            </p>
-                           <div class="flex flex-col gap-[10px] mt-5">
+                           <div class="flex flex-col gap-[10px] mt-5" id="checkboxes-2">
                               <div
-                                 class="p-2 pl-[14px] rounded-[14px] bg-gray-fafafc gap-[10px] flex items-center gap-[6px]">
+                                 class="p-2 pl-[14px] rounded-[14px] bg-gray-fafafc gap-[10px] flex items-center gap-[6px]"
+                                 data-checkbox="transfering"
+                              >
                                  <div
-                                    class="shrink-0 size-[18px] rounded-[4px] border-[0.5px] relative  bg-black border-black ">
+                                    class="shrink-0 size-[18px] rounded-[4px] border-[0.5px] relative" data-checkbox-container>
                                     <svg
-                                       class="size-[10px] stroke-white absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2">
+                                       class="size-[10px] stroke-white absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 hidden">
                                        <use href="/img/sprite.svg#mark">
                                     </svg>
                                  </div>
@@ -536,9 +538,15 @@
                                  </div>
                               </div>
                               <div
-                                 class="p-2 pl-[14px] rounded-[14px] bg-gray-fafafc gap-[10px] flex items-center gap-[6px]">
+                                 class="p-2 pl-[14px] rounded-[14px] bg-gray-fafafc gap-[10px] flex items-center gap-[6px]"
+                                 data-checkbox="audit"
+                              >
                                  <div
-                                    class="shrink-0 size-[18px] rounded-[4px] border-[0.5px] relative  border-gray-caeb5bf ">
+                                    class="shrink-0 size-[18px] rounded-[4px] border-[0.5px] relative" data-checkbox-container>
+                                    <svg
+                                       class="size-[10px] stroke-white absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 hidden">
+                                       <use href="/img/sprite.svg#mark">
+                                    </svg>
                                  </div>
                                  <span>Technical audit of the site, 1 hour</span>
                                  <div
@@ -573,15 +581,15 @@
                                  </li>
                               </ul>
                               <div class="flex flex-col gap-[10px]">
-                                 <div class="flex items-center justify-between gap-2">
+                                 <div class="flex items-center justify-between gap-2" id="counter-container-2">
                                     <p class="font-Satoshi font-bold text-base leading-tight text-black">Amount:</p>
                                     <div
                                        class="py-3 px-[10px] bg-gray-fafafc rounded-xl font-Satoshi font-bold text-sm leading-tight text-black flex items-center gap-[10px]">
-                                       <button class="size-4 opacity-50">
+                                       <button class="size-4 opacity-50" data-counter="minus">
                                           <img src="/img/icons/minus.svg" alt="">
                                        </button>
-                                       <span>1</span>
-                                       <button class="size-4">
+                                       <span data-counter="label">1</span>
+                                       <button class="size-4" data-counter="plus">
                                           <img src="/img/icons/add.svg" alt="">
                                        </button>
                                     </div>
@@ -602,7 +610,7 @@
                         </div>
                      </div>
                      <div class="xl:order-6">
-                        <div>
+                        <div id="reviews">
                            <div class="w-full " data-accordeon="" data-accordeon-smooth="false"
                               data-accordeon-adaptive="false" data-accordeon-media="(max-width: 1124px)">
                               <div
@@ -649,15 +657,21 @@
                                     <div class="p-[15px] pt-4 -mt-2 bg-white rounded-b-[14px] xl:mt-0 xl:p-0">
                                        <div class="bg-gray-fafafc rounded-xl p-[6px] flex">
                                           <button
-                                             class="basis-1/3 font-Satoshi font-medium text-sm leading-tight text-gray-c575e6a p-[6px] rounded-[10px] text-center first:bg-white first:font-bold first:text-black xl:px-4">
+                                             class="basis-1/3 font-Satoshi font-medium text-sm leading-tight text-gray-c575e6a p-[6px] rounded-[10px] text-center bg-white font-bold text-black xl:px-4"
+                                             data-review-tab="all"
+                                          >
                                              All
                                           </button>
                                           <button
-                                             class="basis-1/3 font-Satoshi font-medium text-sm leading-tight text-gray-c575e6a p-[6px] rounded-[10px] text-center first:bg-white first:font-bold first:text-black xl:px-4">
+                                             class="basis-1/3 font-Satoshi font-medium text-sm leading-tight text-gray-c575e6a p-[6px] rounded-[10px] text-center xl:px-4"
+                                             data-review-tab="positive"
+                                          >
                                              Positive
                                           </button>
                                           <button
-                                             class="basis-1/3 font-Satoshi font-medium text-sm leading-tight text-gray-c575e6a p-[6px] rounded-[10px] text-center first:bg-white first:font-bold first:text-black xl:px-4">
+                                             class="basis-1/3 font-Satoshi font-medium text-sm leading-tight text-gray-c575e6a p-[6px] rounded-[10px] text-center xl:px-4"
+                                             data-review-tab="negative"
+                                          >
                                              Negative
                                           </button>
                                        </div>
@@ -807,7 +821,7 @@
                            </div>
                         </div>
                      </div>
-                     <div class="xl:order-5">
+                     <div class="xl:order-5" id="portfolio">
                         <section id="portfolio"
                            class="relative pt-[10px] font-Satoshi font-bold text-base leading-tight text-black xl:p-6 xl:rounded-3xl">
                            <img class="hidden absolute inset-0 img-fill z-0 xl:block" src="/img/portfolio.jpg" alt="">
@@ -906,7 +920,7 @@
                            </div>
                         </section>
                      </div>
-                     <div class="xl:order-7 lg:pt-7">
+                     <div class="xl:order-7 lg:pt-7" id="recommended">
                         <div class="[&>p+div]:mt-[10px] ">
                            <p
                               class="flex items-center gap-2 font-Satoshi font-bold text-base leading-tight text-black lg:text-xl lg:leading-tight xl:pl-6 ">
@@ -1356,7 +1370,7 @@
                      </div>
                   </div>
                   <div class="flex flex-col gap-[10px] shrink-0 md:w-[370px] xxl:w-[400px]">
-                     <div class="hidden md:block">
+                     <div class="hidden md:block" id="order-details">
                         <div class="p-6 bg-white rounded-3xl">
                            <p
                               class="flex items-center gap-2 font-Satoshi font-bold text-base lg:text-xl leading-tight text-black">
@@ -1384,12 +1398,14 @@
                                  Amount:
                               </p>
                               <div
-                                 class="py-3 px-[10px] bg-gray-fafafc rounded-xl font-Satoshi font-bold text-sm leading-tight text-black flex items-center gap-[10px]">
-                                 <button class="size-4 opacity-50">
+                                 class="py-3 px-[10px] bg-gray-fafafc rounded-xl font-Satoshi font-bold text-sm leading-tight text-black flex items-center gap-[10px]"
+                                 id="counter-container"
+                              >
+                                 <button class="size-4 opacity-50" data-counter="minus">
                                     <img src="/img/icons/minus.svg" alt="">
                                  </button>
-                                 <span>1</span>
-                                 <button class="size-4">
+                                 <span data-counter="label">1</span>
+                                 <button class="size-4" data-counter="plus">
                                     <img src="/img/icons/add.svg" alt="">
                                  </button>
                               </div>
@@ -1401,13 +1417,15 @@
                            <p class="font-Satoshi font-bold text-base leading-tight text-gray-c575e6a">
                               Add to Order:
                            </p>
-                           <div class="mt-4 flex flex-col gap-3">
+                           <div class="mt-4 flex flex-col gap-3" id="checkboxes-1">
                               <div
-                                 class="p-2 pl-[14px] rounded-[14px] bg-gray-fafafc gap-[10px] flex items-center gap-[6px]">
+                                 class="p-2 pl-[14px] rounded-[14px] bg-gray-fafafc gap-[10px] flex items-center gap-[6px]"
+                                 data-checkbox="transfering"
+                              >
                                  <div
-                                    class="shrink-0 size-[18px] rounded-[4px] border-[0.5px] relative  bg-black border-black ">
+                                    class="shrink-0 size-[18px] rounded-[4px] border-[0.5px] relative" data-checkbox-container>
                                     <svg
-                                       class="size-[10px] stroke-white absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2">
+                                       class="size-[10px] stroke-white absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 hidden">
                                        <use href="/img/sprite.svg#mark">
                                     </svg>
                                  </div>
@@ -1421,9 +1439,15 @@
                                  </div>
                               </div>
                               <div
-                                 class="p-2 pl-[14px] rounded-[14px] bg-gray-fafafc gap-[10px] flex items-center gap-[6px]">
+                                 class="p-2 pl-[14px] rounded-[14px] bg-gray-fafafc gap-[10px] flex items-center gap-[6px]"
+                                 data-checkbox="audit"
+                              >
                                  <div
-                                    class="shrink-0 size-[18px] rounded-[4px] border-[0.5px] relative  border-gray-caeb5bf ">
+                                    class="shrink-0 size-[18px] rounded-[4px] border-[0.5px] relative" data-checkbox-container>
+                                    <svg
+                                       class="size-[10px] stroke-white absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 hidden">
+                                       <use href="/img/sprite.svg#mark">
+                                    </svg>
                                  </div>
                                  <span>Technical audit of the site, 1 hour</span>
                                  <div
@@ -2256,13 +2280,13 @@
       orderOpenModalButtons.forEach(button => {
          button.addEventListener('click', () => {
             orderModal.classList.remove('hidden');
-            body.classList.add('overflow-hidden' , 'h-screen');
+            document.documentElement.classList.add('overflow-hidden' );
          });
       });
 
       modalCloseBtn.addEventListener('click', () => {
          orderModal.classList.add('hidden');
-         body.classList.remove('overflow-hidden' , 'h-screen');
+         document.documentElement.classList.remove('overflow-hidden');
       });
    </script>
 
