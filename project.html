@@ -2350,7 +2350,9 @@
                         </svg>
                         <div
                            class="tooltip absolute bg-[#575E6A] text-white text-xs font-medium w-[296px] p-4 rounded-[14px] bottom-6 md:-left-[84px] left-0 shadow-lg opacity-0 translate-y-2 pointer-events-none transition-opacity transition-transform duration-300 group-hover:opacity-100 group-hover:translate-y-0 group-hover:pointer-events-auto">
-                           Dear customers! Beware of offers to pay for a service outside of Monday. Such offers, especially those requiring advance payment, greatly increase the risk of losing time and money.
+                           Dear customers! Beware of offers to pay for a service outside of Monday. Such offers,
+                           especially those requiring advance payment, greatly increase the risk of losing time and
+                           money.
                         </div>
                      </span>
                   </h3>
@@ -2416,6 +2418,172 @@
    </div>
 
 
+
+   <!-- Для открытия модального окна кнопке нужен соответствующий id="add_option-checking_open" -->
+
+   <div id="add_option-checking_modal"
+      class="lg:bg-[#000000]/80 hidden fixed inset-0 w-full z-[500] p-3 flex-col bg-white py-10">
+      <div class="max-w-[724px] w-full mx-auto">
+         <div class="md:p-6 md:rounded-3xl md:bg-white lg:h-full flex flex-col h-[90vh] overflow-scroll">
+            <div class="flex items-start justify-between gap-4 pb-5 border-b mb-5">
+               <div class="flex items-center gap-2.5">
+                  <img class="max-w-[98px] lg:flex hidden w-full object-cover rounded-[12px]" src="./img/ordering.png"
+                     alt="">
+                  <p class="text-[#202020] font-bold lg:text-2xl text-base max-w-[395px]"><span
+                        class="text-[#575E6A]">Ordering:</span> Bitrix Website Improvements & Adjustments </p>
+               </div>
+               <button id="add_option-checking_close">
+                  <svg width="43" height="43" viewBox="0 0 43 43" fill="none" xmlns="http://www.w3.org/2000/svg">
+                     <path d="M14 30L30 14" stroke="#9CA5B3" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round" />
+                     <path d="M30 30L14 14" stroke="#9CA5B3" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round" />
+                  </svg>
+               </button>
+            </div>
+            <div class="">
+               <p class="text-[#202020] md:text-base text-sm font-bold mb-5 flex items-center gap-1">
+                  <span>
+                     <svg width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M6.60758 1.5L3.89258 4.2225" stroke="#4790FF" stroke-width="1.5" stroke-miterlimit="10"
+                           stroke-linecap="round" stroke-linejoin="round" />
+                        <path d="M11.3926 1.5L14.1076 4.2225" stroke="#4790FF" stroke-width="1.5" stroke-miterlimit="10"
+                           stroke-linecap="round" stroke-linejoin="round" />
+                        <path
+                           d="M1.5 5.88672C1.5 4.49922 2.2425 4.38672 3.165 4.38672H14.835C15.7575 4.38672 16.5 4.49922 16.5 5.88672C16.5 7.49922 15.7575 7.38672 14.835 7.38672H3.165C2.2425 7.38672 1.5 7.49922 1.5 5.88672Z"
+                           stroke="#4790FF" stroke-width="1.5" />
+                        <path d="M9 10.5V13.1625" stroke="#4790FF" stroke-width="1.5" stroke-linecap="round" />
+                        <path d="M10.2734 11.832L7.61094 11.832" stroke="#4790FF" stroke-width="1.5"
+                           stroke-linecap="round" />
+                        <path
+                           d="M2.625 7.5L3.6825 13.98C3.9225 15.435 4.5 16.5 6.645 16.5H11.1675C13.5 16.5 13.845 15.48 14.115 14.07L15.375 7.5"
+                           stroke="#4790FF" stroke-width="1.5" stroke-linecap="round" />
+                     </svg>
+                  </span>
+                  Details & further options
+               </p>
+               <div class="flex flex-col gap-2.5 mb-5">
+                  <div class="bg-[#FAFAFC] py-2 pr-2 pl-4 rounded-[12px] md:flex items-center justify-between gap-2">
+                     <p class="text-[#202020] md:text-base text-sm font-bold flex items-center gap-2.5 mb-2.5 md:mb-0">
+                        <span>
+                           <svg width="18" height="18" viewBox="0 0 18 18" fill="none"
+                              xmlns="http://www.w3.org/2000/svg">
+                              <rect width="18" height="18" rx="4" fill="#202020" />
+                              <path d="M13 6L7.5 11L5 8.72727" stroke="white" stroke-width="1.5" stroke-linecap="round"
+                                 stroke-linejoin="round" />
+                           </svg>
+                        </span>
+                        Transferring a site to another hosting
+                     </p>
+                     <button
+                        class="flex items-center justify-between gap-2 py-2 px-2.5 bg-white rounded-[12px] md:max-w-[164px] w-full">
+                        <div class="flex items-center gap-2.5">
+                           <p class="text-[#202020] font-bold text-sm">1</p>
+                           <span class="text-[#B7C3D6] font-medium text-sm">/</span>
+                           <p class="text-[#B7C3D6] font-medium text-sm">10.000</p>
+                        </div>
+                        <span class="flex">
+                           <svg width="25" height="26" viewBox="0 0 25 26" fill="none"
+                              xmlns="http://www.w3.org/2000/svg">
+                              <path d="M8 11.5L12.5 15.5L17 11.5" stroke="#202020" stroke-width="2"
+                                 stroke-linecap="round" stroke-linejoin="round" />
+                           </svg>
+                        </span>
+                     </button>
+                  </div>
+
+                  <div class="bg-[#FAFAFC] py-2 pr-2 pl-4 rounded-[12px] md:flex items-center justify-between gap-2">
+                     <p class="text-[#202020] md:text-base text-sm font-bold flex items-center gap-2.5 mb-2.5 md:mb-0">
+                        <span>
+                           <svg width="18" height="18" viewBox="0 0 18 18" fill="none"
+                              xmlns="http://www.w3.org/2000/svg">
+                              <rect x="0.5" y="0.5" width="17" height="17" rx="3.5" stroke="#AEB5BF" />
+                           </svg>
+                        </span>
+                        Transferring a site to another hosting
+                     </p>
+                     <button
+                        class="flex items-center justify-between gap-2 py-2 px-2.5 bg-white rounded-[12px] md:max-w-[164px] w-full">
+                        <div class="flex items-center gap-2.5">
+                           <p class="text-[#202020] font-bold text-sm">1</p>
+                           <span class="text-[#B7C3D6] font-medium text-sm">/</span>
+                           <p class="text-[#B7C3D6] font-medium text-sm">10.000</p>
+                        </div>
+                        <span class="flex">
+                           <svg width="25" height="26" viewBox="0 0 25 26" fill="none"
+                              xmlns="http://www.w3.org/2000/svg">
+                              <path d="M8 11.5L12.5 15.5L17 11.5" stroke="#202020" stroke-width="2"
+                                 stroke-linecap="round" stroke-linejoin="round" />
+                           </svg>
+                        </span>
+                     </button>
+                  </div>
+               </div>
+            </div>
+            <div class="lg:flex items-end gap-5 justify-between mt-auto">
+               <div class="lg:max-w-[269px] lg:mb-0 mb-5">
+                  <ul class="flex flex-wrap gap-2 lg:flex-col lg:flex lg:gap-2">
+                     <li class="flex items-center gap-2 text-[#575E6A] font-bold text-sm">
+                        <span>
+                           <svg width="16" height="17" viewBox="0 0 16 17" fill="none"
+                              xmlns="http://www.w3.org/2000/svg">
+                              <rect y="0.5" width="16" height="16" rx="8" fill="#4790FF" />
+                              <path d="M11 5.5L5.5 11L3 8.5" stroke="white" stroke-linecap="round"
+                                 stroke-linejoin="round" />
+                              <path d="M13 7.5L9.25 11.25L8.5 10.5" stroke="white" stroke-linecap="round"
+                                 stroke-linejoin="round" />
+                           </svg>
+                        </span>
+                        Endless edits up to 100% result
+                     </li>
+                     <li class="flex items-center gap-2 text-[#575E6A] font-bold text-sm">
+                        <span>
+                           <svg width="16" height="17" viewBox="0 0 16 17" fill="none"
+                              xmlns="http://www.w3.org/2000/svg">
+                              <path d="M6.66602 1.83203H9.33268" stroke="#4790FF" stroke-width="1.5"
+                                 stroke-linecap="round" stroke-linejoin="round" />
+                              <path d="M8 9.83203L10 7.83203" stroke="#4790FF" stroke-width="1.5" stroke-linecap="round"
+                                 stroke-linejoin="round" />
+                              <path
+                                 d="M7.99935 15.1667C10.9449 15.1667 13.3327 12.7789 13.3327 9.83333C13.3327 6.88781 10.9449 4.5 7.99935 4.5C5.05383 4.5 2.66602 6.88781 2.66602 9.83333C2.66602 12.7789 5.05383 15.1667 7.99935 15.1667Z"
+                                 stroke="#4790FF" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                           </svg>
+                        </span>
+                        3 days delivery
+                     </li>
+                     <li class="flex items-center gap-2 text-[#B7C3D6] font-bold text-sm">
+                        <span>
+                           <svg width="16" height="17" viewBox="0 0 16 17" fill="none"
+                              xmlns="http://www.w3.org/2000/svg">
+                              <path d="M6.66602 1.83203H9.33268" stroke="#B7C3D6" stroke-width="1.5"
+                                 stroke-linecap="round" stroke-linejoin="round" />
+                              <path d="M8 9.83203L10 7.83203" stroke="#B7C3D6" stroke-width="1.5" stroke-linecap="round"
+                                 stroke-linejoin="round" />
+                              <path
+                                 d="M7.99935 15.1667C10.9449 15.1667 13.3327 12.7789 13.3327 9.83333C13.3327 6.88781 10.9449 4.5 7.99935 4.5C5.05383 4.5 2.66602 6.88781 2.66602 9.83333C2.66602 12.7789 5.05383 15.1667 7.99935 15.1667Z"
+                                 stroke="#B7C3D6" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                           </svg>
+                        </span>
+                        21 h average delivery time
+                     </li>
+                  </ul>
+               </div>
+               <div class="flex items-center gap-2.5">
+                  <div class="inline-flex items-center gap-2.5 py-2.5 px-5 bg-[#FAFAFC] rounded-[12px]">
+                     <button class="text-[#9CA5B3] font-bold text-xl">-</button>
+                     <span class="text-[#202020] font-bold text-sm">1</span>
+                     <button class="text-[#202020] font-bold text-xl">+</button>
+                  </div>
+                  <button
+                     class="from-[#6AB8FF] text-center to-[#DEF5FF] bg-gradient-to-r  py-[14px] px-[37px] rounded-xl inline-flex font-Satoshi font-medium text-sm leading-tight text-white">
+                     Order now for 110.000 UZS
+                  </button>
+               </div>
+            </div>
+         </div>
+      </div>
+   </div>
+
    <script>
       const orderModal = document.querySelector('#order-modal');
       const modalCloseBtn = document.querySelector('#modal-close-btn');
@@ -2455,6 +2623,24 @@
       });
    </script>
 
+   <script>
+      const add_optionChecking_modal = document.querySelector('#add_option-checking_modal');
+      const add_optionCheckingClose = document.querySelector('#add_option-checking_close');
+      const add_optionCheckingOpen = document.querySelectorAll('#add_option-checking_open');
+
+
+      add_optionCheckingOpen.forEach(button => {
+         button.addEventListener('click', () => {
+            add_optionChecking_modal.classList.remove('hidden');
+            document.documentElement.classList.add('overflow-hidden');
+         });
+      });
+
+      add_optionCheckingClose.addEventListener('click', () => {
+         add_optionChecking_modal.classList.add('hidden');
+         document.documentElement.classList.remove('overflow-hidden');
+      });
+   </script>
 
    <script>
       var swiper = new Swiper(".mySwiper", {
