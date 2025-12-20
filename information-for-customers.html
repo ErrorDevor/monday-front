@@ -1,1215 +1,2164 @@
 <!DOCTYPE html>
 <html lang="en" class="overflow-x-hidden scroll-smooth">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>MONDAY</title>
-    <link rel="stylesheet" href="./assets/css/styles.css">
-    <link href="assets%5Ccss%5Cabout.0fcabdd2790f60f408b7.css" rel="stylesheet">
+    <link rel="stylesheet" href="./assets/css/styles.css" />
+    <link href="/assets/css/about.0fcabdd2790f60f408b7.css" rel="stylesheet" />
     <script src="https://cdn.tailwindcss.com"></script>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
-</head>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
+  </head>
 
-<body class="bg-[#FAFAFC]">
-
+  <body class="bg-[#FAFAFC]">
     <header class="lg:pt-8 bg-white">
-        <div class="max-w-[1384px] px-3 mx-auto lg:flex hidden items-center justify-between mb-5">
-            <div class="flex items-center gap-2.5 max-w-[600px] w-full">
-                <a class="text-[#202020] font-bold text-base uppercase select-none" href="index.html">MONDAY
-                </a>
-                <button
-                    class="py-2.5 w-full max-w-[83px] px-2.5 inline-flex items-center gap-1.5 bg-[#FAFAFC] rounded-xl text-[#B7C3D6] uppercase font-medium text-base active:opacity-80 transition-all">
-                    <img src="./img/header/global.svg" alt="global">
-                    <p>Uz</p>
-                    <span>
-                        <svg class="flex" width="12" height="6" viewBox="0 0 12 6" fill="none"
-                            xmlns="http://www.w3.org/2000/svg">
-                            <path d="M1.50391 1L6.00391 5L10.5039 1" stroke="#B7C3D6" stroke-width="2"
-                                stroke-linecap="round" stroke-linejoin="round" />
-                        </svg>
-                    </span>
-                </button>
-                <div class="w-full relative">
-                    <div
-                        class="flex items-center justify-between max-w-[316px] w-full h-11 px-4 rounded-full bg-[#FAFAFC]">
-                        <input autocomplete="off" id="search" placeholder="Search for services..."
-                            class="placeholder:text-[#9CA5B3] placeholder:font-medium placeholder:text-sm text-[#9CA5B3] font-medium text-sm outline-none border-none bg-transparent max-w-[250px] w-full"
-                            type="search">
-                        <label for="search" class="cursor-pointer flex" id="searchLabel">
-                            <img src="./img/header/search.svg" alt="search" class="search-icon">
-                        </label>
-                    </div>
-                    <div id="search__menu"
-                        class="search_shadow z-20 hidden absolute bg-[#FCFCFC] top-[60px] max-w-[316px] w-full py-2.5 px-4 rounded-2xl">
-                        <p class="text-[#202020] font-bold text-xs mb-2">Top services🔥</p>
-                        <div class="pb-2 border-b mb-2">
-                            <a class="text-[#8F8F8F] font-medium text-[10px] p-1 border rounded-md" href="#">Social &
-                                SMM</a>
-                            <a class="text-[#8F8F8F] font-medium text-[10px] p-1 border rounded-md" href="#">SEO</a>
-                            <a class="text-[#8F8F8F] font-medium text-[10px] p-1 border rounded-md"
-                                href="#">Copywriting</a>
-                            <a class="text-[#8F8F8F] font-medium text-[10px] p-1 border rounded-md" href="#">Web
-                                Development</a>
-                            <a class="text-[#8F8F8F] font-medium text-[10px] p-1 border rounded-md" href="#">Scripts &
-                                Telegram
-                                Bots</a>
-                        </div>
-                        <div>
-                            <p class="text-[#B7C3D6] font-bold text-[10px]">Recent</p>
-                            <a class="search_recent text-[#575E6A] font-medium text-xs flex items-center gap-1 relative"
-                                href="#"><img class="flex" src="./img/header/clock.svg" alt="clock">Wibtrix site
-                                improvements</a>
-                            <a class="search_recent text-[#575E6A] font-medium text-xs flex items-center gap-1 relative"
-                                href="#"><img class="flex" src="./img/header/clock.svg" alt="clock">Seo optimisation</a>
-                        </div>
-                    </div>
-                </div>
+      <div
+        class="max-w-[1384px] px-3 mx-auto lg:flex hidden items-center justify-between mb-5"
+      >
+        <div class="flex items-center gap-2.5 max-w-[600px] w-full">
+          <a
+            class="text-[#202020] font-bold text-base uppercase select-none"
+            href="index.html"
+            >MONDAY
+          </a>
+          <button
+            class="py-2.5 w-full max-w-[83px] px-2.5 inline-flex items-center gap-1.5 bg-[#FAFAFC] rounded-xl text-[#B7C3D6] uppercase font-medium text-base active:opacity-80 transition-all"
+          >
+            <img src="./img/header/global.svg" alt="global" />
+            <p>Uz</p>
+            <span>
+              <svg
+                class="flex"
+                width="12"
+                height="6"
+                viewBox="0 0 12 6"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M1.50391 1L6.00391 5L10.5039 1"
+                  stroke="#B7C3D6"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                />
+              </svg>
+            </span>
+          </button>
+          <div class="w-full relative">
+            <div
+              class="flex items-center justify-between max-w-[316px] w-full h-11 px-4 rounded-full bg-[#FAFAFC]"
+            >
+              <input
+                autocomplete="off"
+                id="search"
+                placeholder="Search for services..."
+                class="placeholder:text-[#9CA5B3] placeholder:font-medium placeholder:text-sm text-[#9CA5B3] font-medium text-sm outline-none border-none bg-transparent max-w-[250px] w-full"
+                type="search"
+              />
+              <label for="search" class="cursor-pointer flex" id="searchLabel">
+                <img
+                  src="./img/header/search.svg"
+                  alt="search"
+                  class="search-icon"
+                />
+              </label>
+            </div>
+            <div
+              id="search__menu"
+              class="search_shadow z-20 hidden absolute bg-[#FCFCFC] top-[60px] max-w-[316px] w-full py-2.5 px-4 rounded-2xl"
+            >
+              <p class="text-[#202020] font-bold text-xs mb-2">
+                Top services🔥
+              </p>
+              <div class="pb-2 border-b mb-2">
+                <a
+                  class="text-[#8F8F8F] font-medium text-[10px] p-1 border rounded-md"
+                  href="#"
+                  >Social & SMM</a
+                >
+                <a
+                  class="text-[#8F8F8F] font-medium text-[10px] p-1 border rounded-md"
+                  href="#"
+                  >SEO</a
+                >
+                <a
+                  class="text-[#8F8F8F] font-medium text-[10px] p-1 border rounded-md"
+                  href="#"
+                  >Copywriting</a
+                >
+                <a
+                  class="text-[#8F8F8F] font-medium text-[10px] p-1 border rounded-md"
+                  href="#"
+                  >Web Development</a
+                >
+                <a
+                  class="text-[#8F8F8F] font-medium text-[10px] p-1 border rounded-md"
+                  href="#"
+                  >Scripts & Telegram Bots</a
+                >
+              </div>
+              <div>
+                <p class="text-[#B7C3D6] font-bold text-[10px]">Recent</p>
+                <a
+                  class="search_recent text-[#575E6A] font-medium text-xs flex items-center gap-1 relative"
+                  href="#"
+                  ><img
+                    class="flex"
+                    src="./img/header/clock.svg"
+                    alt="clock"
+                  />Wibtrix site improvements</a
+                >
+                <a
+                  class="search_recent text-[#575E6A] font-medium text-xs flex items-center gap-1 relative"
+                  href="#"
+                  ><img
+                    class="flex"
+                    src="./img/header/clock.svg"
+                    alt="clock"
+                  />Seo optimisation</a
+                >
+              </div>
+            </div>
+          </div>
 
+          <script>
+            document.addEventListener("DOMContentLoaded", () => {
+              const searchInput = document.getElementById("search");
+              const searchMenu = document.getElementById("search__menu");
+              const searchRecentItems =
+                document.querySelectorAll(".search_recent");
 
-                <script>
-                    document.addEventListener('DOMContentLoaded', () => {
-                        const searchInput = document.getElementById('search');
-                        const searchMenu = document.getElementById('search__menu');
-                        const searchRecentItems = document.querySelectorAll('.search_recent');
+              function showSearchMenu() {
+                searchMenu.classList.remove("hidden");
+                // searchMenu.classList.add('animate__animated', 'animate__fadeIn');
+              }
 
-                        function showSearchMenu() {
-                            searchMenu.classList.remove('hidden');
-                            // searchMenu.classList.add('animate__animated', 'animate__fadeIn');
-                        }
+              function hideSearchMenu() {
+                searchMenu.classList.add("hidden");
+                // searchMenu.classList.remove('animate__animated', 'animate__fadeIn');
+              }
 
-                        function hideSearchMenu() {
-                            searchMenu.classList.add('hidden');
-                            // searchMenu.classList.remove('animate__animated', 'animate__fadeIn');
-                        }
+              searchInput.addEventListener("focus", showSearchMenu);
 
-                        searchInput.addEventListener('focus', showSearchMenu);
+              document.addEventListener("click", (event) => {
+                if (
+                  !searchInput.contains(event.target) &&
+                  !searchMenu.contains(event.target)
+                ) {
+                  hideSearchMenu();
+                }
+              });
 
-                        document.addEventListener('click', (event) => {
-                            if (!searchInput.contains(event.target) && !searchMenu.contains(event.target)) {
-                                hideSearchMenu();
-                            }
-                        });
+              window.addEventListener("resize", hideSearchMenu);
 
-                        window.addEventListener('resize', hideSearchMenu);
-
-                        searchRecentItems.forEach(item => {
-                            item.addEventListener('mouseenter', () => {
-                                if (!item.querySelector('.close-button')) {
-                                    const closeButton = document.createElement('span');
-                                    closeButton.innerHTML = '&times;';
-                                    closeButton.classList.add('absolute', 'right-0', 'text-[#9CA5B3]', 'hover:text-[#202020]', 'font-bold', 'transition-all', 'duration-200', 'ease-in-out', 'text-xl', 'close-button');
-                                    closeButton.addEventListener('click', (event) => {
-                                        event.stopPropagation();
-                                        item.remove();
-                                    });
-                                    item.appendChild(closeButton);
-                                }
-                            });
-
-                            item.addEventListener('mouseleave', () => {
-                                const closeButton = item.querySelector('.close-button');
-                                if (closeButton) {
-                                    closeButton.remove();
-                                }
-                            });
-                        });
+              searchRecentItems.forEach((item) => {
+                item.addEventListener("mouseenter", () => {
+                  if (!item.querySelector(".close-button")) {
+                    const closeButton = document.createElement("span");
+                    closeButton.innerHTML = "&times;";
+                    closeButton.classList.add(
+                      "absolute",
+                      "right-0",
+                      "text-[#9CA5B3]",
+                      "hover:text-[#202020]",
+                      "font-bold",
+                      "transition-all",
+                      "duration-200",
+                      "ease-in-out",
+                      "text-xl",
+                      "close-button"
+                    );
+                    closeButton.addEventListener("click", (event) => {
+                      event.stopPropagation();
+                      item.remove();
                     });
+                    item.appendChild(closeButton);
+                  }
+                });
 
-                </script>
-            </div>
-            <div class="flex items-center gap-10">
-                <div>
-                    <ul class="flex items-center gap-6">
-                        <li>
-                            <a href="#" class="text-[#9CA5B3] font-bold text-base animated-underline">Orders
-                            </a>
-                        </li>
-                        <li>
-                            <a href="#" class="text-[#9CA5B3] font-bold text-base animated-underline">Projects
-                            </a>
-                        </li>
-                        <li>
-                            <a href="#" class="text-[#9CA5B3] font-bold text-base animated-underline">Sellers
-                            </a>
-                        </li>
-                        <li>
-                            <a href="#"
-                                class="text-[#9CA5B3] font-bold text-base flex items-center gap-1.5 animated-underline">
-                                <span>
-                                    <img class="flex" src="./img/header/lovely.svg" alt="lovely">
-                                </span>Favorites
-                            </a>
-                        </li>
-                    </ul>
-                </div>
-                <div class="flex items-center gap-5">
-                    <a class="relative" href="#">
-                        <img src="./img/header/bag.svg" alt="bag">
-                        <div
-                            class="rounded-full text-white font-bold text-[8px] min-w-[14px] min-h-[14px] flex items-center justify-center bg-[#4790FF] absolute top-[-5px] right-[-7px] border-white border">
-                            2
-                        </div>
-                    </a>
-                    <a class="relative" href="#">
-                        <img src="./img/header/message.svg" alt="message">
-                        <div
-                            class="rounded-full text-white font-bold text-[8px] min-w-[14px] min-h-[14px] flex items-center justify-center bg-[#FF8E8E] absolute top-[-5px] right-[-7px] border-white border">
-                            2
-                        </div>
-                    </a>
-                    <a class="relative" href="#">
-                        <img src="./img/header/notification.svg" alt="notification">
-                        <div
-                            class="rounded-full text-white font-bold text-[8px] min-w-[14px] min-h-[14px] flex items-center justify-center bg-[#3bbe1a] absolute top-[-5px] right-[-7px] border-white border">
-                            2
-                        </div>
-                    </a>
-                </div>
-                <div class="flex gap-1">
-                    <a class="hover:opacity-80 transition-all" href="#">
-                        <img src="./img/header/wallet.svg" alt="wallet">
-                    </a>
-                    <button class="flex items-center relative cursor-pointer">
-                        <img class="max-w-11 w-full flex" src="./img/header/avatar.png" alt="avatar">
-                        <div
-                            class="w-2.5 h-2.5 rounded-full border border-white bg-[#62F94D] absolute bottom-0 right-[25px]">
-                        </div>
-                        <img class="flex" src="./img/header/expand.svg" alt="expand">
-                    </button>
-                </div>
-            </div>
+                item.addEventListener("mouseleave", () => {
+                  const closeButton = item.querySelector(".close-button");
+                  if (closeButton) {
+                    closeButton.remove();
+                  }
+                });
+              });
+            });
+          </script>
         </div>
-        <div class="hidden lg:block">
-            <nav class="hidden lg:block border-b-[1px] border-gray border-opacity-50 border-solid bg-white">
-                <div class="app-container flex items-center gap-[6px] overflow-auto [&::-webkit-scrollbar]:hidden">
-                    <a class="[&:first-child]:text-black [&:first-child]:font-bold [&:first-child]:after:opacity-100 relative px-4 py-3 font-Satoshi font-medium text-gray whitespace-nowrap after:w-full after:h-1 after:bg-blue after:absolute after:left-0 after:bottom-0 after:opacity-0" href="#" target="_blank"> Social &amp; SMM </a>
-                    <a class="[&:first-child]:text-black [&:first-child]:font-bold [&:first-child]:after:opacity-100 relative px-4 py-3 font-Satoshi font-medium text-gray whitespace-nowrap after:w-full after:h-1 after:bg-blue after:absolute after:left-0 after:bottom-0 after:opacity-0" href="#" target="_blank"> SEO </a>
-                    <a class="[&:first-child]:text-black [&:first-child]:font-bold [&:first-child]:after:opacity-100 relative px-4 py-3 font-Satoshi font-medium text-gray whitespace-nowrap after:w-full after:h-1 after:bg-blue after:absolute after:left-0 after:bottom-0 after:opacity-0" href="#" target="_blank"> Copywriting </a>
-                    <a class="[&:first-child]:text-black [&:first-child]:font-bold [&:first-child]:after:opacity-100 relative px-4 py-3 font-Satoshi font-medium text-gray whitespace-nowrap after:w-full after:h-1 after:bg-blue after:absolute after:left-0 after:bottom-0 after:opacity-0" href="#" target="_blank"> Web Development </a>
-                    <a class="[&:first-child]:text-black [&:first-child]:font-bold [&:first-child]:after:opacity-100 relative px-4 py-3 font-Satoshi font-medium text-gray whitespace-nowrap after:w-full after:h-1 after:bg-blue after:absolute after:left-0 after:bottom-0 after:opacity-0" href="#" target="_blank"> Marketplaces &amp; Socials </a>
-                    <a class="[&:first-child]:text-black [&:first-child]:font-bold [&:first-child]:after:opacity-100 relative px-4 py-3 font-Satoshi font-medium text-gray whitespace-nowrap after:w-full after:h-1 after:bg-blue after:absolute after:left-0 after:bottom-0 after:opacity-0" href="#" target="_blank"> Logotypes &amp; Branding </a>
-                    <a class="[&:first-child]:text-black [&:first-child]:font-bold [&:first-child]:after:opacity-100 relative px-4 py-3 font-Satoshi font-medium text-gray whitespace-nowrap after:w-full after:h-1 after:bg-blue after:absolute after:left-0 after:bottom-0 after:opacity-0" href="#" target="_blank"> Web &amp; Mobile Design </a>
-                    <a class="[&:first-child]:text-black [&:first-child]:font-bold [&:first-child]:after:opacity-100 relative px-4 py-3 font-Satoshi font-medium text-gray whitespace-nowrap after:w-full after:h-1 after:bg-blue after:absolute after:left-0 after:bottom-0 after:opacity-0" href="#" target="_blank"> Scripts &amp; Bots </a>
-                    <a class="[&:first-child]:text-black [&:first-child]:font-bold [&:first-child]:after:opacity-100 relative px-4 py-3 font-Satoshi font-medium text-gray whitespace-nowrap after:w-full after:h-1 after:bg-blue after:absolute after:left-0 after:bottom-0 after:opacity-0" href="#" target="_blank"> All Services </a>
-                </div>
-            </nav>
+        <div class="flex items-center gap-10">
+          <div>
+            <ul class="flex items-center gap-6">
+              <li>
+                <a
+                  href="#"
+                  class="text-[#9CA5B3] font-bold text-base animated-underline"
+                  >Orders
+                </a>
+              </li>
+              <li>
+                <a
+                  href="#"
+                  class="text-[#9CA5B3] font-bold text-base animated-underline"
+                  >Projects
+                </a>
+              </li>
+              <li>
+                <a
+                  href="#"
+                  class="text-[#9CA5B3] font-bold text-base animated-underline"
+                  >Sellers
+                </a>
+              </li>
+              <li>
+                <a
+                  href="#"
+                  class="text-[#9CA5B3] font-bold text-base flex items-center gap-1.5 animated-underline"
+                >
+                  <span>
+                    <img
+                      class="flex"
+                      src="./img/header/lovely.svg"
+                      alt="lovely"
+                    /> </span
+                  >Favorites
+                </a>
+              </li>
+            </ul>
+          </div>
+          <div class="flex items-center gap-5">
+            <a class="relative" href="#">
+              <img src="./img/header/bag.svg" alt="bag" />
+              <div
+                class="rounded-full text-white font-bold text-[8px] min-w-[14px] min-h-[14px] flex items-center justify-center bg-[#4790FF] absolute top-[-5px] right-[-7px] border-white border"
+              >
+                2
+              </div>
+            </a>
+            <a class="relative" href="#">
+              <img src="./img/header/message.svg" alt="message" />
+              <div
+                class="rounded-full text-white font-bold text-[8px] min-w-[14px] min-h-[14px] flex items-center justify-center bg-[#FF8E8E] absolute top-[-5px] right-[-7px] border-white border"
+              >
+                2
+              </div>
+            </a>
+            <a class="relative" href="#">
+              <img src="./img/header/notification.svg" alt="notification" />
+              <div
+                class="rounded-full text-white font-bold text-[8px] min-w-[14px] min-h-[14px] flex items-center justify-center bg-[#3bbe1a] absolute top-[-5px] right-[-7px] border-white border"
+              >
+                2
+              </div>
+            </a>
+          </div>
+          <div class="flex gap-1">
+            <a class="hover:opacity-80 transition-all" href="#">
+              <img src="./img/header/wallet.svg" alt="wallet" />
+            </a>
+            <button class="flex items-center relative cursor-pointer">
+              <img
+                class="max-w-11 w-full flex"
+                src="./img/header/avatar.png"
+                alt="avatar"
+              />
+              <div
+                class="w-2.5 h-2.5 rounded-full border border-white bg-[#62F94D] absolute bottom-0 right-[25px]"
+              ></div>
+              <img class="flex" src="./img/header/expand.svg" alt="expand" />
+            </button>
+          </div>
         </div>
+      </div>
+      <div class="hidden lg:block">
+        <nav
+          class="hidden lg:block border-b-[1px] border-gray border-opacity-50 border-solid bg-white"
+        >
+          <div
+            class="app-container flex items-center gap-[6px] overflow-auto [&::-webkit-scrollbar]:hidden"
+          >
+            <a
+              class="[&:first-child]:text-black [&:first-child]:font-bold [&:first-child]:after:opacity-100 relative px-4 py-3 font-Satoshi font-medium text-gray whitespace-nowrap after:w-full after:h-1 after:bg-blue after:absolute after:left-0 after:bottom-0 after:opacity-0"
+              href="#"
+              target="_blank"
+            >
+              Social &amp; SMM
+            </a>
+            <a
+              class="[&:first-child]:text-black [&:first-child]:font-bold [&:first-child]:after:opacity-100 relative px-4 py-3 font-Satoshi font-medium text-gray whitespace-nowrap after:w-full after:h-1 after:bg-blue after:absolute after:left-0 after:bottom-0 after:opacity-0"
+              href="#"
+              target="_blank"
+            >
+              SEO
+            </a>
+            <a
+              class="[&:first-child]:text-black [&:first-child]:font-bold [&:first-child]:after:opacity-100 relative px-4 py-3 font-Satoshi font-medium text-gray whitespace-nowrap after:w-full after:h-1 after:bg-blue after:absolute after:left-0 after:bottom-0 after:opacity-0"
+              href="#"
+              target="_blank"
+            >
+              Copywriting
+            </a>
+            <a
+              class="[&:first-child]:text-black [&:first-child]:font-bold [&:first-child]:after:opacity-100 relative px-4 py-3 font-Satoshi font-medium text-gray whitespace-nowrap after:w-full after:h-1 after:bg-blue after:absolute after:left-0 after:bottom-0 after:opacity-0"
+              href="#"
+              target="_blank"
+            >
+              Web Development
+            </a>
+            <a
+              class="[&:first-child]:text-black [&:first-child]:font-bold [&:first-child]:after:opacity-100 relative px-4 py-3 font-Satoshi font-medium text-gray whitespace-nowrap after:w-full after:h-1 after:bg-blue after:absolute after:left-0 after:bottom-0 after:opacity-0"
+              href="#"
+              target="_blank"
+            >
+              Marketplaces &amp; Socials
+            </a>
+            <a
+              class="[&:first-child]:text-black [&:first-child]:font-bold [&:first-child]:after:opacity-100 relative px-4 py-3 font-Satoshi font-medium text-gray whitespace-nowrap after:w-full after:h-1 after:bg-blue after:absolute after:left-0 after:bottom-0 after:opacity-0"
+              href="#"
+              target="_blank"
+            >
+              Logotypes &amp; Branding
+            </a>
+            <a
+              class="[&:first-child]:text-black [&:first-child]:font-bold [&:first-child]:after:opacity-100 relative px-4 py-3 font-Satoshi font-medium text-gray whitespace-nowrap after:w-full after:h-1 after:bg-blue after:absolute after:left-0 after:bottom-0 after:opacity-0"
+              href="#"
+              target="_blank"
+            >
+              Web &amp; Mobile Design
+            </a>
+            <a
+              class="[&:first-child]:text-black [&:first-child]:font-bold [&:first-child]:after:opacity-100 relative px-4 py-3 font-Satoshi font-medium text-gray whitespace-nowrap after:w-full after:h-1 after:bg-blue after:absolute after:left-0 after:bottom-0 after:opacity-0"
+              href="#"
+              target="_blank"
+            >
+              Scripts &amp; Bots
+            </a>
+            <a
+              class="[&:first-child]:text-black [&:first-child]:font-bold [&:first-child]:after:opacity-100 relative px-4 py-3 font-Satoshi font-medium text-gray whitespace-nowrap after:w-full after:h-1 after:bg-blue after:absolute after:left-0 after:bottom-0 after:opacity-0"
+              href="#"
+              target="_blank"
+            >
+              All Services
+            </a>
+          </div>
+        </nav>
+      </div>
+      <div
+        class="lg:hidden pt-12 pb-5 max-w-[1384px] pt- px-5 mx-auto w-full flex items-center gap-2 justify-between"
+      >
+        <button>
+          <img src="./img/header/burger.svg" alt="burger" />
+        </button>
+        <a class="text-[#202020] font-bold text-sm" href="#">MONDAY</a>
+        <button
+          class="flex items-center py-3 px-2 rounded-xl bg-[#FAFAFC] text-[#9CA5B3] font-medium text-xs uppercase cursor-pointer"
+        >
+          Uz
+          <img class="flex" src="./img/header/expand.svg" alt="expand" />
+        </button>
         <div
-            class="lg:hidden pt-12 pb-5 max-w-[1384px] pt- px-5 mx-auto w-full flex items-center gap-2 justify-between">
-            <button>
-                <img src="./img/header/burger.svg" alt="burger">
-            </button>
-            <a class="text-[#202020] font-bold text-sm" href="#">MONDAY</a>
-            <button
-                class="flex items-center py-3 px-2 rounded-xl bg-[#FAFAFC] text-[#9CA5B3] font-medium text-xs uppercase cursor-pointer">
-                Uz
-                <img class="flex" src="./img/header/expand.svg" alt="expand">
-            </button>
-            <div class="flex items-center justify-between max-w-[143px] w-full h-11 px-4 rounded-full bg-[#FAFAFC]">
-                <input id="search" placeholder="Search..."
-                    class="placeholder:text-[#9CA5B3] placeholder:font-medium placeholder:text-sm text-[#9CA5B3] font-medium text-sm outline-none border-none bg-transparent max-w-[70px] w-full"
-                    type="search">
-                <label for="search" class="cursor-pointer flex">
-                    <img src="./img/header/search.svg" alt="search">
-                </label>
-            </div>
-            <div class="flex items-center gap-2">
-                <a href="#">
-                    <img src="./img/header/lovely.svg" alt="lovely">
-                </a>
-                <a href="#">
-                    <img src="./img/header/bag.svg" alt="bag">
-                </a>
-            </div>
+          class="flex items-center justify-between max-w-[143px] w-full h-11 px-4 rounded-full bg-[#FAFAFC]"
+        >
+          <input
+            id="search"
+            placeholder="Search..."
+            class="placeholder:text-[#9CA5B3] placeholder:font-medium placeholder:text-sm text-[#9CA5B3] font-medium text-sm outline-none border-none bg-transparent max-w-[70px] w-full"
+            type="search"
+          />
+          <label for="search" class="cursor-pointer flex">
+            <img src="./img/header/search.svg" alt="search" />
+          </label>
         </div>
+        <div class="flex items-center gap-2">
+          <a href="#">
+            <img src="./img/header/lovely.svg" alt="lovely" />
+          </a>
+          <a href="#">
+            <img src="./img/header/bag.svg" alt="bag" />
+          </a>
+        </div>
+      </div>
     </header>
 
     <script>
-        let header_items = document.querySelectorAll('#header_item')
+      let header_items = document.querySelectorAll("#header_item");
 
-        header_items.forEach(function (item, index) {
-            item.addEventListener('click', function () {
-                header_items.forEach(function (item) {
-                    item.classList.remove('header_active')
-                })
+      header_items.forEach(function (item, index) {
+        item.addEventListener("click", function () {
+          header_items.forEach(function (item) {
+            item.classList.remove("header_active");
+          });
 
-                item.classList.add('header_active')
-            })
-        })
+          item.classList.add("header_active");
+        });
+      });
     </script>
 
     <section id="informationForCustomers" class="md:pt-9 pt-4 pb-2.5">
-        <div class="max-w-[1064px] mx-auto px-3">
-            <center>
-                <button class="flex py-1.5 px-4 border rounded-lg md:mb-5 mb-2 border-[#E1E1E3] items-center gap-1.5">
-                    <img class="w-4 h-4" src="./img/customersHero/suitcase.svg" alt="suitcase icon" />
-                    <span class="font-medium text-[#202020] text-xs">For customers</span>
-                </button>
-                <h1 class="font-bold md:text-4xl text-2xl text-[#202020] md:leading-[48px] text-center md:mb-2 mb-1">
-                    Information for customers
-                </h1>
-                <p class="text-[#575E6A] md:mb-11 mb-5 font-medium text-[14px] md:text-base leading-5">
-                    We have assembled an army of remote assistants who quickly solve any
-                    problem.
-                </p>
-                <h2
-                    class="text-[#202020] justify-center items-center flex md:gap-3 gap-2 font-bold md:text-2xl text-base md:mb-6 mb-3">
-                    <img class="md:w-10 md:h-10 w-[30px] h-[30px] flex" src="./img/customersHero/lockIcon.svg"
-                        alt="lock icon" />
-                    Guarantees and safety
-                </h2>
-                <div class="flex md:flex-row flex-col md:gap-2.5 gap-1.5">
-                    <div class="flex flex-col w-full items-start md:gap-2.5 gap-1.5">
-                        <div class=" w-full dropDown cursor-pointer overflow-hidden bg-white md:py-6 md:px-7 py-2.5 px-4 rounded-xl">
-                            <div class="flex justify-between items-center ">
-                                <div class="flex gap-2 items-center">
-                                    <img class="w-7 h-7 flex rounded-lg" src="./img/customersHero/zoom.svg"
-                                        alt="magnifying glass icon" />
-                                    <span class="font-bold text-base leading-5 text-[#202020]">Search</span>
-                                </div>
-                                <img class="w-6 h-6 flex items-center arrow duration-300 justify-center"
-                                    src="./img/customersHero/dropDown.svg" alt="▼">
-                            </div>
-                            <p
-                                class="text-sm dropDown__text h-0 overflow-hidden duration-300 text-[#575E6A] text-left font-medium">
-                                Here you will find the best contractor to fulfill your order! <br> <br>
-                                All Monday performers undergo mandatory identification. There are no random people here.
-                                Monday has
-                                hundreds of performers online all the time, so searching for candidates often takes a
-                                few minutes. This
-                                will allow you to quickly transfer your project to work
-                            </p>
-                        </div>
-                        <div class=" w-full dropDown cursor-pointer overflow-hidden bg-white md:py-6 md:px-7 py-2.5 px-4 rounded-xl">
-                            <div class="flex  justify-between items-center cursor-pointer">
-                                <div class="flex gap-2 items-center">
-                                    <img class="w-7 h-7 flex rounded-lg" src="./img/customersHero/rating.svg"
-                                        alt="magnifying glass icon" />
-                                    <span class="font-bold text-base leading-5 text-[#202020]">Rating</span>
-                                </div>
-                                <img class="w-6 h-6 flex items-center arrow duration-300 justify-center"
-                                    src="./img/customersHero/dropDown.svg" alt="▼">
-                            </div>
-                            <p
-                                class="text-sm dropDown__text h-0 overflow-hidden duration-300 text-[#575E6A] text-left font-medium">
-                                To fulfill your order, you yourself will be able to select the contractor with the
-                                highest rating and
-                                good experience in the field of knowledge you need. <br><br>
-                                A high rating means that the performer has already successfully completed tasks in this
-                                area. To find an
-                                employee who meets your requirements, read reviews of other customers about his work -
-                                this will help
-                                you make the right choice.
-                            </p>
-                        </div>
-                    </div>
-                    <div class="flex flex-col w-full items-start md:gap-2.5 gap-1.5">
-                        <div class="dropDown cursor-pointer w-full h-min overflow-hidden bg-white md:py-6 md:px-7 py-2.5 px-4 rounded-xl">
-                            <div class="flex  justify-between items-center cursor-pointer">
-                                <div class="flex gap-2 items-center">
-                                    <img class="w-7 h-7 flex rounded-lg" src="./img/customersHero/payment.svg"
-                                        alt="magnifying glass icon" />
-                                    <span class="font-bold text-base leading-5 text-[#202020]">Payment</span>
-                                </div>
-                                <img class="w-6 h-6 flex items-center arrow duration-300 justify-center"
-                                    src="./img/customersHero/dropDown.svg" alt="▼">
-                            </div>
-                            <p
-                                class="text-sm dropDown__text h-0 overflow-hidden duration-300 text-[#575E6A] text-left font-medium">
-                                You can place an order on Monday for free, without having any money on your balance. You
-                                will need to
-                                top up your account only after you have studied all the offers from the performers and
-                                decided on the
-                                choice of freelancer and the cost of the work. When you have chosen a contractor, in
-                                order for the order
-                                to proceed, you will need to top up your balance with the required amount. <br><br>
-
-                                This money will be frozen in your account until the completion of the work and your
-                                verification of the
-                                work performed. When the order is completed you check the result. If everything is done
-                                well and on
-                                time, you confirm completion and only after that the reserved amount is transferred to
-                                the contractor’s
-                                account. The order is closed and archived.
-                            </p>
-                        </div>
-                        <div class="dropDown cursor-pointer w-full overflow-hidden bg-white md:py-6 md:px-7 py-2.5 px-4 rounded-xl">
-                            <div class="flex  justify-between items-center">
-                                <div class="flex gap-2 items-center">
-                                    <img class="w-7 h-7 flex rounded-lg" src="./img/customersHero/Arbitration.svg"
-                                        alt="magnifying glass icon" />
-                                    <span class="font-bold text-base leading-5 text-[#202020]">Arbitration</span>
-                                </div>
-                                <img class="w-6 h-6 flex items-center arrow duration-300 justify-center"
-                                    src="./img/customersHero/dropDown.svg" alt="▼">
-                            </div>
-                            <p
-                                class="text-sm dropDown__text h-0 overflow-hidden duration-300 text-[#575E6A] text-left font-medium">
-                                If you are dissatisfied with the result of the work, ask the contractor to complete the
-                                order, make
-                                corrections and eliminate defects. If you cannot reach an agreement with the contractor,
-                                contact Monday
-                                Arbitration. Our specialists will quickly sort out the details and find a constructive
-                                and fair way out
-                                of the situation.
-                            </p>
-                        </div>
-                    </div>
+      <div class="max-w-[1064px] mx-auto px-3">
+        <center>
+          <button
+            class="flex py-1.5 px-4 border rounded-lg md:mb-5 mb-2 border-[#E1E1E3] items-center gap-1.5"
+          >
+            <img
+              class="w-4 h-4"
+              src="./img/customersHero/suitcase.svg"
+              alt="suitcase icon"
+            />
+            <span class="font-medium text-[#202020] text-xs"
+              >For customers</span
+            >
+          </button>
+          <h1
+            class="font-bold md:text-4xl text-2xl text-[#202020] md:leading-[48px] text-center md:mb-2 mb-1"
+          >
+            Information for customers
+          </h1>
+          <p
+            class="text-[#575E6A] md:mb-11 mb-5 font-medium text-[14px] md:text-base leading-5"
+          >
+            We have assembled an army of remote assistants who quickly solve any
+            problem.
+          </p>
+          <h2
+            class="text-[#202020] justify-center items-center flex md:gap-3 gap-2 font-bold md:text-2xl text-base md:mb-6 mb-3"
+          >
+            <img
+              class="md:w-10 md:h-10 w-[30px] h-[30px] flex"
+              src="./img/customersHero/lockIcon.svg"
+              alt="lock icon"
+            />
+            Guarantees and safety
+          </h2>
+          <div class="flex md:flex-row flex-col md:gap-2.5 gap-1.5">
+            <div class="flex flex-col w-full items-start md:gap-2.5 gap-1.5">
+              <div
+                class="w-full dropDown cursor-pointer overflow-hidden bg-white md:py-6 md:px-7 py-2.5 px-4 rounded-xl"
+              >
+                <div class="flex justify-between items-center">
+                  <div class="flex gap-2 items-center">
+                    <img
+                      class="w-7 h-7 flex rounded-lg"
+                      src="./img/customersHero/zoom.svg"
+                      alt="magnifying glass icon"
+                    />
+                    <span class="font-bold text-base leading-5 text-[#202020]"
+                      >Search</span
+                    >
+                  </div>
+                  <img
+                    class="w-6 h-6 flex items-center arrow duration-300 justify-center"
+                    src="./img/customersHero/dropDown.svg"
+                    alt="▼"
+                  />
                 </div>
-            </center>
-        </div>
+                <p
+                  class="text-sm dropDown__text h-0 overflow-hidden duration-300 text-[#575E6A] text-left font-medium"
+                >
+                  Here you will find the best contractor to fulfill your order!
+                  <br />
+                  <br />
+                  All Monday performers undergo mandatory identification. There
+                  are no random people here. Monday has hundreds of performers
+                  online all the time, so searching for candidates often takes a
+                  few minutes. This will allow you to quickly transfer your
+                  project to work
+                </p>
+              </div>
+              <div
+                class="w-full dropDown cursor-pointer overflow-hidden bg-white md:py-6 md:px-7 py-2.5 px-4 rounded-xl"
+              >
+                <div class="flex justify-between items-center cursor-pointer">
+                  <div class="flex gap-2 items-center">
+                    <img
+                      class="w-7 h-7 flex rounded-lg"
+                      src="./img/customersHero/rating.svg"
+                      alt="magnifying glass icon"
+                    />
+                    <span class="font-bold text-base leading-5 text-[#202020]"
+                      >Rating</span
+                    >
+                  </div>
+                  <img
+                    class="w-6 h-6 flex items-center arrow duration-300 justify-center"
+                    src="./img/customersHero/dropDown.svg"
+                    alt="▼"
+                  />
+                </div>
+                <p
+                  class="text-sm dropDown__text h-0 overflow-hidden duration-300 text-[#575E6A] text-left font-medium"
+                >
+                  To fulfill your order, you yourself will be able to select the
+                  contractor with the highest rating and good experience in the
+                  field of knowledge you need. <br /><br />
+                  A high rating means that the performer has already
+                  successfully completed tasks in this area. To find an employee
+                  who meets your requirements, read reviews of other customers
+                  about his work - this will help you make the right choice.
+                </p>
+              </div>
+            </div>
+            <div class="flex flex-col w-full items-start md:gap-2.5 gap-1.5">
+              <div
+                class="dropDown cursor-pointer w-full h-min overflow-hidden bg-white md:py-6 md:px-7 py-2.5 px-4 rounded-xl"
+              >
+                <div class="flex justify-between items-center cursor-pointer">
+                  <div class="flex gap-2 items-center">
+                    <img
+                      class="w-7 h-7 flex rounded-lg"
+                      src="./img/customersHero/payment.svg"
+                      alt="magnifying glass icon"
+                    />
+                    <span class="font-bold text-base leading-5 text-[#202020]"
+                      >Payment</span
+                    >
+                  </div>
+                  <img
+                    class="w-6 h-6 flex items-center arrow duration-300 justify-center"
+                    src="./img/customersHero/dropDown.svg"
+                    alt="▼"
+                  />
+                </div>
+                <p
+                  class="text-sm dropDown__text h-0 overflow-hidden duration-300 text-[#575E6A] text-left font-medium"
+                >
+                  You can place an order on Monday for free, without having any
+                  money on your balance. You will need to top up your account
+                  only after you have studied all the offers from the performers
+                  and decided on the choice of freelancer and the cost of the
+                  work. When you have chosen a contractor, in order for the
+                  order to proceed, you will need to top up your balance with
+                  the required amount. <br /><br />
+
+                  This money will be frozen in your account until the completion
+                  of the work and your verification of the work performed. When
+                  the order is completed you check the result. If everything is
+                  done well and on time, you confirm completion and only after
+                  that the reserved amount is transferred to the contractor’s
+                  account. The order is closed and archived.
+                </p>
+              </div>
+              <div
+                class="dropDown cursor-pointer w-full overflow-hidden bg-white md:py-6 md:px-7 py-2.5 px-4 rounded-xl"
+              >
+                <div class="flex justify-between items-center">
+                  <div class="flex gap-2 items-center">
+                    <img
+                      class="w-7 h-7 flex rounded-lg"
+                      src="./img/customersHero/Arbitration.svg"
+                      alt="magnifying glass icon"
+                    />
+                    <span class="font-bold text-base leading-5 text-[#202020]"
+                      >Arbitration</span
+                    >
+                  </div>
+                  <img
+                    class="w-6 h-6 flex items-center arrow duration-300 justify-center"
+                    src="./img/customersHero/dropDown.svg"
+                    alt="▼"
+                  />
+                </div>
+                <p
+                  class="text-sm dropDown__text h-0 overflow-hidden duration-300 text-[#575E6A] text-left font-medium"
+                >
+                  If you are dissatisfied with the result of the work, ask the
+                  contractor to complete the order, make corrections and
+                  eliminate defects. If you cannot reach an agreement with the
+                  contractor, contact Monday Arbitration. Our specialists will
+                  quickly sort out the details and find a constructive and fair
+                  way out of the situation.
+                </p>
+              </div>
+            </div>
+          </div>
+        </center>
+      </div>
     </section>
 
     <section id="jobCost" class="px-3">
-        <div class="md:max-w-[1040px] mx-auto px-3 md:bg-white md:px-[60px] pb-0 md:pt-10 md:pb-14 rounded-xl">
-            <div class=" bg-white mx-auto px-2 pt-2.5 rounded-xl md:p-0 pb-3 mb-2.5 md:mb-0 md:rounded-none">
-                <h2 class="flex items-center gap-2 md:gap-3 mb-4 md:mb-5">
-                    <img class="w-7 h-7 md:w-10 md:h-10 flex" src="./img/customersJob/tag.svg" alt="tag icon">
-                    <span class="font-bold text-base text-[#202020] md:text-2xl">Approximately how much does the job
-                        cost?</span>
-                </h2>
-                <div class="flex md:flex-row flex-col md:gap-10 gap-4 items-start mb-4 md:mb-6">
-                    <p class="md:max-w-[440px] max-w-none text-[#575E6A] font-medium leading-5 text-[14px]">
-                        What price to set is your decision. You can choose any of the ready-made services in our
-                        catalog, at the
-                        price
-                        of the contractor, or look at the approximate cost of similar orders and publish your request
-                        (project) on
-                        the
-                        website, setting your price.
-                    </p>
-                    <p class="md:max-w-[409px] max-w-none text-[#575E6A] font-medium leading-5 text-[14px]">
-                        Dozens of performers will respond to your request, ready to take your order right now, at your
-                        cost. You can
-                        choose the best offer and place an order.
-                    </p>
-                </div>
-                <hr class="mb-3 md:mb-6">
-                <h3 class="font-bold md:text-base md:mb-7 text-[14px] leading-5 text-[#202020]">Estimated cost of work
-                    in
-                    various
-                    categories of services:</h3>
-            </div>
-            <!-- Responsive drop down S-->
-            <div class="md:hidden flex flex-col gap-2.5">
-                <div class="serviceDrop cursor-pointer pt-5 pb-6 bg-white px-4 rounded-2xl">
-                    <div class="flex items-center  justify-between">
-                        <div class="flex items-center gap-2">
-                            <img class="w-12 h-12 flex" src="./img/customersJob/laptop.png" alt="laptop png">
-                            <span class="font-bold text-base text-[#202020]">Websites</span>
-                        </div>
-                        <img class="w-6 h-6 arrowDrop" src="./img/customersHero/dropDown.svg" alt="▼">
-                    </div>
-                    <div class="flex h-0 overflow-hidden serviceDropDown duration-300 dropContent flex-col gap-1">
-                        <div class="bg-[#FAFAFC] flex items-center justify-between py-1.5 px-2 rounded-2xl">
-                            <span class="font-medium text-xs text-[#202020]">Website on a ready-made platform</span>
-                            <span class="font-medium text-xs text-[#202020]">100 000</span>
-                        </div>
-                        <div class="bg-[#FAFAFC] flex items-center justify-between py-1.5 px-2 rounded-2xl">
-                            <span class="font-medium text-xs text-[#202020]">Turnkey website</span>
-                            <span class="font-medium text-xs text-[#202020]">10 000</span>
-                        </div>
-                        <div class="bg-[#FAFAFC] flex items-center justify-between py-1.5 px-2 rounded-2xl">
-                            <span class="font-medium text-xs text-[#202020]">Website editing, 1 element</span>
-                            <span class="font-medium text-xs text-[#202020]">2500</span>
-                        </div>
-                        <div class="bg-[#FAFAFC] flex items-center justify-between py-1.5 px-2 rounded-2xl">
-                            <span class="font-medium text-xs text-[#202020]">Website adaptation</span>
-                            <span class="font-medium text-xs text-[#202020]">2500</span>
-                        </div>
-                        <div class="bg-[#FAFAFC] flex items-center justify-between py-1.5 px-2 rounded-2xl">
-                            <span class="font-medium text-xs text-[#202020]">Edit template</span>
-                            <span class="font-medium text-xs text-[#202020]">10 000</span>
-                        </div>
-                        <div class="bg-[#FAFAFC] flex items-center justify-between py-1.5 px-2 rounded-2xl">
-                            <span class="font-medium text-xs text-[#202020]">One-page layout</span>
-                            <span class="font-medium text-xs text-[#202020]">10 000</span>
-                        </div>
-                        <div class="bg-[#FAFAFC] flex items-center justify-between py-1.5 px-2 rounded-2xl">
-                            <span class="font-medium text-xs text-[#202020]">Layout of the main page of the site</span>
-                            <span class="font-medium text-xs text-[#202020]">100 000</span>
-                        </div>
-                        <div class="bg-[#FAFAFC] flex items-center justify-between py-1.5 px-2 rounded-2xl">
-                            <span class="font-medium text-xs text-[#202020]">Layout of the internal website page</span>
-                            <span class="font-medium text-xs text-[#202020]">2500</span>
-                        </div>
-                        <div class="bg-[#FAFAFC] flex items-center justify-between py-1.5 px-2 rounded-2xl">
-                            <span class="font-medium text-xs text-[#202020]">Setting up metrics/analytics</span>
-                            <span class="font-medium text-xs text-[#202020]">2500</span>
-                        </div>
-                        <div class="bg-[#FAFAFC] flex items-center justify-between py-1.5 px-2 rounded-2xl">
-                            <span class="font-medium text-xs text-[#202020]">Add analytics code to site</span>
-                            <span class="font-medium text-xs text-[#202020]">10 000</span>
-                        </div>
-                        <div class="bg-[#FAFAFC] flex items-center justify-between py-1.5 px-2 rounded-2xl">
-                            <span class="font-medium text-xs text-[#202020]">Layout of email template</span>
-                            <span class="font-medium text-xs text-[#202020]">2500</span>
-                        </div>
-                        <div class="bg-[#FAFAFC] flex items-center justify-between py-1.5 px-2 rounded-2xl">
-                            <span class="font-medium text-xs text-[#202020]">SEO website optimization</span>
-                            <span class="font-medium text-xs text-[#202020]">100 000</span>
-                        </div>
-                        <div class="bg-[#FAFAFC] flex items-center justify-between py-1.5 px-2 rounded-2xl">
-                            <span class="font-medium text-xs text-[#202020]">Install and configure plugin</span>
-                            <span class="font-medium text-xs text-[#202020]">100 000 000</span>
-                        </div>
-                        <div class="bg-[#FAFAFC] flex items-center justify-between py-1.5 px-2 rounded-2xl">
-                            <span class="font-medium text-xs text-[#202020]">Website on a ready-made platform</span>
-                            <span class="font-medium text-xs text-[#202020]">100 000</span>
-                        </div>
-                    </div>
-                </div>
-                <div class="serviceDrop cursor-pointer pt-5 pb-6 bg-white px-4 rounded-2xl">
-                    <div class="flex items-center  justify-between overflow-hidden">
-                        <div class="flex items-center gap-2">
-                            <img class="w-12 h-12 flex" src="./img/customersJob/phone.png" alt="phone png">
-                            <span class="font-bold text-base text-[#202020]">Advertising & social networks</span>
-                        </div>
-                        <img class="w-6 h-6 arrowDrop" src="./img/customersHero/dropDown.svg" alt="▼">
-                    </div>
-                    <div
-                        class="flex h-0 overflow-hidden duration-300 dropContent flex-col serviceDropDown transition-all gap-1">
-                        <div class="bg-[#FAFAFC] flex items-center justify-between py-1.5 px-2 rounded-2xl">
-                            <span class="font-medium text-xs text-[#202020]">Website on a ready-made platform</span>
-                            <span class="font-medium text-xs text-[#202020]">100 000</span>
-                        </div>
-                        <div class="bg-[#FAFAFC] flex items-center justify-between py-1.5 px-2 rounded-2xl">
-                            <span class="font-medium text-xs text-[#202020]">Turnkey website</span>
-                            <span class="font-medium text-xs text-[#202020]">10 000</span>
-                        </div>
-                        <div class="bg-[#FAFAFC] flex items-center justify-between py-1.5 px-2 rounded-2xl">
-                            <span class="font-medium text-xs text-[#202020]">Website editing, 1 element</span>
-                            <span class="font-medium text-xs text-[#202020]">2500</span>
-                        </div>
-                        <div class="bg-[#FAFAFC] flex items-center justify-between py-1.5 px-2 rounded-2xl">
-                            <span class="font-medium text-xs text-[#202020]">Website adaptation</span>
-                            <span class="font-medium text-xs text-[#202020]">2500</span>
-                        </div>
-                        <div class="bg-[#FAFAFC] flex items-center justify-between py-1.5 px-2 rounded-2xl">
-                            <span class="font-medium text-xs text-[#202020]">Edit template</span>
-                            <span class="font-medium text-xs text-[#202020]">10 000</span>
-                        </div>
-                        <div class="bg-[#FAFAFC] flex items-center justify-between py-1.5 px-2 rounded-2xl">
-                            <span class="font-medium text-xs text-[#202020]">One-page layout</span>
-                            <span class="font-medium text-xs text-[#202020]">10 000</span>
-                        </div>
-                        <div class="bg-[#FAFAFC] flex items-center justify-between py-1.5 px-2 rounded-2xl">
-                            <span class="font-medium text-xs text-[#202020]">Layout of the main page of the site</span>
-                            <span class="font-medium text-xs text-[#202020]">100 000</span>
-                        </div>
-                        <div class="bg-[#FAFAFC] flex items-center justify-between py-1.5 px-2 rounded-2xl">
-                            <span class="font-medium text-xs text-[#202020]">Layout of the internal website page</span>
-                            <span class="font-medium text-xs text-[#202020]">2500</span>
-                        </div>
-                        <div class="bg-[#FAFAFC] flex items-center justify-between py-1.5 px-2 rounded-2xl">
-                            <span class="font-medium text-xs text-[#202020]">Setting up metrics/analytics</span>
-                            <span class="font-medium text-xs text-[#202020]">2500</span>
-                        </div>
-                        <div class="bg-[#FAFAFC] flex items-center justify-between py-1.5 px-2 rounded-2xl">
-                            <span class="font-medium text-xs text-[#202020]">Add analytics code to site</span>
-                            <span class="font-medium text-xs text-[#202020]">10 000</span>
-                        </div>
-                        <div class="bg-[#FAFAFC] flex items-center justify-between py-1.5 px-2 rounded-2xl">
-                            <span class="font-medium text-xs text-[#202020]">Layout of email template</span>
-                            <span class="font-medium text-xs text-[#202020]">2500</span>
-                        </div>
-                        <div class="bg-[#FAFAFC] flex items-center justify-between py-1.5 px-2 rounded-2xl">
-                            <span class="font-medium text-xs text-[#202020]">SEO website optimization</span>
-                            <span class="font-medium text-xs text-[#202020]">100 000</span>
-                        </div>
-                        <div class="bg-[#FAFAFC] flex items-center justify-between py-1.5 px-2 rounded-2xl">
-                            <span class="font-medium text-xs text-[#202020]">Install and configure plugin</span>
-                            <span class="font-medium text-xs text-[#202020]">100 000 000</span>
-                        </div>
-                        <div class="bg-[#FAFAFC] flex items-center justify-between py-1.5 px-2 rounded-2xl">
-                            <span class="font-medium text-xs text-[#202020]">Website on a ready-made platform</span>
-                            <span class="font-medium text-xs text-[#202020]">100 000</span>
-                        </div>
-                    </div>
-                </div>
-                <div class="serviceDrop cursor-pointer pt-5 pb-6 bg-white px-4 rounded-2xl">
-                    <div class="flex items-center  justify-between overflow-hidden">
-                        <div class="flex items-center gap-2">
-                            <img class="w-12 h-12 flex" src="./img/customersJob/design.png" alt="phone png">
-                            <span class="font-bold text-base text-[#202020]">Design</span>
-                        </div>
-                        <img class="w-6 h-6 arrowDrop" src="./img/customersHero/dropDown.svg" alt="▼">
-                    </div>
-                    <div
-                        class="flex dropContent flex-col h-0 serviceDropDown transition-all duration-300 overflow-hidden gap-1">
-                        <div class="bg-[#FAFAFC] flex items-center justify-between py-1.5 px-2 rounded-2xl">
-                            <span class="font-medium text-xs text-[#202020]">Website on a ready-made platform</span>
-                            <span class="font-medium text-xs text-[#202020]">100 000</span>
-                        </div>
-                        <div class="bg-[#FAFAFC] flex items-center justify-between py-1.5 px-2 rounded-2xl">
-                            <span class="font-medium text-xs text-[#202020]">Turnkey website</span>
-                            <span class="font-medium text-xs text-[#202020]">10 000</span>
-                        </div>
-                        <div class="bg-[#FAFAFC] flex items-center justify-between py-1.5 px-2 rounded-2xl">
-                            <span class="font-medium text-xs text-[#202020]">Website editing, 1 element</span>
-                            <span class="font-medium text-xs text-[#202020]">2500</span>
-                        </div>
-                        <div class="bg-[#FAFAFC] flex items-center justify-between py-1.5 px-2 rounded-2xl">
-                            <span class="font-medium text-xs text-[#202020]">Website adaptation</span>
-                            <span class="font-medium text-xs text-[#202020]">2500</span>
-                        </div>
-                        <div class="bg-[#FAFAFC] flex items-center justify-between py-1.5 px-2 rounded-2xl">
-                            <span class="font-medium text-xs text-[#202020]">Edit template</span>
-                            <span class="font-medium text-xs text-[#202020]">10 000</span>
-                        </div>
-                        <div class="bg-[#FAFAFC] flex items-center justify-between py-1.5 px-2 rounded-2xl">
-                            <span class="font-medium text-xs text-[#202020]">One-page layout</span>
-                            <span class="font-medium text-xs text-[#202020]">10 000</span>
-                        </div>
-                        <div class="bg-[#FAFAFC] flex items-center justify-between py-1.5 px-2 rounded-2xl">
-                            <span class="font-medium text-xs text-[#202020]">Layout of the main page of the site</span>
-                            <span class="font-medium text-xs text-[#202020]">100 000</span>
-                        </div>
-                        <div class="bg-[#FAFAFC] flex items-center justify-between py-1.5 px-2 rounded-2xl">
-                            <span class="font-medium text-xs text-[#202020]">Layout of the internal website page</span>
-                            <span class="font-medium text-xs text-[#202020]">2500</span>
-                        </div>
-                        <div class="bg-[#FAFAFC] flex items-center justify-between py-1.5 px-2 rounded-2xl">
-                            <span class="font-medium text-xs text-[#202020]">Setting up metrics/analytics</span>
-                            <span class="font-medium text-xs text-[#202020]">2500</span>
-                        </div>
-                        <div class="bg-[#FAFAFC] flex items-center justify-between py-1.5 px-2 rounded-2xl">
-                            <span class="font-medium text-xs text-[#202020]">Add analytics code to site</span>
-                            <span class="font-medium text-xs text-[#202020]">10 000</span>
-                        </div>
-                        <div class="bg-[#FAFAFC] flex items-center justify-between py-1.5 px-2 rounded-2xl">
-                            <span class="font-medium text-xs text-[#202020]">Layout of email template</span>
-                            <span class="font-medium text-xs text-[#202020]">2500</span>
-                        </div>
-                        <div class="bg-[#FAFAFC] flex items-center justify-between py-1.5 px-2 rounded-2xl">
-                            <span class="font-medium text-xs text-[#202020]">SEO website optimization</span>
-                            <span class="font-medium text-xs text-[#202020]">100 000</span>
-                        </div>
-                        <div class="bg-[#FAFAFC] flex items-center justify-between py-1.5 px-2 rounded-2xl">
-                            <span class="font-medium text-xs text-[#202020]">Install and configure plugin</span>
-                            <span class="font-medium text-xs text-[#202020]">100 000 000</span>
-                        </div>
-                        <div class="bg-[#FAFAFC] flex items-center justify-between py-1.5 px-2 rounded-2xl">
-                            <span class="font-medium text-xs text-[#202020]">Website on a ready-made platform</span>
-                            <span class="font-medium text-xs text-[#202020]">100 000</span>
-                        </div>
-                    </div>
-                </div>
-                <div class="serviceDrop cursor-pointer pt-5 pb-6 bg-white px-4 rounded-2xl">
-                    <div class="flex items-center  justify-between overflow-hidden">
-                        <div class="flex items-center gap-2">
-                            <img class="w-12 h-12 flex" src="./img/customersJob/copywriting.png" alt="copywriting png">
-                            <span class="font-bold text-base text-[#202020]">Copywriting</span>
-                        </div>
-                        <img class="w-6 h-6 arrowDrop" src="./img/customersHero/dropDown.svg" alt="▼">
-                    </div>
-                    <div
-                        class="flex dropContent flex-col h-0 serviceDropDown transition-all duration-300 overflow-hidden gap-1">
-                        <div class="bg-[#FAFAFC] flex items-center justify-between py-1.5 px-2 rounded-2xl">
-                            <span class="font-medium text-xs text-[#202020]">Website on a ready-made platform</span>
-                            <span class="font-medium text-xs text-[#202020]">100 000</span>
-                        </div>
-                        <div class="bg-[#FAFAFC] flex items-center justify-between py-1.5 px-2 rounded-2xl">
-                            <span class="font-medium text-xs text-[#202020]">Turnkey website</span>
-                            <span class="font-medium text-xs text-[#202020]">10 000</span>
-                        </div>
-                        <div class="bg-[#FAFAFC] flex items-center justify-between py-1.5 px-2 rounded-2xl">
-                            <span class="font-medium text-xs text-[#202020]">Website editing, 1 element</span>
-                            <span class="font-medium text-xs text-[#202020]">2500</span>
-                        </div>
-                        <div class="bg-[#FAFAFC] flex items-center justify-between py-1.5 px-2 rounded-2xl">
-                            <span class="font-medium text-xs text-[#202020]">Website adaptation</span>
-                            <span class="font-medium text-xs text-[#202020]">2500</span>
-                        </div>
-                        <div class="bg-[#FAFAFC] flex items-center justify-between py-1.5 px-2 rounded-2xl">
-                            <span class="font-medium text-xs text-[#202020]">Edit template</span>
-                            <span class="font-medium text-xs text-[#202020]">10 000</span>
-                        </div>
-                        <div class="bg-[#FAFAFC] flex items-center justify-between py-1.5 px-2 rounded-2xl">
-                            <span class="font-medium text-xs text-[#202020]">One-page layout</span>
-                            <span class="font-medium text-xs text-[#202020]">10 000</span>
-                        </div>
-                        <div class="bg-[#FAFAFC] flex items-center justify-between py-1.5 px-2 rounded-2xl">
-                            <span class="font-medium text-xs text-[#202020]">Layout of the main page of the site</span>
-                            <span class="font-medium text-xs text-[#202020]">100 000</span>
-                        </div>
-                        <div class="bg-[#FAFAFC] flex items-center justify-between py-1.5 px-2 rounded-2xl">
-                            <span class="font-medium text-xs text-[#202020]">Layout of the internal website page</span>
-                            <span class="font-medium text-xs text-[#202020]">2500</span>
-                        </div>
-                        <div class="bg-[#FAFAFC] flex items-center justify-between py-1.5 px-2 rounded-2xl">
-                            <span class="font-medium text-xs text-[#202020]">Setting up metrics/analytics</span>
-                            <span class="font-medium text-xs text-[#202020]">2500</span>
-                        </div>
-                        <div class="bg-[#FAFAFC] flex items-center justify-between py-1.5 px-2 rounded-2xl">
-                            <span class="font-medium text-xs text-[#202020]">Add analytics code to site</span>
-                            <span class="font-medium text-xs text-[#202020]">10 000</span>
-                        </div>
-                        <div class="bg-[#FAFAFC] flex items-center justify-between py-1.5 px-2 rounded-2xl">
-                            <span class="font-medium text-xs text-[#202020]">Layout of email template</span>
-                            <span class="font-medium text-xs text-[#202020]">2500</span>
-                        </div>
-                        <div class="bg-[#FAFAFC] flex items-center justify-between py-1.5 px-2 rounded-2xl">
-                            <span class="font-medium text-xs text-[#202020]">SEO website optimization</span>
-                            <span class="font-medium text-xs text-[#202020]">100 000</span>
-                        </div>
-                        <div class="bg-[#FAFAFC] flex items-center justify-between py-1.5 px-2 rounded-2xl">
-                            <span class="font-medium text-xs text-[#202020]">Install and configure plugin</span>
-                            <span class="font-medium text-xs text-[#202020]">100 000 000</span>
-                        </div>
-                        <div class="bg-[#FAFAFC] flex items-center justify-between py-1.5 px-2 rounded-2xl">
-                            <span class="font-medium text-xs text-[#202020]">Website on a ready-made platform</span>
-                            <span class="font-medium text-xs text-[#202020]">100 000</span>
-                        </div>
-                    </div>
-                </div>
-                <div class="serviceDrop cursor-pointer pt-5 pb-6 bg-white px-4 rounded-2xl">
-                    <div class="flex items-center justify-between overflow-hidden">
-                        <div class="flex items-center gap-2">
-                            <img class="w-12 h-12 flex" src="./img/customersJob/help.png" alt="copywriting png">
-                            <span class="font-bold text-base text-[#202020]">Simple help</span>
-                        </div>
-                        <img class="w-6 h-6 arrowDrop" src="./img/customersHero/dropDown.svg" alt="▼">
-                    </div>
-                    <div class="flex flex-col h-0 serviceDropDown transition-all duration-300 overflow-hidden gap-1">
-                        <div class="bg-[#FAFAFC] flex items-center justify-between py-1.5 px-2 rounded-2xl">
-                            <span class="font-medium text-xs text-[#202020]">Website on a ready-made platform</span>
-                            <span class="font-medium text-xs text-[#202020]">100 000</span>
-                        </div>
-                        <div class="bg-[#FAFAFC] flex items-center justify-between py-1.5 px-2 rounded-2xl">
-                            <span class="font-medium text-xs text-[#202020]">Turnkey website</span>
-                            <span class="font-medium text-xs text-[#202020]">10 000</span>
-                        </div>
-                        <div class="bg-[#FAFAFC] flex items-center justify-between py-1.5 px-2 rounded-2xl">
-                            <span class="font-medium text-xs text-[#202020]">Website editing, 1 element</span>
-                            <span class="font-medium text-xs text-[#202020]">2500</span>
-                        </div>
-                        <div class="bg-[#FAFAFC] flex items-center justify-between py-1.5 px-2 rounded-2xl">
-                            <span class="font-medium text-xs text-[#202020]">Website adaptation</span>
-                            <span class="font-medium text-xs text-[#202020]">2500</span>
-                        </div>
-                        <div class="bg-[#FAFAFC] flex items-center justify-between py-1.5 px-2 rounded-2xl">
-                            <span class="font-medium text-xs text-[#202020]">Edit template</span>
-                            <span class="font-medium text-xs text-[#202020]">10 000</span>
-                        </div>
-                        <div class="bg-[#FAFAFC] flex items-center justify-between py-1.5 px-2 rounded-2xl">
-                            <span class="font-medium text-xs text-[#202020]">One-page layout</span>
-                            <span class="font-medium text-xs text-[#202020]">10 000</span>
-                        </div>
-                        <div class="bg-[#FAFAFC] flex items-center justify-between py-1.5 px-2 rounded-2xl">
-                            <span class="font-medium text-xs text-[#202020]">Layout of the main page of the site</span>
-                            <span class="font-medium text-xs text-[#202020]">100 000</span>
-                        </div>
-                        <div class="bg-[#FAFAFC] flex items-center justify-between py-1.5 px-2 rounded-2xl">
-                            <span class="font-medium text-xs text-[#202020]">Layout of the internal website page</span>
-                            <span class="font-medium text-xs text-[#202020]">2500</span>
-                        </div>
-                        <div class="bg-[#FAFAFC] flex items-center justify-between py-1.5 px-2 rounded-2xl">
-                            <span class="font-medium text-xs text-[#202020]">Setting up metrics/analytics</span>
-                            <span class="font-medium text-xs text-[#202020]">2500</span>
-                        </div>
-                        <div class="bg-[#FAFAFC] flex items-center justify-between py-1.5 px-2 rounded-2xl">
-                            <span class="font-medium text-xs text-[#202020]">Add analytics code to site</span>
-                            <span class="font-medium text-xs text-[#202020]">10 000</span>
-                        </div>
-                        <div class="bg-[#FAFAFC] flex items-center justify-between py-1.5 px-2 rounded-2xl">
-                            <span class="font-medium text-xs text-[#202020]">Layout of email template</span>
-                            <span class="font-medium text-xs text-[#202020]">2500</span>
-                        </div>
-                        <div class="bg-[#FAFAFC] flex items-center justify-between py-1.5 px-2 rounded-2xl">
-                            <span class="font-medium text-xs text-[#202020]">SEO website optimization</span>
-                            <span class="font-medium text-xs text-[#202020]">100 000</span>
-                        </div>
-                        <div class="bg-[#FAFAFC] flex items-center justify-between py-1.5 px-2 rounded-2xl">
-                            <span class="font-medium text-xs text-[#202020]">Install and configure plugin</span>
-                            <span class="font-medium text-xs text-[#202020]">100 000 000</span>
-                        </div>
-                        <div class="bg-[#FAFAFC] flex items-center justify-between py-1.5 px-2 rounded-2xl">
-                            <span class="font-medium text-xs text-[#202020]">Website on a ready-made platform</span>
-                            <span class="font-medium text-xs text-[#202020]">100 000</span>
-                        </div>
-                    </div>
-                </div>
-                <div class="serviceDrop cursor-pointer pt-5 pb-6 bg-white px-4 rounded-2xl">
-                    <div class="flex items-center justify-between overflow-hidden">
-                        <div class="flex items-center gap-2">
-                            <img class="w-12 h-12 flex" src="./img/customersJob/other.png" alt="other png">
-                            <span class="font-bold text-base text-[#202020]">Other</span>
-                        </div>
-                        <img class="w-6 h-6 arrowDrop" src="./img/customersHero/dropDown.svg" alt="▼">
-                    </div>
-                    <div class="flex flex-col h-0 serviceDropDown transition-all duration-300 overflow-hidden gap-1">
-                        <div class="bg-[#FAFAFC] flex items-center justify-between py-1.5 px-2 rounded-2xl">
-                            <span class="font-medium text-xs text-[#202020]">Website on a ready-made platform</span>
-                            <span class="font-medium text-xs text-[#202020]">100 000</span>
-                        </div>
-                        <div class="bg-[#FAFAFC] flex items-center justify-between py-1.5 px-2 rounded-2xl">
-                            <span class="font-medium text-xs text-[#202020]">Turnkey website</span>
-                            <span class="font-medium text-xs text-[#202020]">10 000</span>
-                        </div>
-                        <div class="bg-[#FAFAFC] flex items-center justify-between py-1.5 px-2 rounded-2xl">
-                            <span class="font-medium text-xs text-[#202020]">Website editing, 1 element</span>
-                            <span class="font-medium text-xs text-[#202020]">2500</span>
-                        </div>
-                        <div class="bg-[#FAFAFC] flex items-center justify-between py-1.5 px-2 rounded-2xl">
-                            <span class="font-medium text-xs text-[#202020]">Website adaptation</span>
-                            <span class="font-medium text-xs text-[#202020]">2500</span>
-                        </div>
-                        <div class="bg-[#FAFAFC] flex items-center justify-between py-1.5 px-2 rounded-2xl">
-                            <span class="font-medium text-xs text-[#202020]">Edit template</span>
-                            <span class="font-medium text-xs text-[#202020]">10 000</span>
-                        </div>
-                        <div class="bg-[#FAFAFC] flex items-center justify-between py-1.5 px-2 rounded-2xl">
-                            <span class="font-medium text-xs text-[#202020]">One-page layout</span>
-                            <span class="font-medium text-xs text-[#202020]">10 000</span>
-                        </div>
-                        <div class="bg-[#FAFAFC] flex items-center justify-between py-1.5 px-2 rounded-2xl">
-                            <span class="font-medium text-xs text-[#202020]">Layout of the main page of the site</span>
-                            <span class="font-medium text-xs text-[#202020]">100 000</span>
-                        </div>
-                        <div class="bg-[#FAFAFC] flex items-center justify-between py-1.5 px-2 rounded-2xl">
-                            <span class="font-medium text-xs text-[#202020]">Layout of the internal website page</span>
-                            <span class="font-medium text-xs text-[#202020]">2500</span>
-                        </div>
-                        <div class="bg-[#FAFAFC] flex items-center justify-between py-1.5 px-2 rounded-2xl">
-                            <span class="font-medium text-xs text-[#202020]">Setting up metrics/analytics</span>
-                            <span class="font-medium text-xs text-[#202020]">2500</span>
-                        </div>
-                        <div class="bg-[#FAFAFC] flex items-center justify-between py-1.5 px-2 rounded-2xl">
-                            <span class="font-medium text-xs text-[#202020]">Add analytics code to site</span>
-                            <span class="font-medium text-xs text-[#202020]">10 000</span>
-                        </div>
-                        <div class="bg-[#FAFAFC] flex items-center justify-between py-1.5 px-2 rounded-2xl">
-                            <span class="font-medium text-xs text-[#202020]">Layout of email template</span>
-                            <span class="font-medium text-xs text-[#202020]">2500</span>
-                        </div>
-                        <div class="bg-[#FAFAFC] flex items-center justify-between py-1.5 px-2 rounded-2xl">
-                            <span class="font-medium text-xs text-[#202020]">SEO website optimization</span>
-                            <span class="font-medium text-xs text-[#202020]">100 000</span>
-                        </div>
-                        <div class="bg-[#FAFAFC] flex items-center justify-between py-1.5 px-2 rounded-2xl">
-                            <span class="font-medium text-xs text-[#202020]">Install and configure plugin</span>
-                            <span class="font-medium text-xs text-[#202020]">100 000 000</span>
-                        </div>
-                        <div class="bg-[#FAFAFC] flex items-center justify-between py-1.5 px-2 rounded-2xl">
-                            <span class="font-medium text-xs text-[#202020]">Website on a ready-made platform</span>
-                            <span class="font-medium text-xs text-[#202020]">100 000</span>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <!-- Responive drop down E-->
-            <div class="md:grid lg:grid-cols-6 md:grid-cols-3 hidden justify-center mb-7 gap-1.5">
-                <div class="max-w-[150px] mx-auto lg:mx-0 tab cursor-pointer py-10 px-9 rounded-2xl"
-                    style="box-shadow: 5px 10px 40px 2px #0000000D;">
-                    <img class="w-[76px] mx-auto min-h-10 flex mb-2 tab" src="./img/customersJob/laptop.png"
-                        alt="laptop">
-                    <span class="text-base font-bold text-[#202020] text-center">Websites</span>
-                </div>
-                <div class="max-w-[150px] mx-auto lg:mx-0 cursor-pointer pt-9 pb-6 px-3 rounded-2xl tab">
-                    <img class="w-[76px] mx-auto min-h-10 flex mb-2" src="./img/customersJob/phone.png" alt="laptop">
-                    <h4 class="text-base font-bold text-[#202020] text-center">Advertising & social networks</h4>
-                </div>
-                <div class="max-w-[150px] mx-auto lg:mx-0 cursor-pointer w-full pt-9 pb-6 px-3 rounded-2xl tab">
-                    <img class="w-[76px] mx-auto min-h-10 flex mb-2" src="./img/customersJob/design.png" alt="laptop">
-                    <h4 class="text-base font-bold text-[#202020] text-center">Design</h4>
-                </div>
-                <div class="max-w-[150px] mx-auto lg:mx-0 cursor-pointer w-full pt-9 pb-6 px-3 rounded-2xl tab">
-                    <img class="w-[76px] mx-auto min-h-10 flex mb-2" src="./img/customersJob/copywriting.png"
-                        alt="laptop">
-                    <h4 class="text-base font-bold text-[#202020] text-center">Copywriting</h4>
-                </div>
-                <div class="max-w-[150px] mx-auto lg:mx-0 cursor-pointer w-full pt-9 pb-6 px-3 rounded-2xl tab">
-                    <img class="w-[76px] mx-auto min-h-10 flex mb-2" src="./img/customersJob/help.png" alt="laptop">
-                    <h4 class="text-base font-bold text-[#202020] text-center">Simple help</h4>
-                </div>
-                <div class="max-w-[150px] mx-auto lg:mx-0 cursor-pointer w-full pt-9 pb-6 px-3 rounded-2xl tab">
-                    <img class="w-[76px] mx-auto min-h-10 flex mb-2" src="./img/customersJob/other.png" alt="laptop">
-                    <h4 class="text-base font-bold text-[#202020] text-center">Other</h4>
-                </div>
-            </div>
-            <div class="md:grid hidden lg:grid-cols-2 gap-x-2.5 gap-y-1.5">
-                <div class="bg-[#FAFAFC] py-2 px-4 rounded-2xl flex justify-between items-center">
-                    <span class="text-[14px] leading-[18px] font-medium text-[#202020]">Website on a ready-made
-                        platform</span>
-                    <span class="text-[14px] leading-[18px] font-medium text-[#202020]">100 000</span>
-                </div>
-                <div class="bg-[#FAFAFC] py-2 px-4 rounded-2xl flex justify-between items-center">
-                    <span class="text-[14px] leading-[18px] font-medium text-[#202020]">Layout of the internal website
-                        page</span>
-                    <span class="text-[14px] leading-[18px] font-medium text-[#202020]">2500</span>
-                </div>
-                <div class="bg-[#FAFAFC] py-2 px-4 rounded-2xl flex justify-between items-center">
-                    <span class="text-[14px] leading-[18px] font-medium text-[#202020]">Turnkey website</span>
-                    <span class="text-[14px] leading-[18px] font-medium text-[#202020]">10 000</span>
-                </div>
-                <div class="bg-[#FAFAFC] py-2 px-4 rounded-2xl flex justify-between items-center">
-                    <span class="text-[14px] leading-[18px] font-medium text-[#202020]">Setting up
-                        metrics/analytics</span>
-                    <span class="text-[14px] leading-[18px] font-medium text-[#202020]">2500</span>
-                </div>
-                <div class="bg-[#FAFAFC] py-2 px-4 rounded-2xl flex justify-between items-center">
-                    <span class="text-[14px] leading-[18px] font-medium text-[#202020]">Website editing, 1
-                        element</span>
-                    <span class="text-[14px] leading-[18px] font-medium text-[#202020]">2500</span>
-                </div>
-                <div class="bg-[#FAFAFC] py-2 px-4 rounded-2xl flex justify-between items-center">
-                    <span class="text-[14px] leading-[18px] font-medium text-[#202020]">Add analytics code to
-                        site</span>
-                    <span class="text-[14px] leading-[18px] font-medium text-[#202020]">10 000</span>
-                </div>
-                <div class="bg-[#FAFAFC] py-2 px-4 rounded-2xl flex justify-between items-center">
-                    <span class="text-[14px] leading-[18px] font-medium text-[#202020]">Website adaptation</span>
-                    <span class="text-[14px] leading-[18px] font-medium text-[#202020]">2500</span>
-                </div>
-                <div class="bg-[#FAFAFC] py-2 px-4 rounded-2xl flex justify-between items-center">
-                    <span class="text-[14px] leading-[18px] font-medium text-[#202020]">Layout of email template</span>
-                    <span class="text-[14px] leading-[18px] font-medium text-[#202020]">2500</span>
-                </div>
-                <div class="bg-[#FAFAFC] py-2 px-4 rounded-2xl flex justify-between items-center">
-                    <span class="text-[14px] leading-[18px] font-medium text-[#202020]">Edit template</span>
-                    <span class="text-[14px] leading-[18px] font-medium text-[#202020]">10 000</span>
-                </div>
-                <div class="bg-[#FAFAFC] py-2 px-4 rounded-2xl flex justify-between items-center">
-                    <span class="text-[14px] leading-[18px] font-medium text-[#202020]">SEO website optimization</span>
-                    <span class="text-[14px] leading-[18px] font-medium text-[#202020]">100 000</span>
-                </div>
-                <div class="bg-[#FAFAFC] py-2 px-4 rounded-2xl flex justify-between items-center">
-                    <span class="text-[14px] leading-[18px] font-medium text-[#202020]">One-page layout</span>
-                    <span class="text-[14px] leading-[18px] font-medium text-[#202020]">10 000</span>
-                </div>
-                <div class="bg-[#FAFAFC] py-2 px-4 rounded-2xl flex justify-between items-center">
-                    <span class="text-[14px] leading-[18px] font-medium text-[#202020]">Install and configure
-                        plugin</span>
-                    <span class="text-[14px] leading-[18px] font-medium text-[#202020]">100 000</span>
-                </div>
-                <div class="bg-[#FAFAFC] py-2 px-4 rounded-2xl flex justify-between items-center">
-                    <span class="text-[14px] leading-[18px] font-medium text-[#202020]">Layout of the main page of the
-                        site</span>
-                    <span class="text-[14px] leading-[18px] font-medium text-[#202020]">100 000</span>
-                </div>
-                <div class="bg-[#FAFAFC] py-2 px-4 rounded-2xl flex justify-between items-center">
-                    <span class="text-[14px] leading-[18px] font-medium text-[#202020]">Website on a ready-made
-                        platform</span>
-                    <span class="text-[14px] leading-[18px] font-medium text-[#202020]">10 000</span>
-                </div>
-            </div>
-        </div>
-    </section>
-    
-    <section class="md:py-7 pt-5 pb-6 px-5">
+      <div
+        class="md:max-w-[1040px] mx-auto px-3 md:bg-white md:px-[60px] pb-0 md:pt-10 md:pb-14 rounded-xl"
+      >
         <div
-            class="md:max-w-[1040px] mx-auto flex md:flex-row flex-col-reverse items-center justify-between gap-6 md:gap-[102px]">
-            <div class="bg-center bg-no-repeat w-full bg-cover md:max-w-[393px] pt-[112px] pb-5 px-6 rounded-[36px]"
-                style="background-image: url(./img/customersBalance/cardTryBg.png);">
-                <h3 class="font-medium text-3xl max-w-[172px] mb-7">
-                    Get started right now!
-                </h3>
-                <a href="#"
-                    class="w-full py-4 px-6 md:max-w-[183px]  inline-flex justify-center bg-[#202020] font-semibold text-base rounded-xl text-white cursor-pointer">Go
-                    to
-                    registration </a>
-            </div>
-            <div class="flex flex-col gap-5 w-full">
-                <h3 class="font-bold text-base md:text-2xl flex md:gap-3 gap-2 text-[#202020]">
-                    <img class="md:w-10 md:h-10 w-[30px] h-[30px] flex" src="./img/customersBalance/plus.svg"
-                        alt="plus">
-                    How to top up your balance?
-                </h3>
-                <p class="font-medium text-[14px] leading-[18px] text-[#575E6A] md:max-w-[430px]">
-                    You can top up your balance after you select a suitable service from our catalog, or publish your
-                    order,
-                    receive offers from performers and make your choice. <br><br> That is, you deposit money only when
-                    you are
-                    sure that your task will be completed and there are people ready to take on this work. <br><br>
-                    You can top up your account on the <span class="font-bold text-[#4790FF] text-sm" >“</span><a href="#" class="text-[#4790FF] font-bold border-b border-b-[#4790FF]">Balance</a><span class="font-bold text-[#4790FF] text-sm" >”</span> page,
-                    which will be available after <a href="#" class="text-[#4790FF] font-bold border-b border-b-[#4790FF]">registering on the
-                        site</a>.
-                </p>
-            </div>
+          class="bg-white mx-auto px-2 pt-2.5 rounded-xl md:p-0 pb-3 mb-2.5 md:mb-0 md:rounded-none"
+        >
+          <h2 class="flex items-center gap-2 md:gap-3 mb-4 md:mb-5">
+            <img
+              class="w-7 h-7 md:w-10 md:h-10 flex"
+              src="./img/customersJob/tag.svg"
+              alt="tag icon"
+            />
+            <span class="font-bold text-base text-[#202020] md:text-2xl"
+              >Approximately how much does the job cost?</span
+            >
+          </h2>
+          <div
+            class="flex md:flex-row flex-col md:gap-10 gap-4 items-start mb-4 md:mb-6"
+          >
+            <p
+              class="md:max-w-[440px] max-w-none text-[#575E6A] font-medium leading-5 text-[14px]"
+            >
+              What price to set is your decision. You can choose any of the
+              ready-made services in our catalog, at the price of the
+              contractor, or look at the approximate cost of similar orders and
+              publish your request (project) on the website, setting your price.
+            </p>
+            <p
+              class="md:max-w-[409px] max-w-none text-[#575E6A] font-medium leading-5 text-[14px]"
+            >
+              Dozens of performers will respond to your request, ready to take
+              your order right now, at your cost. You can choose the best offer
+              and place an order.
+            </p>
+          </div>
+          <hr class="mb-3 md:mb-6" />
+          <h3
+            class="font-bold md:text-base md:mb-7 text-[14px] leading-5 text-[#202020]"
+          >
+            Estimated cost of work in various categories of services:
+          </h3>
         </div>
+        <!-- Responsive drop down S-->
+        <div class="md:hidden flex flex-col gap-2.5">
+          <div
+            class="serviceDrop cursor-pointer pt-5 pb-6 bg-white px-4 rounded-2xl"
+          >
+            <div class="flex items-center justify-between">
+              <div class="flex items-center gap-2">
+                <img
+                  class="w-12 h-12 flex"
+                  src="./img/customersJob/laptop.png"
+                  alt="laptop png"
+                />
+                <span class="font-bold text-base text-[#202020]">Websites</span>
+              </div>
+              <img
+                class="w-6 h-6 arrowDrop"
+                src="./img/customersHero/dropDown.svg"
+                alt="▼"
+              />
+            </div>
+            <div
+              class="flex h-0 overflow-hidden serviceDropDown duration-300 dropContent flex-col gap-1"
+            >
+              <div
+                class="bg-[#FAFAFC] flex items-center justify-between py-1.5 px-2 rounded-2xl"
+              >
+                <span class="font-medium text-xs text-[#202020]"
+                  >Website on a ready-made platform</span
+                >
+                <span class="font-medium text-xs text-[#202020]">100 000</span>
+              </div>
+              <div
+                class="bg-[#FAFAFC] flex items-center justify-between py-1.5 px-2 rounded-2xl"
+              >
+                <span class="font-medium text-xs text-[#202020]"
+                  >Turnkey website</span
+                >
+                <span class="font-medium text-xs text-[#202020]">10 000</span>
+              </div>
+              <div
+                class="bg-[#FAFAFC] flex items-center justify-between py-1.5 px-2 rounded-2xl"
+              >
+                <span class="font-medium text-xs text-[#202020]"
+                  >Website editing, 1 element</span
+                >
+                <span class="font-medium text-xs text-[#202020]">2500</span>
+              </div>
+              <div
+                class="bg-[#FAFAFC] flex items-center justify-between py-1.5 px-2 rounded-2xl"
+              >
+                <span class="font-medium text-xs text-[#202020]"
+                  >Website adaptation</span
+                >
+                <span class="font-medium text-xs text-[#202020]">2500</span>
+              </div>
+              <div
+                class="bg-[#FAFAFC] flex items-center justify-between py-1.5 px-2 rounded-2xl"
+              >
+                <span class="font-medium text-xs text-[#202020]"
+                  >Edit template</span
+                >
+                <span class="font-medium text-xs text-[#202020]">10 000</span>
+              </div>
+              <div
+                class="bg-[#FAFAFC] flex items-center justify-between py-1.5 px-2 rounded-2xl"
+              >
+                <span class="font-medium text-xs text-[#202020]"
+                  >One-page layout</span
+                >
+                <span class="font-medium text-xs text-[#202020]">10 000</span>
+              </div>
+              <div
+                class="bg-[#FAFAFC] flex items-center justify-between py-1.5 px-2 rounded-2xl"
+              >
+                <span class="font-medium text-xs text-[#202020]"
+                  >Layout of the main page of the site</span
+                >
+                <span class="font-medium text-xs text-[#202020]">100 000</span>
+              </div>
+              <div
+                class="bg-[#FAFAFC] flex items-center justify-between py-1.5 px-2 rounded-2xl"
+              >
+                <span class="font-medium text-xs text-[#202020]"
+                  >Layout of the internal website page</span
+                >
+                <span class="font-medium text-xs text-[#202020]">2500</span>
+              </div>
+              <div
+                class="bg-[#FAFAFC] flex items-center justify-between py-1.5 px-2 rounded-2xl"
+              >
+                <span class="font-medium text-xs text-[#202020]"
+                  >Setting up metrics/analytics</span
+                >
+                <span class="font-medium text-xs text-[#202020]">2500</span>
+              </div>
+              <div
+                class="bg-[#FAFAFC] flex items-center justify-between py-1.5 px-2 rounded-2xl"
+              >
+                <span class="font-medium text-xs text-[#202020]"
+                  >Add analytics code to site</span
+                >
+                <span class="font-medium text-xs text-[#202020]">10 000</span>
+              </div>
+              <div
+                class="bg-[#FAFAFC] flex items-center justify-between py-1.5 px-2 rounded-2xl"
+              >
+                <span class="font-medium text-xs text-[#202020]"
+                  >Layout of email template</span
+                >
+                <span class="font-medium text-xs text-[#202020]">2500</span>
+              </div>
+              <div
+                class="bg-[#FAFAFC] flex items-center justify-between py-1.5 px-2 rounded-2xl"
+              >
+                <span class="font-medium text-xs text-[#202020]"
+                  >SEO website optimization</span
+                >
+                <span class="font-medium text-xs text-[#202020]">100 000</span>
+              </div>
+              <div
+                class="bg-[#FAFAFC] flex items-center justify-between py-1.5 px-2 rounded-2xl"
+              >
+                <span class="font-medium text-xs text-[#202020]"
+                  >Install and configure plugin</span
+                >
+                <span class="font-medium text-xs text-[#202020]"
+                  >100 000 000</span
+                >
+              </div>
+              <div
+                class="bg-[#FAFAFC] flex items-center justify-between py-1.5 px-2 rounded-2xl"
+              >
+                <span class="font-medium text-xs text-[#202020]"
+                  >Website on a ready-made platform</span
+                >
+                <span class="font-medium text-xs text-[#202020]">100 000</span>
+              </div>
+            </div>
+          </div>
+          <div
+            class="serviceDrop cursor-pointer pt-5 pb-6 bg-white px-4 rounded-2xl"
+          >
+            <div class="flex items-center justify-between overflow-hidden">
+              <div class="flex items-center gap-2">
+                <img
+                  class="w-12 h-12 flex"
+                  src="./img/customersJob/phone.png"
+                  alt="phone png"
+                />
+                <span class="font-bold text-base text-[#202020]"
+                  >Advertising & social networks</span
+                >
+              </div>
+              <img
+                class="w-6 h-6 arrowDrop"
+                src="./img/customersHero/dropDown.svg"
+                alt="▼"
+              />
+            </div>
+            <div
+              class="flex h-0 overflow-hidden duration-300 dropContent flex-col serviceDropDown transition-all gap-1"
+            >
+              <div
+                class="bg-[#FAFAFC] flex items-center justify-between py-1.5 px-2 rounded-2xl"
+              >
+                <span class="font-medium text-xs text-[#202020]"
+                  >Website on a ready-made platform</span
+                >
+                <span class="font-medium text-xs text-[#202020]">100 000</span>
+              </div>
+              <div
+                class="bg-[#FAFAFC] flex items-center justify-between py-1.5 px-2 rounded-2xl"
+              >
+                <span class="font-medium text-xs text-[#202020]"
+                  >Turnkey website</span
+                >
+                <span class="font-medium text-xs text-[#202020]">10 000</span>
+              </div>
+              <div
+                class="bg-[#FAFAFC] flex items-center justify-between py-1.5 px-2 rounded-2xl"
+              >
+                <span class="font-medium text-xs text-[#202020]"
+                  >Website editing, 1 element</span
+                >
+                <span class="font-medium text-xs text-[#202020]">2500</span>
+              </div>
+              <div
+                class="bg-[#FAFAFC] flex items-center justify-between py-1.5 px-2 rounded-2xl"
+              >
+                <span class="font-medium text-xs text-[#202020]"
+                  >Website adaptation</span
+                >
+                <span class="font-medium text-xs text-[#202020]">2500</span>
+              </div>
+              <div
+                class="bg-[#FAFAFC] flex items-center justify-between py-1.5 px-2 rounded-2xl"
+              >
+                <span class="font-medium text-xs text-[#202020]"
+                  >Edit template</span
+                >
+                <span class="font-medium text-xs text-[#202020]">10 000</span>
+              </div>
+              <div
+                class="bg-[#FAFAFC] flex items-center justify-between py-1.5 px-2 rounded-2xl"
+              >
+                <span class="font-medium text-xs text-[#202020]"
+                  >One-page layout</span
+                >
+                <span class="font-medium text-xs text-[#202020]">10 000</span>
+              </div>
+              <div
+                class="bg-[#FAFAFC] flex items-center justify-between py-1.5 px-2 rounded-2xl"
+              >
+                <span class="font-medium text-xs text-[#202020]"
+                  >Layout of the main page of the site</span
+                >
+                <span class="font-medium text-xs text-[#202020]">100 000</span>
+              </div>
+              <div
+                class="bg-[#FAFAFC] flex items-center justify-between py-1.5 px-2 rounded-2xl"
+              >
+                <span class="font-medium text-xs text-[#202020]"
+                  >Layout of the internal website page</span
+                >
+                <span class="font-medium text-xs text-[#202020]">2500</span>
+              </div>
+              <div
+                class="bg-[#FAFAFC] flex items-center justify-between py-1.5 px-2 rounded-2xl"
+              >
+                <span class="font-medium text-xs text-[#202020]"
+                  >Setting up metrics/analytics</span
+                >
+                <span class="font-medium text-xs text-[#202020]">2500</span>
+              </div>
+              <div
+                class="bg-[#FAFAFC] flex items-center justify-between py-1.5 px-2 rounded-2xl"
+              >
+                <span class="font-medium text-xs text-[#202020]"
+                  >Add analytics code to site</span
+                >
+                <span class="font-medium text-xs text-[#202020]">10 000</span>
+              </div>
+              <div
+                class="bg-[#FAFAFC] flex items-center justify-between py-1.5 px-2 rounded-2xl"
+              >
+                <span class="font-medium text-xs text-[#202020]"
+                  >Layout of email template</span
+                >
+                <span class="font-medium text-xs text-[#202020]">2500</span>
+              </div>
+              <div
+                class="bg-[#FAFAFC] flex items-center justify-between py-1.5 px-2 rounded-2xl"
+              >
+                <span class="font-medium text-xs text-[#202020]"
+                  >SEO website optimization</span
+                >
+                <span class="font-medium text-xs text-[#202020]">100 000</span>
+              </div>
+              <div
+                class="bg-[#FAFAFC] flex items-center justify-between py-1.5 px-2 rounded-2xl"
+              >
+                <span class="font-medium text-xs text-[#202020]"
+                  >Install and configure plugin</span
+                >
+                <span class="font-medium text-xs text-[#202020]"
+                  >100 000 000</span
+                >
+              </div>
+              <div
+                class="bg-[#FAFAFC] flex items-center justify-between py-1.5 px-2 rounded-2xl"
+              >
+                <span class="font-medium text-xs text-[#202020]"
+                  >Website on a ready-made platform</span
+                >
+                <span class="font-medium text-xs text-[#202020]">100 000</span>
+              </div>
+            </div>
+          </div>
+          <div
+            class="serviceDrop cursor-pointer pt-5 pb-6 bg-white px-4 rounded-2xl"
+          >
+            <div class="flex items-center justify-between overflow-hidden">
+              <div class="flex items-center gap-2">
+                <img
+                  class="w-12 h-12 flex"
+                  src="./img/customersJob/design.png"
+                  alt="phone png"
+                />
+                <span class="font-bold text-base text-[#202020]">Design</span>
+              </div>
+              <img
+                class="w-6 h-6 arrowDrop"
+                src="./img/customersHero/dropDown.svg"
+                alt="▼"
+              />
+            </div>
+            <div
+              class="flex dropContent flex-col h-0 serviceDropDown transition-all duration-300 overflow-hidden gap-1"
+            >
+              <div
+                class="bg-[#FAFAFC] flex items-center justify-between py-1.5 px-2 rounded-2xl"
+              >
+                <span class="font-medium text-xs text-[#202020]"
+                  >Website on a ready-made platform</span
+                >
+                <span class="font-medium text-xs text-[#202020]">100 000</span>
+              </div>
+              <div
+                class="bg-[#FAFAFC] flex items-center justify-between py-1.5 px-2 rounded-2xl"
+              >
+                <span class="font-medium text-xs text-[#202020]"
+                  >Turnkey website</span
+                >
+                <span class="font-medium text-xs text-[#202020]">10 000</span>
+              </div>
+              <div
+                class="bg-[#FAFAFC] flex items-center justify-between py-1.5 px-2 rounded-2xl"
+              >
+                <span class="font-medium text-xs text-[#202020]"
+                  >Website editing, 1 element</span
+                >
+                <span class="font-medium text-xs text-[#202020]">2500</span>
+              </div>
+              <div
+                class="bg-[#FAFAFC] flex items-center justify-between py-1.5 px-2 rounded-2xl"
+              >
+                <span class="font-medium text-xs text-[#202020]"
+                  >Website adaptation</span
+                >
+                <span class="font-medium text-xs text-[#202020]">2500</span>
+              </div>
+              <div
+                class="bg-[#FAFAFC] flex items-center justify-between py-1.5 px-2 rounded-2xl"
+              >
+                <span class="font-medium text-xs text-[#202020]"
+                  >Edit template</span
+                >
+                <span class="font-medium text-xs text-[#202020]">10 000</span>
+              </div>
+              <div
+                class="bg-[#FAFAFC] flex items-center justify-between py-1.5 px-2 rounded-2xl"
+              >
+                <span class="font-medium text-xs text-[#202020]"
+                  >One-page layout</span
+                >
+                <span class="font-medium text-xs text-[#202020]">10 000</span>
+              </div>
+              <div
+                class="bg-[#FAFAFC] flex items-center justify-between py-1.5 px-2 rounded-2xl"
+              >
+                <span class="font-medium text-xs text-[#202020]"
+                  >Layout of the main page of the site</span
+                >
+                <span class="font-medium text-xs text-[#202020]">100 000</span>
+              </div>
+              <div
+                class="bg-[#FAFAFC] flex items-center justify-between py-1.5 px-2 rounded-2xl"
+              >
+                <span class="font-medium text-xs text-[#202020]"
+                  >Layout of the internal website page</span
+                >
+                <span class="font-medium text-xs text-[#202020]">2500</span>
+              </div>
+              <div
+                class="bg-[#FAFAFC] flex items-center justify-between py-1.5 px-2 rounded-2xl"
+              >
+                <span class="font-medium text-xs text-[#202020]"
+                  >Setting up metrics/analytics</span
+                >
+                <span class="font-medium text-xs text-[#202020]">2500</span>
+              </div>
+              <div
+                class="bg-[#FAFAFC] flex items-center justify-between py-1.5 px-2 rounded-2xl"
+              >
+                <span class="font-medium text-xs text-[#202020]"
+                  >Add analytics code to site</span
+                >
+                <span class="font-medium text-xs text-[#202020]">10 000</span>
+              </div>
+              <div
+                class="bg-[#FAFAFC] flex items-center justify-between py-1.5 px-2 rounded-2xl"
+              >
+                <span class="font-medium text-xs text-[#202020]"
+                  >Layout of email template</span
+                >
+                <span class="font-medium text-xs text-[#202020]">2500</span>
+              </div>
+              <div
+                class="bg-[#FAFAFC] flex items-center justify-between py-1.5 px-2 rounded-2xl"
+              >
+                <span class="font-medium text-xs text-[#202020]"
+                  >SEO website optimization</span
+                >
+                <span class="font-medium text-xs text-[#202020]">100 000</span>
+              </div>
+              <div
+                class="bg-[#FAFAFC] flex items-center justify-between py-1.5 px-2 rounded-2xl"
+              >
+                <span class="font-medium text-xs text-[#202020]"
+                  >Install and configure plugin</span
+                >
+                <span class="font-medium text-xs text-[#202020]"
+                  >100 000 000</span
+                >
+              </div>
+              <div
+                class="bg-[#FAFAFC] flex items-center justify-between py-1.5 px-2 rounded-2xl"
+              >
+                <span class="font-medium text-xs text-[#202020]"
+                  >Website on a ready-made platform</span
+                >
+                <span class="font-medium text-xs text-[#202020]">100 000</span>
+              </div>
+            </div>
+          </div>
+          <div
+            class="serviceDrop cursor-pointer pt-5 pb-6 bg-white px-4 rounded-2xl"
+          >
+            <div class="flex items-center justify-between overflow-hidden">
+              <div class="flex items-center gap-2">
+                <img
+                  class="w-12 h-12 flex"
+                  src="./img/customersJob/copywriting.png"
+                  alt="copywriting png"
+                />
+                <span class="font-bold text-base text-[#202020]"
+                  >Copywriting</span
+                >
+              </div>
+              <img
+                class="w-6 h-6 arrowDrop"
+                src="./img/customersHero/dropDown.svg"
+                alt="▼"
+              />
+            </div>
+            <div
+              class="flex dropContent flex-col h-0 serviceDropDown transition-all duration-300 overflow-hidden gap-1"
+            >
+              <div
+                class="bg-[#FAFAFC] flex items-center justify-between py-1.5 px-2 rounded-2xl"
+              >
+                <span class="font-medium text-xs text-[#202020]"
+                  >Website on a ready-made platform</span
+                >
+                <span class="font-medium text-xs text-[#202020]">100 000</span>
+              </div>
+              <div
+                class="bg-[#FAFAFC] flex items-center justify-between py-1.5 px-2 rounded-2xl"
+              >
+                <span class="font-medium text-xs text-[#202020]"
+                  >Turnkey website</span
+                >
+                <span class="font-medium text-xs text-[#202020]">10 000</span>
+              </div>
+              <div
+                class="bg-[#FAFAFC] flex items-center justify-between py-1.5 px-2 rounded-2xl"
+              >
+                <span class="font-medium text-xs text-[#202020]"
+                  >Website editing, 1 element</span
+                >
+                <span class="font-medium text-xs text-[#202020]">2500</span>
+              </div>
+              <div
+                class="bg-[#FAFAFC] flex items-center justify-between py-1.5 px-2 rounded-2xl"
+              >
+                <span class="font-medium text-xs text-[#202020]"
+                  >Website adaptation</span
+                >
+                <span class="font-medium text-xs text-[#202020]">2500</span>
+              </div>
+              <div
+                class="bg-[#FAFAFC] flex items-center justify-between py-1.5 px-2 rounded-2xl"
+              >
+                <span class="font-medium text-xs text-[#202020]"
+                  >Edit template</span
+                >
+                <span class="font-medium text-xs text-[#202020]">10 000</span>
+              </div>
+              <div
+                class="bg-[#FAFAFC] flex items-center justify-between py-1.5 px-2 rounded-2xl"
+              >
+                <span class="font-medium text-xs text-[#202020]"
+                  >One-page layout</span
+                >
+                <span class="font-medium text-xs text-[#202020]">10 000</span>
+              </div>
+              <div
+                class="bg-[#FAFAFC] flex items-center justify-between py-1.5 px-2 rounded-2xl"
+              >
+                <span class="font-medium text-xs text-[#202020]"
+                  >Layout of the main page of the site</span
+                >
+                <span class="font-medium text-xs text-[#202020]">100 000</span>
+              </div>
+              <div
+                class="bg-[#FAFAFC] flex items-center justify-between py-1.5 px-2 rounded-2xl"
+              >
+                <span class="font-medium text-xs text-[#202020]"
+                  >Layout of the internal website page</span
+                >
+                <span class="font-medium text-xs text-[#202020]">2500</span>
+              </div>
+              <div
+                class="bg-[#FAFAFC] flex items-center justify-between py-1.5 px-2 rounded-2xl"
+              >
+                <span class="font-medium text-xs text-[#202020]"
+                  >Setting up metrics/analytics</span
+                >
+                <span class="font-medium text-xs text-[#202020]">2500</span>
+              </div>
+              <div
+                class="bg-[#FAFAFC] flex items-center justify-between py-1.5 px-2 rounded-2xl"
+              >
+                <span class="font-medium text-xs text-[#202020]"
+                  >Add analytics code to site</span
+                >
+                <span class="font-medium text-xs text-[#202020]">10 000</span>
+              </div>
+              <div
+                class="bg-[#FAFAFC] flex items-center justify-between py-1.5 px-2 rounded-2xl"
+              >
+                <span class="font-medium text-xs text-[#202020]"
+                  >Layout of email template</span
+                >
+                <span class="font-medium text-xs text-[#202020]">2500</span>
+              </div>
+              <div
+                class="bg-[#FAFAFC] flex items-center justify-between py-1.5 px-2 rounded-2xl"
+              >
+                <span class="font-medium text-xs text-[#202020]"
+                  >SEO website optimization</span
+                >
+                <span class="font-medium text-xs text-[#202020]">100 000</span>
+              </div>
+              <div
+                class="bg-[#FAFAFC] flex items-center justify-between py-1.5 px-2 rounded-2xl"
+              >
+                <span class="font-medium text-xs text-[#202020]"
+                  >Install and configure plugin</span
+                >
+                <span class="font-medium text-xs text-[#202020]"
+                  >100 000 000</span
+                >
+              </div>
+              <div
+                class="bg-[#FAFAFC] flex items-center justify-between py-1.5 px-2 rounded-2xl"
+              >
+                <span class="font-medium text-xs text-[#202020]"
+                  >Website on a ready-made platform</span
+                >
+                <span class="font-medium text-xs text-[#202020]">100 000</span>
+              </div>
+            </div>
+          </div>
+          <div
+            class="serviceDrop cursor-pointer pt-5 pb-6 bg-white px-4 rounded-2xl"
+          >
+            <div class="flex items-center justify-between overflow-hidden">
+              <div class="flex items-center gap-2">
+                <img
+                  class="w-12 h-12 flex"
+                  src="./img/customersJob/help.png"
+                  alt="copywriting png"
+                />
+                <span class="font-bold text-base text-[#202020]"
+                  >Simple help</span
+                >
+              </div>
+              <img
+                class="w-6 h-6 arrowDrop"
+                src="./img/customersHero/dropDown.svg"
+                alt="▼"
+              />
+            </div>
+            <div
+              class="flex flex-col h-0 serviceDropDown transition-all duration-300 overflow-hidden gap-1"
+            >
+              <div
+                class="bg-[#FAFAFC] flex items-center justify-between py-1.5 px-2 rounded-2xl"
+              >
+                <span class="font-medium text-xs text-[#202020]"
+                  >Website on a ready-made platform</span
+                >
+                <span class="font-medium text-xs text-[#202020]">100 000</span>
+              </div>
+              <div
+                class="bg-[#FAFAFC] flex items-center justify-between py-1.5 px-2 rounded-2xl"
+              >
+                <span class="font-medium text-xs text-[#202020]"
+                  >Turnkey website</span
+                >
+                <span class="font-medium text-xs text-[#202020]">10 000</span>
+              </div>
+              <div
+                class="bg-[#FAFAFC] flex items-center justify-between py-1.5 px-2 rounded-2xl"
+              >
+                <span class="font-medium text-xs text-[#202020]"
+                  >Website editing, 1 element</span
+                >
+                <span class="font-medium text-xs text-[#202020]">2500</span>
+              </div>
+              <div
+                class="bg-[#FAFAFC] flex items-center justify-between py-1.5 px-2 rounded-2xl"
+              >
+                <span class="font-medium text-xs text-[#202020]"
+                  >Website adaptation</span
+                >
+                <span class="font-medium text-xs text-[#202020]">2500</span>
+              </div>
+              <div
+                class="bg-[#FAFAFC] flex items-center justify-between py-1.5 px-2 rounded-2xl"
+              >
+                <span class="font-medium text-xs text-[#202020]"
+                  >Edit template</span
+                >
+                <span class="font-medium text-xs text-[#202020]">10 000</span>
+              </div>
+              <div
+                class="bg-[#FAFAFC] flex items-center justify-between py-1.5 px-2 rounded-2xl"
+              >
+                <span class="font-medium text-xs text-[#202020]"
+                  >One-page layout</span
+                >
+                <span class="font-medium text-xs text-[#202020]">10 000</span>
+              </div>
+              <div
+                class="bg-[#FAFAFC] flex items-center justify-between py-1.5 px-2 rounded-2xl"
+              >
+                <span class="font-medium text-xs text-[#202020]"
+                  >Layout of the main page of the site</span
+                >
+                <span class="font-medium text-xs text-[#202020]">100 000</span>
+              </div>
+              <div
+                class="bg-[#FAFAFC] flex items-center justify-between py-1.5 px-2 rounded-2xl"
+              >
+                <span class="font-medium text-xs text-[#202020]"
+                  >Layout of the internal website page</span
+                >
+                <span class="font-medium text-xs text-[#202020]">2500</span>
+              </div>
+              <div
+                class="bg-[#FAFAFC] flex items-center justify-between py-1.5 px-2 rounded-2xl"
+              >
+                <span class="font-medium text-xs text-[#202020]"
+                  >Setting up metrics/analytics</span
+                >
+                <span class="font-medium text-xs text-[#202020]">2500</span>
+              </div>
+              <div
+                class="bg-[#FAFAFC] flex items-center justify-between py-1.5 px-2 rounded-2xl"
+              >
+                <span class="font-medium text-xs text-[#202020]"
+                  >Add analytics code to site</span
+                >
+                <span class="font-medium text-xs text-[#202020]">10 000</span>
+              </div>
+              <div
+                class="bg-[#FAFAFC] flex items-center justify-between py-1.5 px-2 rounded-2xl"
+              >
+                <span class="font-medium text-xs text-[#202020]"
+                  >Layout of email template</span
+                >
+                <span class="font-medium text-xs text-[#202020]">2500</span>
+              </div>
+              <div
+                class="bg-[#FAFAFC] flex items-center justify-between py-1.5 px-2 rounded-2xl"
+              >
+                <span class="font-medium text-xs text-[#202020]"
+                  >SEO website optimization</span
+                >
+                <span class="font-medium text-xs text-[#202020]">100 000</span>
+              </div>
+              <div
+                class="bg-[#FAFAFC] flex items-center justify-between py-1.5 px-2 rounded-2xl"
+              >
+                <span class="font-medium text-xs text-[#202020]"
+                  >Install and configure plugin</span
+                >
+                <span class="font-medium text-xs text-[#202020]"
+                  >100 000 000</span
+                >
+              </div>
+              <div
+                class="bg-[#FAFAFC] flex items-center justify-between py-1.5 px-2 rounded-2xl"
+              >
+                <span class="font-medium text-xs text-[#202020]"
+                  >Website on a ready-made platform</span
+                >
+                <span class="font-medium text-xs text-[#202020]">100 000</span>
+              </div>
+            </div>
+          </div>
+          <div
+            class="serviceDrop cursor-pointer pt-5 pb-6 bg-white px-4 rounded-2xl"
+          >
+            <div class="flex items-center justify-between overflow-hidden">
+              <div class="flex items-center gap-2">
+                <img
+                  class="w-12 h-12 flex"
+                  src="./img/customersJob/other.png"
+                  alt="other png"
+                />
+                <span class="font-bold text-base text-[#202020]">Other</span>
+              </div>
+              <img
+                class="w-6 h-6 arrowDrop"
+                src="./img/customersHero/dropDown.svg"
+                alt="▼"
+              />
+            </div>
+            <div
+              class="flex flex-col h-0 serviceDropDown transition-all duration-300 overflow-hidden gap-1"
+            >
+              <div
+                class="bg-[#FAFAFC] flex items-center justify-between py-1.5 px-2 rounded-2xl"
+              >
+                <span class="font-medium text-xs text-[#202020]"
+                  >Website on a ready-made platform</span
+                >
+                <span class="font-medium text-xs text-[#202020]">100 000</span>
+              </div>
+              <div
+                class="bg-[#FAFAFC] flex items-center justify-between py-1.5 px-2 rounded-2xl"
+              >
+                <span class="font-medium text-xs text-[#202020]"
+                  >Turnkey website</span
+                >
+                <span class="font-medium text-xs text-[#202020]">10 000</span>
+              </div>
+              <div
+                class="bg-[#FAFAFC] flex items-center justify-between py-1.5 px-2 rounded-2xl"
+              >
+                <span class="font-medium text-xs text-[#202020]"
+                  >Website editing, 1 element</span
+                >
+                <span class="font-medium text-xs text-[#202020]">2500</span>
+              </div>
+              <div
+                class="bg-[#FAFAFC] flex items-center justify-between py-1.5 px-2 rounded-2xl"
+              >
+                <span class="font-medium text-xs text-[#202020]"
+                  >Website adaptation</span
+                >
+                <span class="font-medium text-xs text-[#202020]">2500</span>
+              </div>
+              <div
+                class="bg-[#FAFAFC] flex items-center justify-between py-1.5 px-2 rounded-2xl"
+              >
+                <span class="font-medium text-xs text-[#202020]"
+                  >Edit template</span
+                >
+                <span class="font-medium text-xs text-[#202020]">10 000</span>
+              </div>
+              <div
+                class="bg-[#FAFAFC] flex items-center justify-between py-1.5 px-2 rounded-2xl"
+              >
+                <span class="font-medium text-xs text-[#202020]"
+                  >One-page layout</span
+                >
+                <span class="font-medium text-xs text-[#202020]">10 000</span>
+              </div>
+              <div
+                class="bg-[#FAFAFC] flex items-center justify-between py-1.5 px-2 rounded-2xl"
+              >
+                <span class="font-medium text-xs text-[#202020]"
+                  >Layout of the main page of the site</span
+                >
+                <span class="font-medium text-xs text-[#202020]">100 000</span>
+              </div>
+              <div
+                class="bg-[#FAFAFC] flex items-center justify-between py-1.5 px-2 rounded-2xl"
+              >
+                <span class="font-medium text-xs text-[#202020]"
+                  >Layout of the internal website page</span
+                >
+                <span class="font-medium text-xs text-[#202020]">2500</span>
+              </div>
+              <div
+                class="bg-[#FAFAFC] flex items-center justify-between py-1.5 px-2 rounded-2xl"
+              >
+                <span class="font-medium text-xs text-[#202020]"
+                  >Setting up metrics/analytics</span
+                >
+                <span class="font-medium text-xs text-[#202020]">2500</span>
+              </div>
+              <div
+                class="bg-[#FAFAFC] flex items-center justify-between py-1.5 px-2 rounded-2xl"
+              >
+                <span class="font-medium text-xs text-[#202020]"
+                  >Add analytics code to site</span
+                >
+                <span class="font-medium text-xs text-[#202020]">10 000</span>
+              </div>
+              <div
+                class="bg-[#FAFAFC] flex items-center justify-between py-1.5 px-2 rounded-2xl"
+              >
+                <span class="font-medium text-xs text-[#202020]"
+                  >Layout of email template</span
+                >
+                <span class="font-medium text-xs text-[#202020]">2500</span>
+              </div>
+              <div
+                class="bg-[#FAFAFC] flex items-center justify-between py-1.5 px-2 rounded-2xl"
+              >
+                <span class="font-medium text-xs text-[#202020]"
+                  >SEO website optimization</span
+                >
+                <span class="font-medium text-xs text-[#202020]">100 000</span>
+              </div>
+              <div
+                class="bg-[#FAFAFC] flex items-center justify-between py-1.5 px-2 rounded-2xl"
+              >
+                <span class="font-medium text-xs text-[#202020]"
+                  >Install and configure plugin</span
+                >
+                <span class="font-medium text-xs text-[#202020]"
+                  >100 000 000</span
+                >
+              </div>
+              <div
+                class="bg-[#FAFAFC] flex items-center justify-between py-1.5 px-2 rounded-2xl"
+              >
+                <span class="font-medium text-xs text-[#202020]"
+                  >Website on a ready-made platform</span
+                >
+                <span class="font-medium text-xs text-[#202020]">100 000</span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- Responive drop down E-->
+        <div
+          class="md:grid lg:grid-cols-6 md:grid-cols-3 hidden justify-center mb-7 gap-1.5"
+        >
+          <div
+            class="max-w-[150px] mx-auto lg:mx-0 tab cursor-pointer py-10 px-9 rounded-2xl"
+            style="box-shadow: 5px 10px 40px 2px #0000000d"
+          >
+            <img
+              class="w-[76px] mx-auto min-h-10 flex mb-2 tab"
+              src="./img/customersJob/laptop.png"
+              alt="laptop"
+            />
+            <span class="text-base font-bold text-[#202020] text-center"
+              >Websites</span
+            >
+          </div>
+          <div
+            class="max-w-[150px] mx-auto lg:mx-0 cursor-pointer pt-9 pb-6 px-3 rounded-2xl tab"
+          >
+            <img
+              class="w-[76px] mx-auto min-h-10 flex mb-2"
+              src="./img/customersJob/phone.png"
+              alt="laptop"
+            />
+            <h4 class="text-base font-bold text-[#202020] text-center">
+              Advertising & social networks
+            </h4>
+          </div>
+          <div
+            class="max-w-[150px] mx-auto lg:mx-0 cursor-pointer w-full pt-9 pb-6 px-3 rounded-2xl tab"
+          >
+            <img
+              class="w-[76px] mx-auto min-h-10 flex mb-2"
+              src="./img/customersJob/design.png"
+              alt="laptop"
+            />
+            <h4 class="text-base font-bold text-[#202020] text-center">
+              Design
+            </h4>
+          </div>
+          <div
+            class="max-w-[150px] mx-auto lg:mx-0 cursor-pointer w-full pt-9 pb-6 px-3 rounded-2xl tab"
+          >
+            <img
+              class="w-[76px] mx-auto min-h-10 flex mb-2"
+              src="./img/customersJob/copywriting.png"
+              alt="laptop"
+            />
+            <h4 class="text-base font-bold text-[#202020] text-center">
+              Copywriting
+            </h4>
+          </div>
+          <div
+            class="max-w-[150px] mx-auto lg:mx-0 cursor-pointer w-full pt-9 pb-6 px-3 rounded-2xl tab"
+          >
+            <img
+              class="w-[76px] mx-auto min-h-10 flex mb-2"
+              src="./img/customersJob/help.png"
+              alt="laptop"
+            />
+            <h4 class="text-base font-bold text-[#202020] text-center">
+              Simple help
+            </h4>
+          </div>
+          <div
+            class="max-w-[150px] mx-auto lg:mx-0 cursor-pointer w-full pt-9 pb-6 px-3 rounded-2xl tab"
+          >
+            <img
+              class="w-[76px] mx-auto min-h-10 flex mb-2"
+              src="./img/customersJob/other.png"
+              alt="laptop"
+            />
+            <h4 class="text-base font-bold text-[#202020] text-center">
+              Other
+            </h4>
+          </div>
+        </div>
+        <div class="md:grid hidden lg:grid-cols-2 gap-x-2.5 gap-y-1.5">
+          <div
+            class="bg-[#FAFAFC] py-2 px-4 rounded-2xl flex justify-between items-center"
+          >
+            <span class="text-[14px] leading-[18px] font-medium text-[#202020]"
+              >Website on a ready-made platform</span
+            >
+            <span class="text-[14px] leading-[18px] font-medium text-[#202020]"
+              >100 000</span
+            >
+          </div>
+          <div
+            class="bg-[#FAFAFC] py-2 px-4 rounded-2xl flex justify-between items-center"
+          >
+            <span class="text-[14px] leading-[18px] font-medium text-[#202020]"
+              >Layout of the internal website page</span
+            >
+            <span class="text-[14px] leading-[18px] font-medium text-[#202020]"
+              >2500</span
+            >
+          </div>
+          <div
+            class="bg-[#FAFAFC] py-2 px-4 rounded-2xl flex justify-between items-center"
+          >
+            <span class="text-[14px] leading-[18px] font-medium text-[#202020]"
+              >Turnkey website</span
+            >
+            <span class="text-[14px] leading-[18px] font-medium text-[#202020]"
+              >10 000</span
+            >
+          </div>
+          <div
+            class="bg-[#FAFAFC] py-2 px-4 rounded-2xl flex justify-between items-center"
+          >
+            <span class="text-[14px] leading-[18px] font-medium text-[#202020]"
+              >Setting up metrics/analytics</span
+            >
+            <span class="text-[14px] leading-[18px] font-medium text-[#202020]"
+              >2500</span
+            >
+          </div>
+          <div
+            class="bg-[#FAFAFC] py-2 px-4 rounded-2xl flex justify-between items-center"
+          >
+            <span class="text-[14px] leading-[18px] font-medium text-[#202020]"
+              >Website editing, 1 element</span
+            >
+            <span class="text-[14px] leading-[18px] font-medium text-[#202020]"
+              >2500</span
+            >
+          </div>
+          <div
+            class="bg-[#FAFAFC] py-2 px-4 rounded-2xl flex justify-between items-center"
+          >
+            <span class="text-[14px] leading-[18px] font-medium text-[#202020]"
+              >Add analytics code to site</span
+            >
+            <span class="text-[14px] leading-[18px] font-medium text-[#202020]"
+              >10 000</span
+            >
+          </div>
+          <div
+            class="bg-[#FAFAFC] py-2 px-4 rounded-2xl flex justify-between items-center"
+          >
+            <span class="text-[14px] leading-[18px] font-medium text-[#202020]"
+              >Website adaptation</span
+            >
+            <span class="text-[14px] leading-[18px] font-medium text-[#202020]"
+              >2500</span
+            >
+          </div>
+          <div
+            class="bg-[#FAFAFC] py-2 px-4 rounded-2xl flex justify-between items-center"
+          >
+            <span class="text-[14px] leading-[18px] font-medium text-[#202020]"
+              >Layout of email template</span
+            >
+            <span class="text-[14px] leading-[18px] font-medium text-[#202020]"
+              >2500</span
+            >
+          </div>
+          <div
+            class="bg-[#FAFAFC] py-2 px-4 rounded-2xl flex justify-between items-center"
+          >
+            <span class="text-[14px] leading-[18px] font-medium text-[#202020]"
+              >Edit template</span
+            >
+            <span class="text-[14px] leading-[18px] font-medium text-[#202020]"
+              >10 000</span
+            >
+          </div>
+          <div
+            class="bg-[#FAFAFC] py-2 px-4 rounded-2xl flex justify-between items-center"
+          >
+            <span class="text-[14px] leading-[18px] font-medium text-[#202020]"
+              >SEO website optimization</span
+            >
+            <span class="text-[14px] leading-[18px] font-medium text-[#202020]"
+              >100 000</span
+            >
+          </div>
+          <div
+            class="bg-[#FAFAFC] py-2 px-4 rounded-2xl flex justify-between items-center"
+          >
+            <span class="text-[14px] leading-[18px] font-medium text-[#202020]"
+              >One-page layout</span
+            >
+            <span class="text-[14px] leading-[18px] font-medium text-[#202020]"
+              >10 000</span
+            >
+          </div>
+          <div
+            class="bg-[#FAFAFC] py-2 px-4 rounded-2xl flex justify-between items-center"
+          >
+            <span class="text-[14px] leading-[18px] font-medium text-[#202020]"
+              >Install and configure plugin</span
+            >
+            <span class="text-[14px] leading-[18px] font-medium text-[#202020]"
+              >100 000</span
+            >
+          </div>
+          <div
+            class="bg-[#FAFAFC] py-2 px-4 rounded-2xl flex justify-between items-center"
+          >
+            <span class="text-[14px] leading-[18px] font-medium text-[#202020]"
+              >Layout of the main page of the site</span
+            >
+            <span class="text-[14px] leading-[18px] font-medium text-[#202020]"
+              >100 000</span
+            >
+          </div>
+          <div
+            class="bg-[#FAFAFC] py-2 px-4 rounded-2xl flex justify-between items-center"
+          >
+            <span class="text-[14px] leading-[18px] font-medium text-[#202020]"
+              >Website on a ready-made platform</span
+            >
+            <span class="text-[14px] leading-[18px] font-medium text-[#202020]"
+              >10 000</span
+            >
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="md:py-7 pt-5 pb-6 px-5">
+      <div
+        class="md:max-w-[1040px] mx-auto flex md:flex-row flex-col-reverse items-center justify-between gap-6 md:gap-[102px]"
+      >
+        <div
+          class="bg-center bg-no-repeat w-full bg-cover md:max-w-[393px] pt-[112px] pb-5 px-6 rounded-[36px]"
+          style="background-image: url(./img/customersBalance/cardTryBg.png)"
+        >
+          <h3 class="font-medium text-3xl max-w-[172px] mb-7">
+            Get started right now!
+          </h3>
+          <a
+            href="#"
+            class="w-full py-4 px-6 md:max-w-[183px] inline-flex justify-center bg-[#202020] font-semibold text-base rounded-xl text-white cursor-pointer"
+            >Go to registration
+          </a>
+        </div>
+        <div class="flex flex-col gap-5 w-full">
+          <h3
+            class="font-bold text-base md:text-2xl flex md:gap-3 gap-2 text-[#202020]"
+          >
+            <img
+              class="md:w-10 md:h-10 w-[30px] h-[30px] flex"
+              src="./img/customersBalance/plus.svg"
+              alt="plus"
+            />
+            How to top up your balance?
+          </h3>
+          <p
+            class="font-medium text-[14px] leading-[18px] text-[#575E6A] md:max-w-[430px]"
+          >
+            You can top up your balance after you select a suitable service from
+            our catalog, or publish your order, receive offers from performers
+            and make your choice. <br /><br />
+            That is, you deposit money only when you are sure that your task
+            will be completed and there are people ready to take on this work.
+            <br /><br />
+            You can top up your account on the
+            <span class="font-bold text-[#4790FF] text-sm">“</span
+            ><a
+              href="#"
+              class="text-[#4790FF] font-bold border-b border-b-[#4790FF]"
+              >Balance</a
+            ><span class="font-bold text-[#4790FF] text-sm">”</span> page, which
+            will be available after
+            <a
+              href="#"
+              class="text-[#4790FF] font-bold border-b border-b-[#4790FF]"
+              >registering on the site</a
+            >.
+          </p>
+        </div>
+      </div>
     </section>
 
     <footer class="bg-[#202020] lg:pt-[125px] pt-12 lg:pb-[70px] pb-[60px]">
-        <div class="max-w-[1360px] mx-auto px-3 md:block hidden">
-            <div class="lg:flex md:grid grid-cols-2 gap-20 items-center justify-between mb-16">
-                <ul>
-                    <p class="text-white font-bold text-lg mb-6">About Monday</p>
-                    <li>
-                        <a class="text-[#BCBCBC] hover:underline hover:opacity-70 transition-all font-medium text-base mb-2.5"
-                            href="#">About the project
-                        </a>
-                    </li>
-                    <li>
-                        <a class="text-[#BCBCBC] hover:underline hover:opacity-70 transition-all font-medium text-base mb-2.5"
-                            href="#">Agency contract
-                        </a>
-                    </li>
-                    <li>
-                        <a class="text-[#BCBCBC] hover:underline hover:opacity-70 transition-all font-medium text-base"
-                            href="#">Privacy Policy
-                        </a>
-                    </li>
-                </ul>
-                <ul>
-                    <p class="text-white font-bold text-lg mb-6">Help</p>
-                    <li>
-                        <a class="text-[#BCBCBC] hover:underline hover:opacity-70 transition-all font-medium text-base mb-2.5"
-                            href="#">Service rules
-                        </a>
-                    </li>
-                    <li>
-                        <a class="text-[#BCBCBC] hover:underline hover:opacity-70 transition-all font-medium text-base mb-2.5"
-                            href="#">Question answer
-                        </a>
-                    </li>
-                    <li>
-                        <a class="text-[#BCBCBC] hover:underline hover:opacity-70 transition-all font-medium text-base"
-                            href="#">Support
-                        </a>
-                    </li>
-                </ul>
-                <ul>
-                    <p class="text-white font-bold text-lg mb-6">Useful</p>
-                    <li>
-                        <a class="text-[#BCBCBC] hover:underline hover:opacity-70 transition-all font-medium text-base mb-2.5"
-                            href="#">For customers
-                        </a>
-                    </li>
-                    <li>
-                        <a class="text-[#BCBCBC] hover:underline hover:opacity-70 transition-all font-medium text-base mb-2.5"
-                            href="#">For performers
-                        </a>
-                    </li>
-                    <li>
-                        <a class="text-[#BCBCBC] hover:underline hover:opacity-70 transition-all font-medium text-base"
-                            href="#">
-                            PRO account
-                        </a>
-                    </li>
-                </ul>
-                <ul>
-                    <p class="text-white font-bold text-lg mb-6">Community</p>
-                    <li>
-                        <a class="text-[#BCBCBC] hover:underline hover:opacity-70 transition-all font-medium text-base mb-2.5"
-                            href="#">Blog Monday
-                        </a>
-                    </li>
-                    <li>
-                        <a class="text-[#BCBCBC] hover:underline hover:opacity-70 transition-all font-medium text-base mb-2.5"
-                            href="#">Affiliate program
-                        </a>
-                    </li>
-                    <li>
-                        <a class="text-[#BCBCBC] hover:underline hover:opacity-70 transition-all font-medium text-base"
-                            href="#">Verification
-                        </a>
-                    </li>
-                </ul>
-            </div>
-            <div class="justify-end flex gap-4 items-center">
-                <a class="hover:bg-white transition-all hover:text-[#202020] text-[#A6A6A6] font-medium inline-flex text-base py-2.5 px-10 border rounded-xl"
-                    href="#">Sign In
-                </a>
-                <a class="hover:bg-white transition-all hover:text-[#202020] text-white items-center gap-2.5 font-medium inline-flex text-base py-2.5 px-10 border rounded-xl"
-                    href="#">
-                    Join
-                    <span>
-                        <svg width="17" height="16" viewBox="0 0 17 16" fill="none" xmlns="http://www.w3.org/2000/svg">
-                            <path
-                                d="M11.1654 14V12.6667C11.1654 11.9594 10.8844 11.2811 10.3843 10.781C9.88422 10.281 9.20594 10 8.4987 10H4.4987C3.79145 10 3.11318 10.281 2.61308 10.781C2.11298 11.2811 1.83203 11.9594 1.83203 12.6667V14"
-                                stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" />
-                            <path
-                                d="M6.4987 7.33333C7.97146 7.33333 9.16536 6.13943 9.16536 4.66667C9.16536 3.19391 7.97146 2 6.4987 2C5.02594 2 3.83203 3.19391 3.83203 4.66667C3.83203 6.13943 5.02594 7.33333 6.4987 7.33333Z"
-                                stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" />
-                            <path d="M13.166 5.33203V9.33203" stroke="currentColor" stroke-linecap="round"
-                                stroke-linejoin="round" />
-                            <path d="M15.166 7.33203H11.166" stroke="currentColor" stroke-linecap="round"
-                                stroke-linejoin="round" />
-                        </svg>
-                    </span>
-                </a>
-            </div>
+      <div class="max-w-[1360px] mx-auto px-3 md:block hidden">
+        <div
+          class="lg:flex md:grid grid-cols-2 gap-20 items-center justify-between mb-16"
+        >
+          <ul>
+            <p class="text-white font-bold text-lg mb-6">About Monday</p>
+            <li>
+              <a
+                class="text-[#BCBCBC] hover:underline hover:opacity-70 transition-all font-medium text-base mb-2.5"
+                href="#"
+                >About the project
+              </a>
+            </li>
+            <li>
+              <a
+                class="text-[#BCBCBC] hover:underline hover:opacity-70 transition-all font-medium text-base mb-2.5"
+                href="#"
+                >Agency contract
+              </a>
+            </li>
+            <li>
+              <a
+                class="text-[#BCBCBC] hover:underline hover:opacity-70 transition-all font-medium text-base"
+                href="#"
+                >Privacy Policy
+              </a>
+            </li>
+          </ul>
+          <ul>
+            <p class="text-white font-bold text-lg mb-6">Help</p>
+            <li>
+              <a
+                class="text-[#BCBCBC] hover:underline hover:opacity-70 transition-all font-medium text-base mb-2.5"
+                href="#"
+                >Service rules
+              </a>
+            </li>
+            <li>
+              <a
+                class="text-[#BCBCBC] hover:underline hover:opacity-70 transition-all font-medium text-base mb-2.5"
+                href="#"
+                >Question answer
+              </a>
+            </li>
+            <li>
+              <a
+                class="text-[#BCBCBC] hover:underline hover:opacity-70 transition-all font-medium text-base"
+                href="#"
+                >Support
+              </a>
+            </li>
+          </ul>
+          <ul>
+            <p class="text-white font-bold text-lg mb-6">Useful</p>
+            <li>
+              <a
+                class="text-[#BCBCBC] hover:underline hover:opacity-70 transition-all font-medium text-base mb-2.5"
+                href="#"
+                >For customers
+              </a>
+            </li>
+            <li>
+              <a
+                class="text-[#BCBCBC] hover:underline hover:opacity-70 transition-all font-medium text-base mb-2.5"
+                href="#"
+                >For performers
+              </a>
+            </li>
+            <li>
+              <a
+                class="text-[#BCBCBC] hover:underline hover:opacity-70 transition-all font-medium text-base"
+                href="#"
+              >
+                PRO account
+              </a>
+            </li>
+          </ul>
+          <ul>
+            <p class="text-white font-bold text-lg mb-6">Community</p>
+            <li>
+              <a
+                class="text-[#BCBCBC] hover:underline hover:opacity-70 transition-all font-medium text-base mb-2.5"
+                href="#"
+                >Blog Monday
+              </a>
+            </li>
+            <li>
+              <a
+                class="text-[#BCBCBC] hover:underline hover:opacity-70 transition-all font-medium text-base mb-2.5"
+                href="#"
+                >Affiliate program
+              </a>
+            </li>
+            <li>
+              <a
+                class="text-[#BCBCBC] hover:underline hover:opacity-70 transition-all font-medium text-base"
+                href="#"
+                >Verification
+              </a>
+            </li>
+          </ul>
         </div>
-        <div class="md:hidden block">
-            <div class="w-full px-3">
-                <ul class="flex flex-col gap-6 mb-12">
-                    <li>
-                        <p
-                            class="btn_footer text-white cursor-pointer font-bold text-lg flex items-center justify-between">
-                            About Monday
-                            <span class="footer_rotate transition-height">
-                                <svg width="14" height="8" viewBox="0 0 14 8" fill="none"
-                                    xmlns="http://www.w3.org/2000/svg">
-                                    <path d="M1 1L7 7L13 1" stroke="currentColor" stroke-width="2"
-                                        stroke-linecap="round" stroke-linejoin="round" />
-                                </svg>
-                            </span>
-                        </p>
-                        <ul
-                            class="footer_info flex flex-col gap-2 pt-5 text-center h-0 overflow-hidden transition-height">
-                            <li>
-                                <a class="text-white font-medium text-base hover:opacity-70 transition-all"
-                                    href="#">About the project
-                                </a>
-                            </li>
-                            <li>
-                                <a class="text-white font-medium text-base hover:opacity-70 transition-all"
-                                    href="#">Agency contract
-                                </a>
-                            </li>
-                            <li>
-                                <a class="text-white font-medium text-base hover:opacity-70 transition-all"
-                                    href="#">Privacy Policy
-                                </a>
-                            </li>
-                        </ul>
-                    </li>
-                    <li>
-                        <p
-                            class="btn_footer text-white cursor-pointer font-bold text-lg flex items-center justify-between">
-                            Help
-                            <span class="footer_rotate transition-height">
-                                <svg width="14" height="8" viewBox="0 0 14 8" fill="none"
-                                    xmlns="http://www.w3.org/2000/svg">
-                                    <path d="M1 1L7 7L13 1" stroke="currentColor" stroke-width="2"
-                                        stroke-linecap="round" stroke-linejoin="round" />
-                                </svg>
-                            </span>
-                        </p>
-                        <ul
-                            class="footer_info flex flex-col gap-2 pt-5 text-center h-0 overflow-hidden transition-height">
-                            <li>
-                                <a class="text-white font-medium text-base hover:opacity-70 transition-all"
-                                    href="#">Service rules
-                                </a>
-                            </li>
-                            <li>
-                                <a class="text-white font-medium text-base hover:opacity-70 transition-all"
-                                    href="#">Question answer
-                                </a>
-                            </li>
-                            <li>
-                                <a class="text-white font-medium text-base hover:opacity-70 transition-all"
-                                    href="#">Support
-                                </a>
-                            </li>
-                        </ul>
-                    </li>
-                    <li>
-                        <p
-                            class="btn_footer text-white cursor-pointer font-bold text-lg flex items-center justify-between">
-                            Useful
-                            <span class="footer_rotate transition-height">
-                                <svg width="14" height="8" viewBox="0 0 14 8" fill="none"
-                                    xmlns="http://www.w3.org/2000/svg">
-                                    <path d="M1 1L7 7L13 1" stroke="currentColor" stroke-width="2"
-                                        stroke-linecap="round" stroke-linejoin="round" />
-                                </svg>
-                            </span>
-                        </p>
-                        <ul
-                            class="footer_info flex flex-col gap-2 pt-5 text-center h-0 overflow-hidden transition-height">
-                            <li>
-                                <a class="text-white font-medium text-base hover:opacity-70 transition-all" href="#">For
-                                    customers
-                                </a>
-                            </li>
-                            <li>
-                                <a class="text-white font-medium text-base hover:opacity-70 transition-all" href="#">For
-                                    performers
-                                </a>
-                            </li>
-                            <li>
-                                <a class="text-white font-medium text-base hover:opacity-70 transition-all" href="#">PRO
-                                    account
-                                </a>
-                            </li>
-                        </ul>
-                    </li>
-                    <li>
-                        <p
-                            class="btn_footer text-white cursor-pointer font-bold text-lg flex items-center justify-between">
-                            Community
-                            <span class="footer_rotate transition-height">
-                                <svg width="14" height="8" viewBox="0 0 14 8" fill="none"
-                                    xmlns="http://www.w3.org/2000/svg">
-                                    <path d="M1 1L7 7L13 1" stroke="currentColor" stroke-width="2"
-                                        stroke-linecap="round" stroke-linejoin="round" />
-                                </svg>
-                            </span>
-                        </p>
-                        <ul
-                            class="footer_info flex flex-col gap-2 pt-5 text-center h-0 overflow-hidden transition-height">
-                            <li>
-                                <a class="text-white font-medium text-base hover:opacity-70 transition-all"
-                                    href="#">Blog Monday
-                                </a>
-                            </li>
-                            <li>
-                                <a class="text-white font-medium text-base hover:opacity-70 transition-all"
-                                    href="#">Affiliate program
-                                </a>
-                            </li>
-                            <li>
-                                <a class="text-white font-medium text-base hover:opacity-70 transition-all"
-                                    href="#">Verification
-                                </a>
-                            </li>
-                        </ul>
-                    </li>
-                </ul>
-            </div>
-            <div class="flex justify-center gap-4 items-center">
-                <a class="hover:bg-white transition-all hover:text-[#202020] text-[#A6A6A6] font-medium inline-flex text-base py-2.5 px-10 border rounded-xl"
-                    href="#">Sign In
-                </a>
-                <a class="hover:bg-white transition-all hover:text-[#202020] text-white items-center gap-2.5 font-medium inline-flex text-base py-2.5 px-10 border rounded-xl"
-                    href="#">
-                    Join
-                    <span>
-                        <svg width="17" height="16" viewBox="0 0 17 16" fill="none" xmlns="http://www.w3.org/2000/svg">
-                            <path
-                                d="M11.1654 14V12.6667C11.1654 11.9594 10.8844 11.2811 10.3843 10.781C9.88422 10.281 9.20594 10 8.4987 10H4.4987C3.79145 10 3.11318 10.281 2.61308 10.781C2.11298 11.2811 1.83203 11.9594 1.83203 12.6667V14"
-                                stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" />
-                            <path
-                                d="M6.4987 7.33333C7.97146 7.33333 9.16536 6.13943 9.16536 4.66667C9.16536 3.19391 7.97146 2 6.4987 2C5.02594 2 3.83203 3.19391 3.83203 4.66667C3.83203 6.13943 5.02594 7.33333 6.4987 7.33333Z"
-                                stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" />
-                            <path d="M13.166 5.33203V9.33203" stroke="currentColor" stroke-linecap="round"
-                                stroke-linejoin="round" />
-                            <path d="M15.166 7.33203H11.166" stroke="currentColor" stroke-linecap="round"
-                                stroke-linejoin="round" />
-                        </svg>
-                    </span>
-                </a>
-            </div>
+        <div class="justify-end flex gap-4 items-center">
+          <a
+            class="hover:bg-white transition-all hover:text-[#202020] text-[#A6A6A6] font-medium inline-flex text-base py-2.5 px-10 border rounded-xl"
+            href="#"
+            >Sign In
+          </a>
+          <a
+            class="hover:bg-white transition-all hover:text-[#202020] text-white items-center gap-2.5 font-medium inline-flex text-base py-2.5 px-10 border rounded-xl"
+            href="#"
+          >
+            Join
+            <span>
+              <svg
+                width="17"
+                height="16"
+                viewBox="0 0 17 16"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M11.1654 14V12.6667C11.1654 11.9594 10.8844 11.2811 10.3843 10.781C9.88422 10.281 9.20594 10 8.4987 10H4.4987C3.79145 10 3.11318 10.281 2.61308 10.781C2.11298 11.2811 1.83203 11.9594 1.83203 12.6667V14"
+                  stroke="currentColor"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                />
+                <path
+                  d="M6.4987 7.33333C7.97146 7.33333 9.16536 6.13943 9.16536 4.66667C9.16536 3.19391 7.97146 2 6.4987 2C5.02594 2 3.83203 3.19391 3.83203 4.66667C3.83203 6.13943 5.02594 7.33333 6.4987 7.33333Z"
+                  stroke="currentColor"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                />
+                <path
+                  d="M13.166 5.33203V9.33203"
+                  stroke="currentColor"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                />
+                <path
+                  d="M15.166 7.33203H11.166"
+                  stroke="currentColor"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                />
+              </svg>
+            </span>
+          </a>
         </div>
+      </div>
+      <div class="md:hidden block">
+        <div class="w-full px-3">
+          <ul class="flex flex-col gap-6 mb-12">
+            <li>
+              <p
+                class="btn_footer text-white cursor-pointer font-bold text-lg flex items-center justify-between"
+              >
+                About Monday
+                <span class="footer_rotate transition-height">
+                  <svg
+                    width="14"
+                    height="8"
+                    viewBox="0 0 14 8"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M1 1L7 7L13 1"
+                      stroke="currentColor"
+                      stroke-width="2"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    />
+                  </svg>
+                </span>
+              </p>
+              <ul
+                class="footer_info flex flex-col gap-2 pt-5 text-center h-0 overflow-hidden transition-height"
+              >
+                <li>
+                  <a
+                    class="text-white font-medium text-base hover:opacity-70 transition-all"
+                    href="#"
+                    >About the project
+                  </a>
+                </li>
+                <li>
+                  <a
+                    class="text-white font-medium text-base hover:opacity-70 transition-all"
+                    href="#"
+                    >Agency contract
+                  </a>
+                </li>
+                <li>
+                  <a
+                    class="text-white font-medium text-base hover:opacity-70 transition-all"
+                    href="#"
+                    >Privacy Policy
+                  </a>
+                </li>
+              </ul>
+            </li>
+            <li>
+              <p
+                class="btn_footer text-white cursor-pointer font-bold text-lg flex items-center justify-between"
+              >
+                Help
+                <span class="footer_rotate transition-height">
+                  <svg
+                    width="14"
+                    height="8"
+                    viewBox="0 0 14 8"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M1 1L7 7L13 1"
+                      stroke="currentColor"
+                      stroke-width="2"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    />
+                  </svg>
+                </span>
+              </p>
+              <ul
+                class="footer_info flex flex-col gap-2 pt-5 text-center h-0 overflow-hidden transition-height"
+              >
+                <li>
+                  <a
+                    class="text-white font-medium text-base hover:opacity-70 transition-all"
+                    href="#"
+                    >Service rules
+                  </a>
+                </li>
+                <li>
+                  <a
+                    class="text-white font-medium text-base hover:opacity-70 transition-all"
+                    href="#"
+                    >Question answer
+                  </a>
+                </li>
+                <li>
+                  <a
+                    class="text-white font-medium text-base hover:opacity-70 transition-all"
+                    href="#"
+                    >Support
+                  </a>
+                </li>
+              </ul>
+            </li>
+            <li>
+              <p
+                class="btn_footer text-white cursor-pointer font-bold text-lg flex items-center justify-between"
+              >
+                Useful
+                <span class="footer_rotate transition-height">
+                  <svg
+                    width="14"
+                    height="8"
+                    viewBox="0 0 14 8"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M1 1L7 7L13 1"
+                      stroke="currentColor"
+                      stroke-width="2"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    />
+                  </svg>
+                </span>
+              </p>
+              <ul
+                class="footer_info flex flex-col gap-2 pt-5 text-center h-0 overflow-hidden transition-height"
+              >
+                <li>
+                  <a
+                    class="text-white font-medium text-base hover:opacity-70 transition-all"
+                    href="#"
+                    >For customers
+                  </a>
+                </li>
+                <li>
+                  <a
+                    class="text-white font-medium text-base hover:opacity-70 transition-all"
+                    href="#"
+                    >For performers
+                  </a>
+                </li>
+                <li>
+                  <a
+                    class="text-white font-medium text-base hover:opacity-70 transition-all"
+                    href="#"
+                    >PRO account
+                  </a>
+                </li>
+              </ul>
+            </li>
+            <li>
+              <p
+                class="btn_footer text-white cursor-pointer font-bold text-lg flex items-center justify-between"
+              >
+                Community
+                <span class="footer_rotate transition-height">
+                  <svg
+                    width="14"
+                    height="8"
+                    viewBox="0 0 14 8"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M1 1L7 7L13 1"
+                      stroke="currentColor"
+                      stroke-width="2"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    />
+                  </svg>
+                </span>
+              </p>
+              <ul
+                class="footer_info flex flex-col gap-2 pt-5 text-center h-0 overflow-hidden transition-height"
+              >
+                <li>
+                  <a
+                    class="text-white font-medium text-base hover:opacity-70 transition-all"
+                    href="#"
+                    >Blog Monday
+                  </a>
+                </li>
+                <li>
+                  <a
+                    class="text-white font-medium text-base hover:opacity-70 transition-all"
+                    href="#"
+                    >Affiliate program
+                  </a>
+                </li>
+                <li>
+                  <a
+                    class="text-white font-medium text-base hover:opacity-70 transition-all"
+                    href="#"
+                    >Verification
+                  </a>
+                </li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+        <div class="flex justify-center gap-4 items-center">
+          <a
+            class="hover:bg-white transition-all hover:text-[#202020] text-[#A6A6A6] font-medium inline-flex text-base py-2.5 px-10 border rounded-xl"
+            href="#"
+            >Sign In
+          </a>
+          <a
+            class="hover:bg-white transition-all hover:text-[#202020] text-white items-center gap-2.5 font-medium inline-flex text-base py-2.5 px-10 border rounded-xl"
+            href="#"
+          >
+            Join
+            <span>
+              <svg
+                width="17"
+                height="16"
+                viewBox="0 0 17 16"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M11.1654 14V12.6667C11.1654 11.9594 10.8844 11.2811 10.3843 10.781C9.88422 10.281 9.20594 10 8.4987 10H4.4987C3.79145 10 3.11318 10.281 2.61308 10.781C2.11298 11.2811 1.83203 11.9594 1.83203 12.6667V14"
+                  stroke="currentColor"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                />
+                <path
+                  d="M6.4987 7.33333C7.97146 7.33333 9.16536 6.13943 9.16536 4.66667C9.16536 3.19391 7.97146 2 6.4987 2C5.02594 2 3.83203 3.19391 3.83203 4.66667C3.83203 6.13943 5.02594 7.33333 6.4987 7.33333Z"
+                  stroke="currentColor"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                />
+                <path
+                  d="M13.166 5.33203V9.33203"
+                  stroke="currentColor"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                />
+                <path
+                  d="M15.166 7.33203H11.166"
+                  stroke="currentColor"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                />
+              </svg>
+            </span>
+          </a>
+        </div>
+      </div>
     </footer>
 
     <script src="./assets/js/app.js"></script>
     <script src="./assets/js/info.js"></script>
     <script src="./assets/js/text.js"></script>
     <script>
-        document.querySelectorAll('.btn_footer').forEach((btn) => {
-            btn.addEventListener('click', () => {
-                const infoElement = btn.nextElementSibling;
-                const footerRotate = btn.querySelector('.footer_rotate');
+      document.querySelectorAll(".btn_footer").forEach((btn) => {
+        btn.addEventListener("click", () => {
+          const infoElement = btn.nextElementSibling;
+          const footerRotate = btn.querySelector(".footer_rotate");
 
-                if (infoElement.classList.contains('h-0')) {
-                    infoElement.classList.remove('h-0');
-                    infoElement.style.height = `${infoElement.scrollHeight}px`;
-                    footerRotate.classList.add('rotate-180');
-                } else {
-                    infoElement.style.height = '0';
-                    infoElement.addEventListener('transitionend', () => {
-                        infoElement.classList.add('h-0');
-                        footerRotate.classList.remove('rotate-180');
-                    }, { once: true });
-                }
-            });
+          if (infoElement.classList.contains("h-0")) {
+            infoElement.classList.remove("h-0");
+            infoElement.style.height = `${infoElement.scrollHeight}px`;
+            footerRotate.classList.add("rotate-180");
+          } else {
+            infoElement.style.height = "0";
+            infoElement.addEventListener(
+              "transitionend",
+              () => {
+                infoElement.classList.add("h-0");
+                footerRotate.classList.remove("rotate-180");
+              },
+              { once: true }
+            );
+          }
         });
+      });
     </script>
-</body>
-
+  </body>
 </html>

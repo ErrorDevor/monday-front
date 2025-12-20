@@ -1,1038 +1,1713 @@
 <!DOCTYPE html>
 <html lang="en" class="overflow-x-hidden scroll-smooth">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>MONDAY</title>
-    <link rel="stylesheet" href="./assets/css/styles.css">
-    <link href="assets%5Ccss%5Cabout.0fcabdd2790f60f408b7.css" rel="stylesheet">
+    <link rel="stylesheet" href="./assets/css/styles.css" />
+    <link href="/assets/css/about.0fcabdd2790f60f408b7.css" rel="stylesheet" />
     <script src="https://cdn.tailwindcss.com"></script>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
-</head>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
+  </head>
 
-<body class="bg-[#FAFAFC]">
-
+  <body class="bg-[#FAFAFC]">
     <header class="lg:pt-8 bg-white">
-        <div class="max-w-[1384px] px-3 mx-auto lg:flex hidden items-center justify-between mb-5">
-            <div class="flex items-center gap-2.5 max-w-[600px] w-full">
-                <a class="text-[#202020] font-bold text-base uppercase select-none" href="index.html">MONDAY
-                </a>
-                <button
-                    class="py-2.5 w-full max-w-[83px] px-2.5 inline-flex items-center gap-1.5 bg-[#FAFAFC] rounded-xl text-[#B7C3D6] uppercase font-medium text-base active:opacity-80 transition-all">
-                    <img src="./img/header/global.svg" alt="global">
-                    <p>Uz</p>
-                    <span>
-                        <svg class="flex" width="12" height="6" viewBox="0 0 12 6" fill="none"
-                            xmlns="http://www.w3.org/2000/svg">
-                            <path d="M1.50391 1L6.00391 5L10.5039 1" stroke="#B7C3D6" stroke-width="2"
-                                stroke-linecap="round" stroke-linejoin="round" />
-                        </svg>
-                    </span>
-                </button>
-                <div class="w-full relative">
-                    <div
-                        class="flex items-center justify-between max-w-[316px] w-full h-11 px-4 rounded-full bg-[#FAFAFC]">
-                        <input autocomplete="off" id="search" placeholder="Search for services..."
-                            class="placeholder:text-[#9CA5B3] placeholder:font-medium placeholder:text-sm text-[#9CA5B3] font-medium text-sm outline-none border-none bg-transparent max-w-[250px] w-full"
-                            type="search">
-                        <label for="search" class="cursor-pointer flex" id="searchLabel">
-                            <img src="./img/header/search.svg" alt="search" class="search-icon">
-                        </label>
-                    </div>
-                    <div id="search__menu"
-                        class="search_shadow z-20 hidden absolute bg-[#FCFCFC] top-[60px] max-w-[316px] w-full py-2.5 px-4 rounded-2xl">
-                        <p class="text-[#202020] font-bold text-xs mb-2">Top services🔥</p>
-                        <div class="pb-2 border-b mb-2">
-                            <a class="text-[#8F8F8F] font-medium text-[10px] p-1 border rounded-md" href="#">Social &
-                                SMM</a>
-                            <a class="text-[#8F8F8F] font-medium text-[10px] p-1 border rounded-md" href="#">SEO</a>
-                            <a class="text-[#8F8F8F] font-medium text-[10px] p-1 border rounded-md"
-                                href="#">Copywriting</a>
-                            <a class="text-[#8F8F8F] font-medium text-[10px] p-1 border rounded-md" href="#">Web
-                                Development</a>
-                            <a class="text-[#8F8F8F] font-medium text-[10px] p-1 border rounded-md" href="#">Scripts &
-                                Telegram
-                                Bots</a>
-                        </div>
-                        <div>
-                            <p class="text-[#B7C3D6] font-bold text-[10px]">Recent</p>
-                            <a class="search_recent text-[#575E6A] font-medium text-xs flex items-center gap-1 relative"
-                                href="#"><img class="flex" src="./img/header/clock.svg" alt="clock">Wibtrix site
-                                improvements</a>
-                            <a class="search_recent text-[#575E6A] font-medium text-xs flex items-center gap-1 relative"
-                                href="#"><img class="flex" src="./img/header/clock.svg" alt="clock">Seo optimisation</a>
-                        </div>
-                    </div>
-                </div>
+      <div
+        class="max-w-[1384px] px-3 mx-auto lg:flex hidden items-center justify-between mb-5"
+      >
+        <div class="flex items-center gap-2.5 max-w-[600px] w-full">
+          <a
+            class="text-[#202020] font-bold text-base uppercase select-none"
+            href="index.html"
+            >MONDAY
+          </a>
+          <button
+            class="py-2.5 w-full max-w-[83px] px-2.5 inline-flex items-center gap-1.5 bg-[#FAFAFC] rounded-xl text-[#B7C3D6] uppercase font-medium text-base active:opacity-80 transition-all"
+          >
+            <img src="./img/header/global.svg" alt="global" />
+            <p>Uz</p>
+            <span>
+              <svg
+                class="flex"
+                width="12"
+                height="6"
+                viewBox="0 0 12 6"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M1.50391 1L6.00391 5L10.5039 1"
+                  stroke="#B7C3D6"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                />
+              </svg>
+            </span>
+          </button>
+          <div class="w-full relative">
+            <div
+              class="flex items-center justify-between max-w-[316px] w-full h-11 px-4 rounded-full bg-[#FAFAFC]"
+            >
+              <input
+                autocomplete="off"
+                id="search"
+                placeholder="Search for services..."
+                class="placeholder:text-[#9CA5B3] placeholder:font-medium placeholder:text-sm text-[#9CA5B3] font-medium text-sm outline-none border-none bg-transparent max-w-[250px] w-full"
+                type="search"
+              />
+              <label for="search" class="cursor-pointer flex" id="searchLabel">
+                <img
+                  src="./img/header/search.svg"
+                  alt="search"
+                  class="search-icon"
+                />
+              </label>
+            </div>
+            <div
+              id="search__menu"
+              class="search_shadow z-20 hidden absolute bg-[#FCFCFC] top-[60px] max-w-[316px] w-full py-2.5 px-4 rounded-2xl"
+            >
+              <p class="text-[#202020] font-bold text-xs mb-2">
+                Top services🔥
+              </p>
+              <div class="pb-2 border-b mb-2">
+                <a
+                  class="text-[#8F8F8F] font-medium text-[10px] p-1 border rounded-md"
+                  href="#"
+                  >Social & SMM</a
+                >
+                <a
+                  class="text-[#8F8F8F] font-medium text-[10px] p-1 border rounded-md"
+                  href="#"
+                  >SEO</a
+                >
+                <a
+                  class="text-[#8F8F8F] font-medium text-[10px] p-1 border rounded-md"
+                  href="#"
+                  >Copywriting</a
+                >
+                <a
+                  class="text-[#8F8F8F] font-medium text-[10px] p-1 border rounded-md"
+                  href="#"
+                  >Web Development</a
+                >
+                <a
+                  class="text-[#8F8F8F] font-medium text-[10px] p-1 border rounded-md"
+                  href="#"
+                  >Scripts & Telegram Bots</a
+                >
+              </div>
+              <div>
+                <p class="text-[#B7C3D6] font-bold text-[10px]">Recent</p>
+                <a
+                  class="search_recent text-[#575E6A] font-medium text-xs flex items-center gap-1 relative"
+                  href="#"
+                  ><img
+                    class="flex"
+                    src="./img/header/clock.svg"
+                    alt="clock"
+                  />Wibtrix site improvements</a
+                >
+                <a
+                  class="search_recent text-[#575E6A] font-medium text-xs flex items-center gap-1 relative"
+                  href="#"
+                  ><img
+                    class="flex"
+                    src="./img/header/clock.svg"
+                    alt="clock"
+                  />Seo optimisation</a
+                >
+              </div>
+            </div>
+          </div>
 
+          <script>
+            document.addEventListener("DOMContentLoaded", () => {
+              const searchInput = document.getElementById("search");
+              const searchMenu = document.getElementById("search__menu");
+              const searchRecentItems =
+                document.querySelectorAll(".search_recent");
 
-                <script>
-                    document.addEventListener('DOMContentLoaded', () => {
-                        const searchInput = document.getElementById('search');
-                        const searchMenu = document.getElementById('search__menu');
-                        const searchRecentItems = document.querySelectorAll('.search_recent');
+              function showSearchMenu() {
+                searchMenu.classList.remove("hidden");
+                // searchMenu.classList.add('animate__animated', 'animate__fadeIn');
+              }
 
-                        function showSearchMenu() {
-                            searchMenu.classList.remove('hidden');
-                            // searchMenu.classList.add('animate__animated', 'animate__fadeIn');
-                        }
+              function hideSearchMenu() {
+                searchMenu.classList.add("hidden");
+                // searchMenu.classList.remove('animate__animated', 'animate__fadeIn');
+              }
 
-                        function hideSearchMenu() {
-                            searchMenu.classList.add('hidden');
-                            // searchMenu.classList.remove('animate__animated', 'animate__fadeIn');
-                        }
+              searchInput.addEventListener("focus", showSearchMenu);
 
-                        searchInput.addEventListener('focus', showSearchMenu);
+              document.addEventListener("click", (event) => {
+                if (
+                  !searchInput.contains(event.target) &&
+                  !searchMenu.contains(event.target)
+                ) {
+                  hideSearchMenu();
+                }
+              });
 
-                        document.addEventListener('click', (event) => {
-                            if (!searchInput.contains(event.target) && !searchMenu.contains(event.target)) {
-                                hideSearchMenu();
-                            }
-                        });
+              window.addEventListener("resize", hideSearchMenu);
 
-                        window.addEventListener('resize', hideSearchMenu);
-
-                        searchRecentItems.forEach(item => {
-                            item.addEventListener('mouseenter', () => {
-                                if (!item.querySelector('.close-button')) {
-                                    const closeButton = document.createElement('span');
-                                    closeButton.innerHTML = '&times;';
-                                    closeButton.classList.add('absolute', 'right-0', 'text-[#9CA5B3]', 'hover:text-[#202020]', 'font-bold', 'transition-all', 'duration-200', 'ease-in-out', 'text-xl', 'close-button');
-                                    closeButton.addEventListener('click', (event) => {
-                                        event.stopPropagation();
-                                        item.remove();
-                                    });
-                                    item.appendChild(closeButton);
-                                }
-                            });
-
-                            item.addEventListener('mouseleave', () => {
-                                const closeButton = item.querySelector('.close-button');
-                                if (closeButton) {
-                                    closeButton.remove();
-                                }
-                            });
-                        });
+              searchRecentItems.forEach((item) => {
+                item.addEventListener("mouseenter", () => {
+                  if (!item.querySelector(".close-button")) {
+                    const closeButton = document.createElement("span");
+                    closeButton.innerHTML = "&times;";
+                    closeButton.classList.add(
+                      "absolute",
+                      "right-0",
+                      "text-[#9CA5B3]",
+                      "hover:text-[#202020]",
+                      "font-bold",
+                      "transition-all",
+                      "duration-200",
+                      "ease-in-out",
+                      "text-xl",
+                      "close-button"
+                    );
+                    closeButton.addEventListener("click", (event) => {
+                      event.stopPropagation();
+                      item.remove();
                     });
+                    item.appendChild(closeButton);
+                  }
+                });
 
-                </script>
-            </div>
-            <div class="flex items-center gap-10">
-                <div>
-                    <ul class="flex items-center gap-6">
-                        <li>
-                            <a href="#" class="text-[#9CA5B3] font-bold text-base animated-underline">Orders
-                            </a>
-                        </li>
-                        <li>
-                            <a href="#" class="text-[#9CA5B3] font-bold text-base animated-underline">Projects
-                            </a>
-                        </li>
-                        <li>
-                            <a href="#" class="text-[#9CA5B3] font-bold text-base animated-underline">Sellers
-                            </a>
-                        </li>
-                        <li>
-                            <a href="#"
-                                class="text-[#9CA5B3] font-bold text-base flex items-center gap-1.5 animated-underline">
-                                <span>
-                                    <img class="flex" src="./img/header/lovely.svg" alt="lovely">
-                                </span>Favorites
-                            </a>
-                        </li>
-                    </ul>
-                </div>
-                <div class="flex items-center gap-5">
-                    <a class="relative" href="#">
-                        <img src="./img/header/bag.svg" alt="bag">
-                        <div
-                            class="rounded-full text-white font-bold text-[8px] min-w-[14px] min-h-[14px] flex items-center justify-center bg-[#4790FF] absolute top-[-5px] right-[-7px] border-white border">
-                            2
-                        </div>
-                    </a>
-                    <a class="relative" href="#">
-                        <img src="./img/header/message.svg" alt="message">
-                        <div
-                            class="rounded-full text-white font-bold text-[8px] min-w-[14px] min-h-[14px] flex items-center justify-center bg-[#FF8E8E] absolute top-[-5px] right-[-7px] border-white border">
-                            2
-                        </div>
-                    </a>
-                    <a class="relative" href="#">
-                        <img src="./img/header/notification.svg" alt="notification">
-                        <div
-                            class="rounded-full text-white font-bold text-[8px] min-w-[14px] min-h-[14px] flex items-center justify-center bg-[#3bbe1a] absolute top-[-5px] right-[-7px] border-white border">
-                            2
-                        </div>
-                    </a>
-                </div>
-                <div class="flex gap-1">
-                    <a class="hover:opacity-80 transition-all" href="#">
-                        <img src="./img/header/wallet.svg" alt="wallet">
-                    </a>
-                    <button class="flex items-center relative cursor-pointer">
-                        <img class="max-w-11 w-full flex" src="./img/header/avatar.png" alt="avatar">
-                        <div
-                            class="w-2.5 h-2.5 rounded-full border border-white bg-[#62F94D] absolute bottom-0 right-[25px]">
-                        </div>
-                        <img class="flex" src="./img/header/expand.svg" alt="expand">
-                    </button>
-                </div>
-            </div>
+                item.addEventListener("mouseleave", () => {
+                  const closeButton = item.querySelector(".close-button");
+                  if (closeButton) {
+                    closeButton.remove();
+                  }
+                });
+              });
+            });
+          </script>
         </div>
-        <div class="hidden lg:block">
-            <nav class="hidden lg:block border-b-[1px] border-gray border-opacity-50 border-solid bg-white">
-                <div class="app-container flex items-center gap-[6px] overflow-auto [&::-webkit-scrollbar]:hidden">
-                    <a class="[&:first-child]:text-black [&:first-child]:font-bold [&:first-child]:after:opacity-100 relative px-4 py-3 font-Satoshi font-medium text-gray whitespace-nowrap after:w-full after:h-1 after:bg-blue after:absolute after:left-0 after:bottom-0 after:opacity-0" href="#" target="_blank"> Social &amp; SMM </a>
-                    <a class="[&:first-child]:text-black [&:first-child]:font-bold [&:first-child]:after:opacity-100 relative px-4 py-3 font-Satoshi font-medium text-gray whitespace-nowrap after:w-full after:h-1 after:bg-blue after:absolute after:left-0 after:bottom-0 after:opacity-0" href="#" target="_blank"> SEO </a>
-                    <a class="[&:first-child]:text-black [&:first-child]:font-bold [&:first-child]:after:opacity-100 relative px-4 py-3 font-Satoshi font-medium text-gray whitespace-nowrap after:w-full after:h-1 after:bg-blue after:absolute after:left-0 after:bottom-0 after:opacity-0" href="#" target="_blank"> Copywriting </a>
-                    <a class="[&:first-child]:text-black [&:first-child]:font-bold [&:first-child]:after:opacity-100 relative px-4 py-3 font-Satoshi font-medium text-gray whitespace-nowrap after:w-full after:h-1 after:bg-blue after:absolute after:left-0 after:bottom-0 after:opacity-0" href="#" target="_blank"> Web Development </a>
-                    <a class="[&:first-child]:text-black [&:first-child]:font-bold [&:first-child]:after:opacity-100 relative px-4 py-3 font-Satoshi font-medium text-gray whitespace-nowrap after:w-full after:h-1 after:bg-blue after:absolute after:left-0 after:bottom-0 after:opacity-0" href="#" target="_blank"> Marketplaces &amp; Socials </a>
-                    <a class="[&:first-child]:text-black [&:first-child]:font-bold [&:first-child]:after:opacity-100 relative px-4 py-3 font-Satoshi font-medium text-gray whitespace-nowrap after:w-full after:h-1 after:bg-blue after:absolute after:left-0 after:bottom-0 after:opacity-0" href="#" target="_blank"> Logotypes &amp; Branding </a>
-                    <a class="[&:first-child]:text-black [&:first-child]:font-bold [&:first-child]:after:opacity-100 relative px-4 py-3 font-Satoshi font-medium text-gray whitespace-nowrap after:w-full after:h-1 after:bg-blue after:absolute after:left-0 after:bottom-0 after:opacity-0" href="#" target="_blank"> Web &amp; Mobile Design </a>
-                    <a class="[&:first-child]:text-black [&:first-child]:font-bold [&:first-child]:after:opacity-100 relative px-4 py-3 font-Satoshi font-medium text-gray whitespace-nowrap after:w-full after:h-1 after:bg-blue after:absolute after:left-0 after:bottom-0 after:opacity-0" href="#" target="_blank"> Scripts &amp; Bots </a>
-                    <a class="[&:first-child]:text-black [&:first-child]:font-bold [&:first-child]:after:opacity-100 relative px-4 py-3 font-Satoshi font-medium text-gray whitespace-nowrap after:w-full after:h-1 after:bg-blue after:absolute after:left-0 after:bottom-0 after:opacity-0" href="#" target="_blank"> All Services </a>
-                </div>
-            </nav>
+        <div class="flex items-center gap-10">
+          <div>
+            <ul class="flex items-center gap-6">
+              <li>
+                <a
+                  href="#"
+                  class="text-[#9CA5B3] font-bold text-base animated-underline"
+                  >Orders
+                </a>
+              </li>
+              <li>
+                <a
+                  href="#"
+                  class="text-[#9CA5B3] font-bold text-base animated-underline"
+                  >Projects
+                </a>
+              </li>
+              <li>
+                <a
+                  href="#"
+                  class="text-[#9CA5B3] font-bold text-base animated-underline"
+                  >Sellers
+                </a>
+              </li>
+              <li>
+                <a
+                  href="#"
+                  class="text-[#9CA5B3] font-bold text-base flex items-center gap-1.5 animated-underline"
+                >
+                  <span>
+                    <img
+                      class="flex"
+                      src="./img/header/lovely.svg"
+                      alt="lovely"
+                    /> </span
+                  >Favorites
+                </a>
+              </li>
+            </ul>
+          </div>
+          <div class="flex items-center gap-5">
+            <a class="relative" href="#">
+              <img src="./img/header/bag.svg" alt="bag" />
+              <div
+                class="rounded-full text-white font-bold text-[8px] min-w-[14px] min-h-[14px] flex items-center justify-center bg-[#4790FF] absolute top-[-5px] right-[-7px] border-white border"
+              >
+                2
+              </div>
+            </a>
+            <a class="relative" href="#">
+              <img src="./img/header/message.svg" alt="message" />
+              <div
+                class="rounded-full text-white font-bold text-[8px] min-w-[14px] min-h-[14px] flex items-center justify-center bg-[#FF8E8E] absolute top-[-5px] right-[-7px] border-white border"
+              >
+                2
+              </div>
+            </a>
+            <a class="relative" href="#">
+              <img src="./img/header/notification.svg" alt="notification" />
+              <div
+                class="rounded-full text-white font-bold text-[8px] min-w-[14px] min-h-[14px] flex items-center justify-center bg-[#3bbe1a] absolute top-[-5px] right-[-7px] border-white border"
+              >
+                2
+              </div>
+            </a>
+          </div>
+          <div class="flex gap-1">
+            <a class="hover:opacity-80 transition-all" href="#">
+              <img src="./img/header/wallet.svg" alt="wallet" />
+            </a>
+            <button class="flex items-center relative cursor-pointer">
+              <img
+                class="max-w-11 w-full flex"
+                src="./img/header/avatar.png"
+                alt="avatar"
+              />
+              <div
+                class="w-2.5 h-2.5 rounded-full border border-white bg-[#62F94D] absolute bottom-0 right-[25px]"
+              ></div>
+              <img class="flex" src="./img/header/expand.svg" alt="expand" />
+            </button>
+          </div>
         </div>
+      </div>
+      <div class="hidden lg:block">
+        <nav
+          class="hidden lg:block border-b-[1px] border-gray border-opacity-50 border-solid bg-white"
+        >
+          <div
+            class="app-container flex items-center gap-[6px] overflow-auto [&::-webkit-scrollbar]:hidden"
+          >
+            <a
+              class="[&:first-child]:text-black [&:first-child]:font-bold [&:first-child]:after:opacity-100 relative px-4 py-3 font-Satoshi font-medium text-gray whitespace-nowrap after:w-full after:h-1 after:bg-blue after:absolute after:left-0 after:bottom-0 after:opacity-0"
+              href="#"
+              target="_blank"
+            >
+              Social &amp; SMM
+            </a>
+            <a
+              class="[&:first-child]:text-black [&:first-child]:font-bold [&:first-child]:after:opacity-100 relative px-4 py-3 font-Satoshi font-medium text-gray whitespace-nowrap after:w-full after:h-1 after:bg-blue after:absolute after:left-0 after:bottom-0 after:opacity-0"
+              href="#"
+              target="_blank"
+            >
+              SEO
+            </a>
+            <a
+              class="[&:first-child]:text-black [&:first-child]:font-bold [&:first-child]:after:opacity-100 relative px-4 py-3 font-Satoshi font-medium text-gray whitespace-nowrap after:w-full after:h-1 after:bg-blue after:absolute after:left-0 after:bottom-0 after:opacity-0"
+              href="#"
+              target="_blank"
+            >
+              Copywriting
+            </a>
+            <a
+              class="[&:first-child]:text-black [&:first-child]:font-bold [&:first-child]:after:opacity-100 relative px-4 py-3 font-Satoshi font-medium text-gray whitespace-nowrap after:w-full after:h-1 after:bg-blue after:absolute after:left-0 after:bottom-0 after:opacity-0"
+              href="#"
+              target="_blank"
+            >
+              Web Development
+            </a>
+            <a
+              class="[&:first-child]:text-black [&:first-child]:font-bold [&:first-child]:after:opacity-100 relative px-4 py-3 font-Satoshi font-medium text-gray whitespace-nowrap after:w-full after:h-1 after:bg-blue after:absolute after:left-0 after:bottom-0 after:opacity-0"
+              href="#"
+              target="_blank"
+            >
+              Marketplaces &amp; Socials
+            </a>
+            <a
+              class="[&:first-child]:text-black [&:first-child]:font-bold [&:first-child]:after:opacity-100 relative px-4 py-3 font-Satoshi font-medium text-gray whitespace-nowrap after:w-full after:h-1 after:bg-blue after:absolute after:left-0 after:bottom-0 after:opacity-0"
+              href="#"
+              target="_blank"
+            >
+              Logotypes &amp; Branding
+            </a>
+            <a
+              class="[&:first-child]:text-black [&:first-child]:font-bold [&:first-child]:after:opacity-100 relative px-4 py-3 font-Satoshi font-medium text-gray whitespace-nowrap after:w-full after:h-1 after:bg-blue after:absolute after:left-0 after:bottom-0 after:opacity-0"
+              href="#"
+              target="_blank"
+            >
+              Web &amp; Mobile Design
+            </a>
+            <a
+              class="[&:first-child]:text-black [&:first-child]:font-bold [&:first-child]:after:opacity-100 relative px-4 py-3 font-Satoshi font-medium text-gray whitespace-nowrap after:w-full after:h-1 after:bg-blue after:absolute after:left-0 after:bottom-0 after:opacity-0"
+              href="#"
+              target="_blank"
+            >
+              Scripts &amp; Bots
+            </a>
+            <a
+              class="[&:first-child]:text-black [&:first-child]:font-bold [&:first-child]:after:opacity-100 relative px-4 py-3 font-Satoshi font-medium text-gray whitespace-nowrap after:w-full after:h-1 after:bg-blue after:absolute after:left-0 after:bottom-0 after:opacity-0"
+              href="#"
+              target="_blank"
+            >
+              All Services
+            </a>
+          </div>
+        </nav>
+      </div>
+      <div
+        class="lg:hidden pt-12 pb-5 max-w-[1384px] pt- px-5 mx-auto w-full flex items-center gap-2 justify-between"
+      >
+        <button>
+          <img src="./img/header/burger.svg" alt="burger" />
+        </button>
+        <a class="text-[#202020] font-bold text-sm" href="#">MONDAY</a>
+        <button
+          class="flex items-center py-3 px-2 rounded-xl bg-[#FAFAFC] text-[#9CA5B3] font-medium text-xs uppercase cursor-pointer"
+        >
+          Uz
+          <img class="flex" src="./img/header/expand.svg" alt="expand" />
+        </button>
         <div
-            class="lg:hidden pt-12 pb-5 max-w-[1384px] pt- px-5 mx-auto w-full flex items-center gap-2 justify-between">
-            <button>
-                <img src="./img/header/burger.svg" alt="burger">
-            </button>
-            <a class="text-[#202020] font-bold text-sm" href="#">MONDAY</a>
-            <button
-                class="flex items-center py-3 px-2 rounded-xl bg-[#FAFAFC] text-[#9CA5B3] font-medium text-xs uppercase cursor-pointer">
-                Uz
-                <img class="flex" src="./img/header/expand.svg" alt="expand">
-            </button>
-            <div class="flex items-center justify-between max-w-[143px] w-full h-11 px-4 rounded-full bg-[#FAFAFC]">
-                <input id="search" placeholder="Search..."
-                    class="placeholder:text-[#9CA5B3] placeholder:font-medium placeholder:text-sm text-[#9CA5B3] font-medium text-sm outline-none border-none bg-transparent max-w-[70px] w-full"
-                    type="search">
-                <label for="search" class="cursor-pointer flex">
-                    <img src="./img/header/search.svg" alt="search">
-                </label>
-            </div>
-            <div class="flex items-center gap-2">
-                <a href="#">
-                    <img src="./img/header/lovely.svg" alt="lovely">
-                </a>
-                <a href="#">
-                    <img src="./img/header/bag.svg" alt="bag">
-                </a>
-            </div>
+          class="flex items-center justify-between max-w-[143px] w-full h-11 px-4 rounded-full bg-[#FAFAFC]"
+        >
+          <input
+            id="search"
+            placeholder="Search..."
+            class="placeholder:text-[#9CA5B3] placeholder:font-medium placeholder:text-sm text-[#9CA5B3] font-medium text-sm outline-none border-none bg-transparent max-w-[70px] w-full"
+            type="search"
+          />
+          <label for="search" class="cursor-pointer flex">
+            <img src="./img/header/search.svg" alt="search" />
+          </label>
         </div>
+        <div class="flex items-center gap-2">
+          <a href="#">
+            <img src="./img/header/lovely.svg" alt="lovely" />
+          </a>
+          <a href="#">
+            <img src="./img/header/bag.svg" alt="bag" />
+          </a>
+        </div>
+      </div>
     </header>
     <script>
-        let header_items = document.querySelectorAll('#header_item')
-    
-        header_items.forEach(function (item, index) {
-          item.addEventListener('click', function () {
-            header_items.forEach(function (item) {
-              item.classList.remove('header_active')
-            })
-    
-            item.classList.add('header_active')
-          })
-        })
-      </script>
+      let header_items = document.querySelectorAll("#header_item");
+
+      header_items.forEach(function (item, index) {
+        item.addEventListener("click", function () {
+          header_items.forEach(function (item) {
+            item.classList.remove("header_active");
+          });
+
+          item.classList.add("header_active");
+        });
+      });
+    </script>
 
     <!-- INFORMATION FOR PERFOMERS SECTION STARTED HERE -->
     <section class="pt-4 pb-5 md:pt-9 md:pb-4">
-        <div class="max-w-[1080px] mx-auto px-4">
-            <center>
-                <a href="#"
-                    class="border border-[#E1E1E3]  mb-2 md:mb-5 rounded-lg inline-flex gap-1.5 items-center py-1.5 pl-4 pr-3">
-                    <img class="w-[14px] h-[14px] flex" src="./img/icons2/hero/brush.svg" alt="brush">
-                    <span class="font-medium md:text-sm text-xs text-[#202020]">For performers</span>
-                </a>
-                <h1 class="font-bold md:text-4xl md:leading-[48px] text-[#202020] md:mb-2 mb-1 text-2xl">
-                    Information for performers
-                </h1>
+      <div class="max-w-[1080px] mx-auto px-4">
+        <center>
+          <a
+            href="#"
+            class="border border-[#E1E1E3] mb-2 md:mb-5 rounded-lg inline-flex gap-1.5 items-center py-1.5 pl-4 pr-3"
+          >
+            <img
+              class="w-[14px] h-[14px] flex"
+              src="./img/icons2/hero/brush.svg"
+              alt="brush"
+            />
+            <span class="font-medium md:text-sm text-xs text-[#202020]"
+              >For performers</span
+            >
+          </a>
+          <h1
+            class="font-bold md:text-4xl md:leading-[48px] text-[#202020] md:mb-2 mb-1 text-2xl"
+          >
+            Information for performers
+          </h1>
+          <p
+            class="text-[#575E6A] font-medium text-center text-sm leading-[18px] md:text-base md:leading-5 mb-5 md:mb-7"
+          >
+            The main objective of the service is to create a comfortable and
+            safe environment for remote work.
+          </p>
+          <!-- ====== -->
+          <div class="grid grid-cols-2 gap-2.5 mb-2.5">
+            <div
+              class="lg:text-left bg-white rounded-3xl w-full lg:py-[22px] py-5 px-4 text-center lg:px-[50px] lg:flex items-center gap-6"
+            >
+              <h4
+                class="text-[#202020] font-bold text-base lg:mb-0 mb-5 lg:hidden block"
+              >
+                Beginners
+              </h4>
+              <div
+                class="md:w-[100px] w-[70px] h-[70px] lg:mx-0 mx-auto mb-5 lg:mb-0 relative md:h-[100px] object-cover rounded-full"
+              >
+                <img
+                  class="w-full rounded-full object-cover"
+                  src="./img/info-for-per/hero/1.png"
+                  alt="Beginners"
+                />
+                <img
+                  class="absolute md:bottom-[80px] bottom-[52px] md:left-[45px] left-[30px]"
+                  src="./img/icons2/star-1.svg"
+                  alt="star-1"
+                />
+                <img
+                  class="absolute md:bottom-20 bottom-[45px] md:right-[62px] right-[43px]"
+                  src="./img/icons2/star-2.svg"
+                  alt="star-2"
+                />
+                <img
+                  class="absolute md:right-[90px] right-[63px] md:bottom-[45px] bottom-[20px]"
+                  src="./img/icons2/star-3.svg"
+                  alt="star-3"
+                />
+                <div
+                  class="md:text-sm text-[10px] md:p-3 p-2 bg-white/80 rounded-full absolute bottom-0 right-0"
+                  style="box-shadow: 0px 4px 4px 0px #00000005"
+                >
+                  🚀
+                </div>
+              </div>
+              <div>
+                <h4
+                  class="text-[#202020] font-bold text-base mb-2 lg:block hidden"
+                >
+                  Beginners
+                </h4>
                 <p
-                    class="text-[#575E6A] font-medium text-center text-sm leading-[18px] md:text-base md:leading-5 mb-5 md:mb-7">
-                    The main objective of the service is to create
-                    a comfortable and safe environment for remote work.</p>
-                <!-- ====== -->
-                <div class="grid grid-cols-2 gap-2.5 mb-2.5">
-                    <div
-                        class="lg:text-left bg-white rounded-3xl w-full lg:py-[22px] py-5 px-4 text-center lg:px-[50px] lg:flex items-center gap-6">
-                        <h4 class="text-[#202020] font-bold text-base lg:mb-0 mb-5 lg:hidden block">Beginners</h4>
-                        <div
-                            class="md:w-[100px] w-[70px] h-[70px] lg:mx-0 mx-auto mb-5 lg:mb-0 relative md:h-[100px] object-cover rounded-full">
-                            <img class="w-full rounded-full object-cover" src="./img/info-for-per/hero/1.png"
-                                alt="Beginners">
-                            <img class="absolute md:bottom-[80px] bottom-[52px] md:left-[45px] left-[30px]"
-                                src="./img/icons2/star-1.svg" alt="star-1">
-                            <img class="absolute md:bottom-20 bottom-[45px] md:right-[62px] right-[43px]"
-                                src="./img/icons2/star-2.svg" alt="star-2">
-                            <img class="absolute md:right-[90px] right-[63px] md:bottom-[45px] bottom-[20px]"
-                                src="./img/icons2/star-3.svg" alt="star-3">
-                            <div class="md:text-sm text-[10px] md:p-3 p-2  bg-white/80 rounded-full absolute bottom-0 right-0"
-                                style="box-shadow: 0px 4px 4px 0px #00000005;">🚀</div>
-                        </div>
-                        <div>
-                            <h4 class="text-[#202020] font-bold text-base mb-2 lg:block hidden">Beginners</h4>
-                            <p class="text-[#575E6A] font-medium lg:text-sm text-left text-xs lg:max-w-[289px]">Anyone
-                                can work as a freelancer on Monday - most jobs do not require high qualifications.</p>
-                        </div>
-                    </div>
-                    <div
-                        class="lg:text-left bg-white rounded-3xl w-full lg:py-[22px] py-5 px-4 text-center lg:px-[50px] lg:flex items-center gap-6">
-                        <h4 class="text-[#202020] font-bold text-base lg:mb-0 mb-5 lg:hidden block">Beginners</h4>
-                        <div
-                            class="md:w-[100px] w-[70px] h-[70px] lg:mx-0 mx-auto mb-5 lg:mb-0 md:h-[100px] object-cover relative rounded-full">
-                            <img class="w-full rounded-full object-cover " src="./img/info-for-per/hero/2.png"
-                                alt="Beginners">
-                            <div class="md:text-sm text-[10px] rounded-full md:py-2.5 py-1.5 bg-white/80 backdrop-blur-sm absolute md:bottom-0 bottom-[-10px] right-0 left-0 text-center"
-                                style="box-shadow: 0px 4px 4px 0px #00000005;">⭐⭐️⭐️⭐️️</div>
-                        </div>
-                        <div>
-                            <h4 class="text-[#202020] font-bold text-base mb-2 lg:block hidden">Beginners</h4>
-                            <p class="text-[#575E6A] font-medium lg:text-sm text-left text-xs lg:max-w-[289px] ">Anyone
-                                can work as a freelancer on Monday - most jobs do not require high qualifications.</p>
-                        </div>
-                    </div>
+                  class="text-[#575E6A] font-medium lg:text-sm text-left text-xs lg:max-w-[289px]"
+                >
+                  Anyone can work as a freelancer on Monday - most jobs do not
+                  require high qualifications.
+                </p>
+              </div>
+            </div>
+            <div
+              class="lg:text-left bg-white rounded-3xl w-full lg:py-[22px] py-5 px-4 text-center lg:px-[50px] lg:flex items-center gap-6"
+            >
+              <h4
+                class="text-[#202020] font-bold text-base lg:mb-0 mb-5 lg:hidden block"
+              >
+                Beginners
+              </h4>
+              <div
+                class="md:w-[100px] w-[70px] h-[70px] lg:mx-0 mx-auto mb-5 lg:mb-0 md:h-[100px] object-cover relative rounded-full"
+              >
+                <img
+                  class="w-full rounded-full object-cover"
+                  src="./img/info-for-per/hero/2.png"
+                  alt="Beginners"
+                />
+                <div
+                  class="md:text-sm text-[10px] rounded-full md:py-2.5 py-1.5 bg-white/80 backdrop-blur-sm absolute md:bottom-0 bottom-[-10px] right-0 left-0 text-center"
+                  style="box-shadow: 0px 4px 4px 0px #00000005"
+                >
+                  ⭐⭐️⭐️⭐️️
                 </div>
-                <!-- ====== -->
-                <!-- Opportunities for performers -->
-                <div class="bg-white rounded-3xl md:py-6 py-4 px-6">
-                    <h3 class="flex items-center gap-1 justify-center md:mb-6 mb-3">
-                        <img class="md:w-10 md:h-10 w-[30px] h-[30px] flex" src="./img/icons2/hero/star.svg" alt="star">
-                        <span class="font-bold md:text-2xl text-base text-[#202020]">Opportunities for performers</span>
-                    </h3>
-                    <div class="grid md:grid-cols-3 md:gap-6 gap-4 md:mb-9 mb-5">
-                        <div class="flex w-full md:max-w-[321px] md:items-start items-center gap-1.5">
-                            <img class="w-8 h-8 " src="./img/icons2/hero/doubleCheckedIcon.svg"
-                                alt="double checked icon">
-                            <p class="font-medium text-left text-sm leading-[18px] text-[#575E6A]">You determine
-                                your employment and the number of working days yourself.</p>
-                        </div>
-                        <div class="flex w-full md:max-w-[321px] md:items-start items-center gap-1.5">
-                            <img class="w-8 h-8 " src="./img/icons2/hero/doubleCheckedIcon.svg"
-                                alt="double checked icon">
-                            <p class="font-medium text-left text-sm leading-[18px] text-[#575E6A]">Complete ten
-                                tasks per day or one per month - it’s up to you!</p>
-                        </div>
-                        <div class="flex w-full md:max-w-[321px] md:items-start items-center gap-1.5">
-                            <img class="w-8 h-8 " src="./img/icons2/hero/doubleCheckedIcon.svg"
-                                alt="double checked icon">
-                            <p class="font-medium text-left text-sm leading-[18px] text-[#575E6A]">Calmly go about
-                                your business, and we will find new tasks and vacancies for you while you study, work or
-                                are on the road.</p>
-                        </div>
-                    </div>
-                    <div class="grid md:grid-cols-4 grid-cols-2 md:gap-2.5 gap-1.5">
-                        <div class="border md:px-3 md:py- md:pt-4 p-3 rounded-3xl">
-                            <div class="flex md:flex-col flex-row md:gap-4 gap-2 mb-4 md:mb-0.5">
-                                <img class="w-[30px] h-[30px] flex" src="./img/icons2/hero/tasks.svg" alt="tasks svg">
-                                <h4 class="text-[#6AB8FF] font-bold md:text-xl text-base text-left">1000 tasks</h4>
-                            </div>
-                            <p class="font-medium md:text-sm text-xs text-[#575E6A] text-left">The amount of tasks published
-                                monthly on the website.</p>
-                        </div>
-                        <div class="border md:px-3 md:py- md:pt-4 p-3 rounded-3xl">
-                            <div class="flex md:flex-col flex-row md:gap-4 gap-2 mb-4 md:mb-0.5">
-                                <img class="w-[30px] h-[30px] flex" src="./img/icons2/hero/minutes.svg" alt="tasks svg">
-                                <h4 class="text-[#6AB8FF] font-bold md:text-xl text-base text-left">10 minutes</h4>
-                            </div>
-                            <p class="font-medium md:text-sm text-xs text-[#575E6A] text-left">Frequency of new task <br>
-                                appearance.</p>
-                        </div>
-                        <div class="border md:px-3 md:py- md:pt-4 p-3 rounded-3xl">
-                            <div class="flex md:flex-col flex-row md:gap-4 gap-2 mb-4 md:mb-0.5">
-                                <img class="w-[30px] h-[30px] flex" src="./img/icons2/hero/uzs.svg" alt="tasks svg">
-                                <h4 class="text-[#6AB8FF] font-bold md:text-xl text-base text-left">4 000 000 uzs</h4>
-                            </div>
-                            <p class="font-medium md:text-sm text-xs text-[#575E6A] text-left max-w-[160px] mr-auto">The most
-                                active performers earn per month.</p>
-                        </div>
-                        <div class="border md:px-3 md:py- md:pt-4 p-3 rounded-3xl">
-                            <div class="flex md:flex-col flex-row md:gap-4 gap-2 mb-4 md:mb-0.5">
-                                <img class="w-[30px] h-[30px] flex" src="./img/icons2/hero/uzs.svg" alt="tasks svg">
-                                <h4 class="text-[#6AB8FF] font-bold md:text-xl text-base text-left">50% tasks</h4>
-                            </div>
-                            <p class="font-medium md:text-sm text-xs text-[#575E6A] text-left max-w-[190px] mr-auto">Performed by
-                                performers who have been working on the service for less than 1 month.</p>
-                        </div>
-                    </div>
+              </div>
+              <div>
+                <h4
+                  class="text-[#202020] font-bold text-base mb-2 lg:block hidden"
+                >
+                  Beginners
+                </h4>
+                <p
+                  class="text-[#575E6A] font-medium lg:text-sm text-left text-xs lg:max-w-[289px]"
+                >
+                  Anyone can work as a freelancer on Monday - most jobs do not
+                  require high qualifications.
+                </p>
+              </div>
+            </div>
+          </div>
+          <!-- ====== -->
+          <!-- Opportunities for performers -->
+          <div class="bg-white rounded-3xl md:py-6 py-4 px-6">
+            <h3 class="flex items-center gap-1 justify-center md:mb-6 mb-3">
+              <img
+                class="md:w-10 md:h-10 w-[30px] h-[30px] flex"
+                src="./img/icons2/hero/star.svg"
+                alt="star"
+              />
+              <span class="font-bold md:text-2xl text-base text-[#202020]"
+                >Opportunities for performers</span
+              >
+            </h3>
+            <div class="grid md:grid-cols-3 md:gap-6 gap-4 md:mb-9 mb-5">
+              <div
+                class="flex w-full md:max-w-[321px] md:items-start items-center gap-1.5"
+              >
+                <img
+                  class="w-8 h-8"
+                  src="./img/icons2/hero/doubleCheckedIcon.svg"
+                  alt="double checked icon"
+                />
+                <p
+                  class="font-medium text-left text-sm leading-[18px] text-[#575E6A]"
+                >
+                  You determine your employment and the number of working days
+                  yourself.
+                </p>
+              </div>
+              <div
+                class="flex w-full md:max-w-[321px] md:items-start items-center gap-1.5"
+              >
+                <img
+                  class="w-8 h-8"
+                  src="./img/icons2/hero/doubleCheckedIcon.svg"
+                  alt="double checked icon"
+                />
+                <p
+                  class="font-medium text-left text-sm leading-[18px] text-[#575E6A]"
+                >
+                  Complete ten tasks per day or one per month - it’s up to you!
+                </p>
+              </div>
+              <div
+                class="flex w-full md:max-w-[321px] md:items-start items-center gap-1.5"
+              >
+                <img
+                  class="w-8 h-8"
+                  src="./img/icons2/hero/doubleCheckedIcon.svg"
+                  alt="double checked icon"
+                />
+                <p
+                  class="font-medium text-left text-sm leading-[18px] text-[#575E6A]"
+                >
+                  Calmly go about your business, and we will find new tasks and
+                  vacancies for you while you study, work or are on the road.
+                </p>
+              </div>
+            </div>
+            <div class="grid md:grid-cols-4 grid-cols-2 md:gap-2.5 gap-1.5">
+              <div class="border md:px-3 md:py- md:pt-4 p-3 rounded-3xl">
+                <div
+                  class="flex md:flex-col flex-row md:gap-4 gap-2 mb-4 md:mb-0.5"
+                >
+                  <img
+                    class="w-[30px] h-[30px] flex"
+                    src="./img/icons2/hero/tasks.svg"
+                    alt="tasks svg"
+                  />
+                  <h4
+                    class="text-[#6AB8FF] font-bold md:text-xl text-base text-left"
+                  >
+                    1000 tasks
+                  </h4>
                 </div>
-                <!-- Opportunities for performers -->
-            </center>
-        </div>
+                <p
+                  class="font-medium md:text-sm text-xs text-[#575E6A] text-left"
+                >
+                  The amount of tasks published monthly on the website.
+                </p>
+              </div>
+              <div class="border md:px-3 md:py- md:pt-4 p-3 rounded-3xl">
+                <div
+                  class="flex md:flex-col flex-row md:gap-4 gap-2 mb-4 md:mb-0.5"
+                >
+                  <img
+                    class="w-[30px] h-[30px] flex"
+                    src="./img/icons2/hero/minutes.svg"
+                    alt="tasks svg"
+                  />
+                  <h4
+                    class="text-[#6AB8FF] font-bold md:text-xl text-base text-left"
+                  >
+                    10 minutes
+                  </h4>
+                </div>
+                <p
+                  class="font-medium md:text-sm text-xs text-[#575E6A] text-left"
+                >
+                  Frequency of new task <br />
+                  appearance.
+                </p>
+              </div>
+              <div class="border md:px-3 md:py- md:pt-4 p-3 rounded-3xl">
+                <div
+                  class="flex md:flex-col flex-row md:gap-4 gap-2 mb-4 md:mb-0.5"
+                >
+                  <img
+                    class="w-[30px] h-[30px] flex"
+                    src="./img/icons2/hero/uzs.svg"
+                    alt="tasks svg"
+                  />
+                  <h4
+                    class="text-[#6AB8FF] font-bold md:text-xl text-base text-left"
+                  >
+                    4 000 000 uzs
+                  </h4>
+                </div>
+                <p
+                  class="font-medium md:text-sm text-xs text-[#575E6A] text-left max-w-[160px] mr-auto"
+                >
+                  The most active performers earn per month.
+                </p>
+              </div>
+              <div class="border md:px-3 md:py- md:pt-4 p-3 rounded-3xl">
+                <div
+                  class="flex md:flex-col flex-row md:gap-4 gap-2 mb-4 md:mb-0.5"
+                >
+                  <img
+                    class="w-[30px] h-[30px] flex"
+                    src="./img/icons2/hero/uzs.svg"
+                    alt="tasks svg"
+                  />
+                  <h4
+                    class="text-[#6AB8FF] font-bold md:text-xl text-base text-left"
+                  >
+                    50% tasks
+                  </h4>
+                </div>
+                <p
+                  class="font-medium md:text-sm text-xs text-[#575E6A] text-left max-w-[190px] mr-auto"
+                >
+                  Performed by performers who have been working on the service
+                  for less than 1 month.
+                </p>
+              </div>
+            </div>
+          </div>
+          <!-- Opportunities for performers -->
+        </center>
+      </div>
     </section>
     <!-- INFORMATION FOR PERFOMERS SECTION ENDED HERE -->
     <!-- =--=-=-=-=-=--=-=-=-=- HOW TO START SECTION STARTED =-=-=-=-=-=-=-=-=-=-=-= -->
     <section class="md:py-4">
-        <div class="max-w-[1080px] mx-auto px-4">
-            <h2 class=" flex gap-3 justify-center md:mb-6 mb-4">
-                <img class="md:w-10 md:h-10 md:flex hidden" src="./img/icons2/howToStart/plus.svg" alt="icon">
-                <img class="w-[30px] h-[30px] md:hidden flex" src="./img/icons2/howToStart/star.svg" alt="icon">
-                <span class="font-bold md:text-2xl text-base text-[#202020]">How to start?</span>
-            </h2>
-            <div class="flex md:flex-row flex-col items-start md:gap-9 md:mb-6 mb-4 gap-2.5">
-                <img class="w-full min-w-[180px] md:max-w-[259px] md:min-h-[216px] sm:max-h-[188px] max-h-[138px] md:max-h-none object-cover rounded-lg"
-                    src="./img/info-for-per/howToStart/registerImg.png" alt="register img">
-                <div class="w-full">
-                    <h3 class="font-bold text-base text-[#202020] mb-2.5">1. Register</h3>
-                    <p class="font-medium text-xs md:leading-[18px] text-[#575E6A] max-w-[609px] mb-2.5 md:mb-6">
-                        To become a performer and receive tasks, you need to register and go through several mandatory
-                        steps: confirming contact information and filling out a profile. This is necessary to protect
-                        service users from fraud and unfair competition.
-                    </p>
-                    <!-- DDA = Drop Down Arrow -->
-                    <!-- DDB = Drop Down Button -->
-                    <!-- DDT = Drop Down Text -->
-                    <div class="border rounded-xl md:pl-4 mb-1.5 DDB md:pr-5 px-4 py-5 cursor-pointer">
-                        <button class="w-full flex items-center justify-between">
-                            <span class="font-bold text-sm leading-[18px] md:text-base text-[#202020]">Post your
-                                services.</span>
-                            <img class="w-6 h-6 flex DDA" src="./img/icons2/howToStart/dropArrow.svg" alt="svg">
-                        </button>
-                        <p class="DDT text-sm text-[#575E6A] overflow-hidden h-0">
-                            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Mollitia consequuntur unde quas
-                            esse aliquam accusamus praesentium qui, aperiam velit magni veniam, repellendus voluptas
-                            beatae? Neque, esse? Eum incidunt odit provident in quod distinctio laborum tenetur nulla
-                            molestiae, facilis a amet!
-                        </p>
-                    </div>
-                    <div class="border rounded-xl md:pl-4 DDB md:pr-5 px-4 py-5 cursor-pointer">
-                        <button class="w-full flex items-center justify-between">
-                            <span class="font-bold text-sm leading-[18px] md:text-base text-[#202020]">Use
-                                advertising techniques.</span>
-                            <img class="w-6 h-6 flex DDA" src="./img/icons2/howToStart/dropArrow.svg" alt="svg">
-                        </button>
-                        <p class="DDT text-sm text-[#575E6A] overflow-hidden h-0">
-                            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Mollitia consequuntur unde quas
-                            esse aliquam accusamus praesentium qui, aperiam velit magni veniam, repellendus voluptas
-                            beatae? Neque, esse? Eum incidunt odit provident in quod distinctio laborum tenetur nulla
-                            molestiae, facilis a amet!
-                        </p>
-                    </div>
-                </div>
+      <div class="max-w-[1080px] mx-auto px-4">
+        <h2 class="flex gap-3 justify-center md:mb-6 mb-4">
+          <img
+            class="md:w-10 md:h-10 md:flex hidden"
+            src="./img/icons2/howToStart/plus.svg"
+            alt="icon"
+          />
+          <img
+            class="w-[30px] h-[30px] md:hidden flex"
+            src="./img/icons2/howToStart/star.svg"
+            alt="icon"
+          />
+          <span class="font-bold md:text-2xl text-base text-[#202020]"
+            >How to start?</span
+          >
+        </h2>
+        <div
+          class="flex md:flex-row flex-col items-start md:gap-9 md:mb-6 mb-4 gap-2.5"
+        >
+          <img
+            class="w-full min-w-[180px] md:max-w-[259px] md:min-h-[216px] sm:max-h-[188px] max-h-[138px] md:max-h-none object-cover rounded-lg"
+            src="./img/info-for-per/howToStart/registerImg.png"
+            alt="register img"
+          />
+          <div class="w-full">
+            <h3 class="font-bold text-base text-[#202020] mb-2.5">
+              1. Register
+            </h3>
+            <p
+              class="font-medium text-xs md:leading-[18px] text-[#575E6A] max-w-[609px] mb-2.5 md:mb-6"
+            >
+              To become a performer and receive tasks, you need to register and
+              go through several mandatory steps: confirming contact information
+              and filling out a profile. This is necessary to protect service
+              users from fraud and unfair competition.
+            </p>
+            <!-- DDA = Drop Down Arrow -->
+            <!-- DDB = Drop Down Button -->
+            <!-- DDT = Drop Down Text -->
+            <div
+              class="border rounded-xl md:pl-4 mb-1.5 DDB md:pr-5 px-4 py-5 cursor-pointer"
+            >
+              <button class="w-full flex items-center justify-between">
+                <span
+                  class="font-bold text-sm leading-[18px] md:text-base text-[#202020]"
+                  >Post your services.</span
+                >
+                <img
+                  class="w-6 h-6 flex DDA"
+                  src="./img/icons2/howToStart/dropArrow.svg"
+                  alt="svg"
+                />
+              </button>
+              <p class="DDT text-sm text-[#575E6A] overflow-hidden h-0">
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                Mollitia consequuntur unde quas esse aliquam accusamus
+                praesentium qui, aperiam velit magni veniam, repellendus
+                voluptas beatae? Neque, esse? Eum incidunt odit provident in
+                quod distinctio laborum tenetur nulla molestiae, facilis a amet!
+              </p>
             </div>
-            <div class="flex md:flex-row flex-col items-start md:mb-5 mb-4 md:gap-9 gap-2.5">
-                <img class="w-full min-w-[180px] md:max-w-[259px] md:min-h-[216px] sm:max-h-[188px] max-h-[138px] md:max-h-none object-cover bg-white rounded-lg"
-                    src="./img/info-for-per/howToStart/agreeToTask.png" alt="register img">
-                <div class="w-full">
-                    <h3 class="font-bold text-base text-[#202020] mb-2.5">2. Agree to the task</h3>
-                    <p class="font-medium text-xs md:leading-[18px] text-[#575E6A] max-w-[609px] mb-2.5 md:mb-6">
-                        Send counteroffers to customers. In your application, try to interest the customer: demonstrate
-                        that you are well versed in the topic, offer a solution to the problem, tell in a nutshell why
-                        you think that you will cope well with this assignment.
-                    </p>
-                    <!-- DDA = Drop Down Arrow -->
-                    <!-- DDB = Drop Down Button -->
-                    <!-- DDT = Drop Down Text -->
-                    <div class="border rounded-xl md:pl-4 mb-1.5 DDB md:pr-5 px-4 py-5 cursor-pointer ">
-                        <button class="w-full flex items-center justify-between">
-                            <span class="font-bold text-sm leading-[18px] md:text-base text-[#202020]">Where to
-                                start working on the service?</span>
-                            <img class="w-6 h-6 flex DDA" src="./img/icons2/howToStart/dropArrow.svg" alt="svg">
-                        </button>
-                        <p class="DDT text-sm text-[#575E6A] overflow-hidden h-0">
-                            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Mollitia consequuntur unde quas
-                            esse aliquam accusamus praesentium qui, aperiam velit magni veniam, repellendus voluptas
-                            beatae? Neque, esse? Eum incidunt odit provident in quod distinctio laborum tenetur nulla
-                            molestiae, facilis a amet!
-                        </p>
-                    </div>
-                </div>
+            <div
+              class="border rounded-xl md:pl-4 DDB md:pr-5 px-4 py-5 cursor-pointer"
+            >
+              <button class="w-full flex items-center justify-between">
+                <span
+                  class="font-bold text-sm leading-[18px] md:text-base text-[#202020]"
+                  >Use advertising techniques.</span
+                >
+                <img
+                  class="w-6 h-6 flex DDA"
+                  src="./img/icons2/howToStart/dropArrow.svg"
+                  alt="svg"
+                />
+              </button>
+              <p class="DDT text-sm text-[#575E6A] overflow-hidden h-0">
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                Mollitia consequuntur unde quas esse aliquam accusamus
+                praesentium qui, aperiam velit magni veniam, repellendus
+                voluptas beatae? Neque, esse? Eum incidunt odit provident in
+                quod distinctio laborum tenetur nulla molestiae, facilis a amet!
+              </p>
             </div>
-            <div class="flex md:flex-row flex-col items-start md:mb-5 mb-4 md:gap-9 gap-2.5">
-                <div class="bg-white rounded-lg w-full md:max-w-[259px]">
-                    <img class="mx-auto min-w-[180px] md:max-w-[259px] md:min-h-[216px] sm:max-h-[188px] max-h-[138px] md:max-h-none object-cover bg-white rounded-lg"
-                        src="./img/info-for-per/howToStart/pay.png" alt="register img">
-                </div>
-                <div class="w-full">
-                    <h3 class="font-bold text-base text-[#202020] mb-2.5">3. Get money</h3>
-                    <p class="font-medium text-xs md:leading-[18px] text-[#575E6A] max-w-[609px] mb-2.5 md:mb-6">
-                        Meet deadlines and complete the task efficiently, in accordance with all customer conditions.
-                        After confirmation of completion, payment for the work will be transferred to your account.
-                    </p>
-                    <!-- DDA = Drop Down Arrow -->
-                    <!-- DDB = Drop Down Button -->
-                    <!-- DDT = Drop Down Text -->
-                    <div class="border rounded-xl md:pl-4 mb-1.5 DDB md:pr-5 px-4 py-5 cursor-pointer ">
-                        <button class="w-full flex items-center justify-between">
-                            <span class="font-bold text-sm leading-[18px] md:text-base text-[#202020]">What to do
-                                after completing the task?</span>
-                            <img class="w-6 h-6 flex DDA" src="./img/icons2/howToStart/dropArrow.svg" alt="svg">
-                        </button>
-                        <p class="DDT text-sm text-[#575E6A] overflow-hidden h-0">
-                            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Mollitia consequuntur unde quas
-                            esse aliquam accusamus praesentium qui, aperiam velit magni veniam, repellendus voluptas
-                            beatae? Neque, esse? Eum incidunt odit provident in quod distinctio laborum tenetur nulla
-                            molestiae, facilis a amet!
-                        </p>
-                    </div>
-                    <div class="border rounded-xl md:pl-4 mb-1.5 DDB md:pr-5 px-4 py-5 cursor-pointer ">
-                        <button class="w-full flex items-center justify-between">
-                            <span class="font-bold text-sm leading-[18px] md:text-base text-[#202020]">How do you
-                                pay for a task?</span>
-                            <img class="w-6 h-6 flex DDA" src="./img/icons2/howToStart/dropArrow.svg" alt="svg">
-                        </button>
-                        <p class="DDT text-sm text-[#575E6A] h-0 overflow-hidden">
-                            All tasks are paid through the service. <br><br>
-
-                            The customer places his request and funds his account with an amount sufficient to pay. As
-                            soon as the system has selected candidates for it, the fee is blocked on the customer’s
-                            account. This is necessary so that we can guarantee payment to the contractor. <br><br>
-
-                            When the task is completed, the customer checks the result. If everything is done well and
-                            on time, he confirms completion. Only after this the reserved amount is transferred from his
-                            account to the account of the performer. The task is closed and archived.
-                        </p>
-                    </div>
-                </div>
-            </div>
+          </div>
         </div>
+        <div
+          class="flex md:flex-row flex-col items-start md:mb-5 mb-4 md:gap-9 gap-2.5"
+        >
+          <img
+            class="w-full min-w-[180px] md:max-w-[259px] md:min-h-[216px] sm:max-h-[188px] max-h-[138px] md:max-h-none object-cover bg-white rounded-lg"
+            src="./img/info-for-per/howToStart/agreeToTask.png"
+            alt="register img"
+          />
+          <div class="w-full">
+            <h3 class="font-bold text-base text-[#202020] mb-2.5">
+              2. Agree to the task
+            </h3>
+            <p
+              class="font-medium text-xs md:leading-[18px] text-[#575E6A] max-w-[609px] mb-2.5 md:mb-6"
+            >
+              Send counteroffers to customers. In your application, try to
+              interest the customer: demonstrate that you are well versed in the
+              topic, offer a solution to the problem, tell in a nutshell why you
+              think that you will cope well with this assignment.
+            </p>
+            <!-- DDA = Drop Down Arrow -->
+            <!-- DDB = Drop Down Button -->
+            <!-- DDT = Drop Down Text -->
+            <div
+              class="border rounded-xl md:pl-4 mb-1.5 DDB md:pr-5 px-4 py-5 cursor-pointer"
+            >
+              <button class="w-full flex items-center justify-between">
+                <span
+                  class="font-bold text-sm leading-[18px] md:text-base text-[#202020]"
+                  >Where to start working on the service?</span
+                >
+                <img
+                  class="w-6 h-6 flex DDA"
+                  src="./img/icons2/howToStart/dropArrow.svg"
+                  alt="svg"
+                />
+              </button>
+              <p class="DDT text-sm text-[#575E6A] overflow-hidden h-0">
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                Mollitia consequuntur unde quas esse aliquam accusamus
+                praesentium qui, aperiam velit magni veniam, repellendus
+                voluptas beatae? Neque, esse? Eum incidunt odit provident in
+                quod distinctio laborum tenetur nulla molestiae, facilis a amet!
+              </p>
+            </div>
+          </div>
+        </div>
+        <div
+          class="flex md:flex-row flex-col items-start md:mb-5 mb-4 md:gap-9 gap-2.5"
+        >
+          <div class="bg-white rounded-lg w-full md:max-w-[259px]">
+            <img
+              class="mx-auto min-w-[180px] md:max-w-[259px] md:min-h-[216px] sm:max-h-[188px] max-h-[138px] md:max-h-none object-cover bg-white rounded-lg"
+              src="./img/info-for-per/howToStart/pay.png"
+              alt="register img"
+            />
+          </div>
+          <div class="w-full">
+            <h3 class="font-bold text-base text-[#202020] mb-2.5">
+              3. Get money
+            </h3>
+            <p
+              class="font-medium text-xs md:leading-[18px] text-[#575E6A] max-w-[609px] mb-2.5 md:mb-6"
+            >
+              Meet deadlines and complete the task efficiently, in accordance
+              with all customer conditions. After confirmation of completion,
+              payment for the work will be transferred to your account.
+            </p>
+            <!-- DDA = Drop Down Arrow -->
+            <!-- DDB = Drop Down Button -->
+            <!-- DDT = Drop Down Text -->
+            <div
+              class="border rounded-xl md:pl-4 mb-1.5 DDB md:pr-5 px-4 py-5 cursor-pointer"
+            >
+              <button class="w-full flex items-center justify-between">
+                <span
+                  class="font-bold text-sm leading-[18px] md:text-base text-[#202020]"
+                  >What to do after completing the task?</span
+                >
+                <img
+                  class="w-6 h-6 flex DDA"
+                  src="./img/icons2/howToStart/dropArrow.svg"
+                  alt="svg"
+                />
+              </button>
+              <p class="DDT text-sm text-[#575E6A] overflow-hidden h-0">
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                Mollitia consequuntur unde quas esse aliquam accusamus
+                praesentium qui, aperiam velit magni veniam, repellendus
+                voluptas beatae? Neque, esse? Eum incidunt odit provident in
+                quod distinctio laborum tenetur nulla molestiae, facilis a amet!
+              </p>
+            </div>
+            <div
+              class="border rounded-xl md:pl-4 mb-1.5 DDB md:pr-5 px-4 py-5 cursor-pointer"
+            >
+              <button class="w-full flex items-center justify-between">
+                <span
+                  class="font-bold text-sm leading-[18px] md:text-base text-[#202020]"
+                  >How do you pay for a task?</span
+                >
+                <img
+                  class="w-6 h-6 flex DDA"
+                  src="./img/icons2/howToStart/dropArrow.svg"
+                  alt="svg"
+                />
+              </button>
+              <p class="DDT text-sm text-[#575E6A] h-0 overflow-hidden">
+                All tasks are paid through the service. <br /><br />
+
+                The customer places his request and funds his account with an
+                amount sufficient to pay. As soon as the system has selected
+                candidates for it, the fee is blocked on the customer’s account.
+                This is necessary so that we can guarantee payment to the
+                contractor. <br /><br />
+
+                When the task is completed, the customer checks the result. If
+                everything is done well and on time, he confirms completion.
+                Only after this the reserved amount is transferred from his
+                account to the account of the performer. The task is closed and
+                archived.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
     </section>
     <!-- =--=-=-=-=-=--=-=-=-=- HOW TO START SECTION ENDED =-=-=-=-=-=-=-=-=-=-=-=-= -->
     <!-- =-=-=-=-=-=-=-=--=-==-= SAFETY SECTION STRATED -=-=--=-=-=-=-=-=-=-=-=-==== -->
     <section class="md:pt-4 md:pb-3 hidden md:block">
-        <div class="max-w-[1080px] mx-auto px-4">
-            <h2 class="flex items-center md:gap-3 gap-2 justify-center mb-6">
-                <img class="md:w-10 md:h-10 w-[30px] h-[30px] flex" src="./img/icons2/safety/lock.svg" alt="lock">
-                <span class="font-bold text-[#202020] text-2xl">Guarantees and safety</span>
-            </h2>
-            <div class="grid grid-cols-2 items-start gap-2.5 mb-6">
-                <div class="bg-white transition-all duration-300 px-6 pt-6 pb-2 cursor-auto overflow-hidden rounded-2xl">
-                    <button
-                        class="toggle-button flex items-center justify-between w-full transition duration-300 ease-in-out">
-                        <div class="flex items-center justify-start gap-2">
-                            <img src="./img/icons2/safety/payment.svg" alt="svg" class="toggle-icon">
-                            <span class="font-bold text-base text-[#202020]">
-                                Payment
-                            </span>
-                        </div>
-                        <img src="./img/icons2/howToStart/dropArrow.svg" alt="svg"
-                            class="toggle-arrow  transition-all duration-300">
-                    </button>
-                    <p class="text-[#575E6A] font-medium text-sm toggle-content overflow-hidden pt-4 transition-all duration-300 ease-in-out max-h-0">
-                        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eos in dolore modi delectus nostrum
-                        accusamus
-                        officiis quas hic quos laborum harum vero, quia non! Recusandae cumque provident natus quidem
-                        tempore!
-                    </p>
-                </div>
+      <div class="max-w-[1080px] mx-auto px-4">
+        <h2 class="flex items-center md:gap-3 gap-2 justify-center mb-6">
+          <img
+            class="md:w-10 md:h-10 w-[30px] h-[30px] flex"
+            src="./img/icons2/safety/lock.svg"
+            alt="lock"
+          />
+          <span class="font-bold text-[#202020] text-2xl"
+            >Guarantees and safety</span
+          >
+        </h2>
+        <div class="grid grid-cols-2 items-start gap-2.5 mb-6">
+          <div
+            class="bg-white transition-all duration-300 px-6 pt-6 pb-2 cursor-auto overflow-hidden rounded-2xl"
+          >
+            <button
+              class="toggle-button flex items-center justify-between w-full transition duration-300 ease-in-out"
+            >
+              <div class="flex items-center justify-start gap-2">
+                <img
+                  src="./img/icons2/safety/payment.svg"
+                  alt="svg"
+                  class="toggle-icon"
+                />
+                <span class="font-bold text-base text-[#202020]">
+                  Payment
+                </span>
+              </div>
+              <img
+                src="./img/icons2/howToStart/dropArrow.svg"
+                alt="svg"
+                class="toggle-arrow transition-all duration-300"
+              />
+            </button>
+            <p
+              class="text-[#575E6A] font-medium text-sm toggle-content overflow-hidden pt-4 transition-all duration-300 ease-in-out max-h-0"
+            >
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eos in
+              dolore modi delectus nostrum accusamus officiis quas hic quos
+              laborum harum vero, quia non! Recusandae cumque provident natus
+              quidem tempore!
+            </p>
+          </div>
 
-                <div class="bg-white transition-all duration-300 px-6 pt-6 pb-2 cursor-auto overflow-hidden rounded-2xl">
-                    <button
-                        class="toggle-button flex items-center justify-between w-full transition duration-300 ease-in-out">
-                        <div class="flex items-center justify-start gap-2">
-                            <img src="./img/icons2/safety/arbitation.svg" alt="svg" class="toggle-icon" transition-all
-                                duration-300>
-                            <span class="font-bold text-base text-[#202020]">
-                                Arbitration
-                            </span>
-                        </div>
-                        <img src="./img/icons2/howToStart/dropArrow.svg" alt="svg"
-                            class="toggle-arrow transition-all duration-300">
-                    </button>
-                    <p class="text-[#575E6A] font-medium text-sm toggle-content overflow-hidden pt-4 transition-all duration-300 ease-in-out max-h-0">
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus similique minima, ipsam
-                        assumenda
-                        praesentium dicta veritatis earum repudiandae ratione consequatur dolorem aspernatur
-                        exercitationem incidunt
-                        at molestiae, quaerat consequuntur voluptatum provident.
-                    </p>
-                </div>
-            </div>
-
-            <script>
-                document.addEventListener('DOMContentLoaded', function () {
-                    const toggleButtons = document.querySelectorAll('.toggle-button');
-
-                    toggleButtons.forEach(button => {
-                        button.addEventListener('click', function () {
-                            const content = this.nextElementSibling;
-                            const toggleArrow = this.querySelector('.toggle-arrow');
-
-                            if (content.style.maxHeight) {
-                                content.style.maxHeight = null;
-                                toggleArrow.classList.remove('rotate-180');
-                            } else {
-                                content.style.maxHeight = content.scrollHeight + 'px';
-                                toggleArrow.classList.add('rotate-180');
-                            }
-                        });
-                    });
-                });
-            </script>
-
-
-
-            <div class="pt-6 pb-14 px-12 bg-white max-w-[1040px] mx-auto rounded-xl">
-                <h3 class="flex items-center md:gap-3 gap-2 justify-center mb-2">
-                    <img class="md:w-10 md:h-10 w-[30px] h-[30px] flex" src="./img/icons2/safety/dashboard.svg"
-                        alt="lock">
-                    <span class="font-bold text-[#202020] text-2xl">Your rating is a guarantee of good earnings</span>
-                </h3>
-                <p
-                    class="font-medium text-sm leading-[18px] text-center max-w-[590px] mx-auto text-[#575E6A] mb-14">
-                    The more projects you successfully complete, the higher your performer rating. A high rating opens
-                    up access to more profitable projects and increases your chances of getting a job.
-                </p>
-                <div class="grid gap-7\6 grid-cols-3">
-                    <div class="max-w-[300px] w-full">
-                        <center class="mb-5" > 
-                            <div
-                            class="md:w-[100px] w-[70px] h-[70px] lg:mx-0 mx-auto mb-5 lg:mb-0 md:h-[100px] object-cover relative rounded-full">
-                            <img class="w-full rounded-full object-cover " src="./img/info-for-per/safety/1.png"
-                                alt="Beginners">
-                            <div class="md:text-sm text-[10px] rounded-full bg-white/90 absolute bottom-[-7px] right-0 p-2.5 text-center"
-                                style="box-shadow: 0px 4px 4px 0px #00000005;">⭐</div>
-                        </div>
-                        </center>
-                        <h3 class="font-bold text-base text-[#202020] text-center mb-1">
-                            Newbie
-                        </h3>
-                        <p class="text-center text-[#575E6A] font-medium text-sm leading-[18px]">You have a low
-                            rating because you are just getting started, there is
-                            still a lot to come!</p>
-                    </div>
-                    <div class="max-w-[300px] w-full">
-                        <center class="mb-5" > 
-                            <div
-                            class="md:w-[100px] w-[70px] h-[70px] lg:mx-0 mx-auto mb-5 lg:mb-0 md:h-[100px] object-cover relative rounded-full">
-                            <img class="w-full rounded-full object-cover " src="./img/info-for-per/safety/2.png"
-                                alt="Beginners">
-                            <div class="md:text-sm text-[10px] rounded-full md:py-2.5 py-1.5 bg-white/80 backdrop-blur-sm absolute md:bottom-0 bottom-[-10px] right-0 left-0 text-center"
-                                style="box-shadow: 0px 4px 4px 0px #00000005;">⭐⭐️⭐️⭐️️</div>
-                        </div>
-                        </center>
-                        <h3 class="font-bold text-base text-[#202020] text-center mb-1">
-                            Experienced
-                        </h3>
-                        <p class="text-center text-[#575E6A] font-medium text-sm leading-[18px]">By completing tasks
-                            and receiving good reviews, you increase your rating.</p>
-                    </div>
-                    <div class="max-w-[300px] w-full">
-                        <center class="mb-5" > 
-                            <div
-                            class="md:w-[100px] w-[70px] h-[70px] lg:mx-0 mx-auto mb-5 lg:mb-0 md:h-[100px] object-cover relative rounded-full">
-                            <img class="w-full rounded-full object-cover " src="./img/info-for-per/safety/3.png"
-                                alt="Beginners">
-                            <div class="md:text-sm text-[#575E6A]  text-[10px] rounded-full md:py-2.5 py-1.5 bg-white/80 backdrop-blur-sm absolute md:bottom-0 bottom-[-10px] right-0 left-0 text-center"
-                                style="box-shadow: 0px 4px 4px 0px #00000005;">PRO ⭐️️</div>
-                        </div>
-                        </center>
-                        <h3 class="font-bold text-base text-[#202020] text-center mb-1">
-                            Professional
-                        </h3>
-                        <p class="text-center text-[#575E6A] font-medium text-sm leading-[18px]">When you have a
-                            high rating, you receive more orders and therefore have higher income.</p>
-                    </div>
-                </div>
-            </div>
+          <div
+            class="bg-white transition-all duration-300 px-6 pt-6 pb-2 cursor-auto overflow-hidden rounded-2xl"
+          >
+            <button
+              class="toggle-button flex items-center justify-between w-full transition duration-300 ease-in-out"
+            >
+              <div class="flex items-center justify-start gap-2">
+                <img
+                  src="./img/icons2/safety/arbitation.svg"
+                  alt="svg"
+                  class="toggle-icon"
+                  transition-all
+                  duration-300
+                />
+                <span class="font-bold text-base text-[#202020]">
+                  Arbitration
+                </span>
+              </div>
+              <img
+                src="./img/icons2/howToStart/dropArrow.svg"
+                alt="svg"
+                class="toggle-arrow transition-all duration-300"
+              />
+            </button>
+            <p
+              class="text-[#575E6A] font-medium text-sm toggle-content overflow-hidden pt-4 transition-all duration-300 ease-in-out max-h-0"
+            >
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus
+              similique minima, ipsam assumenda praesentium dicta veritatis
+              earum repudiandae ratione consequatur dolorem aspernatur
+              exercitationem incidunt at molestiae, quaerat consequuntur
+              voluptatum provident.
+            </p>
+          </div>
         </div>
+
+        <script>
+          document.addEventListener("DOMContentLoaded", function () {
+            const toggleButtons = document.querySelectorAll(".toggle-button");
+
+            toggleButtons.forEach((button) => {
+              button.addEventListener("click", function () {
+                const content = this.nextElementSibling;
+                const toggleArrow = this.querySelector(".toggle-arrow");
+
+                if (content.style.maxHeight) {
+                  content.style.maxHeight = null;
+                  toggleArrow.classList.remove("rotate-180");
+                } else {
+                  content.style.maxHeight = content.scrollHeight + "px";
+                  toggleArrow.classList.add("rotate-180");
+                }
+              });
+            });
+          });
+        </script>
+
+        <div
+          class="pt-6 pb-14 px-12 bg-white max-w-[1040px] mx-auto rounded-xl"
+        >
+          <h3 class="flex items-center md:gap-3 gap-2 justify-center mb-2">
+            <img
+              class="md:w-10 md:h-10 w-[30px] h-[30px] flex"
+              src="./img/icons2/safety/dashboard.svg"
+              alt="lock"
+            />
+            <span class="font-bold text-[#202020] text-2xl"
+              >Your rating is a guarantee of good earnings</span
+            >
+          </h3>
+          <p
+            class="font-medium text-sm leading-[18px] text-center max-w-[590px] mx-auto text-[#575E6A] mb-14"
+          >
+            The more projects you successfully complete, the higher your
+            performer rating. A high rating opens up access to more profitable
+            projects and increases your chances of getting a job.
+          </p>
+          <div class="grid gap-7\6 grid-cols-3">
+            <div class="max-w-[300px] w-full">
+              <center class="mb-5">
+                <div
+                  class="md:w-[100px] w-[70px] h-[70px] lg:mx-0 mx-auto mb-5 lg:mb-0 md:h-[100px] object-cover relative rounded-full"
+                >
+                  <img
+                    class="w-full rounded-full object-cover"
+                    src="./img/info-for-per/safety/1.png"
+                    alt="Beginners"
+                  />
+                  <div
+                    class="md:text-sm text-[10px] rounded-full bg-white/90 absolute bottom-[-7px] right-0 p-2.5 text-center"
+                    style="box-shadow: 0px 4px 4px 0px #00000005"
+                  >
+                    ⭐
+                  </div>
+                </div>
+              </center>
+              <h3 class="font-bold text-base text-[#202020] text-center mb-1">
+                Newbie
+              </h3>
+              <p
+                class="text-center text-[#575E6A] font-medium text-sm leading-[18px]"
+              >
+                You have a low rating because you are just getting started,
+                there is still a lot to come!
+              </p>
+            </div>
+            <div class="max-w-[300px] w-full">
+              <center class="mb-5">
+                <div
+                  class="md:w-[100px] w-[70px] h-[70px] lg:mx-0 mx-auto mb-5 lg:mb-0 md:h-[100px] object-cover relative rounded-full"
+                >
+                  <img
+                    class="w-full rounded-full object-cover"
+                    src="./img/info-for-per/safety/2.png"
+                    alt="Beginners"
+                  />
+                  <div
+                    class="md:text-sm text-[10px] rounded-full md:py-2.5 py-1.5 bg-white/80 backdrop-blur-sm absolute md:bottom-0 bottom-[-10px] right-0 left-0 text-center"
+                    style="box-shadow: 0px 4px 4px 0px #00000005"
+                  >
+                    ⭐⭐️⭐️⭐️️
+                  </div>
+                </div>
+              </center>
+              <h3 class="font-bold text-base text-[#202020] text-center mb-1">
+                Experienced
+              </h3>
+              <p
+                class="text-center text-[#575E6A] font-medium text-sm leading-[18px]"
+              >
+                By completing tasks and receiving good reviews, you increase
+                your rating.
+              </p>
+            </div>
+            <div class="max-w-[300px] w-full">
+              <center class="mb-5">
+                <div
+                  class="md:w-[100px] w-[70px] h-[70px] lg:mx-0 mx-auto mb-5 lg:mb-0 md:h-[100px] object-cover relative rounded-full"
+                >
+                  <img
+                    class="w-full rounded-full object-cover"
+                    src="./img/info-for-per/safety/3.png"
+                    alt="Beginners"
+                  />
+                  <div
+                    class="md:text-sm text-[#575E6A] text-[10px] rounded-full md:py-2.5 py-1.5 bg-white/80 backdrop-blur-sm absolute md:bottom-0 bottom-[-10px] right-0 left-0 text-center"
+                    style="box-shadow: 0px 4px 4px 0px #00000005"
+                  >
+                    PRO ⭐️️
+                  </div>
+                </div>
+              </center>
+              <h3 class="font-bold text-base text-[#202020] text-center mb-1">
+                Professional
+              </h3>
+              <p
+                class="text-center text-[#575E6A] font-medium text-sm leading-[18px]"
+              >
+                When you have a high rating, you receive more orders and
+                therefore have higher income.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
     </section>
     <!-- =-=-=-=-=-=-=-=--=-==-= SAFETY SECTION ENDED =--=-=--=-=-=-=-=-=-=-=-=-==== -->
     <!-- =-=-=-=-=-=-=-=-=-=-=-= PERFOMER SECTION START =-===-=-=-=-=-=-=-=-==-=-=-= -->
     <section class="pt-3 pb-2.5 md:block hidden">
-        <div class="max-w-[1040px] mx-auto px-4 border rounded-3xl pt-6 pb-10">
-            <h2 class="flex items-center md:gap-3 gap-2 justify-center mb-9">
-                <img class="md:w-10 md:h-10 w-[30px] h-[30px] flex" src="./img/icons2/perfomer/success.svg"
-                    alt="success">
-                <span class="font-bold text-[#202020] text-2xl">How to become a successful performer?</span>
-            </h2>
-            <div class="grid grid-cols-2 gap-y-7 gap-x-3">
-                <div class="flex items-start gap-3 max-w-[471px]">
-                    <img class="w-10 h-10" src="./img/icons2/perfomer/tasks.svg" alt="tasks">
-                    <div class="flex flex-col gap-1.5">
-                        <h4 class="font-bold text-base text-[#202020] ">Complete tasks</h4>
-                        <p class="font-medium text-sm leading-[18px] text-[#575E6A]">
-                            Tasks are requests from customers, which by completing you increase your rating.
-                        </p>
-                    </div>
-                </div>
-                <div class="flex items-start gap-3 max-w-[471px]">
-                    <img class="w-10 h-10" src="./img/icons2/perfomer/quality.svg" alt="tasks">
-                    <div class="flex flex-col gap-1.5">
-                        <h4 class="font-bold text-base text-[#202020] ">Quality above all!</h4>
-                        <p class="font-medium text-sm leading-[18px] text-[#575E6A]">
-                            Only those performers who perform each task efficiently make it to the first positions in
-                            the rating. If you chase profit at the expense of quality, you are unlikely to see yourself
-                            at the top.
-                        </p>
-                    </div>
-                </div>
-                <div class="flex items-start gap-3 max-w-[471px]">
-                    <img class="w-10 h-10" src="./img/icons2/perfomer/dontTake.svg" alt="tasks">
-                    <div class="flex flex-col gap-1.5">
-                        <h4 class="font-bold text-base text-[#202020] ">Don't take on work you can't do</h4>
-                        <p class="font-medium text-sm leading-[18px] text-[#575E6A]">
-                            At best, you will have to refuse this job, which will reduce your rating. At worst, you will
-                            earn a bad review and ruin your reputation.
-                        </p>
-                    </div>
-                </div>
-                <div class="flex items-start gap-3 max-w-[471px]">
-                    <img class="w-10 h-10" src="./img/icons2/perfomer/brPolite.svg" alt="tasks">
-                    <div class="flex flex-col gap-1.5">
-                        <h4 class="font-bold text-base text-[#202020] ">Be polite</h4>
-                        <p class="font-medium text-sm leading-[18px] text-[#575E6A]">
-                            Even if you think that the customer is wrong, do not lose your composure. Politeness is the
-                            tactic of a competent specialist, but rudeness will only earn you a negative review or even
-                            a ban.
-                        </p>
-                    </div>
-                </div>
+      <div class="max-w-[1040px] mx-auto px-4 border rounded-3xl pt-6 pb-10">
+        <h2 class="flex items-center md:gap-3 gap-2 justify-center mb-9">
+          <img
+            class="md:w-10 md:h-10 w-[30px] h-[30px] flex"
+            src="./img/icons2/perfomer/success.svg"
+            alt="success"
+          />
+          <span class="font-bold text-[#202020] text-2xl"
+            >How to become a successful performer?</span
+          >
+        </h2>
+        <div class="grid grid-cols-2 gap-y-7 gap-x-3">
+          <div class="flex items-start gap-3 max-w-[471px]">
+            <img
+              class="w-10 h-10"
+              src="./img/icons2/perfomer/tasks.svg"
+              alt="tasks"
+            />
+            <div class="flex flex-col gap-1.5">
+              <h4 class="font-bold text-base text-[#202020]">Complete tasks</h4>
+              <p class="font-medium text-sm leading-[18px] text-[#575E6A]">
+                Tasks are requests from customers, which by completing you
+                increase your rating.
+              </p>
             </div>
+          </div>
+          <div class="flex items-start gap-3 max-w-[471px]">
+            <img
+              class="w-10 h-10"
+              src="./img/icons2/perfomer/quality.svg"
+              alt="tasks"
+            />
+            <div class="flex flex-col gap-1.5">
+              <h4 class="font-bold text-base text-[#202020]">
+                Quality above all!
+              </h4>
+              <p class="font-medium text-sm leading-[18px] text-[#575E6A]">
+                Only those performers who perform each task efficiently make it
+                to the first positions in the rating. If you chase profit at the
+                expense of quality, you are unlikely to see yourself at the top.
+              </p>
+            </div>
+          </div>
+          <div class="flex items-start gap-3 max-w-[471px]">
+            <img
+              class="w-10 h-10"
+              src="./img/icons2/perfomer/dontTake.svg"
+              alt="tasks"
+            />
+            <div class="flex flex-col gap-1.5">
+              <h4 class="font-bold text-base text-[#202020]">
+                Don't take on work you can't do
+              </h4>
+              <p class="font-medium text-sm leading-[18px] text-[#575E6A]">
+                At best, you will have to refuse this job, which will reduce
+                your rating. At worst, you will earn a bad review and ruin your
+                reputation.
+              </p>
+            </div>
+          </div>
+          <div class="flex items-start gap-3 max-w-[471px]">
+            <img
+              class="w-10 h-10"
+              src="./img/icons2/perfomer/brPolite.svg"
+              alt="tasks"
+            />
+            <div class="flex flex-col gap-1.5">
+              <h4 class="font-bold text-base text-[#202020]">Be polite</h4>
+              <p class="font-medium text-sm leading-[18px] text-[#575E6A]">
+                Even if you think that the customer is wrong, do not lose your
+                composure. Politeness is the tactic of a competent specialist,
+                but rudeness will only earn you a negative review or even a ban.
+              </p>
+            </div>
+          </div>
         </div>
+      </div>
     </section>
     <!-- =-=-=-=-=-=-=-=-=-=-=-= PERFOMER SECTION END =-===-=-=-=-=-=-=-=-==-=-=-= -->
     <!-- ==== GET STARTED NOW ==== -->
     <section class="md:pb-14 pb-9">
-        <div class="max-w-[1080px] mx-auto px-4">
-            <div class="border cursor-pointer DDB md:px-6 md:py-4 p-4 rounded-2xl md:mb-2.5 mb-2">
-                <button class="flex items-center justify-between w-full">
-                    <div class="flex items-center justify-start gap-2">
-                        <img class="w-10 h-10" src="./img/icons2/other/dollar.svg" alt="svg">
-                        <span class="font-bold md:text-2xl text-base text-[#202020]">
-                            How to withdraw funds?
-                        </span>
-                    </div>
-                    <img class="DDA w-6" src="./img/icons2/howToStart/dropArrow.svg" alt="svg">
-                </button>
-                <p class="h-0 overflow-hidden DDT text-[#575E6A] font-medium text-sm">
-                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eos in dolore modi delectus nostrum
-                    accusamus officiis quas hic quos laborum harum vero, quia non! Recusandae cumque provident natus
-                    quidem tempore!
-                </p>
+      <div class="max-w-[1080px] mx-auto px-4">
+        <div
+          class="border cursor-pointer DDB md:px-6 md:py-4 p-4 rounded-2xl md:mb-2.5 mb-2"
+        >
+          <button class="flex items-center justify-between w-full">
+            <div class="flex items-center justify-start gap-2">
+              <img
+                class="w-10 h-10"
+                src="./img/icons2/other/dollar.svg"
+                alt="svg"
+              />
+              <span class="font-bold md:text-2xl text-base text-[#202020]">
+                How to withdraw funds?
+              </span>
             </div>
-            <div class="border cursor-pointer DDB md:p-6 p-4 rounded-2xl md:mb-7 mb-6">
-                <button class="flex items-center justify-between w-full">
-                    <div class="flex items-center justify-start gap-2">
-                        <img class="w-10 h-10" src="./img/icons2/other/contact.svg" alt="svg">
-                        <span class="font-bold md:text-2xl text-base text-[#202020]">
-                            How to withdraw funds?
-                        </span>
-                    </div>
-                    <img class="DDA w-6" src="./img/icons2/howToStart/dropArrow.svg" alt="svg">
-                </button>
-                <p class="h-0 overflow-hidden DDT text-[#575E6A] font-medium text-sm">
-                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eos in dolore modi delectus nostrum
-                    accusamus officiis quas hic quos laborum harum vero, quia non! Recusandae cumque provident natus
-                    quidem tempore!
-                </p>
-            </div>
-            <div class="md:py-5 flex flex-col gap-6 pt-9 pb-5 pl-6 pr-7 rounded-3xl"
-                style="background-image: url(./img/info-for-per/other/cta.png); background-position: center; background-size: cover;">
-                <h3
-                    class="font-medium text-[32px] max-w-[172px] md:max-w-none leading-[38px] text-[#202020] md:text-center">
-                    Get started right now!</h3>
-                <a href="#"
-                    class="bg-[#202020] hover:opacity-90 transition-all py-[14px] md:px-6 text-white flex justify-center items-center rounded-xl md:max-w-[183px] md:mx-auto">
-                    Go to registration
-                </a>
-            </div>
+            <img
+              class="DDA w-6"
+              src="./img/icons2/howToStart/dropArrow.svg"
+              alt="svg"
+            />
+          </button>
+          <p class="h-0 overflow-hidden DDT text-[#575E6A] font-medium text-sm">
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eos in
+            dolore modi delectus nostrum accusamus officiis quas hic quos
+            laborum harum vero, quia non! Recusandae cumque provident natus
+            quidem tempore!
+          </p>
         </div>
+        <div
+          class="border cursor-pointer DDB md:p-6 p-4 rounded-2xl md:mb-7 mb-6"
+        >
+          <button class="flex items-center justify-between w-full">
+            <div class="flex items-center justify-start gap-2">
+              <img
+                class="w-10 h-10"
+                src="./img/icons2/other/contact.svg"
+                alt="svg"
+              />
+              <span class="font-bold md:text-2xl text-base text-[#202020]">
+                How to withdraw funds?
+              </span>
+            </div>
+            <img
+              class="DDA w-6"
+              src="./img/icons2/howToStart/dropArrow.svg"
+              alt="svg"
+            />
+          </button>
+          <p class="h-0 overflow-hidden DDT text-[#575E6A] font-medium text-sm">
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eos in
+            dolore modi delectus nostrum accusamus officiis quas hic quos
+            laborum harum vero, quia non! Recusandae cumque provident natus
+            quidem tempore!
+          </p>
+        </div>
+        <div
+          class="md:py-5 flex flex-col gap-6 pt-9 pb-5 pl-6 pr-7 rounded-3xl"
+          style="
+            background-image: url(./img/info-for-per/other/cta.png);
+            background-position: center;
+            background-size: cover;
+          "
+        >
+          <h3
+            class="font-medium text-[32px] max-w-[172px] md:max-w-none leading-[38px] text-[#202020] md:text-center"
+          >
+            Get started right now!
+          </h3>
+          <a
+            href="#"
+            class="bg-[#202020] hover:opacity-90 transition-all py-[14px] md:px-6 text-white flex justify-center items-center rounded-xl md:max-w-[183px] md:mx-auto"
+          >
+            Go to registration
+          </a>
+        </div>
+      </div>
     </section>
     <!-- ==== GET STARTED NOW ==== -->
 
-
     <footer class="bg-[#202020] lg:pt-[125px] pt-12 lg:pb-[70px] pb-[60px]">
-        <div class="max-w-[1320px] mx-auto px-5 md:block hidden">
-            <div class="lg:flex md:grid grid-cols-2 gap-20 items-center justify-between mb-16">
-                <ul>
-                    <p class="text-white font-bold text-lg mb-6">About Monday</p>
-                    <li>
-                        <a class="text-[#BCBCBC] hover:underline hover:opacity-70 transition-all font-medium text-base mb-2.5"
-                            href="#">About the project
-                        </a>
-                    </li>
-                    <li>
-                        <a class="text-[#BCBCBC] hover:underline hover:opacity-70 transition-all font-medium text-base mb-2.5"
-                            href="#">Agency contract
-                        </a>
-                    </li>
-                    <li>
-                        <a class="text-[#BCBCBC] hover:underline hover:opacity-70 transition-all font-medium text-base"
-                            href="#">Privacy Policy
-                        </a>
-                    </li>
-                </ul>
-                <ul>
-                    <p class="text-white font-bold text-lg mb-6">Help</p>
-                    <li>
-                        <a class="text-[#BCBCBC] hover:underline hover:opacity-70 transition-all font-medium text-base mb-2.5"
-                            href="#">Service rules
-                        </a>
-                    </li>
-                    <li>
-                        <a class="text-[#BCBCBC] hover:underline hover:opacity-70 transition-all font-medium text-base mb-2.5"
-                            href="#">Question answer
-                        </a>
-                    </li>
-                    <li>
-                        <a class="text-[#BCBCBC] hover:underline hover:opacity-70 transition-all font-medium text-base"
-                            href="#">Support
-                        </a>
-                    </li>
-                </ul>
-                <ul>
-                    <p class="text-white font-bold text-lg mb-6">Useful</p>
-                    <li>
-                        <a class="text-[#BCBCBC] hover:underline hover:opacity-70 transition-all font-medium text-base mb-2.5"
-                            href="#">For customers
-                        </a>
-                    </li>
-                    <li>
-                        <a class="text-[#BCBCBC] hover:underline hover:opacity-70 transition-all font-medium text-base mb-2.5"
-                            href="#">For performers
-                        </a>
-                    </li>
-                    <li>
-                        <a class="text-[#BCBCBC] hover:underline hover:opacity-70 transition-all font-medium text-base"
-                            href="#">
-                            PRO account
-                        </a>
-                    </li>
-                </ul>
-                <ul>
-                    <p class="text-white font-bold text-lg mb-6">Community</p>
-                    <li>
-                        <a class="text-[#BCBCBC] hover:underline hover:opacity-70 transition-all font-medium text-base mb-2.5"
-                            href="#">Blog Monday
-                        </a>
-                    </li>
-                    <li>
-                        <a class="text-[#BCBCBC] hover:underline hover:opacity-70 transition-all font-medium text-base mb-2.5"
-                            href="#">Affiliate program
-                        </a>
-                    </li>
-                    <li>
-                        <a class="text-[#BCBCBC] hover:underline hover:opacity-70 transition-all font-medium text-base"
-                            href="#">Verification
-                        </a>
-                    </li>
-                </ul>
-            </div>
-            <div class="justify-end flex gap-4 items-center">
-                <a class="hover:bg-white transition-all hover:text-[#202020] text-[#A6A6A6] font-medium inline-flex text-base py-2.5 px-10 border rounded-xl"
-                    href="#">Sign In
-                </a>
-                <a class="hover:bg-white transition-all hover:text-[#202020] text-white items-center gap-2.5 font-medium inline-flex text-base py-2.5 px-10 border rounded-xl"
-                    href="#">
-                    Join
-                    <span>
-                        <svg width="17" height="16" viewBox="0 0 17 16" fill="none" xmlns="http://www.w3.org/2000/svg">
-                            <path
-                                d="M11.1654 14V12.6667C11.1654 11.9594 10.8844 11.2811 10.3843 10.781C9.88422 10.281 9.20594 10 8.4987 10H4.4987C3.79145 10 3.11318 10.281 2.61308 10.781C2.11298 11.2811 1.83203 11.9594 1.83203 12.6667V14"
-                                stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" />
-                            <path
-                                d="M6.4987 7.33333C7.97146 7.33333 9.16536 6.13943 9.16536 4.66667C9.16536 3.19391 7.97146 2 6.4987 2C5.02594 2 3.83203 3.19391 3.83203 4.66667C3.83203 6.13943 5.02594 7.33333 6.4987 7.33333Z"
-                                stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" />
-                            <path d="M13.166 5.33203V9.33203" stroke="currentColor" stroke-linecap="round"
-                                stroke-linejoin="round" />
-                            <path d="M15.166 7.33203H11.166" stroke="currentColor" stroke-linecap="round"
-                                stroke-linejoin="round" />
-                        </svg>
-                    </span>
-                </a>
-            </div>
+      <div class="max-w-[1320px] mx-auto px-5 md:block hidden">
+        <div
+          class="lg:flex md:grid grid-cols-2 gap-20 items-center justify-between mb-16"
+        >
+          <ul>
+            <p class="text-white font-bold text-lg mb-6">About Monday</p>
+            <li>
+              <a
+                class="text-[#BCBCBC] hover:underline hover:opacity-70 transition-all font-medium text-base mb-2.5"
+                href="#"
+                >About the project
+              </a>
+            </li>
+            <li>
+              <a
+                class="text-[#BCBCBC] hover:underline hover:opacity-70 transition-all font-medium text-base mb-2.5"
+                href="#"
+                >Agency contract
+              </a>
+            </li>
+            <li>
+              <a
+                class="text-[#BCBCBC] hover:underline hover:opacity-70 transition-all font-medium text-base"
+                href="#"
+                >Privacy Policy
+              </a>
+            </li>
+          </ul>
+          <ul>
+            <p class="text-white font-bold text-lg mb-6">Help</p>
+            <li>
+              <a
+                class="text-[#BCBCBC] hover:underline hover:opacity-70 transition-all font-medium text-base mb-2.5"
+                href="#"
+                >Service rules
+              </a>
+            </li>
+            <li>
+              <a
+                class="text-[#BCBCBC] hover:underline hover:opacity-70 transition-all font-medium text-base mb-2.5"
+                href="#"
+                >Question answer
+              </a>
+            </li>
+            <li>
+              <a
+                class="text-[#BCBCBC] hover:underline hover:opacity-70 transition-all font-medium text-base"
+                href="#"
+                >Support
+              </a>
+            </li>
+          </ul>
+          <ul>
+            <p class="text-white font-bold text-lg mb-6">Useful</p>
+            <li>
+              <a
+                class="text-[#BCBCBC] hover:underline hover:opacity-70 transition-all font-medium text-base mb-2.5"
+                href="#"
+                >For customers
+              </a>
+            </li>
+            <li>
+              <a
+                class="text-[#BCBCBC] hover:underline hover:opacity-70 transition-all font-medium text-base mb-2.5"
+                href="#"
+                >For performers
+              </a>
+            </li>
+            <li>
+              <a
+                class="text-[#BCBCBC] hover:underline hover:opacity-70 transition-all font-medium text-base"
+                href="#"
+              >
+                PRO account
+              </a>
+            </li>
+          </ul>
+          <ul>
+            <p class="text-white font-bold text-lg mb-6">Community</p>
+            <li>
+              <a
+                class="text-[#BCBCBC] hover:underline hover:opacity-70 transition-all font-medium text-base mb-2.5"
+                href="#"
+                >Blog Monday
+              </a>
+            </li>
+            <li>
+              <a
+                class="text-[#BCBCBC] hover:underline hover:opacity-70 transition-all font-medium text-base mb-2.5"
+                href="#"
+                >Affiliate program
+              </a>
+            </li>
+            <li>
+              <a
+                class="text-[#BCBCBC] hover:underline hover:opacity-70 transition-all font-medium text-base"
+                href="#"
+                >Verification
+              </a>
+            </li>
+          </ul>
         </div>
-        <div class="md:hidden block">
-            <div class="w-full px-3">
-                <ul class="flex flex-col gap-6 mb-12">
-                    <li>
-                        <p
-                            class="btn_footer text-white cursor-pointer font-bold text-lg flex items-center justify-between">
-                            About Monday
-                            <span class="footer_rotate transition-height">
-                                <svg width="14" height="8" viewBox="0 0 14 8" fill="none"
-                                    xmlns="http://www.w3.org/2000/svg">
-                                    <path d="M1 1L7 7L13 1" stroke="currentColor" stroke-width="2"
-                                        stroke-linecap="round" stroke-linejoin="round" />
-                                </svg>
-                            </span>
-                        </p>
-                        <ul
-                            class="footer_info flex flex-col gap-2 pt-5 text-center h-0 overflow-hidden transition-height">
-                            <li>
-                                <a class="text-white font-medium text-base hover:opacity-70 transition-all"
-                                    href="#">About the project
-                                </a>
-                            </li>
-                            <li>
-                                <a class="text-white font-medium text-base hover:opacity-70 transition-all"
-                                    href="#">Agency contract
-                                </a>
-                            </li>
-                            <li>
-                                <a class="text-white font-medium text-base hover:opacity-70 transition-all"
-                                    href="#">Privacy Policy
-                                </a>
-                            </li>
-                        </ul>
-                    </li>
-                    <li>
-                        <p
-                            class="btn_footer text-white cursor-pointer font-bold text-lg flex items-center justify-between">
-                            Help
-                            <span class="footer_rotate transition-height">
-                                <svg width="14" height="8" viewBox="0 0 14 8" fill="none"
-                                    xmlns="http://www.w3.org/2000/svg">
-                                    <path d="M1 1L7 7L13 1" stroke="currentColor" stroke-width="2"
-                                        stroke-linecap="round" stroke-linejoin="round" />
-                                </svg>
-                            </span>
-                        </p>
-                        <ul
-                            class="footer_info flex flex-col gap-2 pt-5 text-center h-0 overflow-hidden transition-height">
-                            <li>
-                                <a class="text-white font-medium text-base hover:opacity-70 transition-all"
-                                    href="#">Service rules
-                                </a>
-                            </li>
-                            <li>
-                                <a class="text-white font-medium text-base hover:opacity-70 transition-all"
-                                    href="#">Question answer
-                                </a>
-                            </li>
-                            <li>
-                                <a class="text-white font-medium text-base hover:opacity-70 transition-all"
-                                    href="#">Support
-                                </a>
-                            </li>
-                        </ul>
-                    </li>
-                    <li>
-                        <p
-                            class="btn_footer text-white cursor-pointer font-bold text-lg flex items-center justify-between">
-                            Useful
-                            <span class="footer_rotate transition-height">
-                                <svg width="14" height="8" viewBox="0 0 14 8" fill="none"
-                                    xmlns="http://www.w3.org/2000/svg">
-                                    <path d="M1 1L7 7L13 1" stroke="currentColor" stroke-width="2"
-                                        stroke-linecap="round" stroke-linejoin="round" />
-                                </svg>
-                            </span>
-                        </p>
-                        <ul
-                            class="footer_info flex flex-col gap-2 pt-5 text-center h-0 overflow-hidden transition-height">
-                            <li>
-                                <a class="text-white font-medium text-base hover:opacity-70 transition-all" href="#">For
-                                    customers
-                                </a>
-                            </li>
-                            <li>
-                                <a class="text-white font-medium text-base hover:opacity-70 transition-all" href="#">For
-                                    performers
-                                </a>
-                            </li>
-                            <li>
-                                <a class="text-white font-medium text-base hover:opacity-70 transition-all" href="#">PRO
-                                    account
-                                </a>
-                            </li>
-                        </ul>
-                    </li>
-                    <li>
-                        <p
-                            class="btn_footer text-white cursor-pointer font-bold text-lg flex items-center justify-between">
-                            Community
-                            <span class="footer_rotate transition-height">
-                                <svg width="14" height="8" viewBox="0 0 14 8" fill="none"
-                                    xmlns="http://www.w3.org/2000/svg">
-                                    <path d="M1 1L7 7L13 1" stroke="currentColor" stroke-width="2"
-                                        stroke-linecap="round" stroke-linejoin="round" />
-                                </svg>
-                            </span>
-                        </p>
-                        <ul
-                            class="footer_info flex flex-col gap-2 pt-5 text-center h-0 overflow-hidden transition-height">
-                            <li>
-                                <a class="text-white font-medium text-base hover:opacity-70 transition-all"
-                                    href="#">Blog Monday
-                                </a>
-                            </li>
-                            <li>
-                                <a class="text-white font-medium text-base hover:opacity-70 transition-all"
-                                    href="#">Affiliate program
-                                </a>
-                            </li>
-                            <li>
-                                <a class="text-white font-medium text-base hover:opacity-70 transition-all"
-                                    href="#">Verification
-                                </a>
-                            </li>
-                        </ul>
-                    </li>
-                </ul>
-            </div>
-            <div class="flex justify-center gap-4 items-center">
-                <a class="hover:bg-white transition-all hover:text-[#202020] text-[#A6A6A6] font-medium inline-flex text-base py-2.5 px-10 border rounded-xl"
-                    href="#">Sign In
-                </a>
-                <a class="hover:bg-white transition-all hover:text-[#202020] text-white items-center gap-2.5 font-medium inline-flex text-base py-2.5 px-10 border rounded-xl"
-                    href="#">
-                    Join
-                    <span>
-                        <svg width="17" height="16" viewBox="0 0 17 16" fill="none" xmlns="http://www.w3.org/2000/svg">
-                            <path
-                                d="M11.1654 14V12.6667C11.1654 11.9594 10.8844 11.2811 10.3843 10.781C9.88422 10.281 9.20594 10 8.4987 10H4.4987C3.79145 10 3.11318 10.281 2.61308 10.781C2.11298 11.2811 1.83203 11.9594 1.83203 12.6667V14"
-                                stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" />
-                            <path
-                                d="M6.4987 7.33333C7.97146 7.33333 9.16536 6.13943 9.16536 4.66667C9.16536 3.19391 7.97146 2 6.4987 2C5.02594 2 3.83203 3.19391 3.83203 4.66667C3.83203 6.13943 5.02594 7.33333 6.4987 7.33333Z"
-                                stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" />
-                            <path d="M13.166 5.33203V9.33203" stroke="currentColor" stroke-linecap="round"
-                                stroke-linejoin="round" />
-                            <path d="M15.166 7.33203H11.166" stroke="currentColor" stroke-linecap="round"
-                                stroke-linejoin="round" />
-                        </svg>
-                    </span>
-                </a>
-            </div>
+        <div class="justify-end flex gap-4 items-center">
+          <a
+            class="hover:bg-white transition-all hover:text-[#202020] text-[#A6A6A6] font-medium inline-flex text-base py-2.5 px-10 border rounded-xl"
+            href="#"
+            >Sign In
+          </a>
+          <a
+            class="hover:bg-white transition-all hover:text-[#202020] text-white items-center gap-2.5 font-medium inline-flex text-base py-2.5 px-10 border rounded-xl"
+            href="#"
+          >
+            Join
+            <span>
+              <svg
+                width="17"
+                height="16"
+                viewBox="0 0 17 16"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M11.1654 14V12.6667C11.1654 11.9594 10.8844 11.2811 10.3843 10.781C9.88422 10.281 9.20594 10 8.4987 10H4.4987C3.79145 10 3.11318 10.281 2.61308 10.781C2.11298 11.2811 1.83203 11.9594 1.83203 12.6667V14"
+                  stroke="currentColor"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                />
+                <path
+                  d="M6.4987 7.33333C7.97146 7.33333 9.16536 6.13943 9.16536 4.66667C9.16536 3.19391 7.97146 2 6.4987 2C5.02594 2 3.83203 3.19391 3.83203 4.66667C3.83203 6.13943 5.02594 7.33333 6.4987 7.33333Z"
+                  stroke="currentColor"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                />
+                <path
+                  d="M13.166 5.33203V9.33203"
+                  stroke="currentColor"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                />
+                <path
+                  d="M15.166 7.33203H11.166"
+                  stroke="currentColor"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                />
+              </svg>
+            </span>
+          </a>
         </div>
+      </div>
+      <div class="md:hidden block">
+        <div class="w-full px-3">
+          <ul class="flex flex-col gap-6 mb-12">
+            <li>
+              <p
+                class="btn_footer text-white cursor-pointer font-bold text-lg flex items-center justify-between"
+              >
+                About Monday
+                <span class="footer_rotate transition-height">
+                  <svg
+                    width="14"
+                    height="8"
+                    viewBox="0 0 14 8"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M1 1L7 7L13 1"
+                      stroke="currentColor"
+                      stroke-width="2"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    />
+                  </svg>
+                </span>
+              </p>
+              <ul
+                class="footer_info flex flex-col gap-2 pt-5 text-center h-0 overflow-hidden transition-height"
+              >
+                <li>
+                  <a
+                    class="text-white font-medium text-base hover:opacity-70 transition-all"
+                    href="#"
+                    >About the project
+                  </a>
+                </li>
+                <li>
+                  <a
+                    class="text-white font-medium text-base hover:opacity-70 transition-all"
+                    href="#"
+                    >Agency contract
+                  </a>
+                </li>
+                <li>
+                  <a
+                    class="text-white font-medium text-base hover:opacity-70 transition-all"
+                    href="#"
+                    >Privacy Policy
+                  </a>
+                </li>
+              </ul>
+            </li>
+            <li>
+              <p
+                class="btn_footer text-white cursor-pointer font-bold text-lg flex items-center justify-between"
+              >
+                Help
+                <span class="footer_rotate transition-height">
+                  <svg
+                    width="14"
+                    height="8"
+                    viewBox="0 0 14 8"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M1 1L7 7L13 1"
+                      stroke="currentColor"
+                      stroke-width="2"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    />
+                  </svg>
+                </span>
+              </p>
+              <ul
+                class="footer_info flex flex-col gap-2 pt-5 text-center h-0 overflow-hidden transition-height"
+              >
+                <li>
+                  <a
+                    class="text-white font-medium text-base hover:opacity-70 transition-all"
+                    href="#"
+                    >Service rules
+                  </a>
+                </li>
+                <li>
+                  <a
+                    class="text-white font-medium text-base hover:opacity-70 transition-all"
+                    href="#"
+                    >Question answer
+                  </a>
+                </li>
+                <li>
+                  <a
+                    class="text-white font-medium text-base hover:opacity-70 transition-all"
+                    href="#"
+                    >Support
+                  </a>
+                </li>
+              </ul>
+            </li>
+            <li>
+              <p
+                class="btn_footer text-white cursor-pointer font-bold text-lg flex items-center justify-between"
+              >
+                Useful
+                <span class="footer_rotate transition-height">
+                  <svg
+                    width="14"
+                    height="8"
+                    viewBox="0 0 14 8"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M1 1L7 7L13 1"
+                      stroke="currentColor"
+                      stroke-width="2"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    />
+                  </svg>
+                </span>
+              </p>
+              <ul
+                class="footer_info flex flex-col gap-2 pt-5 text-center h-0 overflow-hidden transition-height"
+              >
+                <li>
+                  <a
+                    class="text-white font-medium text-base hover:opacity-70 transition-all"
+                    href="#"
+                    >For customers
+                  </a>
+                </li>
+                <li>
+                  <a
+                    class="text-white font-medium text-base hover:opacity-70 transition-all"
+                    href="#"
+                    >For performers
+                  </a>
+                </li>
+                <li>
+                  <a
+                    class="text-white font-medium text-base hover:opacity-70 transition-all"
+                    href="#"
+                    >PRO account
+                  </a>
+                </li>
+              </ul>
+            </li>
+            <li>
+              <p
+                class="btn_footer text-white cursor-pointer font-bold text-lg flex items-center justify-between"
+              >
+                Community
+                <span class="footer_rotate transition-height">
+                  <svg
+                    width="14"
+                    height="8"
+                    viewBox="0 0 14 8"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M1 1L7 7L13 1"
+                      stroke="currentColor"
+                      stroke-width="2"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    />
+                  </svg>
+                </span>
+              </p>
+              <ul
+                class="footer_info flex flex-col gap-2 pt-5 text-center h-0 overflow-hidden transition-height"
+              >
+                <li>
+                  <a
+                    class="text-white font-medium text-base hover:opacity-70 transition-all"
+                    href="#"
+                    >Blog Monday
+                  </a>
+                </li>
+                <li>
+                  <a
+                    class="text-white font-medium text-base hover:opacity-70 transition-all"
+                    href="#"
+                    >Affiliate program
+                  </a>
+                </li>
+                <li>
+                  <a
+                    class="text-white font-medium text-base hover:opacity-70 transition-all"
+                    href="#"
+                    >Verification
+                  </a>
+                </li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+        <div class="flex justify-center gap-4 items-center">
+          <a
+            class="hover:bg-white transition-all hover:text-[#202020] text-[#A6A6A6] font-medium inline-flex text-base py-2.5 px-10 border rounded-xl"
+            href="#"
+            >Sign In
+          </a>
+          <a
+            class="hover:bg-white transition-all hover:text-[#202020] text-white items-center gap-2.5 font-medium inline-flex text-base py-2.5 px-10 border rounded-xl"
+            href="#"
+          >
+            Join
+            <span>
+              <svg
+                width="17"
+                height="16"
+                viewBox="0 0 17 16"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M11.1654 14V12.6667C11.1654 11.9594 10.8844 11.2811 10.3843 10.781C9.88422 10.281 9.20594 10 8.4987 10H4.4987C3.79145 10 3.11318 10.281 2.61308 10.781C2.11298 11.2811 1.83203 11.9594 1.83203 12.6667V14"
+                  stroke="currentColor"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                />
+                <path
+                  d="M6.4987 7.33333C7.97146 7.33333 9.16536 6.13943 9.16536 4.66667C9.16536 3.19391 7.97146 2 6.4987 2C5.02594 2 3.83203 3.19391 3.83203 4.66667C3.83203 6.13943 5.02594 7.33333 6.4987 7.33333Z"
+                  stroke="currentColor"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                />
+                <path
+                  d="M13.166 5.33203V9.33203"
+                  stroke="currentColor"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                />
+                <path
+                  d="M15.166 7.33203H11.166"
+                  stroke="currentColor"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                />
+              </svg>
+            </span>
+          </a>
+        </div>
+      </div>
     </footer>
 
     <script src="./assets/js/app.js"></script>
 
     <script>
-        document.querySelectorAll('.btn_footer').forEach((btn) => {
-            btn.addEventListener('click', () => {
-                const infoElement = btn.nextElementSibling;
-                const footerRotate = btn.querySelector('.footer_rotate');
+      document.querySelectorAll(".btn_footer").forEach((btn) => {
+        btn.addEventListener("click", () => {
+          const infoElement = btn.nextElementSibling;
+          const footerRotate = btn.querySelector(".footer_rotate");
 
-                if (infoElement.classList.contains('h-0')) {
-                    infoElement.classList.remove('h-0');
-                    infoElement.style.height = `${infoElement.scrollHeight}px`;
-                    footerRotate.classList.add('rotate-180');
-                } else {
-                    infoElement.style.height = '0';
-                    infoElement.addEventListener('transitionend', () => {
-                        infoElement.classList.add('h-0');
-                        footerRotate.classList.remove('rotate-180');
-                    }, { once: true });
-                }
-            });
+          if (infoElement.classList.contains("h-0")) {
+            infoElement.classList.remove("h-0");
+            infoElement.style.height = `${infoElement.scrollHeight}px`;
+            footerRotate.classList.add("rotate-180");
+          } else {
+            infoElement.style.height = "0";
+            infoElement.addEventListener(
+              "transitionend",
+              () => {
+                infoElement.classList.add("h-0");
+                footerRotate.classList.remove("rotate-180");
+              },
+              { once: true }
+            );
+          }
         });
+      });
     </script>
     <script>
-        let DDB = document.querySelectorAll('.DDB')
-        let DDA = document.querySelectorAll('.DDA')
-        let DDT = document.querySelectorAll('.DDT')
+      let DDB = document.querySelectorAll(".DDB");
+      let DDA = document.querySelectorAll(".DDA");
+      let DDT = document.querySelectorAll(".DDT");
 
-        DDA.forEach(response => {
-            response.classList.add('duration-300')
-        })
+      DDA.forEach((response) => {
+        response.classList.add("duration-300");
+      });
 
-        DDT.forEach(response => {
-            response.classList.add('duration-300')
-        })
+      DDT.forEach((response) => {
+        response.classList.add("duration-300");
+      });
 
-        DDB.forEach((item, index) => {
-            item.addEventListener('click', () => {
-                DDA[index].classList.toggle('rotate-180')
-                DDT[index].classList.toggle('pt-4')
-                DDT[index].classList.toggle('h-min')
-            })
-        })
+      DDB.forEach((item, index) => {
+        item.addEventListener("click", () => {
+          DDA[index].classList.toggle("rotate-180");
+          DDT[index].classList.toggle("pt-4");
+          DDT[index].classList.toggle("h-min");
+        });
+      });
     </script>
-</body>
-
+  </body>
 </html>
