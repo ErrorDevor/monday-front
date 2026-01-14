@@ -21,9 +21,7 @@
   <link href="/assets/css/index.0fcabdd2790f60f408b7.css" rel="stylesheet">
 </head>
 
-<body class=" bg-white-f9 ">
-
-
+<body class="bg-white-f9 ">
   <script>
     document.addEventListener('DOMContentLoaded', function () {
       const mobileButton = document.getElementById('mobile_button');
@@ -47,13 +45,276 @@
     });
   </script>
 
-  <div id="mobile_menu"
-    class="bg-white overflow-scroll lg:hidden block pt-2 px-3 -left-full fixed z-[9999] w-full top-28 transition-all duration-300 max-md:top-[5.625rem] max-h-[calc(100lvh-7rem)] max-md:max-h-[calc(100lvh-5.625rem)] overflow-x-hidden overflow-y-auto">
-    <ul class="flex flex-col gap-2 pb-4 border-b mb-4">
-      <a class="text-[#202020] font-bold text-sm text-center hover:bg-[#202020] hover:text-white transition-all py-3 border border-[#202020] rounded-xl w-full"
-        href="#">Sign
-        in</a>
-      <li><a class="text-[#9CA5B3] font-bold text-xs flex items-center gap-2.5 py-3 px-4 bg-[#FAFAFC] rounded-full"
+  <div id="mobile_menu" class="bg-white overflow-scroll lg:hidden block pt-2 px-3 -left-full fixed z-[9999] w-full top-28 transition-all duration-300 max-md:top-[5.625rem] max-h-[calc(100lvh-7rem)] max-md:max-h-[calc(100lvh-5.625rem)] overflow-x-hidden overflow-y-auto">
+    <div class="user-box flex pt-3 pb-5">
+      <a class="text-white font-bold text-md text-center bg-[#202020] py-3 rounded-xl w-full hidden"
+        href="#">Sign in</a>
+
+      <div class="flex-col p-3 w-full h-fit rounded-[14px] bg-white" style="box-shadow: 5px 10px 40px 10px #0000000D;">
+        <div id="main-user" class="flex w-full items-center justify-between">
+          <div class="flex items-center gap-1">
+            <div class="relative w-[62px] h-[62px]">
+              <img class="w-[62px] h-[62px] rounded-full object-cover" src="./img/avatar.png" alt="Avatar" />
+              <div class="w-[10px] h-[10px] bg-[#62F94D] border border-white rounded-full absolute right-1 bottom-1"></div>
+            </div>
+
+            <div class="flex-col">
+              <div class="flex items-center gap-1">
+                <h5 class="text-[#202020] font-bold text-md">James Kilroy</h5>
+                <span>
+                  <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M13.3337 8.66688C13.3337 12.0002 11.0003 13.6669 8.22699 14.6336C8.08177 14.6828 7.92402 14.6804 7.78033 14.6269C5.00033 13.6669 2.66699 12.0002 2.66699 8.66688V4.00022C2.66699 3.82341 2.73723 3.65384 2.86225 3.52881C2.98728 3.40379 3.15685 3.33355 3.33366 3.33355C4.66699 3.33355 6.33366 2.53355 7.49366 1.52022C7.6349 1.39955 7.81456 1.33325 8.00033 1.33325C8.18609 1.33325 8.36576 1.39955 8.50699 1.52022C9.67366 2.54022 11.3337 3.33355 12.667 3.33355C12.8438 3.33355 13.0134 3.40379 13.1384 3.52881C13.2634 3.65384 13.3337 3.82341 13.3337 4.00022V8.66688Z" stroke="#4790FF" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                    <path d="M6 7.99996L7.33333 9.33329L10 6.66663" stroke="#4790FF" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                  </svg>
+                </span>
+              </div>
+              <p class="text-[#9CA5B3] font-medium text-sm">Seller</p>
+            </div>
+          </div>
+          
+          <button id="hide-button" class="flex transition-transform">
+            <svg xmlns="http://www.w3.org/2000/svg" width="25" height="26" viewBox="0 0 25 26" fill="none">
+              <path d="M8 11.5L12.5 15.5L17 11.5" stroke="#9CA5B3" stroke-width="2" stroke-linecap="round"
+                stroke-linejoin="round" />
+            </svg>
+          </button>
+        </div>
+
+        <div id="collapsible-content">
+          <div class="toggle flex items-center justify-between rounded-[100px] w-full h-[47px] bg-[#FAFAFC] p-1 mt-3">
+            <div id="client" class="toggle-item active text-nowrap flex items-center gap-[5px] px-[34px] py-[10px] rounded-[100px] text-[#B7C3D6] font-bold text-sm transition-all duration-300 cursor-pointer">
+              <span class="icon">
+                <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M5.33338 14.6667H10.6667C13.3467 14.6667 13.8267 13.5933 13.9667 12.2867L14.4667 6.95333C14.6467 5.32667 14.18 4 11.3334 4H4.66671C1.82005 4 1.35338 5.32667 1.53338 6.95333L2.03338 12.2867C2.17338 13.5933 2.65338 14.6667 5.33338 14.6667Z" stroke="currentColor" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+                  <path d="M5.33325 4.00004V3.46671C5.33325 2.28671 5.33325 1.33337 7.46659 1.33337H8.53325C10.6666 1.33337 10.6666 2.28671 10.6666 3.46671V4.00004" stroke="currentColor" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+                  <path d="M9.33341 8.66667V9.33333C9.33341 9.34 9.33341 9.34 9.33341 9.34667C9.33341 10.0733 9.32675 10.6667 8.00008 10.6667C6.68008 10.6667 6.66675 10.08 6.66675 9.35333V8.66667C6.66675 8 6.66675 8 7.33341 8H8.66675C9.33341 8 9.33341 8 9.33341 8.66667Z" stroke="currentColor" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+                  <path d="M14.4333 7.33337C12.8933 8.45337 11.1333 9.12004 9.33325 9.34671" stroke="currentColor" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+                  <path d="M1.74658 7.51331C3.24658 8.53997 4.93992 9.15997 6.66658 9.35331" stroke="currentColor" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+                </svg>
+              </span>I am a client
+            </div>
+
+            <div id="seller" class="toggle-item text-nowrap flex items-center gap-[5px] px-[34px] py-[10px] rounded-[100px] text-[#B7C3D6] font-bold text-sm transition-all duration-300 cursor-pointer">
+              <span class="icon">
+                <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M14.5399 2.62671C13.5133 5.18671 10.9399 8.66671 8.7866 10.3934L7.47327 11.4467C7.3066 11.5667 7.13993 11.6734 6.95327 11.7467C6.95327 11.6267 6.9466 11.4934 6.9266 11.3667C6.85327 10.8067 6.59993 10.2867 6.15326 9.84004C5.69993 9.38671 5.1466 9.12004 4.57993 9.04671C4.4466 9.04004 4.31326 9.02671 4.17993 9.04004C4.25326 8.83337 4.3666 8.64004 4.5066 8.48004L5.5466 7.16671C7.2666 5.01337 10.7599 2.42671 13.3133 1.40671C13.7066 1.26004 14.0866 1.36671 14.3266 1.61337C14.5799 1.86004 14.6999 2.24004 14.5399 2.62671Z" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                  <path d="M6.95343 11.7467C6.95343 12.48 6.67343 13.18 6.14677 13.7133C5.7401 14.12 5.18677 14.4 4.52677 14.4867L2.88677 14.6667C1.99343 14.7667 1.22677 14.0067 1.33343 13.1L1.51343 11.46C1.67343 9.99999 2.89343 9.06666 4.18677 9.03999C4.3201 9.03333 4.4601 9.03999 4.58677 9.04666C5.15343 9.11999 5.70677 9.37999 6.1601 9.83999C6.60677 10.2867 6.8601 10.8067 6.93343 11.3667C6.9401 11.4933 6.95343 11.62 6.95343 11.7467Z" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                  <path d="M9.49342 9.64662C9.49342 7.90662 8.08009 6.49329 6.34009 6.49329" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                </svg>
+              </span>I am a seller
+            </div>
+          </div>
+
+          <ul id="seller-pro-menu" class="flex flex-col gap-3 my-3">
+            <li>
+              <button id="buy-pro-account" class="flex justify-between items-center w-full">
+                <div class="flex items-center gap-2 font-bold text-sm text-[#9CA5B3]">
+                  Buy PRO account
+                  <div class="pro-icon text-center w-[50px] h-[20px] rounded-[8px] px-[3px] bg-[#EDF4FF] font-bold text-[8px] text-[rgba(32,32,32,0.5)]">
+                    PRO ⭐️
+                  </div>
+                </div>
+                <span>
+                  <svg width="31" height="24" viewBox="0 0 31 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M13.5 16.5L17.5 12L13.5 7.5" stroke="#B7C3D6" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                  </svg>
+                </span>
+              </button>
+            </li>
+
+            <li>
+              <button id="buy-pro-account" class="flex justify-between items-center w-full">
+                <div class="flex items-center gap-2 font-bold text-sm text-[#4790FF]">
+                  <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M13.3337 8.66688C13.3337 12.0002 11.0003 13.6669 8.22699 14.6336C8.08177 14.6828 7.92402 14.6804 7.78033 14.6269C5.00033 13.6669 2.66699 12.0002 2.66699 8.66688V4.00022C2.66699 3.82341 2.73723 3.65384 2.86225 3.52881C2.98728 3.40379 3.15685 3.33355 3.33366 3.33355C4.66699 3.33355 6.33366 2.53355 7.49366 1.52022C7.6349 1.39955 7.81456 1.33325 8.00033 1.33325C8.18609 1.33325 8.36576 1.39955 8.50699 1.52022C9.67366 2.54022 11.3337 3.33355 12.667 3.33355C12.8438 3.33355 13.0134 3.40379 13.1384 3.52881C13.2634 3.65384 13.3337 3.82341 13.3337 4.00022V8.66688Z" stroke="#4790FF" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                    <path d="M6 7.99996L7.33333 9.33329L10 6.66663" stroke="#4790FF" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                  </svg>
+                  Get verification
+                </div>
+                <span>
+                  <svg width="31" height="24" viewBox="0 0 31 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M13.5 16.5L17.5 12L13.5 7.5" stroke="#B7C3D6" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                  </svg>
+                </span>
+              </button>
+            </li>
+          </ul>
+
+          <div id="top-divider" class="divider w-full h-[1px] bg-[#F2F2F2]"></div>
+
+          <div class="user-menu mt-3 flex flex-col gap-3">
+            <ul class="flex flex-col gap-[10px]">
+              <li>
+                <button id="client-profile" class="flex justify-between items-center w-full">
+                  <div class="flex items-center gap-2 font-bold text-sm text-[#9CA5B3]">
+                    <img class="w-[18px] h-[18px]" src="./img/icons/user-profile.svg" alt="user-profile">
+                    My profile
+                  </div>
+                  <span>
+                    <svg width="31" height="24" viewBox="0 0 31 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <path d="M13.5 16.5L17.5 12L13.5 7.5" stroke="#B7C3D6" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                    </svg>
+                  </span>
+                </button>
+              </li>
+
+              <li>
+                <button id="client-edit-profile" class="flex justify-between items-center w-full">
+                  <div class="flex items-center gap-2 font-bold text-sm text-[#9CA5B3]">
+                    <img class="w-[18px] h-[18px]" src="./img/icons/edit-profile.svg" alt="edit-profile">
+                    Edit pofile
+                  </div>
+                  <span>
+                    <svg width="31" height="24" viewBox="0 0 31 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <path d="M13.5 16.5L17.5 12L13.5 7.5" stroke="#B7C3D6" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                    </svg>
+                  </span>
+                </button>
+              </li>
+
+              <li>
+                <button id="client-faq" class="flex justify-between items-center w-full">
+                  <div class="flex items-center gap-2 font-bold text-sm text-[#9CA5B3]">
+                    <img class="w-[18px] h-[18px]" src="./img/icons/faq-profile.svg" alt="faq-profile">
+                    FAQs
+                  </div>
+                  <span>
+                    <svg width="31" height="24" viewBox="0 0 31 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <path d="M13.5 16.5L17.5 12L13.5 7.5" stroke="#B7C3D6" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                    </svg>
+                  </span>
+                </button>
+              </li>
+            </ul>
+
+            <div class="divider w-full h-[1px] bg-[#F2F2F2]"></div>
+
+            <button id="logout" class="flex justify-between items-center w-full">
+              <div class="flex items-center gap-2 font-bold text-sm text-[#B7C3D6]">
+                <span>
+                  <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M11.2 1.33337H9.46667C7.33333 1.33337 6 2.66671 6 4.80004V7.50004H10.1667C10.44 7.50004 10.6667 7.72671 10.6667 8.00004C10.6667 8.27337 10.44 8.50004 10.1667 8.50004H6V11.2C6 13.3334 7.33333 14.6667 9.46667 14.6667H11.1933C13.3267 14.6667 14.66 13.3334 14.66 11.2V4.80004C14.6667 2.66671 13.3333 1.33337 11.2 1.33337Z" fill="#B7C3D6"/>
+                    <path d="M3.03996 7.49998L4.41996 6.11998C4.51996 6.01998 4.56663 5.89331 4.56663 5.76664C4.56663 5.63998 4.51996 5.50664 4.41996 5.41331C4.22663 5.21998 3.90663 5.21998 3.71329 5.41331L1.47996 7.64664C1.28663 7.83998 1.28663 8.15998 1.47996 8.35331L3.71329 10.5866C3.90663 10.78 4.22663 10.78 4.41996 10.5866C4.61329 10.3933 4.61329 10.0733 4.41996 9.87998L3.03996 8.49998H5.99996V7.49998H3.03996Z" fill="#B7C3D6"/>
+                  </svg>
+                </span>
+                Log out
+              </div>
+
+              <span>
+                <svg width="31" height="24" viewBox="0 0 31 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M13.5 16.5L17.5 12L13.5 7.5" stroke="#B7C3D6" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                </svg>
+              </span>
+            </button>
+          </div>
+        </div>
+
+        <style>
+          #collapsible-content {
+            overflow: hidden;
+            transition: max-height 0.35s ease, opacity 0.25s ease;
+            max-height: 1000px;
+            opacity: 1;
+          }
+
+          #collapsible-content.collapsed {
+            max-height: 0;
+            opacity: 0;
+          }
+
+          #hide-button svg {
+            transition: transform 0.3s ease;
+          }
+
+          #hide-button.rotated svg {
+            transform: rotate(180deg);
+          }
+        </style>
+
+        <script>
+          const hideButton = document.getElementById('hide-button');
+          const collapsible = document.getElementById('collapsible-content');
+
+          let isCollapsed = false;
+
+          hideButton.addEventListener('click', () => {
+            isCollapsed = !isCollapsed;
+
+            collapsible.classList.toggle('collapsed', isCollapsed);
+            hideButton.classList.toggle('rotated', isCollapsed);
+          });
+        </script>
+      </div>
+    </div>
+
+    <ul id="menu" class="flex flex-col gap-2 pb-4 border-b mb-4">   
+      <li class="bg-[#FAFAFC] rounded-full px-5">
+        <button id="messages" class="flex justify-between items-center w-full">
+          <div class="text-[#9CA5B3] font-bold text-sm flex items-center gap-2.5 py-3">
+            <span class="relative">
+              <img class="w-[18px] h-[18px]" src="./img/header/bag.svg" alt="bag">
+              <div class="rounded-full text-white font-bold text-[8px] p-[4px] min-w-[14px] h-[14px] flex items-center justify-center bg-[#FF8E8E] absolute top-[-5px] right-[-7px]">
+                12
+              </div>
+            </span>
+            Messages
+          </div>
+
+          <span>
+            <svg width="31" height="24" viewBox="0 0 31 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M13.5 16.5L17.5 12L13.5 7.5" stroke="#B7C3D6" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+            </svg>
+          </span>
+        </button>  
+      </li>
+
+      <li class="bg-[#FAFAFC] rounded-full px-5">
+        <button id="shopping-cart" class="flex justify-between items-center w-full">
+          <div class="text-[#9CA5B3] font-bold text-sm flex items-center gap-2.5 py-3">
+            <span class="relative">
+              <img class="w-[18px] h-[18px]" src="./img/header/message.svg" alt="message">
+              <div class="rounded-full text-white font-bold text-[8px] p-[4px] min-w-[14px] h-[14px] flex items-center justify-center bg-[#4790FF] absolute top-[-5px] right-[-7px]">
+                2
+              </div>
+            </span>
+            Shopping cart
+          </div>
+
+          <span>
+            <svg width="31" height="24" viewBox="0 0 31 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M13.5 16.5L17.5 12L13.5 7.5" stroke="#B7C3D6" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+            </svg>
+          </span>
+        </button>
+      </li>
+
+      <li class="bg-[#FAFAFC] rounded-full px-5">
+        <button id="notification" class="flex justify-between items-center w-full">
+          <div class="text-[#9CA5B3] font-bold text-sm flex items-center gap-2.5 py-3">
+            <span class="relative">
+              <svg width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M9.01494 2.1825C6.53244 2.1825 4.51494 4.2 4.51494 6.6825V8.85C4.51494 9.3075 4.31994 10.005 4.08744 10.395L3.22494 11.8275C2.69244 12.7125 3.05994 13.695 4.03494 14.025C7.26744 15.105 10.7549 15.105 13.9874 14.025C14.8949 13.725 15.2924 12.6525 14.7974 11.8275L13.9349 10.395C13.7099 10.005 13.5149 9.3075 13.5149 8.85V6.6825C13.5149 4.2075 11.4899 2.1825 9.01494 2.1825Z" stroke="#9CA5B3" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round"/>
+                <path d="M10.4024 2.40002C10.1699 2.33252 9.92994 2.28002 9.68244 2.25002C8.96244 2.16002 8.27244 2.21252 7.62744 2.40002C7.84494 1.84502 8.38494 1.45502 9.01494 1.45502C9.64494 1.45502 10.1849 1.84502 10.4024 2.40002Z" stroke="#9CA5B3" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+                <path d="M11.2649 14.295C11.2649 15.5325 10.2524 16.545 9.01489 16.545C8.39989 16.545 7.82989 16.29 7.42489 15.885C7.01989 15.48 6.76489 14.91 6.76489 14.295" stroke="#9CA5B3" stroke-width="1.5" stroke-miterlimit="10"/>
+              </svg>
+
+              <div id="is-notification" class="rounded-full w-[6px] h-[6px] bg-[#FF8E8E] absolute top-0 right-0 hidden"></div>
+            </span>
+            Notification
+          </div>
+
+          <span>
+            <svg width="31" height="24" viewBox="0 0 31 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M13.5 16.5L17.5 12L13.5 7.5" stroke="#B7C3D6" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+            </svg>
+          </span>
+        </button>
+      </li>
+    </ul>
+   
+    <ul class="flex flex-col gap-2 pb-4 border-b mb-4">   
+      <li>
+        <a class="text-[#9CA5B3] font-bold text-sm flex items-center gap-2.5 py-3 px-4 bg-[#FAFAFC] rounded-full"
           href="#">
           <span>
             <svg width="14" height="14" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -63,8 +324,10 @@
             </svg>
           </span>
           Home
-        </a></li>
-      <li><a class="text-[#9CA5B3] font-bold text-xs flex items-center gap-2.5 py-3 px-4 bg-[#FAFAFC] rounded-full"
+        </a>
+      </li>
+      <li>
+        <a class="text-[#9CA5B3] font-bold text-sm flex items-center gap-2.5 py-3 px-4 bg-[#FAFAFC] rounded-full"
           href="#">
           <span>
             <svg width="14" height="14" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -83,11 +346,68 @@
             </svg>
           </span>
           Categories
-        </a></li>
+        </a>
+      </li>
     </ul>
+
+    <ul class="flex flex-col gap-2 pb-4 border-b mb-4">
+      <p class="text-[#202020] font-bold text-base">Another</p>
+      <li>
+        <a class="text-[#9CA5B3] font-bold text-sm flex items-center gap-2.5 py-3 px-4 bg-[#FAFAFC] rounded-full"
+          href="#">
+          <span>
+            <svg width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M5.625 5.75251V5.02501C5.625 3.33751 6.9825 1.68001 8.67 1.52251C10.68 1.32751 12.375 2.91001 12.375 4.88251V5.91751" stroke="#9CA5B3" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+              <path d="M6.74963 16.5H11.2496C14.2646 16.5 14.8046 15.2925 14.9621 13.8225L15.5246 9.3225C15.7271 7.4925 15.2021 6 11.9996 6H5.99963C2.79713 6 2.27213 7.4925 2.47463 9.3225L3.03713 13.8225C3.19463 15.2925 3.73463 16.5 6.74963 16.5Z" stroke="#9CA5B3" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+              <path d="M11.6219 9H11.6286" stroke="#9CA5B3" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+              <path d="M6.37088 9H6.37762" stroke="#9CA5B3" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+            </svg>
+          </span>
+          Orders
+        </a>
+      </li>
+      <li>
+        <a class="text-[#9CA5B3] font-bold text-sm flex items-center gap-2.5 py-3 px-4 bg-[#FAFAFC] rounded-full"
+          href="#">
+          <span>
+            <svg width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M13.9725 5.36248C14.0025 5.81998 13.965 6.33748 13.875 6.91498L13.3275 10.4325C12.8625 13.365 11.505 14.355 8.57249 13.8975L5.05499 13.3425C4.04249 13.185 3.26249 12.915 2.69249 12.51C1.60499 11.7525 1.28999 10.5075 1.58999 8.58748L2.14499 5.06998C2.60999 2.13748 3.96749 1.14748 6.89999 1.60498L10.4175 2.15998C12.7725 2.52748 13.875 3.48748 13.9725 5.36248Z" stroke="#9CA5B3" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+              <path d="M15.3749 10.1025L14.2499 13.485C13.3124 16.305 11.8124 17.055 8.99238 16.1175L5.60988 14.9925C3.90738 14.43 2.96238 13.65 2.69238 12.51C3.26238 12.915 4.04238 13.185 5.05488 13.3425L8.57238 13.8975C11.5049 14.355 12.8624 13.365 13.3274 10.4325L13.8749 6.91499C13.9649 6.33749 14.0024 5.81999 13.9724 5.36249C15.7649 6.31499 16.1549 7.75499 15.3749 10.1025Z" stroke="#9CA5B3" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+              <path d="M6.18 6.735C6.90073 6.735 7.485 6.15073 7.485 5.43C7.485 4.70927 6.90073 4.125 6.18 4.125C5.45927 4.125 4.875 4.70927 4.875 5.43C4.875 6.15073 5.45927 6.735 6.18 6.735Z" stroke="#9CA5B3" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+            </svg>
+          </span>
+          Projects
+        </a>
+      </li>
+      <li>
+        <a class="text-[#9CA5B3] font-bold text-sm flex items-center gap-2.5 py-3 px-4 bg-[#FAFAFC] rounded-full"
+          href="#">
+          <span>
+            <svg width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M9.11992 8.1525C9.04492 8.145 8.95492 8.145 8.87242 8.1525C7.08742 8.0925 5.66992 6.63 5.66992 4.83C5.66992 2.9925 7.15492 1.5 8.99992 1.5C10.8374 1.5 12.3299 2.9925 12.3299 4.83C12.3224 6.63 10.9049 8.0925 9.11992 8.1525Z" stroke="#9CA5B3" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+              <path d="M5.37004 10.92C3.55504 12.135 3.55504 14.115 5.37004 15.3225C7.43254 16.7025 10.815 16.7025 12.8775 15.3225C14.6925 14.1075 14.6925 12.1275 12.8775 10.92C10.8225 9.5475 7.44004 9.5475 5.37004 10.92Z" stroke="#9CA5B3" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+            </svg>
+          </span>
+          Sellers
+        </a>
+      </li>
+      <li>
+        <a class="text-[#9CA5B3] font-bold text-sm flex items-center gap-2.5 py-3 px-4 bg-[#FAFAFC] rounded-full"
+          href="#">
+          <span>
+            <svg width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M14.895 6.0675C14.895 6.3825 14.8725 6.69001 14.835 6.98251C14.49 6.83251 14.115 6.75001 13.7175 6.75001C12.8025 6.75001 11.9925 7.1925 11.49 7.8675C10.98 7.1925 10.17 6.75001 9.255 6.75001C7.7175 6.75001 6.4725 8.0025 6.4725 9.555C6.4725 11.565 7.5375 13.1025 8.7225 14.145C8.685 14.1675 8.64751 14.175 8.61001 14.19C8.38501 14.2725 8.01 14.2725 7.785 14.19C5.8425 13.5225 1.5 10.7625 1.5 6.0675C1.5 3.9975 3.16499 2.32501 5.21999 2.32501C6.44249 2.32501 7.52249 2.91 8.19749 3.8175C8.87999 2.91 9.96 2.32501 11.175 2.32501C13.23 2.32501 14.895 3.9975 14.895 6.0675Z" stroke="#9CA5B3" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+              <path d="M16.4999 9.55499C16.4999 13.065 13.2524 15.135 11.7974 15.63C11.6249 15.69 11.3474 15.69 11.1749 15.63C10.5524 15.42 9.59991 14.9175 8.72241 14.145C7.53741 13.1025 6.47241 11.565 6.47241 9.55499C6.47241 8.00249 7.71741 6.75 9.25491 6.75C10.1699 6.75 10.9799 7.19249 11.4899 7.86749C11.9924 7.19249 12.8024 6.75 13.7174 6.75C14.1149 6.75 14.4899 6.8325 14.8349 6.9825C15.8174 7.4175 16.4999 8.39999 16.4999 9.55499Z" stroke="#9CA5B3" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+            </svg>
+          </span>
+          Favorites
+        </a>
+      </li>
+    </ul>
+
     <ul class="flex flex-col gap-2 pb-4 border-b mb-4">
       <p class="text-[#202020] font-bold text-base">About Monday</p>
-      <li><a class="text-[#9CA5B3] font-bold text-xs flex items-center gap-2.5 py-3 px-4 bg-[#FAFAFC] rounded-full"
+      <li><a class="text-[#9CA5B3] font-bold text-sm flex items-center gap-2.5 py-3 px-4 bg-[#FAFAFC] rounded-full"
           href="#">
           <span>
             <svg width="14" height="14" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -102,7 +422,7 @@
           </span>
           About the project
         </a></li>
-      <li><a class="text-[#9CA5B3] font-bold text-xs flex items-center gap-2.5 py-3 px-4 bg-[#FAFAFC] rounded-full"
+      <li><a class="text-[#9CA5B3] font-bold text-sm flex items-center gap-2.5 py-3 px-4 bg-[#FAFAFC] rounded-full"
           href="#">
           <span>
             <svg width="14" height="14" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -129,9 +449,10 @@
           Affiliate program
         </a></li>
     </ul>
+
     <ul class="flex flex-col gap-2 pb-4 border-b mb-4">
       <p class="text-[#202020] font-bold text-base">Help</p>
-      <li><a class="text-[#9CA5B3] font-bold text-xs flex items-center gap-2.5 py-3 px-4 bg-[#FAFAFC] rounded-full"
+      <li><a class="text-[#9CA5B3] font-bold text-sm flex items-center gap-2.5 py-3 px-4 bg-[#FAFAFC] rounded-full"
           href="#">
           <span>
             <svg width="14" height="14" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -149,7 +470,7 @@
           </span>
           Service rules
         </a></li>
-      <li><a class="text-[#9CA5B3] font-bold text-xs flex items-center gap-2.5 py-3 px-4 bg-[#FAFAFC] rounded-full"
+      <li><a class="text-[#9CA5B3] font-bold text-sm flex items-center gap-2.5 py-3 px-4 bg-[#FAFAFC] rounded-full"
           href="#">
           <span>
             <svg width="14" height="14" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -165,7 +486,7 @@
           </span>
           Question answer
         </a></li>
-      <li><a class="text-[#9CA5B3] font-bold text-xs flex items-center gap-2.5 py-3 px-4 bg-[#FAFAFC] rounded-full"
+      <li><a class="text-[#9CA5B3] font-bold text-sm flex items-center gap-2.5 py-3 px-4 bg-[#FAFAFC] rounded-full"
           href="#">
           <span>
             <svg width="14" height="14" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -183,9 +504,10 @@
           Support
         </a></li>
     </ul>
+
     <ul class="flex flex-col gap-2 pb-4">
       <p class="text-[#202020] font-bold text-base">Useful</p>
-      <li><a class="text-[#9CA5B3] font-bold text-xs flex items-center gap-2.5 py-3 px-4 bg-[#FAFAFC] rounded-full"
+      <li><a class="text-[#9CA5B3] font-bold text-sm flex items-center gap-2.5 py-3 px-4 bg-[#FAFAFC] rounded-full"
           href="#">
           <span>
             <svg width="14" height="14" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -205,7 +527,7 @@
           </span>
           For customer
         </a></li>
-      <li><a class="text-[#9CA5B3] font-bold text-xs flex items-center gap-2.5 py-3 px-4 bg-[#FAFAFC] rounded-full"
+      <li><a class="text-[#9CA5B3] font-bold text-sm flex items-center gap-2.5 py-3 px-4 bg-[#FAFAFC] rounded-full"
           href="#">
           <span>
             <svg width="14" height="14" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -226,7 +548,550 @@
           For performer
         </a></li>
     </ul>
+
+    <script>
+      const toggleItems = document.querySelectorAll('.toggle-item');
+      const sellerMenu = document.getElementById('seller-pro-menu');
+      const shoppingCart = document.getElementById('shopping-cart');
+      const notificationDot = document.getElementById('is-notification');
+      const divider = document.getElementById('top-divider');
+
+      function setActive(activeId) {
+        toggleItems.forEach(item => {
+          const isActive = item.id === activeId;
+
+          item.classList.toggle('active', isActive);
+
+          if (isActive) {
+            item.style.backgroundColor = '#EDF4FF';
+            item.style.color = '#4790FF';
+          } else {
+            item.style.backgroundColor = 'transparent';
+            item.style.color = '#B7C3D6';
+          }
+        });
+
+        if (activeId === 'seller') {
+          sellerMenu?.classList.remove('hidden');
+          shoppingCart?.classList.add('hidden');
+          notificationDot?.classList.remove('hidden');
+          divider?.classList.remove('hidden');
+        }
+
+        if (activeId === 'client') {
+          sellerMenu?.classList.add('hidden');
+          shoppingCart?.classList.remove('hidden');
+          notificationDot?.classList.add('hidden');
+          divider?.classList.add('hidden');
+        }
+      }
+
+      setActive('client');
+
+      toggleItems.forEach(item => {
+        item.addEventListener('click', () => {
+          setActive(item.id);
+        });
+      });
+    </script>
+
+    <div id="menu-overlay" class="absolute inset-0 bg-white z-[10000] hidden flex flex-col">
+      <div class="flex">
+        <button id="overlay-back" class="flex items-center p-2">
+          <img src="./img/icons/back.svg" alt="back"/>
+          <h2 id="overlay-title" class="font-bold text-[24px] mb-1 capitalize"></h2>
+        </button>
+      </div>
+
+      <div id="overlay-content" class="flex-1 overflow-y-auto p-3"></div>
+    </div>
+
+    <script>
+      const overlay = document.getElementById('menu-overlay');
+      const overlayTitle = document.getElementById('overlay-title');
+      const overlayContent = document.getElementById('overlay-content');
+      const overlayBack = document.getElementById('overlay-back');
+
+      function openOverlay(type, state) {
+        overlayTitle.textContent = type.replace('-', ' ');
+        overlayContent.innerHTML = '';
+
+        const contentNode = getOverlayContent(type, state);
+        overlayContent.appendChild(contentNode);
+
+        overlay.classList.remove('hidden');
+        document.body.classList.add('no-scroll');
+      }
+
+      function closeOverlay() {
+        overlay.classList.add('hidden');
+        overlayContent.innerHTML = '';
+        document.body.classList.remove('no-scroll');
+      }
+
+      overlayBack.addEventListener('click', closeOverlay);
+    </script>
+
+    <div id="overlay-templates" class="hidden">
+      <div id="messages-empty">
+        <div class="flex flex-col items-center justify-center gap-[25px] pt-[15px] pb-[26px] px-[15px] w-full h-fit min-h-[215px] rounded-[14px] bg-white" style="box-shadow: 5px 10px 40px 10px #0000000D;">
+          <div class="header-messages-empty flex gap-[5px] border-b w-full pb-[10px] font-bold text-base text-black">
+            <img src="./img/icons/message-black.svg" alt="massage"/>
+            Messages
+          </div>
+
+          <div class="flex flex-col items-center justify-center gap-[20px]">
+            <img src="./img/no-message-ill.png" alt="no-message-ill"/>
+
+            <div class="flex flex-col gap-[5px] text-center">
+              <h4 class="font-bold text-base text-[#575E6A]">No Messages Yet</h4>
+              <p class="font-medium text-xs text-[#9CA5B3]">​Browse our catalog of projects or offer<br/> your own on Monday.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div id="messages-filled">
+        <div class="flex flex-col gap-[15px] pt-[15px] pb-[26px] px-[15px] w-full h-fit min-h-[215px] rounded-[14px] bg-white" style="box-shadow: 5px 10px 40px 10px #0000000D;">
+          <div class="header-messages-empty flex flex-col gap-[5px] border-b w-full pb-[10px] font-bold text-base text-black">
+            <div class="flex gap-[5px] w-full">
+              <img src="./img/icons/message-black.svg" alt="massage"/>
+              Messages
+            </div>
+            <div class="flex items-center justify-between w-full h-11 px-4 rounded-full bg-[#FAFAFC]">
+              <input id="message-search" placeholder="Search..."
+                class="placeholder:text-[#9CA5B3] placeholder:font-medium placeholder:text-sm text-[#9CA5B3] font-medium text-sm outline-none border-none bg-transparent max-w-[70px] w-full"
+                type="search">
+              <label for="search" class="cursor-pointer flex">
+                <img src="./img/header/search.svg" alt="search">
+              </label>
+            </div>
+          </div>
+
+          <div id="new-chats" class="flex flex-col gap-[10px]">
+            <h3 class="font-bold text-base text-[rgba(156,165,179,0.6)]">New chats</h3>
+
+            <div class="flex flex-col">
+              <div id="new-message" class="relative flex gap-[10px] items-center overflow-hidden pt-[8px] pb-[12px] px-[5px]">
+                <div class="icon-message relative w-[34px] h-[34px]">
+                  <img class="w-[34px] h-[34px] rounded-full object-cover" src="./img/seller/seller_main_page_none_avatar.png" alt="Seller no avatar" />
+                  <div class="w-[10px] h-[10px] bg-[#62F94D] border border-white rounded-full absolute right-0 bottom-0 hidden"></div>
+                </div>
+
+                <div class="flex flex-col gap-1">
+                  <div class="flex">
+                    <h3 class="font-bold text-sm text-[#202020]">_paul</h3>                  
+                  </div>
+                  <div class="font-bold text-xs text-[#9CA5B3] overflow-hidden">
+                    Hello, nice to meet you, I wont...
+                  </div>
+                </div>
+
+                <div class="flex items-center gap-1 absolute top-[10px] right-[10px]">
+                  <span id="date-message" class="font-normal text-xs text-[#9CA5B3]">15 Mar</span>
+                  <button>
+                    <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <path d="M9.15327 2.34001L10.3266 4.68668C10.4866 5.01334 10.9133 5.32668 11.2733 5.38668L13.3999 5.74001C14.7599 5.96668 15.0799 6.95334 14.0999 7.92668L12.4466 9.58001C12.1666 9.86001 12.0133 10.4 12.0999 10.7867L12.5733 12.8333C12.9466 14.4533 12.0866 15.08 10.6533 14.2333L8.65994 13.0533C8.29994 12.84 7.70661 12.84 7.33994 13.0533L5.34661 14.2333C3.91994 15.08 3.05327 14.4467 3.42661 12.8333L3.89994 10.7867C3.98661 10.4 3.83327 9.86001 3.55327 9.58001L1.89994 7.92668C0.926606 6.95334 1.23994 5.96668 2.59994 5.74001L4.72661 5.38668C5.07994 5.32668 5.50661 5.01334 5.66661 4.68668L6.83994 2.34001C7.47994 1.06668 8.51994 1.06668 9.15327 2.34001Z" stroke="#9CA5B3" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                    </svg>
+                  </button>
+                </div>
+              </div>
+
+              <div id="new-message" class="relative flex gap-[10px] items-center overflow-hidden pt-[8px] pb-[12px] px-[5px]">
+                <div class="icon-message relative w-[34px] h-[34px]">
+                  <img class="w-[34px] h-[34px] rounded-full object-cover" src="./img/shield-avatar.png" alt="Seller no avatar" />
+                  <div class="w-[10px] h-[10px] bg-[#62F94D] border border-white rounded-full absolute right-0 bottom-0"></div>
+                </div>
+
+                <div class="flex flex-col gap-1">
+                  <div class="flex">
+                    <h3 class="font-bold text-sm text-[#202020]">Service Message</h3>                  
+                  </div>
+                  <div class="font-bold text-xs text-[#9CA5B3] overflow-hidden">
+                    Complete your verification soon as...
+                  </div>
+                </div>
+
+                <div class="flex items-center gap-1 absolute top-[10px] right-[10px]">
+                  <span id="date-message" class="font-normal text-xs text-[#9CA5B3]">15 Mar</span>
+                  <button>
+                    <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <path d="M9.15327 2.34001L10.3266 4.68668C10.4866 5.01334 10.9133 5.32668 11.2733 5.38668L13.3999 5.74001C14.7599 5.96668 15.0799 6.95334 14.0999 7.92668L12.4466 9.58001C12.1666 9.86001 12.0133 10.4 12.0999 10.7867L12.5733 12.8333C12.9466 14.4533 12.0866 15.08 10.6533 14.2333L8.65994 13.0533C8.29994 12.84 7.70661 12.84 7.33994 13.0533L5.34661 14.2333C3.91994 15.08 3.05327 14.4467 3.42661 12.8333L3.89994 10.7867C3.98661 10.4 3.83327 9.86001 3.55327 9.58001L1.89994 7.92668C0.926606 6.95334 1.23994 5.96668 2.59994 5.74001L4.72661 5.38668C5.07994 5.32668 5.50661 5.01334 5.66661 4.68668L6.83994 2.34001C7.47994 1.06668 8.51994 1.06668 9.15327 2.34001Z" stroke="#9CA5B3" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                    </svg>
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div id="favourites-chats" class="flex flex-col gap-[10px]">
+            <div class="flex items-center gap-[5px]">
+              <img src="./img/icons/favourites-star.svg" alt="Favorits icon"/>
+              <h3 class="font-bold text-base text-[rgba(156,165,179,0.6)]">Favourites</h3>
+            </div>
+
+            <div class="flex flex-col">
+              <div id="favourites-message" class="relative flex gap-[10px] items-center overflow-hidden pt-[8px] pb-[12px] px-[5px] bg-[#F1F3F9] rounded-[12px]">
+                <div class="icon-message relative w-[34px] h-[34px]">
+                  <img class="w-[34px] h-[34px] rounded-full object-cover" src="./img/seller/seller_main_page_avatar.png" alt="Seller avatar"/>
+                  <div class="w-[10px] h-[10px] bg-[#62F94D] border border-white rounded-full absolute right-0 bottom-0"></div>
+                </div>
+
+                <div class="flex flex-col gap-1">
+                  <div class="flex">
+                    <h3 class="font-bold text-sm text-[#202020]">Michael_M</h3>                  
+                  </div>
+                  <div class="font-bold text-xs text-[#9CA5B3] overflow-hidden">
+                    <span>You: </span>
+                    <span class="font-normal">Thanks a lot!</span>
+                  </div>
+                </div>
+
+                <div class="flex items-center gap-1 absolute top-[10px] right-[10px]">
+                  <span id="date-message" class="font-normal text-xs text-[#9CA5B3]">15 Mar</span>
+                  <button>
+                    <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <path d="M9.15327 2.34001L10.3266 4.68668C10.4866 5.01334 10.9133 5.32668 11.2733 5.38668L13.3999 5.74001C14.7599 5.96668 15.0799 6.95334 14.0999 7.92668L12.4466 9.58001C12.1666 9.86001 12.0133 10.4 12.0999 10.7867L12.5733 12.8333C12.9466 14.4533 12.0866 15.08 10.6533 14.2333L8.65994 13.0533C8.29994 12.84 7.70661 12.84 7.33994 13.0533L5.34661 14.2333C3.91994 15.08 3.05327 14.4467 3.42661 12.8333L3.89994 10.7867C3.98661 10.4 3.83327 9.86001 3.55327 9.58001L1.89994 7.92668C0.926606 6.95334 1.23994 5.96668 2.59994 5.74001L4.72661 5.38668C5.07994 5.32668 5.50661 5.01334 5.66661 4.68668L6.83994 2.34001C7.47994 1.06668 8.51994 1.06668 9.15327 2.34001Z" fill="#FFD600"/>
+                    </svg>
+                  </button>
+                </div>
+
+                <div class="absolute right-[10px] top-[32px]">
+                  <img src="./img/icons/seen.svg" alt="Seen"/>
+                </div>
+              </div>
+
+              <div id="favourites-message" class="relative flex gap-[10px] items-center overflow-hidden pt-[8px] pb-[12px] px-[5px]">
+                <div class="icon-message relative w-[34px] h-[34px]">
+                  <img class="w-[34px] h-[34px] rounded-full object-cover" src="./img/Linda86-avatar.png" alt="Seller avatar"/>
+                  <div class="w-[10px] h-[10px] bg-[#62F94D] border border-white rounded-full absolute right-0 bottom-0"></div>
+                </div>
+
+                <div class="flex flex-col gap-1">
+                  <div class="flex">
+                    <h3 class="font-bold text-sm text-[#202020]">Linda86</h3>                  
+                  </div>
+                  <div class="font-bold text-xs text-[#9CA5B3] overflow-hidden">
+                    <span>You: </span>
+                    <span class="font-normal">Thanks a lot!</span>
+                  </div>
+                </div>
+
+                <div class="flex items-center gap-1 absolute top-[10px] right-[10px]">
+                  <span id="date-message" class="font-normal text-xs text-[#9CA5B3]">15 Mar</span>
+                  <button>
+                    <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <path d="M9.15327 2.34001L10.3266 4.68668C10.4866 5.01334 10.9133 5.32668 11.2733 5.38668L13.3999 5.74001C14.7599 5.96668 15.0799 6.95334 14.0999 7.92668L12.4466 9.58001C12.1666 9.86001 12.0133 10.4 12.0999 10.7867L12.5733 12.8333C12.9466 14.4533 12.0866 15.08 10.6533 14.2333L8.65994 13.0533C8.29994 12.84 7.70661 12.84 7.33994 13.0533L5.34661 14.2333C3.91994 15.08 3.05327 14.4467 3.42661 12.8333L3.89994 10.7867C3.98661 10.4 3.83327 9.86001 3.55327 9.58001L1.89994 7.92668C0.926606 6.95334 1.23994 5.96668 2.59994 5.74001L4.72661 5.38668C5.07994 5.32668 5.50661 5.01334 5.66661 4.68668L6.83994 2.34001C7.47994 1.06668 8.51994 1.06668 9.15327 2.34001Z" fill="#FFD600"/>
+                    </svg>
+                  </button>
+                </div>
+
+                <div class="absolute right-[10px] top-[32px]">
+                  <img src="./img/icons/seen.svg" alt="Seen"/>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div id="shopping-cart-empty">
+        <div class="flex flex-col items-center justify-center gap-[20px] p-3 w-full h-fit min-h-[215px] rounded-[14px] bg-white" style="box-shadow: 5px 10px 40px 10px #0000000D;">
+          <div class="rounded-[100%] w-[96px] h-[96px] bg-[#F4F8FF]"></div>
+
+          <div class="flex flex-col gap-[5px] text-center">
+            <h4 class="font-bold text-base text-[#575E6A]">The cart is empty</h4>
+            <p class="font-medium text-xs text-[#9CA5B3]">But it shouldn't be that way ;)<br/> Add quorks, place orders!</p>
+          </div>
+        </div>
+      </div>
+
+      <div id="shopping-cart-filled">
+        <div class="flex flex-col p-4 w-full h-fit min-h-[215px] rounded-[14px] bg-white" style="box-shadow: 5px 10px 40px 10px #0000000D;">
+          <div class="flex font-bold text-sm text-[#575E6A] pb-[15px] border-b">
+            Service
+          </div>
+
+          <div class="flex flex-col gap-3 w-full mt-3">
+            <div id="service-cart" class="relative border-b flex gap-3 pb-3 overflow-hidden max-h-[86px]">
+              <div class="rounded-[12px] min-w-[94px] bg-[#9CA5B3]">
+                <img src="./img/Bitrix-Website-1.png" alt="Service item"/>
+              </div>
+
+              <div class="flex flex-col gap-2 w-full h-full">
+                <h3 class="font-bold text-sm text-[#202020] max-w-[200px]">Bitrix Website Improvements & Adjustments</h3>
+
+                <div class="flex items-center justify-between w-full">
+                  <div class="flex justify-center items-center gap-[10px] w-fit h-8 px-[10px] py-2 rounded-[12px] bg-[#FAFAFC] font-bold text-sm text-[#202020]">
+                    <button>
+                      <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M4 8H12" stroke="#9CA5B3" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                      </svg>
+                    </button>
+                    <span>1</span>
+                    <button>
+                      <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M4 8H12" stroke="#202020" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                        <path d="M8 12V4" stroke="#202020" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                      </svg>
+                    </button>
+                  </div>
+
+                  <div class="font-semibold text-lg text-[#4790FF]">110.000 <span class="text-[#9CA5B3] text-xs">UZS</span></div>
+                </div>
+              </div>
+
+              <button id="delete-item" class="absolute top-0 right-0 flex items-center justify-center rounded-[6px] w-6 h-6 bg-[#FAFAFC] z-40">
+                <svg width="11" height="11" viewBox="0 0 11 11" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M1 9.93023L9.93023 1" stroke="#9CA5B3" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                  <path d="M9.93023 9.93023L1 1" stroke="#9CA5B3" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                </svg>
+              </button>
+            </div>
+
+            <div id="service-cart" class="relative border-b flex gap-3 pb-3 overflow-hidden max-h-[86px]">
+              <div class="rounded-[12px] min-w-[94px] bg-[#9CA5B3]">
+                <img src="./img/Bitrix-Website-2.png" alt="Service item"/>
+              </div>
+
+              <div class="flex flex-col gap-2 w-full h-full">
+                <h3 class="font-bold text-sm text-[#202020] max-w-[220px]">Bitrix Website Building Improvements & Adjustments</h3>
+
+                <div class="flex items-center justify-between w-full">
+                  <div class="flex justify-center items-center gap-[10px] w-fit h-8 px-[10px] py-2 rounded-[12px] bg-[#FAFAFC] font-bold text-sm text-[#202020]">
+                    <button>
+                      <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M4 8H12" stroke="#9CA5B3" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                      </svg>
+                    </button>
+                    <span>1</span>
+                    <button>
+                      <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M4 8H12" stroke="#202020" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                        <path d="M8 12V4" stroke="#202020" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                      </svg>
+                    </button>
+                  </div>
+
+                  <div class="font-semibold text-lg text-[#4790FF]">100.000 <span class="text-[#9CA5B3] text-xs">UZS</span></div>
+                </div>
+              </div>
+
+              <button id="delete-item" class="absolute top-0 right-0 flex items-center justify-center rounded-[6px] w-6 h-6 bg-[#FAFAFC] z-40">
+                <svg width="11" height="11" viewBox="0 0 11 11" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M1 9.93023L9.93023 1" stroke="#9CA5B3" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                  <path d="M9.93023 9.93023L1 1" stroke="#9CA5B3" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                </svg>
+              </button>
+            </div>
+          </div>
+
+          <div class="flex justify-end w-full mt-[15px]">
+            <button class="flex items-center justify-center rounded-[12px] w-fit h-[44px] px-4 bg-gradient-to-r from-[#6AB8FF] to-[#A5D7FF] font-medium text-base text-white">Order Now For&nbsp;<span>220.000</span>&nbsp;UZS</button>
+          </div>
+        </div>
+      </div>
+
+      <div id="notification-empty">
+        <div class="flex flex-col items-center justify-center gap-[25px] pt-[15px] pb-[26px]  w-full h-fit min-h-[215px] rounded-[14px] bg-white" style="box-shadow: 5px 10px 40px 10px #0000000D;">
+          <div class="header-notifications-empty flex flex-col gap-[25px] w-full">
+            <div class="flex justify-between items-center w-full px-[15px]">
+              <div class=" flex gap-[5px] w-full pb-[10px] font-bold text-base text-black">
+                <img src="./img/icons/notification-balck.svg" width="18px" alt="notifications"/>
+                Notifications
+              </div>
+            
+              <a class="text-nowrap font-bold text-[10px] text-[#B7C3D6] underline">Mark all as read</a>     
+            </div>
+
+            <div class="flex justify-between items-center w-full border-b px-[15px] pb-[9px]">
+              <div class="flex items-center gap-[10px]">
+                <button class="tab-btn active relative flex items-center justify-center gap-[10px] min-w-[50px] font-bold text-md text-black
+                  after:content-[''] after:w-full after:h-[0.5px] after:bg-black after:absolute after:left-0 after:-bottom-[9px]">
+                  All
+                </button>
+
+                <button class="tab-btn relative flex items-center justify-center gap-[10px] min-w-[50px] font-medium text-md text-[#9CA5B3]">
+                  Unread
+                </button>
+
+                <button class="tab-btn relative flex items-center justify-center gap-[10px] min-w-[50px] font-medium text-md text-[#9CA5B3]">
+                  Archive
+                </button>
+              </div>
+
+              <div class="flex items-center gap-[15px]">
+                <button><img src="./img/icons/sound.svg" alt="sound"/></button>
+                <button><img src="./img/icons/setting-2.svg" alt="setting"/></button>
+              </div>
+            </div>
+          </div>
+          
+          <div class="flex flex-col items-center justify-center gap-[20px]">
+            <div class="rounded-[100%] w-[96px] h-[96px] bg-[#F4F8FF]"></div>
+
+            <div class="flex flex-col gap-[5px] text-center">
+              <h4 class="font-bold text-base text-[#575E6A]">No Notifications</h4>
+              <p class="font-medium text-xs text-[#9CA5B3]">Browse our catalog of projects or offer<br/> your own on Monday.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div id="notification-filled">
+        <div class="flex flex-col items-center justify-center pt-[15px] pb-[26px]  w-full h-fit min-h-[215px] rounded-[14px] bg-white" style="box-shadow: 5px 10px 40px 10px #0000000D;">
+          <div class="header-notifications-empty flex flex-col gap-[25px] w-full">
+            <div class="flex justify-between items-center w-full px-[15px]">
+              <div class=" flex gap-[5px] w-full pb-[10px] font-bold text-base text-black">
+                <img src="./img/icons/notification-balck.svg" width="18px" alt="notifications"/>
+                Notifications
+              </div>
+            
+              <a class="text-nowrap font-bold text-[10px] text-[#B7C3D6] underline">Mark all as read</a>     
+            </div>
+
+            <div class="flex justify-between items-center w-full border-b px-[15px] pb-[9px]">
+              <div class="flex items-center gap-[10px]">
+                <button class="tab-btn active relative flex items-center justify-center gap-[3px] min-w-[50px] font-bold text-md text-black
+                  after:content-[''] after:w-full after:h-[0.5px] after:bg-black after:absolute after:left-0 after:-bottom-[9px]">
+                  All <span class="bg-black rounded-full p-[4px] min-w-[14px] h-[14px] flex items-center justify-center font-black text-[8px] text-white">122</span>
+                </button>
+
+                <button class="tab-btn relative flex items-center justify-center gap-[3px] min-w-[50px] font-medium text-md text-[#9CA5B3]">
+                  Unread <span class="bg-[#FAFAFC] rounded-full p-[4px] min-w-[14px] h-[14px] flex items-center justify-center font-black text-[8px] text-[9CA5B3]">2</span>
+                </button>
+
+                <button class="tab-btn relative flex items-center justify-center gap-[3px] min-w-[50px] font-medium text-md text-[#9CA5B3]">
+                  Archive
+                </button>
+              </div>
+
+              <div class="flex items-center gap-[15px]">
+                <button><img src="./img/icons/sound.svg" alt="sound"/></button>
+                <button><img src="./img/icons/setting-2.svg" alt="setting"/></button>
+              </div>
+            </div>
+          </div>
+          
+          <div class="flex flex-col items-center justify-center w-full h-fit">
+            <div class="unread-message flex flex-col gap-[15px] w-full h-fit px-5 py-[15px] bg-[#F1F3F9]">
+              <div class="flex gap-[10px] items-center overflow-hidden">
+                <div class="icon-message relative w-[34px] h-[34px]">
+                  <img class="w-[34px] h-[34px] rounded-full object-cover" src="./img/seller/seller_main_page_avatar.png" alt="Seller avatar" />
+                  <div class="w-[10px] h-[10px] bg-[#62F94D] border border-white rounded-full absolute right-0 bottom-0"></div>
+                </div>
+
+                <div class="flex flex-col gap-1">
+                  <div class="flex">
+                    <h3 class="font-bold text-sm text-[#202020]">Michael M. <span class="font-medium text-sm text-[#9CA5B3]">ordered</span> Landing page on Tilda</h3>                  
+                  </div>
+                  <div class="flex gap-1 items-center font-bold text-[10px] text-[#9CA5B3]">
+                    <span class="time font-medium text-[10px] text-[#9CA5B3]">2h ago</span>
+                    <span class="w-[3px] h-[3px] bg-[#9CA5B3] rounded-full"></span>
+                    Order Updates
+                  </div>
+                </div>
+              </div>
+
+              <div class="divider w-full h-[1px] bg-[rgba(32,32,32,0.05)]"></div>
+
+              <div class="flex gap-[10px] items-center overflow-hidden">
+                <div class="icon-message relative w-[34px] h-[34px]">
+                  <img class="w-[34px] h-[34px] rounded-full object-cover" src="./img/seller/seller_main_page_none_avatar.png" alt="Seller no avatar" />
+                  <div class="w-[10px] h-[10px] bg-[#62F94D] border border-white rounded-full absolute right-0 bottom-0 hidden"></div>
+                </div>
+
+                <div class="flex flex-col gap-1">
+                  <div class="flex">
+                    <h3 class="font-bold text-sm text-[#202020]">Linda86 <span class="font-medium text-sm text-[#9CA5B3]">left review for</span> Landing page on...</h3>                  
+                  </div>
+                  <div class="flex gap-1 items-center font-bold text-[10px] text-[#9CA5B3]">
+                    <span class="time font-medium text-[10px] text-[#9CA5B3]">2h ago</span>
+                    <span class="w-[3px] h-[3px] bg-[#9CA5B3] rounded-full"></span>
+                    Rating Reminder
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="read-message flex flex-col gap-[15px] w-full h-fit px-5 py-[15px] mt-[15px]">
+              <div class="flex gap-[10px] overflow-hidden">
+                <div class="icon-message relative w-[34px] h-[34px]">
+                  <img class="w-[34px] h-[34px] rounded-full object-cover" src="./img/shield-avatar.png" alt="Seller no avatar" />
+                  <div class="w-[10px] h-[10px] bg-[#62F94D] border border-white rounded-full absolute right-0 bottom-0 hidden"></div>
+                </div>
+
+                <div class="flex flex-col gap-1">
+                  <h3 class="font-medium text-sm text-[#9CA5B3]">Complete your verification to get more benefits.</h3>
+
+                  <a class="text-nowrap font-bold text-[12px] text-[#575E6A] underline">Complete verification</a>
+                </div>
+              </div>
+
+              <div class="divider w-full h-[1px] bg-[rgba(32,32,32,0.05)]"></div>
+
+              <div class="flex gap-[10px] overflow-hidden">
+                <div class="icon-message relative w-[34px] h-[34px]">
+                  <img class="w-[34px] h-[34px] rounded-full object-cover" src="./img/seller/seller_main_page_none_avatar.png" alt="Seller no avatar" />
+                  <div class="w-[10px] h-[10px] bg-[#62F94D] border border-white rounded-full absolute right-0 bottom-0 hidden"></div>
+                </div>
+
+                <div class="flex flex-col gap-1">
+                  <div class="flex">
+                    <h3 class="font-bold text-sm text-[#202020]">Linda86 <span class="font-medium text-sm text-[#9CA5B3]">upload a file for</span> Landing page...</h3>                  
+                  </div>
+                  <div class="flex gap-1 items-center font-bold text-[10px] text-[#9CA5B3]">
+                    <span class="time font-medium text-[10px] text-[#9CA5B3]">2h ago</span>
+                    <span class="w-[3px] h-[3px] bg-[#9CA5B3] rounded-full"></span>
+                    Order Updates
+                  </div>
+
+                  <div class="flex items-center gap-[5px]">
+                    <span class="rounded-[6px] p-[6px] w-[24px] h-[24px] bg-[#EDF4FF]">
+                      <img src="./img/icons/folder.svg" alt="Seller no avatar"/>
+                    </span>
+                    <a class="font-bold text-[10px] text-[#202020]">Brief_updated.pdf</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script>
+      function getOverlayContent(type, state) {
+        const id = `${type}-${state}`;
+        const template = document.getElementById(id);
+
+        if (!template) {
+          console.warn('Overlay template not found:', id);
+          return document.createTextNode('');
+        }
+
+        return template.cloneNode(true);
+      }
+    </script>
+
+    <script>
+      document.getElementById('messages')
+        .addEventListener('click', () => {
+          openOverlay('messages', 'filled'); // empty
+        });
+
+      document.getElementById('shopping-cart')
+        .addEventListener('click', () => {
+          openOverlay('shopping-cart', 'filled');
+        });
+
+      document.getElementById('notification')
+        .addEventListener('click', () => {
+          openOverlay('notification', 'filled');
+        });
+    </script>
   </div>
+
   <header class="lg:pt-8 bg-white">
     <div class="max-w-[1384px] px-3 mx-auto lg:flex hidden items-center justify-between">
       <div class="flex items-center gap-2.5 max-w-[600px] w-full">
@@ -282,7 +1147,6 @@
           });
         </script>
 
-
         <div class="w-full relative">
           <div class="flex items-center justify-between max-w-[316px] w-full h-11 px-4 rounded-full bg-[#FAFAFC]">
             <input autocomplete="off" id="search_services" placeholder="Search for services..."
@@ -292,6 +1156,7 @@
               <img src="./img/header/search.svg" alt="search" class="search-icon">
             </label>
           </div>
+
           <div id="search__menu"
             class="search_shadow hidden absolute bg-[#fff] shadow-lg top-[60px] max-w-[316px] w-full py-2.5 px-4 rounded-2xl z-50">
             <p class="text-[#202020] font-bold text-xs mb-2">Top services🔥</p>
@@ -317,12 +1182,8 @@
             </div>
           </div>
         </div>
-
-
-
-
-
       </div>
+
       <div class="flex items-center gap-10">
         <div>
           <ul class="flex items-center gap-6">
@@ -719,34 +1580,9 @@
       </div>
     </div>
 
-    <div class="hidden lg:block">
-      <nav class="hidden lg:block border-b-[1px] border-gray border-opacity-50 border-solid bg-white">
-        <div class="app-container flex items-center gap-[6px] overflow-auto [&::-webkit-scrollbar]:hidden pt-5">
-          <a class="[&:first-child]:text-black [&:first-child]:font-bold [&:first-child]:after:opacity-100 relative px-4 py-3 font-Satoshi font-medium text-gray whitespace-nowrap after:w-full after:h-1 after:bg-blue after:absolute after:left-0 after:bottom-0 after:opacity-0"
-            href="#" target="_blank"> Social &amp; SMM </a>
-          <a class="[&:first-child]:text-black [&:first-child]:font-bold [&:first-child]:after:opacity-100 relative px-4 py-3 font-Satoshi font-medium text-gray whitespace-nowrap after:w-full after:h-1 after:bg-blue after:absolute after:left-0 after:bottom-0 after:opacity-0"
-            href="#" target="_blank"> SEO </a>
-          <a class="[&:first-child]:text-black [&:first-child]:font-bold [&:first-child]:after:opacity-100 relative px-4 py-3 font-Satoshi font-medium text-gray whitespace-nowrap after:w-full after:h-1 after:bg-blue after:absolute after:left-0 after:bottom-0 after:opacity-0"
-            href="#" target="_blank"> Copywriting </a>
-          <a class="[&:first-child]:text-black [&:first-child]:font-bold [&:first-child]:after:opacity-100 relative px-4 py-3 font-Satoshi font-medium text-gray whitespace-nowrap after:w-full after:h-1 after:bg-blue after:absolute after:left-0 after:bottom-0 after:opacity-0"
-            href="#" target="_blank"> Web Development </a>
-          <a class="[&:first-child]:text-black [&:first-child]:font-bold [&:first-child]:after:opacity-100 relative px-4 py-3 font-Satoshi font-medium text-gray whitespace-nowrap after:w-full after:h-1 after:bg-blue after:absolute after:left-0 after:bottom-0 after:opacity-0"
-            href="#" target="_blank"> Marketplaces &amp; Socials </a>
-          <a class="[&:first-child]:text-black [&:first-child]:font-bold [&:first-child]:after:opacity-100 relative px-4 py-3 font-Satoshi font-medium text-gray whitespace-nowrap after:w-full after:h-1 after:bg-blue after:absolute after:left-0 after:bottom-0 after:opacity-0"
-            href="#" target="_blank"> Logotypes &amp; Branding </a>
-          <a class="[&:first-child]:text-black [&:first-child]:font-bold [&:first-child]:after:opacity-100 relative px-4 py-3 font-Satoshi font-medium text-gray whitespace-nowrap after:w-full after:h-1 after:bg-blue after:absolute after:left-0 after:bottom-0 after:opacity-0"
-            href="#" target="_blank"> Web &amp; Mobile Design </a>
-          <a class="[&:first-child]:text-black [&:first-child]:font-bold [&:first-child]:after:opacity-100 relative px-4 py-3 font-Satoshi font-medium text-gray whitespace-nowrap after:w-full after:h-1 after:bg-blue after:absolute after:left-0 after:bottom-0 after:opacity-0"
-            href="#" target="_blank"> Scripts &amp; Bots </a>
-          <a class="[&:first-child]:text-black [&:first-child]:font-bold [&:first-child]:after:opacity-100 relative px-4 py-3 font-Satoshi font-medium text-gray whitespace-nowrap after:w-full after:h-1 after:bg-blue after:absolute after:left-0 after:bottom-0 after:opacity-0"
-            href="#" target="_blank"> All Services </a>
-        </div>
-      </nav>
-    </div>
-
     <div class="lg:hidden pt-12 pb-5 max-w-[1384px] pt- px-5 mx-auto w-full flex items-center gap-2 justify-between max-md:pt-5">
       <button id="mobile_button">
-        <img src="./img/header/burger.svg" alt="burger">
+        <img id="mobile_button_icon" src="./img/header/burger.svg" alt="burger">
       </button>
       <a class="text-[#202020] font-bold text-sm" href="#">MONDAY</a>
       <div class="relative inline-block">
@@ -757,7 +1593,7 @@
         </button>
 
         <div id="mobile_dropdownMenu"
-          class="absolute hidden mt-1 bg-white border border-gray-200 rounded-lg shadow-lg w-full max-w-[83px] sm:max-w-[100px] md:max-w-[120px]">
+          class="absolute hidden mt-1 bg-white border border-gray-200 rounded-lg shadow-lg w-full max-w-[83px] sm:max-w-[100px] md:max-w-[120px] z-50">
           <ul class="text-left text-[#9CA5B3] font-medium text-xs uppercase">
             <li><button onclick="setMobileLanguage('Uz')"
                 class="block text-center w-full px-4 py-2 hover:bg-gray-100">Uz</button></li>
@@ -768,6 +1604,30 @@
           </ul>
         </div>
       </div>
+
+      <script>
+        const mobileButton = document.getElementById('mobile_button');
+        const mobileIcon = document.getElementById('mobile_button_icon');
+        const menuOverlay = document.getElementById('menu-overlay');
+
+        const BURGER_ICON = './img/header/burger.svg';
+        const CLOSE_ICON = './img/header/burger-close.svg';
+
+        mobileButton.addEventListener('click', () => {
+          const isOpen = menuOverlay.classList.contains('open');
+
+          if (isOpen) {
+            menuOverlay.classList.remove('open');
+            document.body.classList.remove('no-scroll');
+            mobileIcon.src = BURGER_ICON;
+          } else {
+            menuOverlay.classList.add('open');
+            document.body.classList.add('no-scroll');
+            mobileIcon.src = CLOSE_ICON;
+          }
+        });
+
+      </script>
 
       <script>
         const mobileLanguageButton = document.getElementById('mobile_languageButton');
@@ -790,14 +1650,89 @@
         });
       </script>
 
-      <div class="flex items-center justify-between max-w-[143px] w-full h-11 px-4 rounded-full bg-[#FAFAFC]">
-        <input id="search" placeholder="Search..."
-          class="placeholder:text-[#9CA5B3] placeholder:font-medium placeholder:text-sm text-[#9CA5B3] font-medium text-sm outline-none border-none bg-transparent max-w-[70px] w-full"
-          type="search">
-        <label for="search" class="cursor-pointer flex">
-          <img src="./img/header/search.svg" alt="search">
-        </label>
+      <div class="relative">
+        <div class="flex items-center justify-between max-w-[143px] w-full h-11 px-4 rounded-full bg-[#FAFAFC]">
+          <input autocomplete="off" id="search_mobile" placeholder="Search..."
+            class="placeholder:text-[#9CA5B3] placeholder:font-medium placeholder:text-sm text-[#9CA5B3] font-medium text-sm outline-none border-none bg-transparent max-w-[70px] w-full"
+            type="search">
+          <label for="search" class="cursor-pointer flex">
+            <img src="./img/header/search.svg" alt="search">
+          </label>
+        </div>
+
+        <div id="search__mobile_menu" class="search_shadow hidden absolute bg-[#fff] shadow-lg top-[60px] -left-[100px] w-[282px] py-2.5 px-4 rounded-2xl z-50">
+          <p class="text-[#202020] font-bold text-xs mb-2">Top services🔥</p>
+          <div class="flex flex-wrap gap-2 pb-2 border-b mb-2">
+            <a class="text-[#8F8F8F] search_services_section font-medium text-[10px] p-1 border rounded-md"
+              href="#">Social & SMM</a>
+            <a class="text-[#8F8F8F] search_services_section font-medium text-[10px] p-1 border rounded-md"
+              href="#">SEO</a>
+            <a class="text-[#8F8F8F] search_services_section font-medium text-[10px] p-1 border rounded-md"
+              href="#">Copywriting</a>
+            <a class="text-[#8F8F8F] search_services_section font-medium text-[10px] p-1 border rounded-md"
+              href="#">Web Development</a>
+            <a class="text-[#8F8F8F] search_services_section font-medium text-[10px] p-1 border rounded-md"
+              href="#">Scripts & Telegram Bots</a>
+          </div>
+          <div>
+            <p class="text-[#B7C3D6] font-bold text-[10px]">Recent</p>
+            <a class="search_recent text-[#575E6A] font-medium text-xs flex items-center gap-1 relative" href="#"><img
+                class="flex" src="./img/header/clock.svg" alt="clock">Wibtrix site
+              improvements</a>
+            <a class="search_recent text-[#575E6A] font-medium text-xs flex items-center gap-1 relative" href="#"><img
+                class="flex" src="./img/header/clock.svg" alt="clock">Seo optimisation</a>
+          </div>
+        </div>
       </div>
+
+      <script>
+        document.addEventListener('DOMContentLoaded', () => {
+          const searchInput = document.getElementById('search_mobile');
+          const searchMenu = document.getElementById('search__mobile_menu');
+
+          function showSearchMenu() {
+            searchMenu.classList.remove('hidden');
+          }
+
+          function hideSearchMenu() {
+            searchMenu.classList.add('hidden');
+          }
+
+          searchInput.addEventListener('focus', showSearchMenu);
+
+          document.addEventListener('click', (event) => {
+            if (!searchInput.contains(event.target) && !searchMenu.contains(event.target)) {
+              hideSearchMenu();
+            }
+          });
+
+          window.addEventListener('resize', hideSearchMenu);
+
+          const searchRecentItems = document.querySelectorAll('.search_recent');
+          searchRecentItems.forEach(item => {
+            item.addEventListener('mouseenter', () => {
+              if (!item.querySelector('.close-button')) {
+                const closeButton = document.createElement('span');
+                closeButton.innerHTML = '&times;';
+                closeButton.classList.add('absolute', 'right-0', 'text-[#9CA5B3]', 'hover:text-[#202020]', 'font-bold', 'transition-all', 'duration-200', 'ease-in-out', 'text-xl', 'close-button');
+                closeButton.addEventListener('click', (event) => {
+                  event.stopPropagation();
+                  item.remove();
+                });
+                item.appendChild(closeButton);
+              }
+            });
+
+            item.addEventListener('mouseleave', () => {
+              const closeButton = item.querySelector('.close-button');
+              if (closeButton) {
+                closeButton.remove();
+              }
+            });
+          });
+        });
+      </script>
+      
       <div class="flex items-center gap-2">
         <a href="#">
           <img src="./img/header/lovely.svg" alt="lovely">
@@ -808,11 +1743,494 @@
       </div>
     </div>
 
+    <div class="z-40 relative lg:block">
+      <nav class="z-40 overflow-auto [&::-webkit-scrollbar]:hidden lg:block border-b-[1px] border-gray border-opacity-50 border-solid bg-white max-md:border-t-[1px] max-md:border-gray">
+        <div class="app-container flex items-center gap-[6px] pt-5 max-md:pt-0">
+          <a class="menu-item [&:first-child]:text-black [&:first-child]:font-bold [&:first-child]:after:opacity-100 relative px-4 py-3 font-Satoshi font-medium text-gray whitespace-nowrap after:w-full after:h-1 after:bg-blue after:absolute after:left-0 after:bottom-0 after:opacity-0"
+            data-dropdown-id="dropdown-social-smm" href="#"> Social &amp; SMM </a>
+          <a class="menu-item [&:first-child]:text-black [&:first-child]:font-bold [&:first-child]:after:opacity-100 relative px-4 py-3 font-Satoshi font-medium text-gray whitespace-nowrap after:w-full after:h-1 after:bg-blue after:absolute after:left-0 after:bottom-0 after:opacity-0"
+            data-dropdown-id="dropdown-seo" href="#"> SEO </a>
+          <a class="menu-item [&:first-child]:text-black [&:first-child]:font-bold [&:first-child]:after:opacity-100 relative px-4 py-3 font-Satoshi font-medium text-gray whitespace-nowrap after:w-full after:h-1 after:bg-blue after:absolute after:left-0 after:bottom-0 after:opacity-0"
+            data-dropdown-id="dropdown-copywriting" href="#"> Copywriting </a>
+          <a class="menu-item [&:first-child]:text-black [&:first-child]:font-bold [&:first-child]:after:opacity-100 relative px-4 py-3 font-Satoshi font-medium text-gray whitespace-nowrap after:w-full after:h-1 after:bg-blue after:absolute after:left-0 after:bottom-0 after:opacity-0"
+            data-dropdown-id="dropdown-webdev" href="#"> Web Development </a>
+          <a class="menu-item [&:first-child]:text-black [&:first-child]:font-bold [&:first-child]:after:opacity-100 relative px-4 py-3 font-Satoshi font-medium text-gray whitespace-nowrap after:w-full after:h-1 after:bg-blue after:absolute after:left-0 after:bottom-0 after:opacity-0"
+            data-dropdown-id="dropdown-scripts" href="#"> Scripts &amp; Telegram Bots</a>
+          <a class="menu-item [&:first-child]:text-black [&:first-child]:font-bold [&:first-child]:after:opacity-100 relative px-4 py-3 font-Satoshi font-medium text-gray whitespace-nowrap after:w-full after:h-1 after:bg-blue after:absolute after:left-0 after:bottom-0 after:opacity-0"
+            data-dropdown-id="dropdown-logo" href="#"> Logotypes &amp; Branding </a>
+          <a class="menu-item [&:first-child]:text-black [&:first-child]:font-bold [&:first-child]:after:opacity-100 relative px-4 py-3 font-Satoshi font-medium text-gray whitespace-nowrap after:w-full after:h-1 after:bg-blue after:absolute after:left-0 after:bottom-0 after:opacity-0"
+            data-dropdown-id="dropdown-webmobile" href="#"> Web &amp; Mobile Design </a>
+          <a class="menu-item [&:first-child]:text-black [&:first-child]:font-bold [&:first-child]:after:opacity-100 relative px-4 py-3 font-Satoshi font-medium text-gray whitespace-nowrap after:w-full after:h-1 after:bg-blue after:absolute after:left-0 after:bottom-0 after:opacity-0"
+            data-dropdown-id="dropdown-scripts" href="#"> Scripts &amp; Bots </a>
+          <a class="flex items-center menu-item [&:first-child]:text-black [&:first-child]:font-bold [&:first-child]:after:opacity-100 relative px-4 py-3 font-Satoshi font-medium text-gray whitespace-nowrap after:w-full after:h-1 after:bg-blue after:absolute after:left-0 after:bottom-0 after:opacity-0"
+            data-dropdown-id="dropdown-all" href="#"> All Services 
+            <svg xmlns="http://www.w3.org/2000/svg" width="25" height="26" viewBox="0 0 25 26" fill="none">
+              <path d="M8 11.5L12.5 15.5L17 11.5" stroke="#9CA5B3" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+            </svg>
+          </a>
+        </div>
+      </nav>
+
+      <div id="dropdown-social-smm" class="absolute z-50 bg-white rounded-[14px] invisible opacity-0 transition-opacity max-md:w-[95%]" style="box-shadow: 5px 10px 40px 10px #0000000D;">
+        <div class="grid grid-cols-3 gap-4 p-[16px] w-[700px] max-md:w-full max-md:grid-cols-2">
+          <!-- Column 1 -->
+          <div class="flex flex-col gap-4 w-fit">
+            <div>
+              <div class="font-Satoshi font-bold text-base mb-2 text-nowrap w-fit max-md:text-wrap">
+                Paid Advertising
+              </div>
+              <ul class="flex flex-col gap-1 text-sm opacity-60 text-gray text-nowrap w-fit max-md:text-wrap">
+                <li><a href="#" class="hover:text-blue transition-colors">Google Ads</a></li>
+              </ul>
+            </div>
+
+            <div>
+              <div class="font-Satoshi font-bold text-base mb-2 text-nowrap w-fit max-md:text-wrap">
+                Databases &amp; Leads
+              </div>
+              <ul class="flex flex-col gap-2 text-sm text-gray opacity-60 text-nowrap w-fit">
+                <li><a href="#" class="hover:text-blue transition-colors">Data Collection</a></li>
+                <li><a href="#" class="hover:text-blue transition-colors">Ready-made Databases</a></li>
+                <li><a href="#" class="hover:text-blue transition-colors">Data Cleaning &amp; Validation</a></li>
+              </ul>
+            </div>
+          </div>
+
+          <!-- Column 2 -->
+          <div class="flex flex-col gap-4 border-l border-gray/20 pl-4 pr-4 w-fit h-full max-md:row-span-2">
+            <div>
+              <div class="font-Satoshi font-bold text-base mb-2 text-nowrap max-md:text-wrap">
+                Email Campaigns
+              </div>
+              <ul class="flex flex-col gap-2 text-sm text-gray opacity-60 text-nowrap max-md:text-wrap">
+                  <li><a href="#" class="hover:text-blue transition-colors">Email Marketing &amp; Campaigns</a></li>
+              </ul>
+            </div>
+            <div>
+              <div class="font-Satoshi font-bold text-base mb-2 text-nowrap max-md:text-wrap">
+                Marketplaces &amp; Classifieds
+              </div>
+              <ul class="flex flex-col gap-2 text-sm text-gray opacity-60 text-nowrap max-md:text-wrap">
+                <li><a href="#" class="hover:text-blue transition-colors">Marketplaces</a></li>
+                <li><a href="#" class="hover:text-blue transition-colors">Classified Ads</a></li>
+                <li><a href="#" class="hover:text-blue transition-colors">Directories &amp; Listings</a></li>
+              </ul>
+            </div>
+          </div>
+
+          <!-- Column 3 -->
+          <div class="flex flex-col gap-4 border-l border-gray/20 pl-4 max-md:pl-0 max-md:border-l-0">
+            <div>
+              <div class="font-Satoshi font-bold text-base mb-2 text-nowrap max-md:text-wrap">
+                Advertising &amp; PR
+              </div>
+              <ul class="flex flex-col gap-2 text-sm text-gray opacity-60">
+                <li><a href="#" class="hover:text-blue transition-colors">Content Marketing</a></li>
+                <li><a href="#" class="hover:text-blue transition-colors">Ad Placement</a></li>
+                <li><a href="#" class="hover:text-blue transition-colors">Music Promotion</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div id="dropdown-seo" class="absolute z-50 bg-white rounded-[14px] invisible opacity-0 transition-opacity max-md:w-[95%]" style="box-shadow: 5px 10px 40px 10px #0000000D;">
+        <div class="grid grid-cols-3 gap-4 p-[16px] w-[700px] max-md:w-full max-md:grid-cols-2">
+          <!-- Column 1 -->
+          <div class="flex flex-col gap-4 w-fit">
+            <div>
+              <div class="font-Satoshi font-bold text-base mb-2 text-nowrap w-fit max-md:text-wrap">SEO</div>
+              <ul class="flex flex-col gap-1 text-sm opacity-60 text-gray text-nowrap w-fit max-md:text-wrap">
+                <li><a href="#" class="hover:text-blue transition-colors">Link Building</a></li>
+                <li><a href="#" class="hover:text-blue transition-colors">Website Promotion</a></li>
+                <li><a href="#" class="hover:text-blue transition-colors">On-page SEO</a></li>
+                <li><a href="#" class="hover:text-blue transition-colors">Keyword Research / Semantic Core</a></li>
+                <li><a href="#" class="hover:text-blue transition-colors">SEO Audits &amp; Consulting</a></li>
+              </ul>
+            </div>
+          </div>
+
+          <!-- Column 2 -->
+          <div class="flex flex-col gap-4 border-l border-gray/20 pl-4 pr-4 w-fit h-full max-md:row-span-2">
+            <div>
+              <div class="font-Satoshi font-bold text-base mb-2 text-nowrap max-md:text-wrap">Traffic</div>
+              <ul class="flex flex-col gap-2 text-sm text-gray opacity-60 text-nowrap max-md:text-wrap">
+                <li><a href="#" class="hover:text-blue transition-colors">Website Traffic</a></li>
+                <li><a href="#" class="hover:text-blue transition-colors">Behavioral Factors</a></li>
+              </ul>
+            </div>
+          </div>
+
+          <!-- Column 3 -->
+          <div class="flex flex-col gap-4 border-l border-gray/20 pl-4 w-fit max-md:pl-0 max-md:border-l-0">
+            <div>
+              <div class="font-Satoshi font-bold text-base mb-2 text-nowrap max-md:text-wrap">Statistics &amp; Analytics</div>
+              <ul class="flex flex-col gap-2 text-sm text-gray opacity-60">
+                <li><a href="#" class="hover:text-blue transition-colors">Metrics &amp; Trackers</a></li>
+                <li><a href="#" class="hover:text-blue transition-colors">Website &amp; Market Analysis</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div id="dropdown-copywriting" class="absolute z-50 bg-white rounded-[14px] invisible opacity-0 transition-opacity max-md:w-[95%]" style="box-shadow: 5px 10px 40px 10px #0000000D;">
+        <div class="grid grid-cols-3 gap-4 p-[16px] w-[700px] max-md:w-full max-md:grid-cols-2">
+          <!-- Column 1 -->
+          <div class="flex flex-col gap-4 w-fit">
+            <div>
+              <div class="font-Satoshi font-bold text-base mb-2 text-nowrap w-fit">Website Content &amp; Texts</div>
+              <ul class="flex flex-col gap-1 text-sm opacity-60 text-gray text-nowrap w-fit">
+                <li><a href="#" class="hover:text-blue transition-colors">Texts</a></li>
+                <li><a href="#" class="hover:text-blue transition-colors">SEO Articles</a></li>
+                <li><a href="#" class="hover:text-blue transition-colors">Product Descriptions</a></li>
+                <li><a href="#" class="hover:text-blue transition-colors">Reviews</a></li>
+                <li><a href="#" class="hover:text-blue transition-colors">Creative Writing</a></li>
+                <li><a href="#" class="hover:text-blue transition-colors">Scripts</a></li>
+                <li><a href="#" class="hover:text-blue transition-colors">Text Editing</a></li>
+              </ul>
+            </div>
+          </div>
+
+          <!-- Column 2 -->
+          <div class="flex flex-col gap-4 border-l border-gray/20 pl-4 pr-4 w-fit h-full max-md:row-span-2">
+            <div>
+              <div class="font-Satoshi font-bold text-base mb-2 text-nowrap max-md:text-wrap">Translations</div>
+              <ul class="flex flex-col gap-2 text-sm text-gray opacity-60 text-nowrap max-md:text-wrap">
+                <li><a href="#" class="hover:text-blue transition-colors">Translations in 74 Languages</a></li>
+              </ul>
+            </div>
+
+            <div>
+              <div class="font-Satoshi font-bold text-base mb-2 text-nowrap max-md:text-wrap">Content Packages</div>
+              <ul class="flex flex-col gap-2 text-sm text-gray opacity-60 text-nowrap max-md:text-wrap">
+                <li><a href="#" class="hover:text-blue transition-colors">Audio &amp; Video Transcription</a></li>
+                <li><a href="#" class="hover:text-blue transition-colors">Image to Text (OCR)</a></li>
+              </ul>
+            </div>
+
+            <div>
+              <div class="font-Satoshi font-bold text-base mb-2 text-nowrap max-md:text-wrap">Resume &amp; Job Content</div>
+              <ul class="flex flex-col gap-2 text-sm text-gray opacity-60 text-nowrap max-md:text-wrap">
+                <li><a href="#" class="hover:text-blue transition-colors">Resume Writing</a></li>
+                <li><a href="#" class="hover:text-blue transition-colors">Cover Letter</a></li>
+                <li><a href="#" class="hover:text-blue transition-colors">Job Description</a></li>
+              </ul>
+            </div>
+          </div>
+
+          <!-- Column 3 -->
+          <div class="flex flex-col gap-4 border-l border-gray/20 pl-4 w-fit max-md:pl-0 max-md:border-l-0">
+            <div>
+              <div class="font-Satoshi font-bold text-base mb-2 text-nowrap">Sales &amp; Business Writing</div>
+              <ul class="flex flex-col gap-2 text-sm text-gray opacity-60">
+                <li><a href="#" class="hover:text-blue transition-colors">Sales Copy</a></li>
+                <li><a href="#" class="hover:text-blue transition-colors">Advertising &amp; Email Copy</a></li>
+                <li><a href="#" class="hover:text-blue transition-colors">Sales &amp; Speech Scripts</a></li>
+                <li><a href="#" class="hover:text-blue transition-colors">Commercial Proposals</a></li>
+                <li><a href="#" class="hover:text-blue transition-colors">Social Media Posts</a></li>
+                <li><a href="#" class="hover:text-blue transition-colors">Naming &amp; Slogans</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div id="dropdown-webdev" class="absolute z-50 bg-white rounded-[14px] invisible opacity-0 transition-opacity max-md:w-[95%]" style="box-shadow: 5px 10px 40px 10px #0000000D;">
+        <div class="grid grid-cols-3 gap-4 p-[16px] w-[700px] max-md:w-full max-md:grid-cols-2">
+          <!-- Column 1 -->
+          <div class="flex flex-col gap-4 w-fit">
+            <div>
+              <div class="font-Satoshi font-bold text-base mb-2 w-fit">Website Optimization &amp; Configuration</div>
+              <ul class="flex flex-col gap-1 text-sm opacity-60 text-gray w-fit">
+                <li><a href="#" class="hover:text-blue transition-colors">Website Improvement</a></li>
+                <li><a href="#" class="hover:text-blue transition-colors">Website Setup &amp; Configuration</a></li>
+                <li><a href="#" class="hover:text-blue transition-colors">Website Security &amp; Fixes</a></li>
+                <li><a href="#" class="hover:text-blue transition-colors">Website Speed Optimization</a></li>
+                <li><a href="#" class="hover:text-blue transition-colors">Plugins &amp; Themes</a></li>
+                <li><a href="#" class="hover:text-blue transition-colors">Bug Fixes</a></li>
+                <li><a href="#" class="hover:text-blue transition-colors">E-commerce</a></li>
+              </ul>
+            </div>
+
+            <div>
+              <div class="font-Satoshi font-bold text-base mb-2 w-fit">Website Creation</div>
+              <ul class="flex flex-col gap-2 text-sm text-gray opacity-60 w-fit">
+                <li><a href="#" class="hover:text-blue transition-colors">New Website</a></li>             
+                <li><a href="#" class="hover:text-blue transition-colors">Website Clone</a></li>
+              </ul>
+            </div>
+          </div>
+
+          <!-- Column 2 -->
+          <div class="flex flex-col gap-4 border-l border-gray/20 pl-4 pr-4 w-fit h-full max-md:row-span-2">
+            <div>
+              <div class="font-Satoshi font-bold text-base mb-2 w-fit">Website Markup / Front-end Development</div>
+              <ul class="flex flex-col gap-1 text-sm opacity-60 text-gray w-fit">
+                <li><a href="#" class="hover:text-blue transition-colors">Pixel-perfect Markup from Design</a></li>
+                <li><a href="#" class="hover:text-blue transition-colors">Website Enhancement &amp; Responsiveness</a></li>
+              </ul>
+            </div>
+
+            <div>
+              <div class="font-Satoshi font-bold text-base mb-2 w-fit text-nowrap max-md:text-wrap">Desktop Development</div>
+              <ul class="flex flex-col gap-2 text-sm text-gray opacity-60 w-fit">
+                <li><a href="#" class="hover:text-blue transition-colors">Microsoft Office Macros</a></li>               
+                <li><a href="#" class="hover:text-blue transition-colors">Webflow Development</a></li>
+                <li><a href="#" class="hover:text-blue transition-colors">Ready-made Software</a></li>
+                <li><a href="#" class="hover:text-blue transition-colors">Custom Software</a></li>
+              </ul>
+            </div>
+
+            <div>
+              <div class="font-Satoshi font-bold text-base mb-2 w-fit text-nowrap max-md:text-wrap">Mobile Apps Development</div>
+              <ul class="flex flex-col gap-2 text-sm text-gray opacity-60 w-fit">
+                <li><a href="#" class="hover:text-blue transition-colors">iOS Apps</a></li>               
+                <li><a href="#" class="hover:text-blue transition-colors">Android Apps</a></li>
+              </ul>
+            </div>
+          </div>
+
+          <!-- Column 3 -->
+          <div class="flex flex-col gap-4 border-l border-gray/20 pl-4 pr-4 w-fit max-md:pl-0 max-md:border-l-0">
+            <div>
+              <div class="font-Satoshi font-bold text-base mb-2 w-fit">Game Development</div>
+              <ul class="flex flex-col gap-1 text-sm opacity-60 text-gray w-fit">
+                <li><a href="#" class="hover:text-blue transition-colors">Game Development</a></li>
+                <li><a href="#" class="hover:text-blue transition-colors">Game Servers</a></li>
+                <li><a href="#" class="hover:text-blue transition-colors">Ready-made Games</a></li>
+              </ul>
+            </div>
+
+            <div>
+              <div class="font-Satoshi font-bold text-base mb-2 w-fit text-nowrap max-md:text-wrap">Servers &amp; Hosting</div>
+              <ul class="flex flex-col gap-2 text-sm text-gray opacity-60 w-fit">
+                <li><a href="#" class="hover:text-blue transition-colors">Server Administration</a></li>               
+                <li><a href="#" class="hover:text-blue transition-colors">Domains</a></li>
+                <li><a href="#" class="hover:text-blue transition-colors">Hosting</a></li>
+              </ul>
+            </div>
+
+            <div>
+              <div class="font-Satoshi font-bold text-base mb-2 w-fit">Usability Audit, Testing &amp; Support</div>
+              <ul class="flex flex-col gap-2 text-sm text-gray opacity-60 w-fit">
+                <li><a href="#" class="hover:text-blue transition-colors">Usability Audit</a></li>               
+                <li><a href="#" class="hover:text-blue transition-colors">Bug Testing</a></li>
+                <li><a href="#" class="hover:text-blue transition-colors">IT & Computer Support</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div id="dropdown-logo" class="absolute z-50 bg-white rounded-[14px] invisible opacity-0 transition-opacity max-md:w-[95%]" style="box-shadow: 5px 10px 40px 10px #0000000D;">
+        <div class="grid grid-cols-3 gap-4 p-[16px] w-[700px] max-md:w-full max-md:grid-cols-2">
+          <!-- Column 1 -->
+          <div class="flex flex-col gap-4 w-fit">
+            <div>
+              <div class="font-Satoshi font-bold text-base mb-2 w-fit">Logotypes &amp; Branding</div>
+              <ul class="flex flex-col gap-1 text-sm opacity-60 text-gray w-fit">
+                <li><a href="#" class="hover:text-blue transition-colors">Logos</a></li>
+                <li><a href="#" class="hover:text-blue transition-colors">Brand Identity</a></li>
+                <li><a href="#" class="hover:text-blue transition-colors">Business Cards</a></li>
+                <li><a href="#" class="hover:text-blue transition-colors">Branding &amp; Merchandise</a></li>
+              </ul>
+            </div>
+
+            <div>
+              <div class="font-Satoshi font-bold text-base mb-2 w-fit">Presentations &amp; Infographics</div>
+              <ul class="flex flex-col gap-2 text-sm text-gray opacity-60 w-fit">
+                <li><a href="#" class="hover:text-blue transition-colors">Presentations</a></li>             
+                <li><a href="#" class="hover:text-blue transition-colors">Infographics</a></li>
+                <li><a href="#" class="hover:text-blue transition-colors">Maps &amp; Diagrams</a></li>
+              </ul>
+            </div>
+
+            <div>
+              <div class="font-Satoshi font-bold text-base mb-2 w-fit">Art &amp; Illustrations</div>
+              <ul class="flex flex-col gap-2 text-sm text-gray opacity-60 w-fit">
+                <li><a href="#" class="hover:text-blue transition-colors">Portraits, Caricatures &amp; Cartoons</a></li>
+                <li><a href="#" class="hover:text-blue transition-colors">Illustrations &amp; Drawings</a></li>
+                <li><a href="#" class="hover:text-blue transition-colors">Game Design</a></li>
+                <li><a href="#" class="hover:text-blue transition-colors">Ready-made Designs &amp; Assets</a></li>
+              </ul>
+            </div>
+          </div>
+
+          <!-- Column 2 -->
+          <div class="flex flex-col gap-4 border-l border-gray/20 pl-4 pr-4 w-fit h-full max-md:row-span-2">
+            <div>
+              <div class="font-Satoshi font-bold text-base mb-2 w-fit">Marketplaces &amp; Social Pages</div>
+              <ul class="flex flex-col gap-1 text-sm opacity-60 text-gray w-fit">
+                <li><a href="#" class="hover:text-blue transition-colors">Social Media Design</a></li>
+                <li><a href="#" class="hover:text-blue transition-colors">Marketplace Design</a></li>
+              </ul>
+            </div>
+
+            <div>
+              <div class="font-Satoshi font-bold text-base mb-2 w-fit">Interior &amp; Exterior Design</div>
+              <ul class="flex flex-col gap-2 text-sm text-gray opacity-60 w-fit">
+                <li><a href="#" class="hover:text-blue transition-colors">Interior Design</a></li>               
+                <li><a href="#" class="hover:text-blue transition-colors">Residential &amp; Building Design</a></li>
+                <li><a href="#" class="hover:text-blue transition-colors">Landscape Design</a></li>
+                <li><a href="#" class="hover:text-blue transition-colors">Furniture Design</a></li>
+              </ul>
+            </div>
+
+            <div>
+              <div class="font-Satoshi font-bold text-base mb-2 w-fit">Editing &amp; Post-Processing</div>
+              <ul class="flex flex-col gap-2 text-sm text-gray opacity-60 w-fit">
+                <li><a href="#" class="hover:text-blue transition-colors">Vector Tracing</a></li>               
+                <li><a href="#" class="hover:text-blue transition-colors">Photo Editing &amp; Retouching</a></li>
+                <li><a href="#" class="hover:text-blue transition-colors">3D Graphics</a></li>
+              </ul>
+            </div>
+          </div>
+
+          <!-- Column 3 -->
+          <div class="flex flex-col gap-4 border-l border-gray/20 pl-4 pr-4 w-fit max-md:pl-0 max-md:border-l-0">
+            <div>
+              <div class="font-Satoshi font-bold text-base mb-2 w-fit">Print &amp; Publishing</div>
+              <ul class="flex flex-col gap-1 text-sm opacity-60 text-gray w-fit">
+                <li><a href="#" class="hover:text-blue transition-colors">Brochures &amp; Booklets</a></li>
+                <li><a href="#" class="hover:text-blue transition-colors">Flyers &amp; Leaflets</a></li>
+                <li><a href="#" class="hover:text-blue transition-colors">Posters</a></li>
+                <li><a href="#" class="hover:text-blue transition-colors">Calendars &amp; Greeting Cards</a></li>
+                <li><a href="#" class="hover:text-blue transition-colors">Catalogs, Menus &amp; Books</a></li>
+                <li><a href="#" class="hover:text-blue transition-colors">Certificates &amp; Diplomas</a></li>
+              </ul>
+            </div>
+
+            <div>
+              <div class="font-Satoshi font-bold text-base mb-2 w-fit text-nowrap max-md:text-wrap">Industrial Design</div>
+              <ul class="flex flex-col gap-2 text-sm text-gray opacity-60 w-fit">
+                <li><a href="#" class="hover:text-blue transition-colors">Electronics &amp; Equipment</a></li>               
+                <li><a href="#" class="hover:text-blue transition-colors">Products &amp; Accessories</a></li>
+                <li><a href="#" class="hover:text-blue transition-colors">Packaging &amp; Labels</a></li>
+              </ul>
+            </div>
+
+            <div>
+              <div class="font-Satoshi font-bold text-base mb-2 w-fit text-nowrap max-md:text-wrap">Outdoor Advertising</div>
+              <ul class="flex flex-col gap-2 text-sm text-gray opacity-60 w-fit">
+                <li><a href="#" class="hover:text-blue transition-colors">Billboards &amp; Stands</a></li>               
+                <li><a href="#" class="hover:text-blue transition-colors">Exhibition Displays &amp; Outdoor Signage</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div id="dropdown-webmobile" class="absolute z-50 bg-white rounded-[14px] invisible opacity-0 transition-opacity" style="box-shadow: 5px 10px 40px 10px #0000000D;">
+        <div class="grid grid-cols-3 gap-4 p-[16px] w-[232px]">
+          <div class="flex flex-col gap-4 w-fit">
+            <div>
+              <div class="font-Satoshi font-bold text-base mb-2 text-nowrap w-fit">Web &amp; Mobile Design</div>
+              
+              <ul class="flex flex-col gap-2 text-sm text-gray opacity-60 text-nowrap w-fit">
+                <li><a href="#" class="hover:text-blue transition-colors">Web Design</a></li>
+                <li><a href="#" class="hover:text-blue transition-colors">Mobile Design</a></li>
+                <li><a href="#" class="hover:text-blue transition-colors">Email Design</a></li>
+                <li><a href="#" class="hover:text-blue transition-colors">Banners & Icons</a></li>
+                <li><a href="#" class="hover:text-blue transition-colors">Usability Audit</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div id="dropdown-scripts" class="absolute z-50 bg-white rounded-[14px] invisible opacity-0 transition-opacity" style="box-shadow: 5px 10px 40px 10px #0000000D;">
+        <div class="grid grid-cols-3 gap-4 p-[16px] w-[232px]">
+          <div class="flex flex-col gap-4 w-fit">
+            <div>
+              <div class="font-Satoshi font-bold text-base mb-2 text-nowrap w-fit">Scripts &amp; Bots</div>
+              
+              <ul class="flex flex-col gap-2 text-sm text-gray opacity-60 text-nowrap w-fit">
+                <li><a href="#" class="hover:text-blue transition-colors">Scripts</a></li>
+                <li><a href="#" class="hover:text-blue transition-colors">Parsing Systems</a></li>
+                <li><a href="#" class="hover:text-blue transition-colors">Chatbots</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script>
+      const menuItems = document.querySelectorAll('.menu-item');
+      let activeDropdown = null;
+
+      const isMobile = () => window.innerWidth < 768;
+
+      const hideAll = () => {
+        document.querySelectorAll('[id^="dropdown-"]').forEach(dd => {
+          dd.classList.add('invisible');
+          dd.classList.remove('visible', 'opacity-100');
+        });
+        activeDropdown = null;
+      };
+
+      hideAll();
+
+      menuItems.forEach(item => {
+        const dropdownId = item.dataset.dropdownId;
+        const dropdown = document.getElementById(dropdownId);
+        if (!dropdown) return;
+
+        const show = () => {
+          const rect = item.getBoundingClientRect();
+          const navRect = item.closest('nav').getBoundingClientRect();
+
+          dropdown.style.top = (rect.bottom - navRect.top + 1) + 'px';
+
+          if (isMobile()) {
+            dropdown.style.left = '50%';
+            dropdown.style.transform = 'translateX(-50%)';
+          } else {
+            dropdown.style.left = (rect.left - navRect.left) + 'px';
+            dropdown.style.transform = 'none';
+          }
+
+          hideAll();
+          dropdown.classList.remove('invisible');
+          dropdown.classList.add('visible', 'opacity-100');
+          activeDropdown = dropdown;
+        };
+
+        item.addEventListener('mouseenter', () => {
+          if (!isMobile()) show();
+        });
+
+        item.addEventListener('mouseleave', () => {
+          if (!isMobile()) {
+            if (!dropdown.matches(':hover')) hideAll();
+        }});
+
+        dropdown.addEventListener('mouseleave', () => {
+          if (!isMobile()) hideAll();
+        });
+
+        item.addEventListener('click', e => {
+          if (!isMobile()) return;
+
+          e.preventDefault();
+          e.stopPropagation();
+
+          if (activeDropdown === dropdown) {
+            hideAll();
+          } else {
+            show();
+          }
+        });
+      });
+
+      document.addEventListener('click', () => {
+        if (isMobile()) hideAll();
+      });
+    </script>
+
     <div class="max-w-[1384px] lg:block hidden px-3 mx-auto relative">
-
-
-      <div
-        class="bg-[#fff] hidden notification_modal shadow-[0_3px_10px_rgb(0,0,0,0.2)] rounded-[14px] py-[20px] w-[376px] z-50 absolute top-[-40px] right-[140px]">
+      <div class="bg-[#fff] hidden notification_modal shadow-[0_3px_10px_rgb(0,0,0,0.2)] rounded-[14px] py-[20px] w-[376px] z-50 absolute top-[-40px] right-[140px]">
         <div class="w-full flex justify-between items-center mb-[25px] px-[20px]">
           <div class="flex items-center gap-2">
             <svg width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -1369,9 +2787,7 @@
         </div>
       </div>
 
-
-      <div
-        class="bg-[#fff] hidden messages_modal z-50 shadow-[0_3px_10px_rgb(0,0,0,0.2)] rounded-[14px] pt-[20px] w-[376px] absolute top-[-40px] right-[150px]">
+      <div class="bg-[#fff] hidden messages_modal z-50 shadow-[0_3px_10px_rgb(0,0,0,0.2)] rounded-[14px] pt-[20px] w-[376px] absolute top-[-40px] right-[150px]">
         <div class="w-full flex justify-between items-center mb-[25px] px-[20px]">
           <div class="flex items-center gap-2">
             <svg width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -1390,8 +2806,6 @@
             <span class="font-bold">Messages</span>
           </div>
         </div>
-
-
 
         <div class=" border-b-[1px] border-b-[#F2F2F2] pb-[10px] mb-[15px] mx-[20px] relative">
           <input type="text"
@@ -1721,8 +3135,6 @@
         </div>
       </div>
 
-
-
       <!-- <div
             class="bg-[#fff] hidden messages_modal_404 z-50 shadow-[0_3px_10px_rgb(0,0,0,0.2)] rounded-[14px] pt-[20px] pb-[20px] w-[300px] absolute top-[-80px] right-[140px]">
             <div
@@ -1756,7 +3168,6 @@
                     on Monday.</p>
             </div>
         </div> -->
-
     </div>
 
     <div id="header__shop__modal"
@@ -1852,16 +3263,14 @@
       </p>
     </div>
 
-    <div
-      class="hidden header__shop__modal__null absolute z-30 right-5 lg:right-[555px] top-[90px] lg:top-20  flex-col items-center bg-white max-w-[227px] w-full p-6 ">
+    <div class="hidden header__shop__modal__null absolute z-30 right-5 lg:right-[555px] top-[90px] lg:top-20  flex-col items-center bg-white max-w-[227px] w-full p-6 ">
       <div class="w-24 h-24 rounded-full bg-[#F4F8FFB2] mx-auto mb-5"></div>
       <h3 class="font-bold text-base text-[#575E6A] text-center mb-[5px]">The cart is empty</h3>
       <p class="font-bold text-xs text-[#9CA5B3] text-center">But it shouldn't be that way ;) Add quorks, place
         orders!</p>
     </div>
-
-
   </header>
+
   <script>
     document.addEventListener('DOMContentLoaded', () => {
       const notificationModal = document.querySelector('.notification_modal');
@@ -2047,13 +3456,13 @@
     });
   </script>
 
-  <section id="hero" class="pt-8 pb-20 lg:pt-20 relative">
-    <img
-      class="absolute w-60 opacity-30 left-1/2 top-0 -translate-y-1/3 -translate-x-2/3 lg:w-80 lg:opacity-100 lg:top-44 lg:left-0 lg:translate-x-0"
+  <section id="hero" class="pt-8 pb-20 lg:pt-20 relative overflow-hidden">
+    <img class="absolute w-60 opacity-30 left-1/2 top-0 -translate-y-1/3 -translate-x-2/3 lg:w-80 lg:opacity-100 lg:top-44 lg:left-0 lg:translate-x-0"
       src="/img/grid.svg" alt="">
-    <img
-      class="absolute w-60 opacity-30 left-1/2 top-28 lg:w-80 lg:opacity-100 lg:top-44 lg:left-auto lg:translate-x-0 lg:right-0 lg:-translate-y-1/3"
+
+    <img class="absolute w-60 opacity-30 left-1/2 top-28 lg:w-80 lg:opacity-100 lg:top-44 lg:left-auto lg:translate-x-0 lg:right-0 lg:-translate-y-1/3"
       src="/img/grid.svg" alt="">
+
     <div class="app-container relative z-10">
       <div class="flex flex-col items-center lg:max-w-[900px] lg:mx-auto">
         <div class="flex items-center rounded-lg border-[1px] border-black/10 px-2 py-1">
@@ -2186,6 +3595,7 @@
       </div>
     </div>
   </section>
+
   <section id="services" class="py-9 lg:pt-10 lg:pb-20">
     <div class="app-container">
       <div class="flex flex-col items-center">
@@ -2313,6 +3723,7 @@
       </div>
     </div>
   </section>
+
   <section id="quick-start" class="pt-7 pb-16">
     <div class="app-container">
       <div class="flex flex-col items-center">
@@ -2372,8 +3783,8 @@
       </div>
     </div>
   </section>
-  <div
-    class="relative after:bg-white after:z-0 after:absolute after:top-12 after:h-[calc(100%-48px)] after:w-full md:after:top-0 md:after:h-[calc(100%-300px)]">
+
+  <div class="relative after:bg-white after:z-0 after:absolute after:top-12 after:h-[calc(100%-48px)] after:w-full md:after:top-0 md:after:h-[calc(100%-300px)]">
     <div class="relative z-10">
       <section id="try-banner" class="py-12">
         <div class="app-container">
@@ -2632,6 +4043,7 @@
       </section>
     </div>
   </div>
+
   <section id="ordered" class="py-12 overflow-hidden">
     <div class="app-container relative">
       <img class="absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 w-full h-[510px] md:w-[1030px] md:h-auto"
@@ -2692,6 +4104,7 @@
       </div>
     </div>
   </section>
+
   <section id="saves-money" class="py-12">
     <div class="app-container">
       <h2
@@ -2849,6 +4262,7 @@
       </div>
     </div>
   </section>
+
   <section id="journey" class="py-12">
     <div class="app-container">
       <div class="max-w-[800px] w-full mx-auto">
@@ -2881,6 +4295,7 @@
       </div>
     </div>
   </section>
+
   <section class="py-16 overflow-hidden" id="news">
     <div class="hero-container ">
       <h1 class="mx-auto font-Satoshi font-medium text-2xl md:text-[32px] md:text-center">News &amp; Guides</h1>
@@ -2917,6 +4332,8 @@
       </div>
     </div>
   </section>
+
+  <!--footer-->
   <div class="bg-gradient-to-br from-[#B8DDFF] to-[#6AB8FF] overflow-hidden">
     <div class="rounded-b-3xl overflow-hidden">
       <footer class="pt-12 pb-16 bg-black lg:pt-32 lg:pb-20">
